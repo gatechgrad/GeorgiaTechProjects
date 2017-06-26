@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0071)http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project3/proj3.html -->
+<HTML><HEAD><TITLE>Project 3</TITLE>
+<META content="text/html; charset=iso-8859-1" http-equiv=Content-Type>
+<META content="MSHTML 5.00.2919.6307" name=GENERATOR></HEAD>
+<BODY>
+<H1>CS 2200 - Fall Semester 1999</H1><B>Programming Assignment III (Disk Device 
+Controller Design)</B> <BR><B>Posted: October 11, 1999</B> <BR><B>Due: Midnight, 
+Friday, October 29, 1999</B> 
+<P><B>Learning Outcome:</B> 
+<P>The learning outcome intended through this project is to give you the 
+confidence in building controllers in hardware for peripheral devices. 
+Specifically, you will write a C program (<I>a la</I> Project 1) that will 
+embody the datapath and control for such a device controller. 
+<P><B>Description:</B> 
+<P>There are four pieces of programs that complete this project: 
+<B>processor</B>, <B>memory</B>, <B>device</B>, and <B>device controller</B>. We 
+will provide the first three pieces and you will do the fourth piece. Take a 
+look at the interaction picture&nbsp; <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project3/proj3-hw-pix.GIF">(hardware)</A>&nbsp;&nbsp; 
+<A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project3/proj3-sw-pix.GIF">(software)</A>&nbsp; 
+to see how the program pieces fit together. The device controller responds to 
+commands from the processor. The controller has a set of <B>registers</B> that 
+are readable and writable by the processor: <I>contr_command</I>, 
+<I>contr_mem_address</I>, <I>contr_count</I>, <I>contr_surface</I>, 
+<I>contr_track</I>, <I>contr_sector</I>, and <I>contr_status</I>. In your C 
+program simulating the device controller you will define the following variables 
+to represent the above registers and <B>export</B> them to the processor: 
+<OL>
+  <LI>enum contr_command_t contr_command; 
+  <LI>int contr_mem_address; 
+  <LI>int contr_count; 
+  <LI>int contr_surface; 
+  <LI>int contr_track; 
+  <LI>int contr_sector; 
+  <LI>int contr_status; </LI></OL>You will have an entry point function in your 
+device controller program <I>contr_START</I>, which you will <B>export</B> to 
+the processor. The processor will set the device registers and call the entry 
+point procedure. Calling the entry point procedure will start your device 
+controller simulation using the datapath and control embodied in your program. 
+Upon completion of the command, the device controller will interrupt the 
+processor to indicate completion of the command. 
+<P>Use the C template given to you in Project 1 as the starting point for your 
+coding. The datapath and control should be considerably simpler than what you 
+had to do for Project 1. In addition to the registers mentioned above, you will 
+need an ALU (for keeping track of bytes transferred), a hardware buffer to store 
+the data in/out of the device to/from memory, a way of generating the interrupt 
+vector, etc. Correspondingly, you will need control inputs to actuate these 
+resources. Your FSM to control the controller should also be considerably 
+simpler than Project 1. 
+<P><B>We provide:</B> 
+<P>To make this doable in the given timeframe, we will provide you the 
+following. 
+<P>NOTE: DO NOT WAIT UNTIL A FEW DAYS BEFORE THE DEADLINE TO GET STARTED. WHILE 
+THE TAs MAKE THE BEST EFFORT TO ENSURE THAT THE LIBRARIES ARE FULLY DEBUGGED IT 
+IS POSSIBLE FOR THEM TO HAVE OVERLOOKED SOMETHING WHICH MAY SURFACE WHEN YOU 
+INTERFACE YOUR PROGRAMS WITH THE LIBRARIES. THIS IS THE OTHER REASON YOU WANT TO 
+GET STARTED TODAY!! 
+<UL>
+  <LI>A simulated processor that will drive your controller program. The 
+  processor provides an <B>interrupt</B> line and an <B>interrupt 
+  acknowledge</B> line. A C function call is provided to assert the interrupt 
+  line: <I>proc_ASSERT_INTERRUPT()</I>. The interrupt acknowledge is simulated 
+  by a variable <I>proc_acknowledge</I> defined in <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project3/provided/proc_processor.h">proc_processor.h</A>. 
+  The processor will respond by asserting the interrupt acknowledge line 
+  (setting the <I>proc_acknowledge</I> variable to 1). Your program will convey 
+  the interrupt vector corresponding to your device to the processor upon 
+  getting an interrupt acknowledge (your prgram will wait for 
+  <I>proc_acknowledge</I> variable to become 1). A C function call is provided 
+  to do this: <I>proc_SEND_INTERRUPT_VECTOR(DISK_INTERRUPT_VECTOR)</I>. The 
+  value for the DISK_INTERRUPT_VECTOR is defined in <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project3/provided/proc_processor.h">proc_processor.h</A> 
+  header file. <BR>&nbsp; 
+  <P> 
+  <P>The header file <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project3/provided/proc_processor.h">proc_processor.h</A> 
+  gives the interface provided by the processor to the device controller. </P>
+  <LI>A simulated memory that provides the following interface calls: 
+  <I>mem_READ(address, &amp;data)</I>, and <I>mem_WRITE(address, data)</I>. 
+  <BR>&nbsp; 
+  <P> 
+  <P>The header file <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project3/provided/mem.h">mem.h</A> 
+  gives the interface provided by the memory to the device controller. </P>
+  <LI>A simulated device (disk in this case) that provides the following 
+  interface calls: <I>dev_READ(&amp;buffer)</I>, <I>dev_WRITE(buffer)</I>, and 
+  <I>dev_SEEK(surface, track sector)</I> <BR>&nbsp; 
+  <P> 
+  <P>The header file <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project3/provided/dev.h">dev.h</A> 
+  gives the interface provided by the device to the device controller. </P>
+  <LI>Your program will be exercised by an input file that has the format shown 
+  <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project3/provided/input_file.txt">here</A> 
+  Each line in this input file are the values that will be set to your 
+  controller registers by the processor before calling contr_START. You can look 
+  at this file to see the format of the input that will be read in by the 
+  simulated processor. </LI></UL>The functionalilty provided to you will be 
+implemented as a library (<B>libp3.a</B>) that should be linked in with the code 
+you implement. 
+<P><B>Making the executable for your project:</B> 
+<P>Start with the <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project3/provided/makefile.txt">Makefile</A> 
+provided for this project and make the necessary changes per your implementation 
+to create an executable. The header file <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project3/provided/proc_processor.h">proc_processor.h</A> 
+should be included in each of your C program files (see <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project3/provided/controller.c">here</A> 
+for an example) This will automatically include the definitions provided in the 
+other header files (mem.h and dev.h). You must also obtain the <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project3/provided/index.html">library 
+and other goodies</A> needed for building your project. 
+<P><B>What to turnin?</B> 
+<UL>
+  <LI>A diagram of your datapath showing the hardware resources and the control 
+  signals for actuating them. (You can hand draw this if you want.) 
+  <LI>A FSM for the control. (You can hand draw this if you want.) 
+  <LI>Your source code for the project. 
+  <LI>An output file whose format will be similar to the format shown <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project3/provided/output_file.txt">here</A>. 
+  </LI></UL><B>How to turnin?</B> 
+<P>Same as you did Project 2. 
+<P><A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project3/grading-policy.html">Grading 
+Policy</A> </P></BODY></HTML>

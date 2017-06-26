@@ -1,0 +1,350 @@
+/**
+ * CS1502: Design Doc #5
+ *
+ * <PRE>
+ * Airline Simulator
+ *
+ * Revisions:  1.0  February 6, 1999
+ * </PRE>
+ *
+ * @author <A HREF="mailto:gte187k@prism.gatech.edu">Levi D. Smith</A>
+ * @version Version 1.0, February 6, 1999
+ */
+
+
+class P5
+
+Class Description:
+------------------
+This is the driver of the program.  The appropriate methods are called from
+the menu method.
+
+Constants:
+----------
+public static final boolean DEBUG;
+  - turns debugging on/off
+
+Instance Variables:
+-------------------
+private Airplane myAirplane;
+  - the instance of Airplane that is going to be used in this class
+
+Methods:
+--------
+public P5()
+  - the constructor... calls the menu method
+menu ()
+  - displays a list of options then reads in the user's choice.  the
+    appropriate method corresponding with the user's choice is then
+    called
+displayPlaneStatus()
+  - method to display the plane name, the people on board, the meals on
+    board, and the plane mass
+addAPersonToPlane(String type)
+  - adds a person to the plane.  all of the people are stored in a linked
+    list in myAirplane.  the type of person to be added is determined by
+    the type (first class, coach, pilot, or flight attendant) that is
+    passed into the method.
+addAMeal()
+  - adds a meal to the airplaneMealsList list
+setDestination()
+  - sets the strDestination of the plane
+takeOff()
+  - checks everything and displays wether the plane can take off or not. if
+    the plane can take off, it displays some flight statistics.
+
+
+##########################################################################
+
+class Airplane
+
+Class Description:
+------------------
+This holds all of the attributes and methods of the airplane.
+
+Constants:
+----------
+public static final DEFAULTNAME
+  - sets a default name of the plane
+
+
+Instance Variables:
+-------------------
+private FlightList myFlightList
+  - a list of people on this airplane
+private MealList myMealsList
+  - a list of all of the meals on the plane
+private int iPlaneMass
+  - the current mass of the plane
+private String strDestination
+  - the current destination of the plane
+private String strName
+  - the Name of the plane
+
+Methods:
+--------
+public Airplane (String newName)
+  - constructs a new Airplane object.  sets the name of the plane.
+
+public Airplane ()
+  - this also constructs a new Airplane object.  sets the name to default
+
+public FlightList getFlightList()
+  - returns the list of people on the plane
+public MealList getMealList()
+  - returns the list of meals on the plane
+public int getPlaneMass()
+  - returns the mass of the plane
+public String getName()
+  - returns the name of the plane
+public String getDestination
+  - returns the destination of the plane
+public String addToFlightList(PersonOnPlaneNode newNode)
+  - adds a person to the FlightList
+public void addToMealList(String newMeal)
+  - adds to the meal list
+public void setPlaneMass (int newMass)
+  - sets the plane mass... I might just put a few lines of code into the
+    the addToFlightList method so the iPlaneMass is calculated and assigned
+    every time a new person is added
+public void setName(String newName)
+  - gives the plane a new name... this method probably won't be used for this
+    program, but could be used in another to rename the plane
+public void setDestination(String newDestination)
+  - sets the destination of the plane
+
+
+##########################################################################
+
+class PersonOnPlaneNode
+
+Class Description:
+------------------
+Holds all of the methods and variables representing the properties of all
+of the people on the plane.
+
+Constants:
+----------
+none.
+
+Instance Variables:
+-------------------
+private int iWeight
+  - the weight of the person (in kilograms)
+private String strName
+  - the name of the person
+private type
+  - the type of person this is (pilot, flight attendant, passenger first
+    class, passenger coach)
+private PersonOnPlaneNode next
+  - the next node
+
+Methods:
+--------
+public PersonOnPlaneNode ()
+  - sets next node to null
+public PersonOnPlaneNode (String newType)
+  - sets next node to null, and assigns the type of person
+public PersonOnPlaneNode (String newType, String newName)
+  - sets next node to null, sets the type of person, and assigns the name to the
+    String passed in
+public int getWeight()
+  - returns the weight of the plane
+public String getName()
+  - returns the name of this person
+public void setWeight(int newWeight)
+  - sets the weight of this person
+public void setName(String newName)
+  - sets the name of this person
+public PersonOnPlaneNode()
+  - returns the next node
+public void setNextNode(PersonOnPlaneNode newNode)
+  - sets the next node to the parameter passed in
+
+##########################################################################
+
+class PassengerNode extends PersonOnPlaneNode
+
+Class Description:
+------------------
+Models the additional methods and variables of a passenger
+
+Constants:
+----------
+public static final int COACHMEALS
+  - the number of coach meals (1)
+public static final int FIRSTCLASSMEALS
+  - the number of first class meals (2)
+
+Instance Variables:
+-------------------
+private String type
+  - either firstclass or coach
+private String[] arrMeals
+  - an array of meals for this person
+
+Methods:
+--------
+public String[] getMeals()
+  - returns the array of meals for this person
+public void addMeals()
+  - prompts the user for meal names and set the array
+
+
+##########################################################################
+
+class PilotNode extends PersonOnPlaneNode
+
+Class Description:
+------------------
+Extends the PersonOnPlaneNode.  Adds the variable iFlyingSpeed.
+
+Constants:
+----------
+none.
+
+Instance Variables:
+-------------------
+private int iFlyingSpeed
+
+Methods:
+--------
+public int getFlyingSpeed()
+  - returns the pilot's speed
+public void setFlyingSpeed(int newFlyingSpeed)
+  - sets the flying speed of this pilot
+
+##########################################################################
+
+class FlightAttendantNode extends PersonOnPlaneNode
+
+Class Description:
+------------------
+This class really isn't needed unless in a future program the Flight
+Attendant has a property that all of the other people do not have.
+
+Constants:
+----------
+none.
+
+Instance Variables:
+-------------------
+none.
+
+Methods:
+--------
+none.
+
+
+
+
+##########################################################################
+
+class FlightList
+
+Class Description:
+------------------
+A list of people on the airplane
+
+Constants:
+----------
+none.
+
+Instance Variables:
+-------------------
+private PersonOnPlaneNode headPtr
+  - a pointer to the head of the PeopleOnPlaneList
+
+
+Methods:
+--------
+public FlightList()
+  - constructor... sets head pointer to null
+public PersonOnPlaneNode getHeadPtr()
+  - returns the head pointer
+public void addToList(PersonOnPlaneNode newNode)
+  - traverses to end of list and adds the node 
+
+##########################################################################
+
+class MealList
+
+Class Description:
+------------------
+A list of the meals on the airplane
+
+Constants:
+----------
+none.
+
+Instance Variables:
+-------------------
+private String headPtr
+  - a pointer to the head of the PeopleOnPlaneList
+
+
+Methods:
+--------
+public MealList()
+  - again, constructor... sets head pointer to null
+public String getHeadPtr()
+  - returns the head pointer
+public void addToList(String newMeal)
+  - adds a new meal to the list
+
+
+
+##########################################################################
+
+Class Communication:
+--------------------
+  Each type of person is represented by a different kind of node.  This
+node inherits all basic properties (such as weight and name) and from the
+PersonOnPlaneNode class.  Each of the subnodes add to the basic properties.
+For example, PilotNode adds the iFlyingSpeed variable and PassengerNode
+adds the String[] meals array.
+  The Airplane class holds all of the properties of the airplane and also
+a linked list of all of the people on the airplane.  The linked list uses
+polymorphism so it can hold all of the different kinds of people on the
+list.
+  The driver runs the program.  It manages all of the other classes and
+calls methods within them.  
+
+##########################################################################
+
+Potential Problems:
+-------------------
+  I am using an array to hold only one lunch name for the coach passenger.
+I did this because it would have been messy to make another String variable
+just for the coach passenger.
+I was also wondering if it would be acceptable just to have everyone just
+use one type of node, and set the variables that they don't use to null??
+For example, a passenger would have the 'iFlightSpeed' variable set to null,
+and the pilot would have his 'arrMeals' also set to null.  It seems to me
+that this would be a lot easier than getting mixed up in inheritance.  Five
+files without inheirtance compared to seven eight with inheritance.  Of
+course, I suppose this approach would be bad abstraction.
+
+##########################################################################
+
+Scenario Questions:
+-------------------
+1)  If one writes a Person class that holds variables (such as weight and
+name) and methods (such as getNextNode(), getName(), getWeight(), etc.),
+the other more specific classes (such as PilotNode, FlightAttendantNode,
+and PassengerNode) can inherit these properties which will reduce the
+amount of code duplication.
+
+2)  One could use a Vector to hold the passenger and crew, but I will
+probably just use a linked list since I am more familiar with them.
+I could not make this linked list if polymorphism didn't exist.
+
+3)  A FlightPlan class would be useful if a future program called for the
+plane to stop at one or more locations before reaching it's final
+destination.  It could maybe hold a graph of all of the possible landing
+sites.
+
+4)  Since all Passengers and crew members inherit properties from
+class PersonOnPlaneNode, code duplication is reduced.  For example, one
+would not want to write exception handling code for weight four different
+times (for each type of person on the plane).

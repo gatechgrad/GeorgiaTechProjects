@@ -1,0 +1,168 @@
+Sadalmelik|22 5 46.9|-0 19 11|Beta Aquarii|Gamma Aquarii
+Beta Aquarii|21 31 33.4|-5 34 16|Sadalmelik|Epsilon Aquarii
+Gamma Aquarii|22 21 39.3|-1 23 14|Sadalmelik|Eta Aquarii|Theta Aquarii
+Skat|22 54 38.9|-15 49 15|Lambda Aquarii
+Epsilon Aquarii|20 47 40.5|-9 29 45|Beta Aquarii
+Eta Aquarii|22 35 21.3|-0 7 3|Gamma Aquarii|Lambda Aquarii|Phi Aquarii
+Theta Aquarii|22 16 49.9|-4 47 0|Gamma Aquarii
+Lambda Aquarii|22 52 36.8|-7 34 47|Eta Aquarii|Skat
+Phi Aquarii|23 14 19.3|-6 2 56|Eta Aquarii
+Altair|19 50 46.9|8 52 6|Eta Aquilae|Zeta Aquilae
+Delta Aquilae|19 25 29.8|3 6 53|Eta Aquilae
+Zeta Aquilae|19 5 24.5|13 51 48|Altair
+Eta Aquilae|19 52 28.3|1 0 20|Altair|Lambda Aquilae|Delta Aquilae|Theta Aquilae
+Theta Aquilae|20 11 18.2|-0 49 17|Eta Aquilae
+Lambda Aquilae|19 6 14.8|-4 52 57|Eta Aquilae
+Alpha Ariae|2 7 10.3|23 47 45|Beta Ariae
+Beta Ariae|1 54 38.3|20 48 29|Alpha Ariae
+Capella|5 16 41.3|45 59 53|Beta Aurigae|Epsilon Aurigae
+Beta Aurigae|5 59 31.7|44 56 51|Capella|Theta Aurigae
+Epsilon Aurigae|5 1 58.1|43 49 24|Capella|Iota Aurigae
+Theta Aurigae|5 59 43.2|37 12 45|Beta Aurigae|Iota Aurigae
+Iota Aurigae|4 56 59.6|33 9 58|Epsilon Aurigae|Theta Aurigae
+Arcturus|14 15 39.6|19 10 57|Epsilon Bootis|Eta Bootis|Rho Bootis
+Beta Bootis|15 1 56.6|40 23 26|Gamma Bootis|Delta Bootis
+Gamma Bootis|14 32 4.6|38 18 29|Beta Bootis|Rho Bootis
+Delta Bootis|15 15 30.1|33 18 53|Beta Bootis|Epsilon Bootis
+Epsilon Bootis|14 44 59.1|27 4 30|Arcturus|Delta Bootis
+Eta Bootis|13 54 41|18 23 52|Arcturus
+Rho Bootis|14 31 49.7|30 22 17|Arcturus|Gamma Bootis
+Alpha Canceris|8 58 29.2|11 51 28|Delta Canceris
+Beta Canceris|8 16 30.9|9 11 8|Delta Canceris
+Delta Canceris|8 44 41|18 9 15|Alpha Canceris|Beta Canceris|Iota Canceris
+Iota Canceris|8 46 40|28 45 55|Delta Canceris
+Sirius|6 45 8.9|-16 42 58|Beta Canis Majoris|Delta Canis Majoris
+Beta Canis Majoris|6 22 41.9|-17 57 22|Sirius
+Delta Canis Majoris|7 8 23.4|-26 23 35|Sirius|Eta Canis Majoris|Epsilon Canis Majoris
+Epsilon Canis Majoris|6 58 37.5|-28 58 20|Delta Canis Majoris|Zeta Canis Majoris
+Zeta Canis Majoris|6 20 18.7|-30 3 48|Epsilon Canis Majoris
+Eta Canis Majoris|7 24 5.6|-29 18 11|Delta Canis Majoris
+Beta Capricorni|20 21 0.6|-14 46 53|Theta Capricorni|Omega Capricorni
+Delta Capricorni|21 47 2.3|-16 7 38|Zeta Capricorni|Theta Capricorni
+Zeta Capricorni|21 26 39.9|-22 24 41|Delta Capricorni|Omega Capricorni
+Theta Capricorni|21 5 56.7|-17 13 58|Beta Capricorni|Delta Capricorni
+Omega Capricorni|20 51 49.2|-26 55 9|Beta Capricorni|Zeta Capricorni
+Alpha Ceti|3 2 16.7|4 5 23|Gamma Ceti
+Beta Ceti|0 43 35.3|-17 59 12|Iota Ceti|Tau Ceti
+Gamma Ceti|2 43 18|3 14 9|Alpha Ceti|Mira
+Zeta Ceti|1 51 27.5|-10 20 6|Iota Ceti|Mira|Tau Ceti
+Iota Ceti|0 19 25.6|-8 49 26|Beta Ceti|Zeta Ceti
+Mira|2 19 20.7|-2 58 39|Gamma Ceti|Zeta Ceti
+Tau Ceti|1 44 4|-15 56 15|Beta Ceti|Zeta Ceti
+Deneb|20 41 25.8|45 16 49|Sadr
+Albireo|19 30 43.2|27 57 35|Sadr
+Sadr|20 22 13.6|40 15 24|Deneb|Albireo|Delta Cygni|Epsilon Cygni
+Delta Cygni|19 44 58.4|45 7 51|Sadr|Iota Cygni
+Epsilon Cygni|20 46 12.6|33 58 13|Sadr|Zeta Cygni
+Zeta Cygni|21 12 56.1|30 13 37|Epsilon Cygni
+Iota Cygni|19 29 42.2|51 43 47|Delta Cygni
+Castor|7 34 35.9|31 53 13|Epsilon Geminorum
+Pollux|7 45 18.9|28 1 34|Delta Geminorum
+Alhena|6 37 42.7|16 23 57|Delta Geminorum
+Delta Geminorum|7 20 7.3|21 58 56|Pollux|Alhena|Lambda Geminorum
+Epsilon Geminorum|6 43 55.9|25 7 52|Castor|Mu Geminorum|Nu Geminorum
+Theta Geminorum|6 52 47.3|33 57 40|Kappa Geminorum
+Kappa Geminorum|7 44 26.8|24 23 53|Theta Geminorum
+Lambda Geminorum|7 18 5.5|16 32 25|Delta Geminorum|Xi Geminorum
+Mu Geminorum|6 22 57.6|22 30 49|Epsilon Geminorum
+Nu Geminorum|6 28 57.7|20 12 43|Epsilon Geminorum
+Xi Geminorum|6 45 17.3|12 53 44|Lambda Geminorum
+Ras Algethi|17 14 38.8|14 23 25|Sarin
+Beta Herculis|16 30 13.1|21 29 22|Zeta Herculis
+Sarin|17 15 1.8|24 50 21|Ras Algethi|Epsilon Herculis|Mu Herculis
+Epsilon Herculis|17 0 17.3|30 55 35|Sarin|Zeta Herculis|Pi Herculis
+Zeta Herculis|16 41 17.1|31 36 10|Beta Herculis|Epsilon Herculis|Eta Herculis
+Eta Herculis|16 42 53.7|38 55 20|Zeta Herculis|Pi Herculis|Tau Herculis
+Theta Herculis|17 56 15.1|37 15 2|Pi Herculis
+Mu Herculis|17 46 27.5|27 43 15|Sarin
+Pi Herculis|17 15 2.7|36 48 33|Epsilon Herculis|Eta Herculis|Theta Herculis
+Tau Herculis|16 19 44.3|46 18 48|Eta Herculis
+Alphard|9 27 35.2|-8 39 31|Zeta Hydrae
+Beta Hydrae|11 52 54.5|-33 54 28|Mu Hydrae|Gamma Hydrae
+Gamma Hydrae|13 18 55.2|-23 10 18|Beta Hydrae|Pi Hydrae
+Delta Hydrae|8 37 39.3|5 42 13|Zeta Hydrae|Sigma Hydrae
+Zeta Hydrae|8 55 23.6|5 56 44|Alphard|Delta Hydrae
+Mu Hydrae|10 26 5.4|-16 50 11|Alphard|Beta Hydrae
+Pi Hydrae|14 6 22.2|-26 40 56|Gamma Hydrae
+Sigma Hydrae|8 38 45.4|3 20 29|Delta Hydrae
+Regulus|10 8 22.3|11 58 2|Algeiba|Denebola
+Denebola|11 49 3.5|14 34 19|Regulus|Delta Leonis
+Algeiba|10 19 58.3|19 50 30|Delta Leonis|Regulus|Mu Leonis
+Delta Leonis|11 14 6.4|20 31 25|Algeiba|Denebola
+Lambda Leonis|9 31 43.1|22 58 4|Mu Leonis
+Mu Leonis|9 52 45.8|26 0 25|Algeiba|Lambda Leonis
+Zubenelgenubi|14 50 41.1|-15 59 50|Zubenelchemale|Sigma Librae
+Zubenelchemale|15 17 0.3|-9 22 59|Zubenelgenubi|Gamma Librae
+Gamma Librae|15 35 31.5|-14 47 22|Zubenelchemale|Upsilon Librae
+Sigma Librae|15 4 4.1|-25 16 55|Zubenelgenubi
+Upsilon Librae|15 37 1.4|-28 8 6|Gamma Librae
+Vega|18 36 56.2|38 47 1|Beta Lyrae
+Beta Lyrae|18 50 4.7|33 21 46|Vega|Gamma Lyrae
+Gamma Lyrae|18 58 56.5|32 41 22|Beta Lyrae
+Alpha Ophiuchi|17 34 56|12 33 36|Kappa Ophiuchi|Nu Ophiuchi
+Delta Ophiuchi|16 14 20.6|-3 41 40|Kappa Ophiuchi|Eta Ophiuchi
+Eta Ophiuchi|17 10 22.6|-15 43 29|Delta Ophiuchi|Theta Ophiuchi
+Theta Ophiuchi|17 22 5|-24 59 58|Eta Ophiuchi
+Kappa Ophiuchi|16 57 40|9 22 30|Alpha Ophiuchi|Delta Ophiuchi
+Nu Ophiuchi|17 59 1.5|-9 46 25|Alpha Ophiuchi
+Betelgeuse|5 55 10.3|7 24 25|Lambda Orionis|Alnitak
+Rigel|5 14 32.2|-8 12 6|Mintaka|Saiph
+Bellatrix|5 25 7.8|6 20 59|Lambda Orionis|Mintaka
+Mintaka|5 32 0.4|-0 17 4|Bellatrix|Rigel|Alnilam
+Alnilam|5 36 12.7|-1 12 7|Mintaka|Alnitak
+Alnitak|5 40 45.5|-1 56 37|Betelgeuse|Saiph
+Saiph|5 47 45.3|-9 40 11|Alnitak|Rigel
+Lambda Orionis|5 35 8.2|9 56 3|Betelgeuse|Bellatrix
+Markab|23 4 45.6|15 12 19|Scheat|Algenib|Theta Pegasi
+Scheat|23 3 46.4|28 4 48|Markab|Alpheratz|Eta Pegasi|Lambda Pegasi
+Algenib|24 13 14.1|15 11 1|Markab|Alpheratz
+Alpheratz|24 8 23.2|29 5 26|Scheat|Algenib
+Eta Pegasi|22 43 1|30 13 17|Scheat
+Theta Pegasi|22 10 11.9|6 11 52|Markab
+Kappa Pegasi|21 44 38.6|25 38 42|Lambda Pegasi
+Lambda Pegasi|22 46 31.8|23 33 56|Scheat|Kappa Pegasi
+Al Rischa|2 2 2.7|2 45 49|Epsilon Piscis|Eta Piscis
+Gamma Piscis|-0 42 50.1|3 16 56|Theta Piscis|Lambda Piscis
+Epsilon Piscis|1 2 56.5|7 53 24|Al Rischa|Iota Piscis
+Eta Piscis|1 31 28.9|15 20 45|Al Rischa|Psi Piscis
+Theta Piscis|-0 32 2|6 22 44|Gamma Piscis|Iota Piscis
+Iota Piscis|-0 20 3|5 37 35|Epsilon Piscis|Theta Piscis|Lambda Piscis
+Lambda Piscis|-0 17 57.3|1 46 48|Gamma Piscis|Iota Piscis
+Psi Piscis|1 5 41.6|21 27 56|Eta Piscis
+Rubkat|19 23 53|-40 36 58|Zeta Sagitarii
+Al Naal|18 5 48.4|-30 25 27|Kaus Meridionalis
+Kaus Meridionalis|18 20 59.6|-29 49 41|Al Naal|Eta Sagitarri|Kaus Borealis
+Zeta Sagitarii|19 2 36.6|-29 52 49|Rubkat|Tau Sagitarii|Phi Sagitarii
+Eta Sagitarri|18 17 37.5|-36 45 42|Kaus Meridionalis
+Theta Sagitarii|19 59 44.1|-35 16 35|Tau Sagitarii
+Kaus Borealis|18 27 58.1|-25 25 18|Kaus Meridionalis|Mu Sagitarii|Phi Sagitarii
+Mu Sagitarii|18 13 45.7|-21 3 32|Kaus Borealis
+Pi Sagitarii|19 9 45.7|-21 1 25|Nunki
+Nunki|18 55 15.8|-26 17 48|Pi Sagitarii|Phi Sagitarii
+Tau Sagitarii|19 6 56.3|-27 40 14|Zeta Sagitarii|Nunki|Theta Sagitarii
+Phi Sagitarii|18 45 39.3|-26 59 27|Zeta Sagitarii|Kaus Borealis|Nunki
+Antares|16 29 24.4|-26 25 55|Delta Scorpii|Epsilon Scorpii
+Beta Scorpii|16 5 26.1|-19 48 19|Delta Scorpii
+Delta Scorpii|16 0 19.9|-22 37 18|Beta Scorpii|Pi Scorpii
+Epsilon Scorpii|16 50 9.7|-34 17 36|Antares|Zeta Scorpii
+Zeta Scorpii|16 53 59.6|-42 21 43|Epsilon Scorpii|Theta Scorpii
+Theta Scorpii|17 37 19|-42 59 52|Zeta Scorpii|Iota Scorpii
+Iota Scorpii|17 47 35|-40 7 37|Theta Scorpii|Shaula
+Shaula|17 33 36.4|-37 6 13|Iota Scorpii
+Pi Scorpii|15 58 51|-26 6 51|Delta Scorpii
+Aldebaran|4 35 55.2|16 30 33|Gamma Tauri|Zeta Tauri
+Al Nath|5 26 17.5|28 36 27|Tau Tauri
+Gamma Tauri|4 19 47.5|15 37 39|Aldebaran|Lambda Tauri|Tau Tauri
+Zeta Tauri|5 37 38.6|21 8 33|Aldebaran
+Lambda Tauri|4 0 40.8|12 29 25|Gamma Tauri|Omicron Tauri
+Omicron Tauri|3 24 48.7|9 1 44|Lambda Tauri
+Tau Tauri|4 42 14.6|22 57 25|Al Nath|Gamma Tauri
+Spica|13 25 11.5|-11 9 41|Gamma Virginis|Zeta Virginis|Kappa Virginis
+Beta Virginis|11 50 41.6|1 45 53|Gamma Virginis
+Gamma Virginis|12 41 39.5|-1 26 58|Beta Virginis|Delta Virginis
+Delta Virginis|12 55 36.1|3 23 51|Gamma Virginis|Epsilon Virginis|Zeta Virginis
+Epsilon Virginis|13 2 10.5|10 57 33|Delta Virginis
+Zeta Virginis|13 34 41.5|-0 35 46|Spica|Delta Virginis|Tau Virginis
+Kappa Virginis|14 12 53.7|-10 16 25|Mu Virginis
+Mu Virginis|14 43 3.5|-5 39 310|Kappa Virginis
+Tau Virginis|14 1 38.7|1 32 40|Zeta Virginis

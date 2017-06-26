@@ -1,0 +1,358 @@
+Welcome to Winter 99 Program 2
+------------------------------
+
+Choose a TollBooth ID from 0 to 9
+New booth created at 1
+
+Choose an option for TollBooth 1:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+(TollBooth 1)  Quarters: 50  Nickels: 50
+
+Choose a TollBooth ID from 0 to 9
+Choose an option for TollBooth 1:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+Total Quarters: 50
+
+Choose a TollBooth ID from 0 to 9
+New booth created at 3
+
+Choose an option for TollBooth 3:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+Total Nickels: 100
+
+Choose a TollBooth ID from 0 to 9
+New booth created at 9
+
+Choose an option for TollBooth 9:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+(TollBooth 9)  Quarters: 50  Nickels: 50
+
+Choose a TollBooth ID from 0 to 9
+New booth created at 0
+
+Choose an option for TollBooth 0:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+Total Quarters: 200
+
+Choose a TollBooth ID from 0 to 9
+Choose an option for TollBooth 9:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+What is the new toll?
+
+Choose a TollBooth ID from 0 to 9
+New booth created at 8
+
+Choose an option for TollBooth 8:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+How much money to insert?
+While Loop reports:
+(TollBooth 8)
+Quarters - 7
+Nickels - 0
+Do While Loop reports:
+(TollBooth 8)
+Quarters - 7
+Nickels - 0
+Recursive reports:
+(TollBooth 8)
+Quarters - 7
+Nickels - 0
+
+Choose a TollBooth ID from 0 to 9
+Choose an option for TollBooth 9:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+How much money to insert?
+While Loop reports:
+(TollBooth 9)
+Quarters - 2
+Nickels - 2
+Do While Loop reports:
+(TollBooth 9)
+Quarters - 2
+Nickels - 2
+Recursive reports:
+(TollBooth 9)
+Quarters - 2
+Nickels - 2
+
+Choose a TollBooth ID from 0 to 9
+Choose an option for TollBooth 0:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+What is the new toll?
+
+Choose a TollBooth ID from 0 to 9
+Choose an option for TollBooth 0:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+How much money to insert?
+While Loop reports:
+Not enough money
+(TollBooth 0)
+Quarters - 0
+Nickels - 0
+Do While Loop reports:
+Not enough money
+(TollBooth 0)
+Quarters - 0
+Nickels - 0
+Recursive reports:
+Not enough money
+(TollBooth 0)
+Quarters - 0
+Nickels - 0
+
+Choose a TollBooth ID from 0 to 9
+Choose an option for TollBooth 8:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+How much money to insert?
+While Loop reports:
+(TollBooth 8)
+Quarters - 1
+Nickels - 0
+Do While Loop reports:
+(TollBooth 8)
+Quarters - 1
+Nickels - 0
+Recursive reports:
+(TollBooth 8)
+Quarters - 1
+Nickels - 0
+
+Choose a TollBooth ID from 0 to 9
+New booth created at 4
+
+Choose an option for TollBooth 4:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+Total Nickels: 294
+
+Choose a TollBooth ID from 0 to 9
+Choose an option for TollBooth 8:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+What is the new size?
+
+Choose a TollBooth ID from 0 to 9
+Choose an option for TollBooth 9:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+(TollBooth 9)  Quarters: 44  Nickels: 44
+
+Choose a TollBooth ID from 0 to 9
+Choose an option for TollBooth 9:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+Total Quarters: 270
+
+Choose a TollBooth ID from 0 to 9
+Choose an option for TollBooth 3:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+What is the new size?
+
+Choose a TollBooth ID from 0 to 14
+New booth created at 14
+
+Choose an option for TollBooth 14:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+How much money to insert?
+While Loop reports:
+(TollBooth 14)
+Quarters - 1
+Nickels - 3
+Do While Loop reports:
+(TollBooth 14)
+Quarters - 1
+Nickels - 3
+Recursive reports:
+(TollBooth 14)
+Quarters - 1
+Nickels - 3
+
+Choose a TollBooth ID from 0 to 14
+Choose an option for TollBooth 14:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+Total Nickels: 335
+
+Choose a TollBooth ID from 0 to 14
+Choose an option for TollBooth 0:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+What is the new toll?
+
+Choose a TollBooth ID from 0 to 14
+Choose an option for TollBooth 0:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+How much money to insert?
+While Loop reports:
+Not enough money
+(TollBooth 0)
+Quarters - 0
+Nickels - 0
+Do While Loop reports:
+Not enough money
+(TollBooth 0)
+Quarters - 0
+Nickels - 0
+Recursive reports:
+Not enough money
+(TollBooth 0)
+Quarters - 0
+Nickels - 0
+
+Choose a TollBooth ID from 0 to 14
+Choose an option for TollBooth 14:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+How much money to insert?
+While Loop reports:
+(TollBooth 14)
+Quarters - 0
+Nickels - 4
+Do While Loop reports:
+(TollBooth 14)
+Quarters - 0
+Nickels - 4
+Recursive reports:
+(TollBooth 14)
+Quarters - 0
+Nickels - 4
+
+Choose a TollBooth ID from 0 to 14
+Choose an option for TollBooth 3:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+Total Nickels: 323
+
+Choose a TollBooth ID from 0 to 14
+Choose an option for TollBooth 0:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit

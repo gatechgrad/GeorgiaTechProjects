@@ -1,0 +1,363 @@
+CS 1502: JAVA! Programming Assignment #8 - Winter 1999.
+
+Program Title:   Straddling the Fence
+Assigned:        February 19, 1999
+P8 Program Due:  March 5, 1999
+D8 Design Due:   February 27, 1999
+
+Files Provided:
+    o p8.nfo            - this file
+
+Learning Objectives:
+    o advanced graphics
+    o graphs
+       - representing
+       - searching
+       - traversal
+    o game programming
+
+
+GENERAL OVERVIEW:
+========================================================================
+
+DISCLAIMER : 
+There will be no "cutesy" introductions/scenarios to this program.  This
+is a cut and dry info file.  This particular info file writer has
+decided that since he has no sense of humor, nor is he particularly
+cute, he is not about to even try and attempt to be funny or "cutesy".
+
+P8 is the final regular program of this quarter, and hence will be one
+of the most challenging assignment in this class.  This program is
+designed to test all the knowledge that you have accumulated to date in
+this class.  This program will build on and require you to recall
+information from past assignments that you have been asked to complete
+in this class.  You will also be given a workout on the "graph"
+structure concept that you were introduced to in P7.  For this
+assignment you will be asked to code the game 'Fences'.  (When ready, we
+will post the demo; check the announce newsgroup frequently.)
+
+
+PROGRAM WALKTHROUGH:
+========================================================================
+
+When the program starts up a window has to be displayed with the game
+board, which looks like the following : (best viewed with a monospaced
+font)
+
+
+           #   0-------0-------0-------0-------0   #
+
+           X       X       X       X       X       X    
+           |                                       |
+           |   0       0       0       0       0   |
+           |                                       |
+           X       X       X       X       X       X    
+           |                                       |
+           |   0       0       0       0       0   | 
+           |                                       |
+           X       X       X       X       X       X    
+           |                                       |
+           |   0       0       0       0       0   | 
+           |                                       |
+           X       X       X       X       X       X    
+           |                                       |
+           |   0       0       0       0       0   | 
+           |                                       |
+           X       X       X       X       X       X    
+
+           #   0-------0-------0-------0-------0   #
+
+
+Key for the diagram : 
+---------------------
+
+The "0" represents player 1's fence posts.
+The "X" represents player 2's fence posts.
+The "-------" connections between the fence posts.
+The "#" in the corner is a fence post that can't be clicked on, it merely
+     is a boundary for the board/field.
+
+Rules of the game :
+-------------------
+
+The game is for two players.  Each player takes turns connecting pairs
+of fence posts in his ( or her ) color in an attempt to build a fence
+from one side of the board to the other.  One player plays as "0" while
+the other plays as "X". "0" always plays first and goes from top to
+bottom.  "X" goes from side to side.  To connect two fence posts,
+position the mouse pointer between two adjacent horizontal or vertical
+fence posts and depress the mouse button.  Fence posts cannot be
+connected through the opposing player's fence.  The game ends when one
+of the players has built a fence from one side of the board to the other
+or no moves remain.
+
+For Example Player "0" makes his first move and links two "0"s.
+
+
+           #   0-------0-------0-------0-------0   #
+
+           X       X       X       X       X       X    
+           |                                       |
+           |   0-------0       0       0       0   |
+           |                                       |
+           X       X       X       X       X       X    
+           |                                       |
+           |   0       0       0       0       0   | 
+           |                                       |
+           X       X       X       X       X       X    
+           |                                       |
+           |   0       0       0       0       0   | 
+           |                                       |
+           X       X       X       X       X       X    
+           |                                       |
+           |   0       0       0       0       0   | 
+           |                                       |
+           X       X       X       X       X       X    
+
+           #   0-------0-------0-------0-------0   #
+
+
+The turn then changes to Player "X".  Indicate this somewhere on the
+GUI.  Player "X" has a variety of legal moves but CANNOT make the move
+that is indicated below as he is crossing an already constructed fence.
+Any other move except this or a click in the corners of the board is
+legal.
+
+
+           #   0-------0-------0-------0-------0   #
+
+           X       X       X       X       X       X    
+           |       |                               |
+           |   0---|---0       0       0       0   |
+           |       |                               |
+           X       X       X       X       X       X    
+           |                                       |
+           |   0       0       0       0       0   | 
+           |                                       |
+           X       X       X       X       X       X    
+           |                                       |
+           |   0       0       0       0       0   | 
+           |                                       |
+           X       X       X       X       X       X    
+           |                                       |
+           |   0       0       0       0       0   | 
+           |                                       |
+           X       X       X       X       X       X    
+
+           #   0-------0-------0-------0-------0   #
+
+
+This continues until one of the following happens :
+
+ o A player manages to construct a fence across the board / field :
+
+           #   0-------0-------0-------0-------0   #
+               |
+           X   |   X       X       X       X       X    
+           |   |           |                       |
+           |   0-------0   |   0       0       0   |
+           |           |   |                       |
+           X       X   |   X-------X       X       X    
+           |       |   |           |               |
+           |   0   |   0-------0   |   0       0   | 
+           |       |           |   |               |
+           X       X-------X   |   X-------X       X    
+           |                   |                   |
+           |   0       0       0       0       0   | 
+           |                   |                   |
+           X       X       X   |   X       X       X    
+           |                   |                   |
+           |   0       0       0       0       0   | 
+           |                   |                   |
+           X       X       X   |   X       X       X    
+                               |      
+           #   0-------0-------0-------0-------0   #
+
+ o Or no valid moves remain, in which the game ends in a tie.
+
+An appropriate victory message has to be displayed on the screen; the
+victory message should include the name of the player.  Note that this
+is just an example scenario and the player going from left to right
+across the board can also win the game.  Also note that the "X" and "0"
+are just ASCII representations of fence posts.  You can insert any sort
+of funky impressive bad - ass graphics that you want instead.  Consider
+using a jpeg or perhaps colored circle.
+
+At any time, let the user restart the game.
+
+In a nutshell your user interface should have the following
+functionality:
+
+   o Display the game board.
+   o Indicate whose turn it is.
+   o Indicate whenever the game ends.
+   o Lets the user restart the game.
+
+
+DESIGN WALKTHROUGH:
+========================================================================
+
+This is your very last design document for CS1502; we hope that you've
+learned some object-oriented design concepts and paradigms the last five
+weeks.  So go ahead, analyze this problem thoroughly, and draft the best
+design document you can.  In particular, answer these scenario
+questions:
+
+(1)  What data structure(s) will you use to hold the graph information?
+     How about arrays, Vectors and linked lists? Why?
+
+(2)  Which class will hold your graph data structure(s)?
+
+(3)  What graphical components and containers will you need?  What
+     events does your program need to listen and handle?  Which class
+     handles these events?
+
+(4)  How does your display ( GUI ) get a handle to this graph ( so that 
+     it may draw the game board )?
+
+(5)  If the game were to be implemented using a Text Based Interface
+     rather than a GUI, what classes would you remove / modify?  How?
+
+
+HINTS AND TIPS:
+========================================================================
+
+representing the board
+----------------------
+How can the board be modeled as a data structure in this program?
+Consider making the board a 2-D array, with each element in the array
+being a node.  The node can be used to model both the fence posts and
+the space between adjacent posts.
+
+obtaining clicks
+----------------
+The program also has to listen for events.  This can be achieved, as you
+are no doubt familiar, by using an event listener.  Consider using a
+MouseListener.  The mousePressed ( MouseEvent e ) method can be of
+particular interest; look up the API for more details.
+
+checking for end of game
+------------------------
+The game has to display a message when either player has won.  How can
+the game be aware of this circumstance?  Considering storing each move
+in a graph and traversing this graph ( with particular target nodes ) to
+see if the game has been won.  Hey, maybe a DFS just might work!
+
+
+EXTRA CREDIT:
+========================================================================
+
+These extra credit options are up for grabs after you have finished the 
+core requirements.  You may earn a maximum of 40 points.
+
+(+5)  Let the user change the size of the board.  Prompt the user for
+      the number of fences vertically and horizontally.  Whenever this
+      occurs, restart the game.
+
+(+5)  Implement a computer player.  Let this AI randomly choose a legal
+      move on its turn.
+
+ up   Implement a computer player that will actually make intelligent
+ to   decisions.  Here's your chance to do A*, alpha beta, minimax, and
+(+25) greedy algorithms.  Amount of extra credit based upon AI
+      strength.  You may get extra credit for both this option and the
+      previous one.
+
+(+15) Warn a player if his opponent can win the game on the next move.
+      Display that potential move on the GUI.  Also let the user toggle
+      this feature on and off.
+
+(+20) Add snazzy graphics and/or sounds into your program.  Points given
+      based on TA discretion.
+
+
+REQUIREMENT CHECK LIST:
+========================================================================
+
+IMPLEMENTATION:
+
+   For 42/60 (70%):
+     - compiles under JDK1.1.7b
+     - displays correct game board
+     - allows players to click and draw lines between fence posts
+
+   For 51/60 (85%): Everything for 70%, plus:
+     - alternates turns between player 1 and 2
+     - displays alternation of turns on the user interface
+     - disallows incorrect input
+
+   For 60/60 (100%): Everything for 85%, plus:
+     - displays message when the game is won or no moves remain
+     - displays winner
+     - restarts game
+
+
+PROGRAMMING STYLE:
+
+   0.  Software Documentation
+       -code easy to read and understand
+       -included correct header on .java containing ID
+        information
+       -DEBUG code implemented
+       -known errors listed
+
+   1.  Java-doc Style Header Documentation
+       -every method (including constructors) has a
+        description documented above the method header,
+        including pre- and post-conditions
+       -every method has an @param tag for each
+        parameter passed in, describing that parameter
+       -every method has an @return tag for
+        the return type, describing what's returned
+
+   2.  Internal Documentation
+       -inline code documentation on non-obvious code
+        segments
+
+   3.  Coding Style
+       -variable and constant names meaningful
+       -variable and constant declarations documented
+       -text layout (readability, indentation)
+
+   4.  Modularity, Abstraction, and Encapsulation
+       -minimal duplication of code/behavior
+       -no direct access to instance variables
+        except within the class where they reside
+       -uses constants rather than hard-wiring values
+       -appropriate method modifiers
+        (public, private, protected, abstract, et al)
+
+
+PROGRAM RESTRICTIONS:
+========================================================================
+
+     These are the restrictions for this program.  You MUST do the
+     following:
+
+     o You MUST write a graphical application, not a text based
+       application or an applet.
+     o You may not use util.java.
+     o Your driver MUST be called P8.java.
+     o You may make any methods and classes as you see fit, but
+       your TA _may_ count off points if your classes do not show
+       proper object-oriented thinking.
+
+
+TURNIN:
+========================================================================
+
+        o  Files to be turned in (Be sure to ftp the files in ascii):
+
+           P8.java
+           [any other files]
+
+        o  Files NOT to turn in (You shouldn't have altered these, so we
+           already have them.):
+
+           the demo classes
+
+        o  How to turnin:
+                o  "workon cs1502"
+                o  "turnin p8 P8.java [other files]"
+                o  Do "getback p8" to ensure that your project was
+                   received correctly.

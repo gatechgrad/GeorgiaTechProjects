@@ -1,0 +1,146 @@
+/**
+ * CS1502: Design Doc #6
+ *
+ * <PRE>
+ * Electronic Keyboard
+ *
+ * Revisions:  1.0  February 13, 1999
+ * </PRE>
+ *
+ * @author <A HREF="mailto:gte187k@prism.gatech.edu">Levi D. Smith</A>
+ * @version Version 1.0, February 13, 1999
+ */
+
+//NOTE: on .announce they said not to put all of our get and set methods
+//in our design
+
+class P6 extends frame implements ActionListener, WindowListener
+
+Class Description:
+------------------
+This class makes the graphical window and sets all of the buttons and other
+components on the screen.  It handles all of the actions the user performs.
+
+Constants:
+----------
+public static final boolean DEBUG
+  - turns debugging on/off
+
+public static final int OCTAVES
+  - the number of octaves the keyboard displays
+
+Instance Variables:
+-------------------
+private static final String arrPianoKeys []
+  - an array of the piano key names
+
+Methods:
+--------
+public P5()
+  - the constructor.  makes the panels and sets the componets in the panels
+
+public void actionPerformed (ActionEvent e)
+  - finds out which button the user clicked then calls a method to play the
+    correct note
+
+public void addKeys ()
+  - adds the button keys to the panel.  the number of times the for loop
+    will process is determined by the OCTAVES constant
+
+public void recordNotes()
+  - records the notes being played
+
+private void quitProgram ()
+  - tells the program to kill itself and then exits                                                                        //131
+
+public static void main (String argv[])
+  - makes a new instance of P5
+
+public void windowActivated (WindowEvent e)
+  - does nothing
+
+public void windowClosed (WindowEvent e)
+   - does nothing
+
+public void windowClosing (WindowEvent e)
+  - does nothing
+
+public void windowDeactivated (WindowEvent e)
+  - does nothing
+
+public void windowDeiconified (WindowEvent e)
+  - does nothing
+
+public void windowIconified (WindowEvent e)
+  - does nothing
+
+public void windowOpened (WindowEvent e)
+  - does nothing
+
+
+##########################################################################
+
+class RecordNotes 
+
+Class Description:
+------------------
+  This class records and stores the notes
+
+Constants:
+----------
+public static final boolean DEBUG
+  - turns debugging on/off
+
+
+Instance Variables:
+-------------------
+private Vector notesRecorded
+  - the notes the piano has recorded
+
+Methods:
+--------
+public NotesRecorded()
+  - this is the constructor for this class.  It sets notesRecorded to
+    nothing ("")
+
+public void recordNotes()
+  - records the notes being played
+
+public void playNotes()
+  - plays the notes that are recorded
+
+
+
+##########################################################################
+
+Class Communication:
+--------------------
+  The driver sets up the textarea, the buttons, and all of the keys.  The
+driver also listens for all of the actions preformed by the user and handles
+them appropriately (If the user clicks a note, then the driver plays it.
+  RecordNotes either records notes played by the user or plays the notes
+the user has recorded.  This depends on the method the driver calls.  It
+also holds a vector of notes that have been created.
+
+##########################################################################
+
+Potential Problems:
+-------------------
+  I'm still confused about GUIs.  I probably left some things out of this
+design.  I'm not sure how many classes I'm suppsosed to have.
+I really don't know what kind of problems I will have until I
+have some working code.
+
+##########################################################################
+
+Scenario Questions:
+-------------------
+1) I will use buttons for my piano keys.  They are the only things that I
+   know that can be clicked.
+
+2) The driver (P6)
+
+3) A Text Area
+
+4) Set the constant OCTAVES to a highter number.  The for loop in addKeys()
+   will then process another set of keys

@@ -1,0 +1,521 @@
+CS 1502: JAVA! Programming Assignment #5 - Winter 1999
+
+Program Title:   We Love to Code and It Shows
+Assigned:        January 29, 1999
+P5 Program Due:  February 12, 1999
+D5 Design Due:   February 6, 1999
+
+Files Provided:
+    o p5.nfo              - this file
+    o p5_70.dat           - sample data for a 70
+||    o p5_70.ans           - sample answers for a 70 (updated)
+    o p5_85.dat           - sample data for a 85
+||    o p5_85.ans           - sample answers for a 85 (updated)
+    o p5_100.dat          - sample data for a 100
+||    o p5_100.ans          - sample answers for a 100 (updated)
+    o p5_100b.dat         - another sample data for a 100
+||    o p5_100b.ans         - another sample answers for a 100 (updated)
+
+Learning Objectives:
+    o more dynamic data structures
+    o inheritance and composition
+    o designing programs, part 2
+    o exception handling
+
+++Additions to the original p5.nfo are preceeded by two plus signs like
+++this.
+
+||Modifications to the original p5.nfo are preceeded by two vertical
+||bars like this.
+
+
+GENERAL OVERVIEW:
+========================================================================
+
+"Please return your seats to the upright position," blares the airplane
+loudspeaker.  It's that time again -- time for CS flight 1502 to Java
+City, Java.  Uh oh, the plane is shuddering.  "In the unlikely event of
+a water landing, your seat cushion may be used as a flotation device."
+In other words, hope that the plane won't crash into the ocean.  With
+some forethought, your program won't crash either.
+
+Have you ever realized what a marvel the airplane is -- not just in
+terms of mechanics, but also as an object oriented model?  The plane is
+like a container class, that holds a collection of seats and meals.
+Each seat holds a passenger; crew members (flight attendants or pilots)
+have their own seats.  Furthermore, there are different types of
+passengers -- first class and coach.  In addition, there are different
+types of in-flight meals.  Wow, does this mean that Orville and Wilbur
+Wright were CS majors at heart?
+
+
+EXCEPTIONS:
+========================================================================
+
+Exceptions is Java's way of handling "exceptional" conditions.  Here's a
+real life example of an "exceptional" condition:  "If there is a loss of
+cabin pressure, oxygen masks will drop from a panel above.  Take the
+mask, cover your mouth and nose, pull the elastic bind tightly, and
+breath normally."
+
+Unlike the previous programs, you can not assume that the user will give
+valid inputs.  You have a way to handle these "exceptional"
+circumstances -- by using exceptions.  If one were to code the above in
+Java, it might look like:
+
+     try {
+	 flyPlane ();
+     }
+     catch (LostCabinPressure lcp) {
+	 dropOxygenMasks ();
+         fitOxygenMask ();
+         breathNormally ();
+     }
+
+Certain Java methods may throw exceptions; for example, Integer.parseInt
+() throws a NumberFormatException whenever an illegal value is passed.
+You will need to catch this NumberFormatException in your program, as
+well as other invalid inputs.
+
+
+PROGRAM WALKTHROUGH:
+========================================================================
+
+||Here's your mission.  First you need to prompt the user for the name,
+||size, and number of pilots of the airplane:
+
+Enter the name of the plane :
+Mystery Machine
+Enter the maximum number of passengers that Mystery Machine may hold :
+10
+Enter the number of pilots required to fly Mystery Machine :
+2
+
+(Yes, it's a really small airplane.)  Read in the values and store them
+somewhere.  Next, present a header to the user:
+
+Welcome to Winter 99 Program 5
+------------------------------
+
+Don't forget the newline character, ala p2.  Now display a menu:
+
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+
+If the user inputs an invalid menu item, then just re-display the menu
+and wait for another input.
+
+++Invalid inputs include strings, negatives, and anything else that is
+++not a 0, 1, 2, 3, 4, 5, 6, 7, or 8.
+
+Here's what each menu option should do.
+
+SHOW PLANE STATUS
+-----------------
+This option is explained later.
+
+BOOK A PASSENGER IN FIRST CLASS
+-------------------------------
+If space permits, this adds a first class passenger to the roster and
+prompts for his mass and *two* meal preferences.  (This is the advantage
+of flying first class.)  For example:
+
+||Name of First Class passenger :
+||Velma
+||Velma's mass, in kilograms :
+||50
+||What would Velma like to eat :
+||Scooby Snack
+||What else would Velma like to eat :
+||Hot Dog
+
+Store this information somewhere, and return to the main menu.  Note
+that merely specifying the meal does not automatically add it to the
+plane.  For that, see "ADD IN-FLIGHT MEALS" below.  Assume that the user
+will provide two *different* meals.
+
+If the plane does not have any space for the passenger, then merely
+display:
+
+Sorry, Mystery Machine does not have any space for another passenger.
+
+BOOK A PASSENGER IN COACH
+-------------------------
+This is much like booking a passenger in first class, only coach
+customers only get *one* meal.  Here's an example:
+
+Name of Coach passenger :
+Shaggy
+Shaggy's mass, in kilograms :
+45
+What would Shaggy like to eat :
+Tuna, Chocolate, and Spam Sandwich
+
+ASSIGN A PILOT
+--------------
+The airplane needs pilots to fly (obviously).  The number of pilots was
+inputted way up top at the beginning of the program.  Reject any attempts
+to add more pilots than needed.  If there is space, prompt for the
+pilot's name, mass, and flying speed.  Note that crew members do not
+need to eat anything.  Example:
+
+Name of Pilot :
+Freddy
+Freddy's mass, in kilograms :
+80
+Freddy's flying speed, in kilometers per hour :
+30
+
+++Legal flying speeds are positive integers.
+
+If the plane already has enough pilots, then display:
+
+Sorry, Mystery Machine does not have any space for another pilot.
+
+ASSIGN A FLIGHT ATTENDANT
+-------------------------
+For every 4 passengers on board, the plane needs another flight
+attendant.  Flight attendants do not eat.  Prompt for information as
+above:
+
+Name of Flight Attendant :
+Daphne
+Daphne's mass, in kilograms :
+40
+
+Note that there can never be too many flight attendants.
+
+ADD IN-FLIGHT MEALS
+-------------------
+Like real airlines, your flights always provide a complimentary meal (or
+two, for first class folks).  This option should prompt for a name of a
+meal (your plane does not just carry peanuts), and then how many of
+those entrees to add to the plane.  Example:
+
+Name of Meal :
+Scooby Snack
+Number of Scooby Snack entrees :
+4
+
+Assume that the once the user enters a meal type, she will not need to
+add more meals of that type for this flight.
+
+++You may not limit the choices of meals.  You may not (for example)
+++have the user pick the meal from a menu.  You should let her input any
+++type of meal she wants.  Furthermore, entering passengers and meals is
+++two independent processes.  You should check the two only upon take
+++off.
+
+SET FLIGHT PLANS
+----------------
+Before flying, the plane needs to know its destination and distance.
+Prompt for them.  Example:
+
+Enter Mystery Machine's Destination :
+Haunted Mansion
+Enter Distance to Haunted Mansion, in kilometers :
+50
+
+++Valid distances are positive integers.
+
+SHOW PLANE STATUS (AGAIN)
+-------------------------
+Now that you know what the plane holds, this menu option should display
+the current contents of the airplane.  Use the following format:
+
+Mystery Machine's roster :
+First Class Passenger : Velma
+Passenger : Shaggy
+Pilot : Freddy
+Flight Attendant : Daphne
+Pilot : Alex Super
+First Class Passenger : Scrappy-Doo
+Passenger : Scooby-Doo
+Passenger : Uncle Matt
+Flight Attendant : Aggie Macduff
+Passenger : Professor Brikston
+
+Meals on-board :
+3 - Scooby Snack
+2 - Hot Dog
+3 - Tuna, Chocolate, and Spam Sandwich
+1 - Witch's Laundry
+
+Current mass, in kilograms : 530
+
+List the names of the persons and meals in the order in which he/she/it
+boards the plane.
+
+TAKE OFF!
+---------
+This forms the main crux of the program.  You need to verify that the
+plane is "flyable" prior to taking off.  All of the following conditions
+must be first met:
+
+(1) There are enough pilots on board.
+(2) There are enough flight attendants to satisfy the passengers.
+(3) There are enough meals - and of the correct types - to satisfy all
+    passengers.
+(4) There must be both a destination and distance.
+
+If a plane can not take off, print:
+
+Sorry, Mystery Machine may not take off at this time.
+
+And if a plane can, print something like the following:
+
+Freddy : We're on our way to Haunted Mansion, which is 50 kilometers away.
+Freddy : At my speed of 30 kilometers per hour, the flight time will be
+Freddy : 1.6666666666666667 hours.
+
+Use the pilot with the fastest speed to do all of the talking and
+calculating of the flight time (see HINTS below).  Assume that the plane
+makes it to its destination.  The program should now quit.  Take a break
+-- you should have earned yourself a 100% on program implementation!
+
+QUIT
+----
+This (obviously) quits the program.
+
+
+	    *** IMPORTANT *** PLEASE READ *** IMPORTANT ***
+
+You must be prepared to handle any and all invalid inputs from the user.
+For example, when asked for the plane size, she may provide a string
+instead of a number.  Your program *must* be able to handle this
+condition, as well any other time you read input from the user.
+
+So how do you handle them?  The best way is to re-prompt the user for
+the same information; continue until he/she gives a valid response.  For
+example:
+
+Enter the maximum number of passengers that Mystery Machine may hold :
+WieBitte?
+Invalid input, please try again.
+Enter the maximum number of passengers that Mystery Machine may hold :
+2.7182818
+Invalid input, please try again.
+Enter the maximum number of passengers that Mystery Machine may hold :
+0
+Invalid input, please try again.
+Enter the maximum number of passengers that Mystery Machine may hold :
+-727
+Invalid input, please try again.
+Enter the maximum number of passengers that Mystery Machine may hold :
+10
+
+Your program should not be able to crash due to ANY type of input.
+
+	       *** END OF PUBLIC SERVICE ANNOUNCEMENT ***
+
+
+MISCELLANEOUS RULES OF THE PLANE
+--------------------------------
+(1) Unlike other planes, this one does not have a set maximum number of
+    first class passengers.  Use the formula:
+      (num of first class) + (num of coach) <= (max num of passengers)
+
+(2) The plane may take off even if underbooked.
+
+(3) Meals, for purposes of this program, have no mass.
+
+(4) The plane may carry more meals than it needs, but never less.
+
+(5) When calculating the number of flight attendants, use the actual
+    number of booked first class and coach passengers; ignore pilots and
+    other flight attendants.  There may be more flight attendants than
+    necessary.
+
+++(5a) If the number of passengers is not evenly divisible by four, then
+++     round up.
+
+(6) Yes, there is no way to remove a person or meal from the plane, once
+    he/she/it is loaded on-board.
+
+(7) All numeric inputs (except for quitting the program) will be
+    positive integers; you need to handle invalid inputs.  Outputs, on
+    the other hand, may not necessarily be.  Names, on the other hand,
+    may be any kind of input.
+
+
+DESIGN DOC WALKTHROUGH:
+========================================================================
+
+This program may seem like it has many arcane and tedious rules.  That
+is absolutely correct -- the program intentionally has many rules
+governing its operation.  The reason for this is that it encourages
+design prior to hacking away.  Consider (and answer) the following
+scenario questions:
+
+(1) An abstract "Person" class may make things easier.  How?  What
+    properties and behaviors (i.e., instance variables and methods)
+    would "Person" have?
+
+(2) What data structure(s) will the plane use to hold the passengers and
+    crew members?  Can polymorphism simplify this?
+
+(3) One thing you may not have considered is having a "FlightPlan"
+    class.  In what ways could one reuse "FlightPlan" in a future
+    program?
+
+(4) Many parts of this program require exception handling.  How does
+    your design encourage less duplication of code?
+
+
+HINTS AND TIPS:
+========================================================================
+
+calculating flight time
+-----------------------
+Both the plane's distance and pilot's speed are integers.  If you were
+to try to divide them to get the flight time, your result would not
+match ours.  Why?
+
+Because Java sees both operands to the division symbol are integers, it
+will attempt integer division.  This is not what you want.  You need to
+somehow convince Java to perform floating point division instead.  One
+way is by "promoting" one of the integers into a double, by using a
+cast.  Try out the following code, and see for yourself:
+
+     int a = 42;
+     int b = 9;
+     System.out.println (a / b);             // prints 4
+     System.out.println ((double) a / b);    // prints 4.666666666666667
+
+holding meals
+-------------
+Consider carefully what data structure you will use to hold the meals.
+You should not use a static structure (e.g., an array), because the
+plane may hold an unlimited number of meals.  So instead, use some
+dynamic structure.  Wow, a linked list would sure come in handy!
+
+++holding people
+++--------------
+++Yes, you may use vectors for this program.
+
+++checking the type
+++-----------------
+++When retrieving items from a generic data structure, you may need to
+++check its type.  The 'instanceof' operator may come in handy.  For
+++example:
+++
+++     Object o = new Integer (42);
+++     System.out.println (o instanceof Integer);  // prints "true"
+++     System.out.println (o instanceof Object);   // prints "true"
+++     System.out.println (o instanceof Vector);   // prints "false"
+
+debugging p5
+------------
+This program is *very* complex.  To have any hope of finishing p5 on
+time, you had best:
+
+(1) DESIGN your program, prior to hacking away.
+(2) Use plenty of DEBUG statements.
+(3) And start EARLY.
+
+++It is extremely unlikely that you will be able to write this program
+++without a proper design.
+
+EXTRA CREDIT:
+========================================================================
+
+Sorry, no extra credit is available for this assignment.
+
+
+REQUIREMENT CHECK LIST:
+========================================================================
+
+IMPLEMENTATION FOR P5:
+
+   For 42/60 (70%):
+      - Compiles under JDK 1.1.7.
+      - Prompts for plane information, handles invalid inputs through
+        exceptions
+      - Shows main menu, handles invalid inputs
+      - Books passengers in First Class and Coach, handles invalid input
+      - Assigns Pilots and Flight Attendants, handles invalid input
+      - Shows Plane Status
+
+   For 51/60 (85%): Everything for 70%, plus:
+      - Handles In-Flight Meals, handles invalid input
+      - Sets Flight Plans, handles invalid input
+      - Handles overbooking of both passengers and pilots
+	
+   For 60/60 (100%): Everything for 85%, plus:
+      - Handles Take Off
+      - Handles all other invalid inputs
+
+PROGRAMMING STYLE:
+
+   0.  Software Documentation
+       -code easy to read and understand
+       -included correct header on  .java containing ID
+        information
+       -DEBUG code implemented
+
+   1.  Java-doc Style Header Documentation
+       -every method (including constructors) has a
+        description documented above the method header,
+        including pre- and post-conditions
+       -every method has an @param tag for each
+        parameter passed in, describing that parameter
+       -every method has an @return tag for
+        the return type, describing what's returned
+
+   2.  Internal Documentation
+       -inline code documentation on non-obvious code
+        segments
+
+   3.  Coding Style
+       -variable and constant names meaningful
+       -variable and constant declarations documented
+
+   4.  Modularity, Abstraction, and Encapsulation
+       -minimal duplication of code/behavior
+       -no direct access to instance variables
+        except within the class where they reside
+       -uses constants rather than hard-wiring values
+       -appropriate method modifiers
+        (public, private, protected, abstract, et al)
+
+
+PROGRAM RESTRICTIONS:
+========================================================================
+
+     These are the restrictions for this program.  You MUST do the
+     following:
+
+    o Your driver must be called P5.java.
+    o It is a federal offense to tamper with bathroom smoke detectors.
+++      (Yes, this is a joke.)
+    o You may make any methods and classes as you see fit, but your TA
+      will take off points if you show poor OO design.
+
+
+TURNIN:
+========================================================================
+
+        o  Files to be turned in (Be sure to ftp the files in ascii):
+
+           P5.java
+           [any other .java files you made]
+
+        o  Files NOT to turn in (You shouldn't have altered these, so we
+           already have them.):
+
+           util.java
+           *.dat
+           *.ans
+
+        o  How to turnin:
+                o  "workon cs1502"
+                o  "turnin p5 P5.java [other files]"
+                o  Do "getback p5" to ensure that your project was
+                   received correctly.

@@ -1,0 +1,366 @@
+Enter the name of the plane :
+Enter the maximum number of passengers that Mystery Machine may hold :
+Invalid input, please try again.
+Enter the maximum number of passengers that Mystery Machine may hold :
+Invalid input, please try again.
+Enter the maximum number of passengers that Mystery Machine may hold :
+Invalid input, please try again.
+Enter the maximum number of passengers that Mystery Machine may hold :
+Invalid input, please try again.
+Enter the maximum number of passengers that Mystery Machine may hold :
+Enter the number of pilots required to fly Mystery Machine :
+Invalid input, please try again.
+Enter the number of pilots required to fly Mystery Machine :
+Invalid input, please try again.
+Enter the number of pilots required to fly Mystery Machine :
+Invalid input, please try again.
+Enter the number of pilots required to fly Mystery Machine :
+Welcome to Winter 99 Program 5
+------------------------------
+
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of First Class passenger :
+Velma's mass, in kilograms :
+Invalid input, please try again.
+Velma's mass, in kilograms :
+What would Velma like to eat :
+What else would Velma like to eat :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Coach passenger :
+Shaggy's mass, in kilograms :
+Invalid input, please try again.
+Shaggy's mass, in kilograms :
+What would Shaggy like to eat :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Pilot :
+Freddy's mass, in kilograms :
+Freddy's flying speed, in kilometers per hour :
+Invalid input, please try again.
+Freddy's flying speed, in kilometers per hour :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Flight Attendant :
+Daphne's mass, in kilograms :
+Invalid input, please try again.
+Daphne's mass, in kilograms :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Mystery Machine's roster :
+First Class Passenger : Velma
+Passenger : Shaggy
+Pilot : Freddy
+Flight Attendant : Daphne
+
+Meals on-board :
+
+Current mass, in kilograms : 215
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Pilot :
+Alex Super's mass, in kilograms :
+Alex Super's flying speed, in kilometers per hour :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of First Class passenger :
+Scrappy-Doo's mass, in kilograms :
+Invalid input, please try again.
+Scrappy-Doo's mass, in kilograms :
+What would Scrappy-Doo like to eat :
+What else would Scrappy-Doo like to eat :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Coach passenger :
+Scooby-Doo's mass, in kilograms :
+What would Scooby-Doo like to eat :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Coach passenger :
+Uncle Matt's mass, in kilograms :
+What would Uncle Matt like to eat :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Flight Attendant :
+Aggie Macduff's mass, in kilograms :
+Invalid input, please try again.
+Aggie Macduff's mass, in kilograms :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Coach passenger :
+Professor Brikston's mass, in kilograms :
+What would Professor Brikston like to eat :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Mystery Machine's roster :
+First Class Passenger : Velma
+Passenger : Shaggy
+Pilot : Freddy
+Flight Attendant : Daphne
+Pilot : Alex Super
+First Class Passenger : Scrappy-Doo
+Passenger : Scooby-Doo
+Passenger : Uncle Matt
+Flight Attendant : Aggie Macduff
+Passenger : Professor Brikston
+
+Meals on-board :
+
+Current mass, in kilograms : 530
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Meal :
+Number of Scooby Snack entrees :
+Invalid input, please try again.
+Number of Scooby Snack entrees :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Meal :
+Number of Hot Dog entrees :
+Invalid input, please try again.
+Number of Hot Dog entrees :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Meal :
+Number of Tuna, Chocolate, and Spam Sandwich entrees :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Meal :
+Number of Witch's Laundry entrees :
+Invalid input, please try again.
+Number of Witch's Laundry entrees :
+Invalid input, please try again.
+Number of Witch's Laundry entrees :
+Invalid input, please try again.
+Number of Witch's Laundry entrees :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Mystery Machine's roster :
+First Class Passenger : Velma
+Passenger : Shaggy
+Pilot : Freddy
+Flight Attendant : Daphne
+Pilot : Alex Super
+First Class Passenger : Scrappy-Doo
+Passenger : Scooby-Doo
+Passenger : Uncle Matt
+Flight Attendant : Aggie Macduff
+Passenger : Professor Brikston
+
+Meals on-board :
+3 - Scooby Snack
+2 - Hot Dog
+3 - Tuna, Chocolate, and Spam Sandwich
+1 - Witch's Laundry
+
+Current mass, in kilograms : 530
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Enter Mystery Machine's Destination :
+Enter Distance to Haunted Mansion, in kilometers :
+Invalid input, please try again.
+Enter Distance to Haunted Mansion, in kilometers :
+Invalid input, please try again.
+Enter Distance to Haunted Mansion, in kilometers :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Sorry, Mystery Machine does not have any space for another pilot.
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Sorry, Mystery Machine does not have any space for another passenger.
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Sorry, Mystery Machine does not have any space for another passenger.
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit

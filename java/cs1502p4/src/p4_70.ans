@@ -1,0 +1,35 @@
+Enter the root node's name :
+
+Enter Alice Nelson's child's name :
+Enter Alice Nelson's child's name :
+Enter Alice Nelson's child's name :
+
+Enter Carol Brady's child's name :
+Enter Carol Brady's child's name :
+Enter Carol Brady's child's name :
+Enter Carol Brady's child's name :
+
+Enter Mike Brady's child's name :
+Enter Mike Brady's child's name :
+Enter Mike Brady's child's name :
+Enter Mike Brady's child's name :
+
+Enter Marcia Brady's child's name :
+
+Enter Jan Brady's child's name :
+
+Enter Cindy Brady's child's name :
+
+Enter Greg Brady's child's name :
+
+Enter Peter Brady's child's name :
+
+Enter Bobby Brady's child's name :
+
+Welcome to Winter 99 Program 4
+------------------------------
+
+(1) Print the Tree
+(2) Search for a Name
+(3) Search for a Name, and Display its Path
+(0) Quit

@@ -1,0 +1,92 @@
+Enter the root node's name :
+
+Enter java.lang.Object's child's name :
+Enter java.lang.Object's child's name :
+Enter java.lang.Object's child's name :
+Enter java.lang.Object's child's name :
+
+Enter java.awt.Component's child's name :
+Enter java.awt.Component's child's name :
+Enter java.awt.Component's child's name :
+Enter java.awt.Component's child's name :
+
+Enter java.lang.String's child's name :
+
+Enter java.util.Vector's child's name :
+Enter java.util.Vector's child's name :
+
+Enter java.awt.Button's child's name :
+
+Enter java.awt.Container's child's name :
+Enter java.awt.Container's child's name :
+Enter java.awt.Container's child's name :
+
+Enter java.awt.List's child's name :
+
+Enter java.util.Stack's child's name :
+
+Enter java.awt.Panel's child's name :
+Enter java.awt.Panel's child's name :
+
+Enter java.awt.Window's child's name :
+Enter java.awt.Window's child's name :
+Enter java.awt.Window's child's name :
+
+Enter java.applet.Applet's child's name :
+
+Enter java.awt.Dialog's child's name :
+Enter java.awt.Dialog's child's name :
+
+Enter java.awt.Frame's child's name :
+
+Enter java.awt.FileDialog's child's name :
+
+Welcome to Winter 99 Program 4
+------------------------------
+
+(1) Print the Tree
+(2) Search for a Name
+(3) Search for a Name, and Display its Path
+(0) Quit
+java.lang.Object
+java.awt.Component, java.lang.Object's child
+java.awt.Button, java.awt.Component's child
+java.awt.Container, java.awt.Component's child
+java.awt.Panel, java.awt.Container's child
+java.applet.Applet, java.awt.Panel's child
+java.awt.Window, java.awt.Container's child
+java.awt.Dialog, java.awt.Window's child
+java.awt.FileDialog, java.awt.Dialog's child
+java.awt.Frame, java.awt.Window's child
+java.awt.List, java.awt.Component's child
+java.lang.String, java.lang.Object's child
+java.util.Vector, java.lang.Object's child
+java.util.Stack, java.util.Vector's child
+(1) Print the Tree
+(2) Search for a Name
+(3) Search for a Name, and Display its Path
+(0) Quit
+Enter the name to search :
+java.awt.Frame is in the tree.
+(1) Print the Tree
+(2) Search for a Name
+(3) Search for a Name, and Display its Path
+(0) Quit
+Enter the name to search :
+java.lang.Throwable is not in the tree.
+(1) Print the Tree
+(2) Search for a Name
+(3) Search for a Name, and Display its Path
+(0) Quit
+Enter the name to search :
+java.lang.String is in the tree.
+(1) Print the Tree
+(2) Search for a Name
+(3) Search for a Name, and Display its Path
+(0) Quit
+Enter the name to search :
+Stack is not in the tree.
+(1) Print the Tree
+(2) Search for a Name
+(3) Search for a Name, and Display its Path
+(0) Quit

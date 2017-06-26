@@ -1,0 +1,400 @@
+CS 1502: JAVA! Programming Assignment #1 - Winter 1999
+
+Program Title:   For Whom the Bell Tolls
+Assigned:        January 5, 1999
+P1 Program Due:  January 15, 1999
+
+Files Provided:
+    o p1.nfo              - this file
+    o grading.txt         - notes on program grading
+    o P1.java             - main driver for program
+    o TollBooth.java      - record class
+    o p1_85.dat           - sample data for a 85
+    o p1_85.ans           - sample answers for a 85
+    o p1_100.dat          - sample data for a 100
+    o p1_100.ans          - sample answers for a 100
+
+Learning Objectives:
+    o accessor and modifier methods
+    o toString () assembly
+    o simple if/else conditionals
+    o 'do', 'do/while', and recursive loops
+
+
+GENERAL OVERVIEW:
+========================================================================
+
+Welcome to your first program for 1502.  We know you haven't had much
+experience with Java syntax, so we'll help you through that.  The
+concepts, though, should be very familiar from 1501.  So, enough for
+introductions.  Here is your first assignment.
+
+Though they are not common in the South (except for that GA400 thingy),
+toll booths are big deals in the North.  It's tough to go across town
+without having to be filed into a line of cars waiting to toss their
+coins in to little machines.  You've probably never thought of these
+automated toll booths as marvels of Computer Science, but they are an
+excellent way to represent a simple record class.
+
+The concept of a record was emphasized repeatedly in 1501 (like you
+didn't notice =), and their importance in Java is no less.  But in Java,
+records are represented by classes, which can hold data like records,
+but also have methods to access, modify, and manage that data.  Simply,
+
+    RECORDS:PSEUDOCODE :: OBJECTS:JAVA
+
+If you look at the files provided with your P1 getjob, you should notice
+a file TollBooth.java; this is your toll booth class.  Because there's
+so much love abounding in the 1502 team, we have provided most of the
+framework for this class already.
+
+We have also provided another file, called P1.java.  This is the driver.
+
+  Student: Is this some kind of toll booth/car pun?
+
+  TA: No, no.  The term driver means a class which is
+      executed to run the program.
+
+This is the class that is "executable" (i.e., the class with the main ()
+method).  The driver, in this case, simulates a toll plaza (a group of
+toll booths).  For the first program, the toll plaza only consists of
+one toll booth.  This file is also missing some code.
+
+Your job is to fill in the missing code in both classes, and get your
+program simulating a toll booth.  The walkthrough below should help you
+with some of the details.
+
+
+PROGRAM WALKTHROUGH:
+========================================================================
+
+The first class to complete is certainly the record class,
+TollBooth.java.  Before you go any further in the nfo file, you should
+probably look over the methods contained in this class.
+
+You will see that classes in Java are much more powerful than simple
+records.  Methods in classes can print data, return numbers or Strings,
+or do basically whatever they want (almost).
+
+Instance Variables:
+-------------------
+You don't have to modify anything here, but look at what values this
+class stores.  Most importantly, notice the booth keeps track of the
+number of quarters and nickels it has left.  Our machine only deals with
+these types of coins.
+
+The ID number is not important for this program, but it will come into
+play in the next.
+
+Constructor:
+------------
+A constructor creates a new "instance" of a particular class.  (Remember
+that while a class is like a "blueprint", an instance is a physical
+building.)  It is automatically called when a new TollBooth is
+created. You really don't have to understand this yet, but realize that
+when a new TollBooth is created, the constructor gets passed an ID
+number and the cost of the toll.  For your convenience, the constructor
+is already filled in for you.  Do not modify it.
+
+Accessors:
+----------
+The first things to fill out in this class are the accessor methods.
+These are methods that simply return instance variables. It may seem
+wasteful to write a whole method just to return a instance variable, but
+hopefully by the end of the course, you will understand their
+importance.
+
+The first accessor is filled in for you. The other two accessors are
+just as simple.
+
+Modifiers:
+----------
+Next you should fill in your modifiers.  These are methods which change
+instance variables to the parameter they take in.  In this case, the
+modifiers do not simply modify the coin total, but add to them.  Fill
+these in before moving on.
+
+MakeChangeXXX:
+--------------
+Here comes the fun part.  These three methods, makeChangeWhile(),
+makeChangeDoWhile(), and makeChangeRecursive(), print out the change
+returned given a certain input of cents.  For instance, if the toll cost
+is 35 cents, and a person drops in 75 cents, the most efficient change
+would be one quarter and three nickels.
+
+  Def. MOST EFFICIENT: We are all aware that you could just return a
+          tremendous amount of nickels every time, but that is not how
+          toll booths work.  The most efficient change means using the
+          fewest number of coins possible.  Running out of coins is
+          addressed in the hints and tips.
+
+The format of this output is very important so you can easily check your
+output with the dat and ans files (see the hints section below) provided
+with your getjob.  The format is:
+
+(TollBooth 0)
+Quarters - 2
+Nickels - 1
+
+Spacing is important.  Each method MUST be completed using the specified
+loop or recursive method.  If the input is less than the cost of the
+toll, then the output will print:
+
+Not enough money
+
+above the output and the change should report all 0's.  The first
+makeChange function includes code to check for insufficient funds; use
+the same code in your other methods.
+
+Note 1: For the recursive method it may be necessary to keep the
+counters of how many coins to return outside of the recursion, so
+variables were declared directly above the method for this purpose. They
+act just like instance variables though they are declared down below.
+Do not use these variables in any of your other methods; you will
+corrupt their initial values!
+
+Note 2: If you do use the supplied counters for the recursive method,
+don't forget to reset their values back to zero after you are done with
+them.
+
+Note 3: Each one of your makeChange methods should deduct from the toll
+booth's reserve of quarters and nickels.  True, this does not model the
+real world at all; however, it does simplify some calculations on your
+part.
+
+
+toString():
+-----------
+A toString() is a very important part of a record class. This is a
+method that returns a String representing this object and its important
+values.  It does not print the String.  Repeat: IT DOES NOT PRINT THE
+STRING.  It _returns_ a String.
+
+In our case, the format prints the id number of the toll booth, the
+number of quarters it has left, and the number of nickels it has left.
+Once again, the format here is important for dat/ans compatibility:
+
+(TollBooth 0)  Quarters: 5  Nickels 5
+
+Note the double spaces between some of the terms.
+
+
+We are now finished modifying the TollBooth class.  You can check your
+work by compiling your program and running it. To do this, type:
+
+    javac *.java
+    java P1
+
+This will launch the P1 menu. Choosing the simulate option ( #1 ) or the
+view status option ( #4 ) should work.  Options 2 and 3 will not work
+yet, until you modify the P1 class.
+
+P1 Class:
+--------
+There are two easy methods to fill in here, addN() and addQ() which add
+nickels and quarters respectively to the toll booth.  These require
+accessing the "instance" of TollBooth, which is assigned to the instance
+variable "myTollBooth".  Look at the simulate() method to see how
+exactly how to access methods in myTollBooth.
+
+
+HINTS AND TIPS:
+========================================================================
+
+Capitalization
+--------------
+By far, the most common errors for new programmers are related to
+capitalization.  You must remember that Java is case sensitive, so HeLLo()
+is a COMPLETELY different method than hELlO().  Same with variable names
+and just about everything else.  When in doubt, check your capitalization.
+
+
+Println and Strings
+-------------------
+A handy trick is concatenating strings to create a larger string. With
+strings, the + operator works as a concatenator.  For example:
+
+   myString = "hola";
+   otherString = "como estas";
+   bigString = myString + " " + otherString;
+
+Now bigString contains the characters "hola como estas", because they
+were added next to each other.
+
+System.out.println() is the command for printing out Strings to the
+screen.  Among other things, it can take either String variables (
+myString ) or String literals ("hi") or both, and print them to the
+screen.  For example:
+
+   System.out.println( "hey baby" );
+   System.out.println( myString );
+   System.out.println( "hey " + myString );
+
+   
+Changing initial values
+-----------------------
+If you wish a bit of fun with your program, the initial values for the
+toll cost, the starting number of quarters, and the starting number of
+nickels are all defined in the constants at the top of the classes.
+Feel free to modify these, but beware:
+
+  Set them all to their default (50) before turning in the assignment!
+
+
+Invalid Input
+-------------
+Because we are not being anal retentive about our inputs (yet), you can
+assume that the inputs to your makeChange functions are:
+
+  o Multiples of 5
+  o Not large enough to make the toll booth run out of coins
+
+This last premise means that, given a sequence of inputs, you could
+possibly have negative values for numQuarters and numNickels.
+
+fc
+--
+Because this is a simple text based menu program, we have enclosed data
+and answer files with your getjob.  These are sample inputs and sample
+outputs for the program.  If your output from our input matches our
+output (got that?), then it's a good chance your program works!
+
+So here's how you compile and check your program in DOS/WIN:
+
+    javac *.java
+    java P1 < p1_85.dat > my_85.out
+    fc /w /c p1_85.ans my_85.out
+
+If you are jiggy with Unix, compare files with 'diff':
+
+    diff -i -b p1_85.ans my_85.out
+
+This step compares the output you generated with the sample output we
+gave you.  If fc or diff reports no differences encountered, then the
+files should be identical.
+
+Style
+-----
+We strongly suggest you take a good look at how these two classes are
+formatted.  The overall format of good code is fairly uniform in the
+world.  Tabs and white space are used effectively, ALL METHODS have
+headers, ALL INSTANCE VARIABLES are commented, and inline documentation
+is used wherever code may not be understandable to a novice programmer.
+
+If you want to see the benefits of having documented code, run 'javadoc'
+on P1.java and TollBooth.java.  This will give you an HTML view of the
+code's documentation.  This works because the comments have the
+following attributes:
+
+   - Comments begin /** instead of the usual /*
+   - @param / @return / @author / etc are used
+
+For more information on JavaDoc, refer to:
+  http://java.sun.com/products/jdk/1.1/docs/tooldocs/win32/javadoc.html
+
+util
+----
+util is a very handy utility we friendly folks at 1502 wrote for doing
+simple things in Java, like taking input from the user.  Look at how
+each of the methods in P1.java obtain input. You may need it for a
+future program (hint, hint).  Final note:  don't confuse "util.java"
+with "java.util" -- they are two totally separate things.
+
+Programming Style on Checklist
+------------------------------
+The requirement checklist below may seem intimidating right now.  Don't
+take it literally on the first program.  Keep the style neat and in good
+form, but it is not necessary to implement good code "modularity", or
+add DEBUG statements and such -- yet.  Just fill in the code neatly and
+you'll do fine.
+
+
+COMPILERS:
+========================================================================
+
+Assure that your program compiles and runs as expected under Sun's JDK
+1.1.7.  This is the officially supported platform of CS1502, and though
+other implementations of Java may give the same results, the Sun JDK is
+with what your TA will grade your program.
+
+
+EXTRA CREDIT:
+========================================================================
+
+Sorry, no extra credit is available for this assignment.
+
+
+REQUIREMENT CHECK LIST:
+========================================================================
+
+IMPLEMENTATION:
+
+   For 42/60 (70%)
+     - Compiles with Sun JDK 1.1.7
+     - Accessors filled in properly
+     - Modifiers filled in properly
+     - toString() works, and formats properly
+
+   For 51/60 (85%): Everything for 70%, plus
+     - addQ() and addN() work properly
+     - 2 of 3 makeChange functions work
+     - fc's with p1_85.ans
+
+   For 60/60 (100%): Everything for 85%, plus:
+     - All makeChange functions work
+     - fc's with p1_100.ans
+
+PROGRAMMING STYLE:
+
+   0.  Software Documentation
+       -code easy to read and understand
+       -included correct header on  .java containing ID
+        information
+       -DEBUG code implemented
+
+   1.  Java-doc Style Header Documentation
+       -every method (including constructors) has a
+        description documented above the method header,
+	including pre- and post-conditions
+       -every method has an @param tag for each
+        parameter passed in, describing that parameter
+       -every method has an @return tag for
+        the return type, describing what's returned
+
+   2.  Internal Documentation
+       -inline code documentation on non-obvious code
+        segments
+
+   3.  Coding Style
+       -variable and constant names meaningful
+       -variable and constant declarations documented
+
+   4.  Modularity, Abstraction, and Encapsulation
+       -minimal duplication of code/behavior
+       -no direct access to instance variables
+        except within the class where they reside
+       -uses constants rather than hard-wiring values
+       -appropriate method modifiers
+        (public, private, protected, abstract, et al)
+
+TURNIN:
+========================================================================
+
+        o  Files to be turned in (Be sure to ftp the files in ascii):
+
+           P1.java
+           TollBooth.java
+
+        o  Files NOT to turn in (You shouldn't have altered these, so we
+           already have them.):
+
+           util.java
+           *.dat
+           *.ans
+           grading.txt
+
+        o  How to turnin:
+                o  "workon cs1502"
+                o  "turnin p1 P1.java TollBooth.java"
+                o  Do "getback p1" to ensure that your project was
+                   received correctly.

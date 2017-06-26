@@ -1,0 +1,366 @@
+Enter the name of the plane :
+Enter the maximum number of passengers that USS Enterprise may hold :
+Enter the number of pilots required to fly USS Enterprise :
+Welcome to Winter 99 Program 5
+------------------------------
+
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Pilot :
+Captain Piccard's mass, in kilograms :
+Invalid input, please try again.
+Captain Piccard's mass, in kilograms :
+Captain Piccard's flying speed, in kilometers per hour :
+Invalid input, please try again.
+Captain Piccard's flying speed, in kilometers per hour :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of First Class passenger :
+Guinan's mass, in kilograms :
+What would Guinan like to eat :
+What else would Guinan like to eat :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of First Class passenger :
+Jim Greenlee's mass, in kilograms :
+What would Jim Greenlee like to eat :
+What else would Jim Greenlee like to eat :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Coach passenger :
+Vu Pham's mass, in kilograms :
+What would Vu Pham like to eat :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+USS Enterprise's roster :
+Pilot : Captain Piccard
+First Class Passenger : Guinan
+First Class Passenger : Jim Greenlee
+Passenger : Vu Pham
+
+Meals on-board :
+
+Current mass, in kilograms : 300
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Sorry, USS Enterprise may not take off at this time.
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Meal :
+Number of C Code entrees :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Meal :
+Number of Orion Wing Slugs entrees :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Meal :
+Number of Java entrees :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Flight Attendant :
+Russ Shackelford's mass, in kilograms :
+Invalid input, please try again.
+Russ Shackelford's mass, in kilograms :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Sorry, USS Enterprise may not take off at this time.
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Pilot :
+Commander Riker's mass, in kilograms :
+Commander Riker's flying speed, in kilometers per hour :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Enter USS Enterprise's Destination :
+Enter Distance to Laurie's Office, in kilometers :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Sorry, USS Enterprise may not take off at this time.
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Pilot :
+President Clough's mass, in kilograms :
+President Clough's flying speed, in kilometers per hour :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+USS Enterprise's roster :
+Pilot : Captain Piccard
+First Class Passenger : Guinan
+First Class Passenger : Jim Greenlee
+Passenger : Vu Pham
+Flight Attendant : Russ Shackelford
+Pilot : Commander Riker
+Pilot : President Clough
+
+Meals on-board :
+5 - C Code
+10 - Orion Wing Slugs
+30 - Java
+
+Current mass, in kilograms : 545
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Coach passenger :
+Peter Coad's mass, in kilograms :
+What would Peter Coad like to eat :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Coach passenger :
+Jill Nicola's mass, in kilograms :
+What would Jill Nicola like to eat :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Sorry, USS Enterprise may not take off at this time.
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+USS Enterprise's roster :
+Pilot : Captain Piccard
+First Class Passenger : Guinan
+First Class Passenger : Jim Greenlee
+Passenger : Vu Pham
+Flight Attendant : Russ Shackelford
+Pilot : Commander Riker
+Pilot : President Clough
+Passenger : Peter Coad
+Passenger : Jill Nicola
+
+Meals on-board :
+5 - C Code
+10 - Orion Wing Slugs
+30 - Java
+
+Current mass, in kilograms : 635
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Meal :
+Number of shrubbery entrees :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Sorry, USS Enterprise may not take off at this time.
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Meal :
+Number of A Comfty Chair! entrees :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Sorry, USS Enterprise may not take off at this time.
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+USS Enterprise's roster :
+Pilot : Captain Piccard
+First Class Passenger : Guinan
+First Class Passenger : Jim Greenlee
+Passenger : Vu Pham
+Flight Attendant : Russ Shackelford
+Pilot : Commander Riker
+Pilot : President Clough
+Passenger : Peter Coad
+Passenger : Jill Nicola
+
+Meals on-board :
+5 - C Code
+10 - Orion Wing Slugs
+30 - Java
+10 - shrubbery
+5 - A Comfty Chair!
+
+Current mass, in kilograms : 635
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Name of Flight Attendant :
+Warf's mass, in kilograms :
+(1) Show Plane Status
+(2) Book a Passenger in First Class
+(3) Book a Passenger in Coach
+(4) Assign a Pilot
+(5) Assign a Flight Attendant
+(6) Add In-Flight Meals
+(7) Set Flight Plans
+(8) Take Off!
+(0) Quit
+Commander Riker : We're on our way to Laurie's Office, which is 75 kilometers away.
+Commander Riker : At my speed of 30 kilometers per hour, the flight time will be
+Commander Riker : 2.5 hours.

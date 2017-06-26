@@ -1,0 +1,165 @@
+/**
+ * CS1502: Design Doc #4
+ *
+ * <PRE>
+ * Family Tree Program
+ *
+ * Revisions:  1.0  January 30, 1999
+ * </PRE>
+ *
+ * @author <A HREF="mailto:gte187k@prism.gatech.edu">Levi D. Smith</A>
+ * @version Version 1.0, January 30, 1999
+ */
+
+
+class P4
+
+Class Description:
+------------------
+This class is the driver for the P4 program.  It contains methods to read
+in data from the user and then fill out the tree.  A method to traverse
+the tree will also be included in this class.
+
+Constants:
+----------
+public static final boolean DEBUG = true
+   - turns debugging on
+public static final String TERMINATE = "END"
+   - terminates user input
+
+Instance Variables:
+-------------------
+private FamilyTree myFamilyTree
+   - the tree that holds all of the nodes for this program
+
+Methods:
+--------
+public P4()
+   - the method that is run when the class is created.  it creates a new
+     instance of FamilyTree
+public static void main ( String argv[] )
+   - creates an instance of this class, then makes a call to menu()
+public fillATree()
+   - fills the nodes of the family tree
+public printATree()
+   - traverses through the familyTree and prints all of the data
+public searchATree()
+   - searches the tree for a name read in by the user and then prints the
+     name
+public searchATreeWithPath()
+   - searches the tree and displays the path that was taken to get to the
+     node... the path will probably have to be stored in a temporary
+     linked list
+
+##########################################################################
+
+class FamilyTree
+
+Class Description:
+------------------
+This class handles the tree nodes
+
+Constants:
+----------
+none
+
+Instance Variables:
+-------------------
+TreeNode rootPtr
+   - points to the root of the FamilyTree
+
+
+Methods:
+--------
+public FamilyTree ()
+   - sets the rootPtr to null
+public FamilyTree (TreeNode newNode)
+   - sets the rootPtr to the node that is passed into the method
+public void addToList (TreeNode newNode)
+   - adds a new node to the tree
+public TreeNode getRootPtr ()
+   - returns the rootPtr of the tree
+###########################################################################
+
+class TreeNode
+
+Class Description:
+------------------
+Holds all of the data and methods of a family member.  Makes a node in the
+family tree.
+
+Constants:
+----------
+public static final String TERMINATE = "END"
+   - terminates user input
+
+Instance Variables:
+-------------------
+private TreeNode next
+   - points to the next child TreeNode
+private String Name
+   - the family member's name
+private FamilyTree children
+   - a linked list which contains all of the children
+
+Methods:
+--------
+public TreeNode ()
+   - creates a new FamilyTree (for the children) and initalizes it
+public TreeNode ( String newName)
+   - in addition to creating a new Family Tree, the family member's name
+     is set to the String which is passed in
+public void setName( String newName)
+   - sets the customer's name to the String that is passed in
+public void fillChildren ()
+   - method to fill the children of this node
+public void setNextNode ()
+   - sets the next node to the node that is passed into the method
+public TreeNode getNextNode()
+   - returns the next child node
+public FamilyTree getChildren ()
+   - returns the children list
+public String getName()
+   - returns the family member's name
+public String toString()
+   - returns a String stating the data of this node
+
+############################################################################
+
+Class Communication:
+--------------------
+  This structure is basically a node holding a name and linked list.  Each
+node of that linked also holds a name and linked list.  This structure
+propagates downward making a tree structure.
+
+  The TreeNodes are the "leaves" of the tree.  They hold the name of the
+family member and a linked list of children.  
+
+  The FamilyTree class is a linked list which holds TreeNodes.  This 
+is a list of children of the current node.
+
+  The driver accesses the children nodes by using the root pointer of the
+parent node.
+
+############################################################################
+
+Potential Problems:
+-------------------
+  Instead of having a method to traverse the tree in the driver class,
+maybe there should be a method in the linked list class that traverses
+the children and sends values back to the driver.
+
+############################################################################
+
+Scenario Questions:
+-------------------
+  1) Linked lists will be the main data structure used to hold the data in
+     the n-array tree.  The linked lists will hold nodes which hold linked
+     lists.
+  2) The driver will be responsible for accessing the toString of each node
+     and then printing it.
+  3) One should reuse a FamilyTree list to hold all of the chilren for each
+     node, and not create any new data structures.
+  4) The refrence to the root node is kept in the myFamilyTree instance of
+     the family tree
+

@@ -1,0 +1,274 @@
+/**
+ * CS1502: Design Doc #8
+ *
+ * <PRE>
+ * Fence Game
+ *
+ * Revisions:  1.0  February 27, 1999
+ * </PRE>
+ *
+ * @author <A HREF="mailto:gte187k@prism.gatech.edu">Levi D. Smith</A>
+ * @version Version 1.0, February 27, 1999
+ */
+
+
+class P8 
+
+Class Description:
+------------------
+  This class just starts the program by making a new instance of FenceGame.
+This is supposed to make the program "pluggable."
+
+Constants:
+----------
+
+Instance Variables:
+-------------------
+
+Methods:
+--------
+public P8()
+  - makes a new instance of FenceGame
+public static void main (String argv[])
+  - makes a new instance of P8
+
+
+
+##########################################################################
+
+
+class FenceGame extends frame implements ActionListener, WindowListener
+
+Class Description:
+------------------
+  This class lays out all of the components in the frame, and handles the
+button clicks made by the user.  It also handles the closing of the window
+
+Constants:
+----------
+public static final boolean DEBUG
+  - debug constant
+public static final int WINDOWHEIGHT
+  - the height of the window
+public static final int WINDOWWIDTH
+  - the width of the window
+
+Instance Variables:
+-------------------
+private Dialog winnerDialog
+  - displays the winner of the game
+private Button butRestart
+  - restarts the game
+private TextField txtWhosTurn
+  - displays who's turn it is
+private PlayerMatrix playerOneMatrix
+  - holds the data for player one
+private PlayerMatrix playerTwoMatrix
+  - holds the data for palyer two
+private PlayingField myPlayingField
+  - displays the posts and fences
+
+Methods:
+--------
+public FenceGame()
+  - sets variables and components
+
+public void ActionPerformed(ActionEvent e)
+  - called when the user clicks the reset button, or any other buttons
+    that I decide to add
+
+public void ResetGame()
+  - resets the game
+
+private void quitFenceGame ()
+  -  shuts down the program
+
+public void windowClosed (WindowEvent e)
+  - calls quitFenceGame
+
+  (Copied from my d7.txt)
+  - the next six methods do nothing
+    public void windowActivated (WindowEvent e)
+    public void windowClosing (WindowEvent e)
+    public void windowDeactivated (WindowEvent e)
+    public void windowDeiconified (WindowEvent e)
+    public void windowIconified (WindowEvent e)
+    public void windowOpened (WindowEvent e)
+
+
+##########################################################################
+
+
+class PlayingField extends Canvas implements MouseListener
+
+Class Description:
+------------------
+  This is where all of the fences and posts are drawn.  It obtains it's
+information from the two PlayerMatrix classes.  If I can figure out how
+to use images, I'll use gif files for the posts and fences.  If not, I'll
+use X's, O's, and lines.  MouseListener handles where the user
+clicks, and then a call is made to an instance PlayerMatrix to update the
+data, and then finally the new data is drawn by using paint.
+
+
+
+Constants:
+----------
+(copied from d7.txt)
+public static final boolean DEBUG
+  - debugging constant
+
+Instance Variables:
+-------------------
+private Image redpost
+  - a red post
+private Image bluepost
+  - a blue post
+private Image redfence
+  - a red fence
+private Image bluefence
+  - a blue fence
+
+private PlayerMatrix playerOneMatrix
+  - player one's data
+private PlayerMatrix playerTwoMatrix
+  - player two's data
+
+
+Methods:
+--------
+
+public void paint()
+  - uses loops to go through the playerOneMatrix and playerTwoMatrix and
+    draws the data to the canvas
+
+public mouseClicked()
+  - sends the X/Y coordinate to the PlayerMatrix to be updated
+
+  - these also do not do anything
+    public void mouseEntered(MouseEvent e)
+    public void mouseExited(MouseEvent e)
+    public void mousePressed(MouseEvent e)
+    public void mouseReleased(MouseEvent e)
+
+
+
+##########################################################################
+
+public class PlayerMatrix
+
+Class Description:
+------------------
+  Holds a 2D array and methods to modify the array
+
+Constants:
+----------
+
+Instance Variables:
+-------------------
+private int iRows
+  - the number of rows in the matrix
+private int iCols
+  - the number of columns in the matrix
+
+private Post[] postArray
+  - holds the player's post data
+
+Methods:
+--------
+public PlayerMatrix()
+  - sets up the matrix for playing
+public void addAFence()
+  - adds a fence to the postArray... calls Post and updates that post's data
+public boolean moveIsGood()
+  - checks if the current move is a legal one
+
+##########################################################################
+
+public class Post
+
+Class Description:
+------------------
+  Represents one of the player's posts
+
+Constants:
+----------
+
+Instance Variables:
+-------------------
+boolean fenceUp
+  - is there a fence going up from this post??
+boolean fenceDown
+  - is there a fence going down from this post??
+boolean fenceLeft
+  - is there a fence going left from this post??
+boolean fenceRight
+  - is there a fence going right from this post??
+
+Methods:
+--------
+public void addLeftFence()
+  - adds a fence to the left
+public void addRightFence()
+  - adds a fence to the right
+public void addUpFence()
+  - adds a fence going up
+public void addDownFence()
+  - adds a fence going down
+
+
+##########################################################################
+
+Class Communication:
+--------------------
+  All P8 does is start the program by making a new FenceGame.
+  FenceGame handles all of the button presses and lays out the components.
+It makes new instances of all of the other classes (except P8 of course).
+  PlayingField handles the mouse clicks.  It calls PlayerMatrix and sends
+it the x-y coordinate data when the user clicks on the canvas.  If the
+move the player makes is a valid one, then the PlayerMatrix's data is
+updated and then the canvas is updated.
+  PlayerMatrix holds all of the Post data of one player.  It calls the
+correct Post when PlayingFiled sends it coordinate data.  The Post's data
+is then properly modified.
+  When Post is called, a fence can be added above, below, to the left, or
+to the right of it.
+
+##########################################################################
+
+Potential Problems:
+-------------------
+  More functionality is needed to make this a cool game.  Maybe player
+two should have the ability to destroy some of player one's fences.  Also,
+my design does not include any data structures to keep track of how many
+games each palyer has won.  A high score table would also be nice.  Some
+sound would also bring the game to life.
+  This design does not address any of the extra credit options either.
+I will have to think about how I will implement them.
+
+##########################################################################
+
+Scenario Questions:
+-------------------
+1) Since the board size is small, a 2D array would probably be sufficient
+   to hold the Post and adjency data.  Linked Lists or vectors would probably
+   be more appropriate for a very large game board.
+2) The graph data will be held in a PlayerMatrix class.  Player one's data
+   will be held in one instance of the PayerMatrix class, while Player two's
+   data will be held in another.
+3) Labels: to let the user know what's going on
+   DialogBox:  to let the user know who won the game after someone has won
+   Canvas (extended): to draw the game board
+   Panels:  to hold the canvas, and another to hold the player's info and
+   to tell who's turn it is.
+   Button:  to restart the game
+
+   MouseListener:  will handle the palyer's choice of where to put the fence
+   ActionListener: handles the button presses
+   WindowListener: handles the closing of the window and shutdown
+4) It gets the array data from the two instances of PlayerMatrix.  It then
+   loops through the 2D array, and draws a fence between two posts (using
+   the paint method) if there is supposed to be a fence between two posts.
+5) I would remove the PlayingField canvas class and add a textPlayingField
+   class.  It would not extend Canvas, but instead just simply draw to
+   the console screen using System.out.println statements.

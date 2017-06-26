@@ -1,0 +1,481 @@
+CS 1502: JAVA! Programming Assignment #2 - Winter 1999
+
+Program Title:   For Whom the Array of Bells Toll
+Assigned:        January 9, 1999
+P2 Program Due:  January 22, 1999
+
+Files Provided:
+    o p2.nfo              - this file
+    o p2_70.dat           - sample data for a 70
+    o p2_70.ans           - sample answers for a 70
+    o p2_85.dat           - sample data for an 85
+    o p2_85.ans           - sample answers for an 85
+    o p2_100.dat          - sample data for a 100
+    o p2_100.ans          - sample answers for a 100
+
+Learning Objectives:
+    o Driver writing/coding
+    o Object instantiation
+    o Array instantiation and initialization
+    o 'for' loop iteration
+
+
+GENERAL OVERVIEW:
+========================================================================
+
+Well, now that you've finished the first program, you should have some
+idea how to simulate a toll booth with Java.  But how many times have
+you seen a toll plaza with just one toll booth?  In this program, we
+will implement an administrative system for a collection of toll booths;
+this collection will be held within an array.
+
+By now, you've probably noticed that there is no P2.java file
+distributed with this package.  So, where's the driver?  Actually,
+you're writing it yourself!
+
+    Student: Yippee! Woohoo! Yeeeeeaaaahh! CS1502 rules!
+
+Try to control your excitement while completing this file.  Before you
+start to write the driver, you need to make an additions to the
+TollBooth file you did for P1.
+
+What if you just couldn't get P1 working?  Well, right after P1 is due
+we will release a sample solution on getjob:
+
+    getjob p1.src
+
+Does this mean if you didn't do P1 you should just mooch off of the
+sample answer?  Absolutely not.  You should go to your TA and have him
+or her explain to you what part of the program you didn't understand.
+If you didn't understand the concepts and syntax from P1, you will have
+difficulty writing this program.
+
+If you understood P1, then don't worry.  We'll walk you through P2...
+
+
+PROGRAM WALKTHROUGH:
+=========================================================================
+
+So, let's get the TollBooth class up to spec.  You have a pretty easy
+job to do; all you need to do is add a modifier method to TollBooth.java
+that sets the toll price in the booth.  The header should look like:
+
+    public void setToll ( int newToll )
+
+If you understood P1, this should be a quickie.
+
+Now, let's get to the real business, the driver.  You need to make a new
+file called P2.java.  Its structure will be very similar to P1's driver,
+so you may be more comfortable using the P1 driver as a reference for
+this file.  P2 will have a few of the same methods as p1, but there will
+be a significant number of improvements.
+
+The biggest improvement is the use of an array to hold the toll booths
+in our plaza.  You will need to declare your array in the instance
+variable section of your class so all of the class's methods can access
+it.  An array declaration looks like:
+
+        private Donut[] boxOfDonuts = new Donut [ MAXDONUTS ];
+
+It's a poor idea to hard code the size into the array declaration.  Use
+a constant to specify the maximum elements.  The initial size of our
+array will be 10.  (Note: One may also see the above line of code
+written as:
+
+        private Donut boxOfDonuts[] = new Donut [ MAXDONUTS ];
+
+Both lines are equally legal.)
+
+Also emphasized in this program is array initialization.  This is very
+different from array instantiation.  Instantiating the array, which is
+what the above line of code does, simply declares the array.  Every
+element in the array is initially null, so any attempt to access
+anything in there will result in an error (NullPointerException to be
+specific).  This is why we initialize arrays, which puts a default
+object in each spot in the array, so attempts to access the array will
+not cause the program to die.  We'll talk more about this below.
+
+Let's go through the methods you will need in this class:
+
+Main
+----
+public static void main ( String argv[] ) {
+      P2 myP2 = new P2();
+}
+
+We'll give you this method just to show how much we like you =)  All
+this method does is call the constructor of P2.
+
+
+Constructor
+-----------
+public P2 ()
+
+The declaration of a constructor is identical to a method declaration,
+except it does not have a return value, not even 'void'.  The
+constructor itself should do two things:
+
+        1) initialize the array of toll booths
+        2) call the main menu method
+
+Constructors are usually very simple, and this case is no exception.
+
+
+InitArray
+---------
+private void initArray ( TollBooth[] plaza )
+
+This method should take in an array of TollBooths, and _initialize_ each
+element in the array to a 'default' TollBooth.  We will make them
+default TollBooths by initializing them with 999 as the ID and the toll
+price.  Do NOT initialize the _instance variable_ array; initialize the
+array's contents that is passed into the method.
+
+Because of this, remember that you cannot be sure that the array passed
+in has a length equal to the constant you declared.  Use .length to get
+the size of the passed-in array for use in your 'for' loop.  For the
+donut example above, this 'for' loop may look like:
+
+    for (int i = 0; i < boxOfDonuts.length; i++) {
+        // do something here
+    }
+
+Note how .length is *not* a method call.
+
+
+Main Menu
+---------
+private void mainMenu ()
+
+This is the menu system, which is a loop much like the mainMenu () from
+P1.  You probably didn't look much at the mainMenu () method from the
+first program because you didn't have to edit it, but it is certainly
+worth your time to go back and look at it now.
+
+Here's what the method should do:
+
+  1) Print out the following introduction:
+
+                    Welcome to Winter 99 Program 2
+                    ------------------------------
+
+  2) Print a blank line ( System.out.println("") ) and then:
+
+          Choose a TollBooth ID from 0 to 9
+
+     where the number 9 is the maximum index in the array (note this is
+     one less than the .length of the array, since arrays start indexing
+     from zero).
+
+  3) Read input from the user as to which TollBooth to play with.  Use
+     the following code to read in an int and assign it to a temporary
+     variable someIntValue:
+
+          int someIntValue = util.readInteger().intValue();
+
+  4) If the user's input is an index in the array where there is a
+     'default' TollBooth, then create a new TollBooth there with the ID
+     equal to the index number and a toll cost equal to 50.  Remember
+     that 50 should not be hard coded into your program except as a
+     constant.  If you are creating a new TollBooth, print the line:
+
+        New booth created at 0
+
+     Where '0' is the index of the booth.  After the new TollBooth is
+     made, proceed to step 5.
+
+     If the index is larger than the largest index, then choose the
+     largest index.  If the index is less than the lowest index (i.e.,
+     less than zero), choose the index 0.
+
+     Using the possibly re-assigned index, check if the index in the
+     array is where a non-default TollBooth already exists, then just go
+     straight to step 5.
+
+  5) Print the following:
+
+         Choose an option for TollBooth 8:
+         (1) Simulate Car at TollBooth
+         (2) Print Status of TollBooth
+         (3) Print Total Quarters
+         (4) Print Total Nickels
+         (5) Change Toll Cost
+         (6) Increase Tollplaza Size
+         (0) Quit
+
+     Where '8' is replaced with the index the user chose a second ago.
+     If the user chose a number below 0 or above the maximum, this
+     number should be 0 or the maximum, respectively.
+
+  6) Read the user's menu choice just like before.
+
+  7) Each choice corresponds to a method.  Use if/else statements to
+     call the appropriate method.
+
+         1 -  simulate( index )
+         2 -  printString ( index )
+         3 -  printTotalQ ()
+         4 -  printTotalN ()
+         5 -  changeToll ()
+         6 -  changePlazaSize ()
+         0 -  System.exit ( 0 );  // ends the program
+
+  8) After the method completes, loop back to step 2.  This means the
+     "welcome" message only gets printed once.
+
+
+Print String
+------------
+private void printString( int ID )
+
+Again, almost identical to P1, except prints the toString of the element
+at index ID.  Notice by doing
+
+          System.out.println ( myObject );
+
+it calls and prints the toString () of myObject automatically.
+
+
+Simulate
+--------
+private void simulate ( int ID )
+
+Almost identical to the P1 simulate method, except it calls the
+makeChange methods on the TollBooth at index ID.  The outputs should be
+exactly the same.
+
+
+Print Total Quarters
+--------------------
+private void printTotalQ ()
+
+This method will go through each TollBooth in the array, IGNORING the
+default ones, add up all of the quarters each has left, and return the
+total.  So if you had two TollBooth's with 50 quarters each, the
+response would be 100.  Use the following format to match up with the
+.ans files:
+
+     Total Quarters: 100
+
+
+Print Total Nickels
+-------------------
+private void printTotalN ()
+
+Exactly the same as printTotalQ (), except totals all of the nickels
+each TollBooth has left.  Format:
+
+     Total Nickels: 100
+
+
+Change Toll
+-----------
+private void changeToll ()
+
+This method goes through every TollBooth in the array that is NOT a
+default TollBooth, and uses your new setToll () method to set the Toll
+to a new amount.  The new amount is input after prompting the user:
+
+      What is the new toll?
+
+Use the standard way to read an int, and set the toll for each AND EVERY
+TollBooth to that number.  Note that this only effects tolls already in
+existance; ones created later still default to a cost of 50 cents.
+
+
+Change Plaza Size
+-----------------
+private void changePlazaSize ()
+
+Here's the fun method.  This method will increase the size of the plaza
+to a new number of booths.
+
+First, it asks for the new size of the plaza:
+
+      What is the new size?
+
+Use the standard way to read an int and get the new size.  ONLY if the
+new size is equal to or greater than the old size, proceed to change the
+size of the plaza.  If the number is less, DO NOT DO ANYTHING.
+
+Changing the size of the TollBooth array is impossible.  An array is a
+STATIC data structure (so it cannot be changed in size after it is
+created).  So to change its size, we will use a trick.
+
+You will need to create a new array with the new size.  Send it to the
+initArray () method to get initialized to all default TollBooths.  Then,
+use a loop to copy each TollBooth from the old array to the new array at
+the corresponding indices.  See why we did not want the new size to be
+less; some of the TollBooths would get cut off!  Think of the
+Toll-Workers Union issues we would have to deal with!
+
+After the new array has all of the old array's information, use the
+assignment operator to copy the new array to the old one:
+
+       oldArray = newArray;
+
+Do not use the bracket notation when doing this operation. This is
+because we are copying the array reference itself, not any particular
+element.
+
+
+HINTS AND TIPS:
+========================================================================
+
+DEBUG
+-----
+Debugging (finding programming boo-boo's) is a tough problem, even for
+experienced programmers.  But simple little tricks like a DEBUG flag can
+be of ENORMOUS use.  Here's what you do:
+
+First, declare a constant at the top of the file:
+
+    private static final boolean DEBUG = true;
+
+Then, drop lines like the following in your code at critical points:
+
+    if (DEBUG) System.out.println ( "My variable is now " + myVar );
+
+Since booleans are inherently true or false anyways, there is no need to
+formally say (DEBUG==true), though it does not hurt.  Don't feel
+embarrassed to use this extensively.  This is considered one of the most
+useful ways to find bugs.
+
+Remember to set your DEBUG flag to false to check your outputs with FC
+or DIFF, and certainly before you turn your code in.
+
+I REPEAT:  TURN DEBUG OFF BEFORE TURNING YOUR CODE IN.
+
+From this point onward in CS1502 programs, you are required to use
+if(DEBUG) code at least a few times (hopefully more) per assignment.
+
+UTIL Error
+----------
+If you're getting errors about an unknown variable named "util", make
+sure you have a copy of util.java in the same directory as your P2.java.
+
+DAT/ANS Files
+-------------
+We have included some more DAT and ANS files for your testing
+convenience.  Here is how you use FC in case you don't remember:
+
+   java P2 < p2_70.dat > my_70.out
+   fc /w /c p2_70.ans my_70.out
+
+DIFF, for Unix people, has the same style as FC:
+
+   diff -i -b -B p2_70.ans my_70.out
+
+Remember that getting output that matches ours does not guarantee that
+you will get a 70, 85, or 100, it just means you _probably_ got things
+right.
+
+Feel free to make your own DAT/ANS files to do more extensive testing.
+
+Comments
+--------
+Simply put, if you do not comment your code, we will bring wrath upon
+your program grade.  Well, maybe not 'wrath', but it won't be pretty.
+
+Each method should have a header similar to the comments from P1's code,
+each instance variable should be commented, and any code that is not
+obvious should be explained briefly in a comment.
+
+This is the program where we start taking the "Programming Style" part
+of the Requirements section _seriously_.
+
+
+COMPILERS:
+========================================================================
+
+As a reminder, assure that your program compiles and runs as expected
+under Sun's JDK 1.1.7.  This is the officially supported platform of
+CS1502, and though other implementations of Java may give the same
+results, the Sun JDK is what your program will be graded with.
+
+
+EXTRA CREDIT:
+========================================================================
+
+Sorry, no extra credit is available for this assignment.
+
+
+REQUIREMENT CHECK LIST:
+========================================================================
+
+IMPLEMENTATION:
+
+   For 42/60 (70%)
+     - Compiles with Sun JDK 1.1.7
+     - setToll () completed and working
+     - constructor and main () completed and working
+     - initArray () completed and working
+     - mainMenu () completed and working
+     - program starts and displays booth choice and main menu
+     - printString () completed and working
+     - fc's with p2_70.ans
+
+   For 51/60 (85%): Everything for 70%, plus
+     - simulate () completed and working
+     - printTotalQ () and printTotalN () completed and working
+     - changeToll () completed and working
+     - fc's with p2_85.ans
+
+   For 60/60 (100%): Everything for 85%, plus:
+     - changePlazaSize () completed and working
+     - fc's with p2_100.ans
+
+PROGRAMMING STYLE:
+
+   0.  Software Documentation
+       -code easy to read and understand
+       -included correct header on  .java containing ID
+        information
+       -DEBUG code implemented
+
+   1.  Java-doc Style Header Documentation
+       -every method (including constructors) has a
+        description documented above the method header,
+	including pre- and post-conditions
+       -every method has an @param tag for each
+        parameter passed in, describing that parameter
+       -every method has an @return tag for
+        the return type, describing what's returned
+
+   2.  Internal Documentation
+       -inline code documentation on non-obvious code
+        segments
+
+   3.  Coding Style
+       -variable and constant names meaningful
+       -variable and constant declarations documented
+
+   4.  Modularity, Abstraction, and Encapsulation
+       -minimal duplication of code/behavior
+       -no direct access to instance variables
+        except within the class where they reside
+       -uses constants rather than hard-wiring values
+       -appropriate method modifiers
+        (public, private, protected, abstract, et al)
+
+
+TURNIN:
+========================================================================
+
+        o  Files to be turned in (Be sure to ftp the files in ascii):
+
+           P2.java
+           TollBooth.java
+
+        o  Files NOT to turn in (You shouldn't have altered these, so we
+           already have them.):
+
+           util.java
+           *.dat
+           *.ans
+
+        o  How to turnin:
+                o  "workon cs1502"
+                o  "turnin p2 P2.java TollBooth.java"
+                o  Do "getback p2" to ensure that your project was
+                   received correctly.

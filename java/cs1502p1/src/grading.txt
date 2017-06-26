@@ -1,0 +1,80 @@
+CS1502 Program Grading Policy
+Updated 21 December 1998 by Jason Tang (tang@cc.gatech.edu)
+
+CS1502 Programs are graded based upon two criteria -- implementation
+(60%) and programming style (40%).  The implementation requirements vary
+between each program, whereas the same programming style rules apply to
+each and every assignment.  Basically, here are what the TAs are looking
+for when grading:
+
+
+Implementation (60%)
+--------------------
+
+The implementation grade is determined based upon how well the program
+successfully completes the requirements.  Each program has three
+distinct implementation levels: a 'C' level (worth 70% of
+implementation, or 42% of the overall grade), a 'B' level (85% of
+implementation, 51% overall), and an 'A' level (100% of implementation,
+60% overall).  THE STUDENT MUST GET ALL POINTS OF ONE LEVEL BEFORE
+ADVANCING TO THE NEXT.  That means to get any points in the 85% section,
+the student must not have made any mistakes in the previous 70% part.
+If there are exceptions to this incremental grading system for a given
+program, they will be noted in the grading criteria.  Else, unless
+explicitly specified, assume this rule.  In addition, NO extra credit
+will be awarded unless ALL 60 points were earned (again, any exceptions
+noted).
+
+This "incremental grading" scheme may seem harsh, but it does have a
+purpose.  Students should not worry about fancy graphics, sounds, or
+other bells and whistles; instead they should concentrate on the actual
+problem at hand.  Another benefit is that it provides a strong hint as
+to which modules to write first.
+
+A program that does NOT compile automatically gets a zero in
+implementation.  There is no excuse for turning in non-functioning code.
+
+Each program's info file dutifully lists implementation requirements.
+
+
+Programming Style (40%)
+-----------------------
+
+Students may earn up to 40 points on programming style.  This forms the
+"subjective" portion of the program; even a non-functioning program may
+get style points.  Likewise, if the best working program has sloppy
+code, expect little to no style points.  The grade does not include any
+TA supplied code.  Points break down as follows.
+
+Software Documentation (10 points)
+Students must practice good software engineering.  This means (1) the
+code must be easy to read and understand; this includes proper
+indentation.  (2) All submitted materials must include the student's
+names.  For *.java files, place ID information at the top; for other
+files, create a README with appropriate data.  (3) DEBUG type code must
+exist, either (or both) in the form of DEBUG statements and DEBUG mains.
+
+Java-doc Style Header Documentation (10 Points)
+All constructors and methods must include documentation.  Above the
+method header, have a description of that module.  Mention pre- and
+post-conditions.  Describe any parameters.  If it returns a value, tell
+what it represents.
+
+Internal Documentation (5 Points)
+If a module has complex algorithms and/or non-obvious code segments,
+document it.  The comment does not need to be overwhelming, but enough
+such that a third person may pick it up and after a few minutes of
+studying, may readily understand it.
+
+Coding Style (5 Points)
+Poor nomenclature is one indicator of sloppy coding.  Thus, TAs will
+penalize for non-meaningful variable, constant, and module names.  In
+addition, document variable and constant declarations.
+
+Modularity, Abstraction, and Encapsulation (10 Points)
+This forms the catch-all category for programming style.  Strive for
+minimal duplication of code and behavior.  Avoid direct access to
+instance variables unless needed.  (Another words, public variables is a
+big no-no.)  Have constants rather than "magic numbers" (i.e.,
+hard-wired values).  Demonstrate object-oriented thinking by using
+inheritance, composition, and abstraction as needed.

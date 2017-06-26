@@ -1,0 +1,248 @@
+/**
+ * CS1502: Design Doc #7
+ *
+ * <PRE>
+ * Star Viewer
+ *
+ * Revisions:  1.0  February 20, 1999
+ * </PRE>
+ *
+ * @author <A HREF="mailto:gte187k@prism.gatech.edu">Levi D. Smith</A>
+ * @version Version 1.0, February 20, 1999
+ */
+
+class P7 extends frame implements ActionListener, WindowListener,
+  ItemListener
+
+Class Description:
+------------------
+The driver of the program.  It sets up the frame and the components in it.
+It listens for events and responds to them by calling the appropriate
+methods.
+
+Constants:
+----------
+public static final boolean DEBUG
+  - debug constant
+public static final int WINDOWHEIGHT
+  - the window height
+public static final int WINDOWWIDTH
+  - the window width
+public static final Font MYFONT
+  - the font to be used by the components
+public static final Color FGCOLOR, BGCOLOR, BUTCOLOR
+  - the color of the foreground, background, and the buttons
+
+Instance Variables:
+-------------------
+Button butDirUp, butDirDown, butDirLeft, butDirRight, butZoomIn, butZoomOut,
+  butOptions, butLoad;
+  - the various buttons on the control panel.  the function of each button
+    should be apparent by the name.
+CheckboxGroup nameToggle, linesToggle;
+  - the group of radio buttons for the names and lines
+TextField txtZoomPercent
+  - the current zoom factor
+
+int iZoom;
+  - the current zoom ratio
+int iScrollFactor
+  - the factor by which the screen scrolls
+int iZoomFactor
+  - the factor by which the screen zooms in and out
+boolean namesShowing
+  - are the names showing??
+boolean linesShowing
+  - are the lines showing
+
+
+Methods:
+--------
+public P7()
+  - constructor: makes the frame, sets components, makes panels, sets
+    components in the panels, and sets the instance variables.
+
+public setComponent (Component compName)
+  - sets the component passed in
+
+public void actionPerformed (ActionEvent e)
+  - appropriately handles the user's action
+
+public void setZoom(int iDifference)
+  - resets the zoom... adds iDifference to the current zoom
+
+private void quitP7 ()
+  - hides the window and kills the program
+
+public static void main (String argv[])
+  - makes a new P7
+
+public void windowClosed (WindowEvent e)
+  - calls quitP7
+
+  - the next six methods do nothing
+    public void windowActivated (WindowEvent e)
+    public void windowClosing (WindowEvent e)
+    public void windowDeactivated (WindowEvent e)
+    public void windowDeiconified (WindowEvent e)
+    public void windowIconified (WindowEvent e)
+    public void windowOpened (WindowEvent e)
+
+
+##########################################################################
+
+
+class StarCanvas extends Canvas
+
+Class Description:
+------------------
+Draws the stars to itself, and redraws whenever the driver calls user
+performs an action in the driver.
+
+
+Constants:
+----------
+public static final boolean DEBUG
+  - debugging constant
+
+Instance Variables:
+-------------------
+Vector starVector
+  - the vector which contains all of the star data
+private int xOffset
+  - the positioning off of the x-axis
+private int yOffset
+  - the position off the y-axis
+
+Methods:
+--------
+public StarCanvas()
+  - calls super's constructor, sets the colors, and calls getStars()
+public void getStars()
+  - opens up the .dat file and stores all of the information in a Vector
+public void change xOffset()
+  - adds/subtracts from the xOffset
+public void change yOffset()
+  - adds/subtracts from the yOffset
+public void paint()
+  - draws all of the stars to the canvas
+
+
+
+
+##########################################################################
+
+class OptionDialog extends Dialog implements ActionListener, WindowListener
+
+Class Description:
+------------------
+  A dialog box with options the user can choose from, such as changing the
+zoom/scroll factor, colors, etc. (options not specified by the .nfo file)
+
+Constants:
+----------
+public static final boolean DEBUG
+  - sets debugging
+
+Instance Variables:
+-------------------
+Button Okay
+  - closes the dialog and saves changes
+Button Cancel
+  - closes the dialog and does not save changes
+TextField txtScrollFactor, txtZoomFactor
+  - user enters the new factors here
+Choice colorChoices
+  - a dropdown list of color choices
+
+Methods:
+--------
+public OptionDialog(int icurrentZoomFactor, int icurrentScrollFactor, Frame
+  parentFrame)
+  - calls super, sets components, and adds a windowlistener to itself
+
+
+public void actionPerformed (ActionEvent e)
+  - handles the user's action in the dialog box
+
+
+private void quitOptionDialog ()
+  - kills the dialog box
+
+public void windowClosed (WindowEvent e)
+  - calls quitOptionDialog method
+
+  - the next six methods do nothing (copied from top part)
+    public void windowActivated (WindowEvent e)
+    public void windowClosing (WindowEvent e)
+    public void windowDeactivated (WindowEvent e)
+    public void windowDeiconified (WindowEvent e)
+    public void windowIconified (WindowEvent e)
+    public void windowOpened (WindowEvent e)
+
+
+##########################################################################
+
+
+Class Communication:
+--------------------
+  StarCanvas gets the star data from the file, and paints the stars to the
+canvas.  It is called whenever the user changes the display.
+  P7 is the driver of the program.  It handles all of the actions performed
+by the user.  The NORTH area contains four panels: Directional buttons,
+Zoom buttons, radio buttons (name and line toggles), and a fourth panel
+to hold the load and options buttons (plus buttons to any extra features I
+decide to add).  When the user uses the directional buttons, a call is made
+to the StarCanvas to repaint the canvas appropriately.  Same goes for the
+zoom and toggle buttons.  When the user clicks the load button, the
+StarCanvas loads a new dat file and draws it.  Clicking the Options button
+makes a call to the instance of OptionsDialog.  The CENTER area contains
+the StarCanvas and displays the visual representation of the stars.
+  OptionsDialog contains many fine tuning features of the Star Viewer
+program, such as the Zoom factor, Scroll factors, Star color, and any
+other extra features I have time to add.  It might not appear in the final
+program... only if I have enough time to implement the extra features (but
+they shouldn't be too hard to implement).
+
+
+##########################################################################
+
+Potential Problems:
+-------------------
+  I need some sort of divider between my Directional buttons panel,
+Zoom buttons panel, and radio buttons panel in the NORTH area.  It
+appears to be one big mess running together.  I posted this to the
+newsgroup and they said I needed to use a lightweight component, but I can't
+find any information on lightweight components anywhere.
+  I am using radio buttons to control the toggles.  I thought this made
+it more apparent to the user what was going on.  On the downside, the
+radio buttons take up more space, so maybe a regular button would have been
+more appropriate.
+  I also wish I could use custom made buttons from gif files.  I suppose
+they would be more trouble to handle than they would be worth.
+
+##########################################################################
+
+Scenario Questions:
+-------------------
+1) As shown in my design, there are four buttons (butDirUp, butDirDown,
+   butDirLeft, and butDirRight) to control the scrolling.  I suppose I
+   could have used scrollbars, but I thought they would have been too
+   much of a hassle.
+
+2) I suppose I could use an N-ary tree from P4 to hold the star data,
+   but I will probably use a vector since I am more comfortable using them
+   now.
+
+3) The user presses left.  StarCanvas is called and xOffset is decreased by
+   iScrollFactor pixels.  The canvas is then repainted to fit to the new
+   specifications.  A FOR loop is used in the paint method to go through
+   the starVector and paint each star according to each elements x / y
+   coordinates (plus/minus the x/yOffset)
+
+
+4) I could have a dialog box that says "Click on <starname>".  When it user
+   clicks a star on the cavas, the dialog box could display "correct" or
+   "try again."  It could keep track of how many the user has answered
+   correctly and incorrectly
+   

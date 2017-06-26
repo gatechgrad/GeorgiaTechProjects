@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0071)http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project2/proj2.html -->
+<HTML><HEAD><TITLE>Project 2</TITLE>
+<META content="text/html; charset=iso-8859-1" http-equiv=Content-Type>
+<META content="MSHTML 5.00.2919.6307" name=GENERATOR></HEAD>
+<BODY>
+<H1>CS 2200 - Fall Semester 1999</H1><B>Programming Assignment II (Scheduler and 
+Paging Daemon)</B> <BR><B>Posted: September 16, 1999</B> <BR><B>Due: Midnight, 
+Friday, October 8, 1999</B> 
+<P><B>Learning Outcome:</B> 
+<P>The learning outcome intended through this project is to give you the 
+confidence in building pieces of the operating system. Specifically, you will 
+write a process scheduler that manages the processor resource, and a paging 
+daemon that manages the available physical memory in the computer. 
+<P><B>We provide:</B> 
+<P>To make this doable in the given timeframe, we will provide you the 
+following. 
+<UL>
+  <LI>A simulated processor that has the following resources visible to the OS: 
+  <OL>
+    <LI>R[0..7] - a register-file with 8 elements 
+    <LI>PC - a program counter The processor interface to the OS for starting a 
+    program is: proc_START(address); This will result in the processor setting 
+    PC to the value specified by "address" and starting the program at that 
+    address. 
+    <LI>PTR - a register that contains the address of the page-table for the 
+    currently running process. 
+    <LI>VPN - a register that contains the virtual page number of the faulting 
+    address. 
+    <LI>PHYSICAL_MEM - a set of 20 physical memory frames 
+    <LI>VIRTUAL MEM - a set of 100 virtual memory frames available for each 
+    process 
+    <LI>The processor catches two types of exceptions: PAGE-FAULT and TIMER. The 
+    OS can ask to be interrupted upon these exceptions by specifying handlers to 
+    the processor. The interface to the OS provided by the processor for 
+    installing exception handler is: proc_INSTALL_HANDLER(handle, 
+    EXCEPTION-TYPE) Upon an exception the associated handler will be called by 
+    the processor. </LI></OL>The header file <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project2/provided/proc_processor.h">proc_processor.h</A> 
+  gives the interface provided by the processor to the operating system. 
+  <LI>The set of application processes that need to be scheduled on the 
+  processor and their behavior. Each process is described by the initial values 
+  to be loaded into the registers R[0..7], the entry-point address where process 
+  execution begins, and the address of the page table for this process. 
+</LI></UL>The processor functionality and the application processes will be 
+implemented as a library (see the <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project2/provided/makefile.txt">Makefile 
+</A>) that should be linked in with the code you implement. 
+<P><B>You Implement the following pieces of the operating system:</B> 
+<UL>
+  <LI><I>A round-robin scheduler:</I> <BR>&nbsp; 
+  <P> <BR>&nbsp; <BR>&nbsp; 
+  <P>This is used to schedule the set of processes on the processor. At the 
+  start of the program you will read in a configuration file which will have the 
+  format shown <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project2/config.txt">here</A> 
+  and do the initial set-up for the processes specified in the configuration 
+  file. There will be one line for each process in the config file. Each entry 
+  gives the name of the process, the address of the entry point procedure for 
+  the process, and the values to be loaded into the processor registers R[0..7]. 
+  Also at program startup you will install the handlers for the two exceptions 
+  handled by the processor using the proc_INSTALL_HANDLER call defined in the <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project2/provided/proc_processor.h">proc_processor.h 
+  </A>header file. 
+  <P><I>Data Structures: </I>You will maintain a (process context block) PCB for 
+  each process that contains the state of the process: the values of the 
+  processor registers, the PC, and the address of the page table for this 
+  process. You will construct a "ready queue" for the processes for scheduling 
+  them on the processor. 
+  <P><I>Scheduler routine: </I>Upon timer expired exception, you will save the 
+  context of the currently scheduled process, and enqueue it at the tail of the 
+  ready queue. Then select the process at the head of the queue and dispatch it 
+  on the processor. </P>
+  <LI><I>A paging system:</I> <BR>&nbsp; 
+  <P> <BR>&nbsp; <BR>&nbsp; 
+  <P><I>Data structures: </I>For each process you will maintain a page-table as 
+  an array of page-table entries indexed by the virtual page number. The 
+  structure of each entry in the page table is given in the header file <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project2/provided/os_pte.h">os_pte.h 
+  </A>. Also, you will maitain a global pool of free physical memory frames. 
+  <P><I>Paging routines: </I>Upon a page fault exception, you will obtain a free 
+  physical memory frame and assign it to the faulting virtual page. If there are 
+  no free physical frames then you will evict a physical frame and assign it to 
+  the faulting address. The victim page will be chosen at random. If the chosen 
+  page happens to be dirty, then it has to be written back to disk. The header 
+  file <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project2/provided/util.h">util.h</A> 
+  gives you the prototypes for two functions the library provides for saving and 
+  loading pages: 
+  <UL>
+    <LI>savePageToDisk and 
+    <LI>loadPageFromDisk </LI></UL>
+  <LI><I>Dispatcher: </I>Once a process has been selected by your scheduler, the 
+  dispatcher loads the context of the selected process into the processor and 
+  starts execution of the process by calling proc_START function defined in the 
+  <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project2/provided/proc_processor.h">proc_processor.h</A> 
+  header file. </LI></UL><B>Making the executable for your project:</B> 
+<P>You are given the <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project2/provided/makefile.txt">Makefile 
+</A>which you can use to make your executable object file for the project. You 
+must also obtain the <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project2/provided/index.html">library 
+and other goodies</A> needed for building your project. 
+<P><B>What to turnin?</B> 
+<UL>
+  <LI>Your scheduler and paging Daemon should store a log file of their 
+  activity. The format of the Log file for the scheduler may look something like 
+  <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project2/sched-log.txt">this</A>. 
+  Each entry gives the name and register values of the process being preempted, 
+  the name and register values for the process selected to be scheduled next, 
+  and the size of the ready queue. <BR>&nbsp; 
+  <P> <BR>&nbsp; <BR>&nbsp; 
+  <P>The format of the Log file for the paging daemon may look something like <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project2/paging-log.txt">this</A>. 
+  Each entry gives the name of the faulting process, the VPN of the faulting 
+  address, the victim page selected, whether the victim page was from free pool 
+  or stolen from another process, and the state of the page (dirty or clean). 
+  <P>You should turnin these <B>logs</B> and your <B>source code</B> for the 
+  project.</P></LI></UL><B>How to turnin?</B> 
+<P>You can turn in your projects using the<A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/turnin.html"> Workon 
+facility</A>. 
+<P><B>Extra Credit:</B> 
+<P>All extra credit will be treated separately and not added to the total score. 
+
+<UL>
+  <LI><I>Approximate LRU algorithm for Page replacement: </I>You will implement 
+  an approximate "least recently used" algorithm for determining the victim 
+  page. To do this, you will use the reference bits associated with each 
+  physical page frame. This bit is set by the processor whenever the associated 
+  page frame is accessed. A processor instruction "proc_clear_reference_bit" is 
+  available to clear the reference bit associated with a particular page frame. 
+  This function is described in the <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project2/provided/proc_processor.h">proc_processor.h</A> 
+  header file. You can see Chapter 9.5 of S&amp;G textbook for ideas on 
+  approximate LRU algorithms. </LI></UL><B><A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project2/grading-policy.html">Grading 
+Policy</A></B> </BODY></HTML>

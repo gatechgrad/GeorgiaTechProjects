@@ -1,0 +1,226 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0071)http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project4/proj4.html -->
+<HTML><HEAD><TITLE>Project 4</TITLE>
+<META content="text/html; charset=iso-8859-1" http-equiv=Content-Type>
+<META content="MSHTML 5.00.2919.6307" name=GENERATOR></HEAD>
+<BODY>
+<H1>CS 2200 - Fall Semester 1999</H1><B>Programming Assignment IV (Multithreaded 
+OS)</B> <BR><B>Posted: October 31, 1999</B> <BR><B>Due: Midnight, Friday, 
+November 19, 1999</B> 
+<P><B>Learning Outcome:</B> 
+<P>The learning outcome intended through this project is to give you a feel for 
+building a multi-threaded OS that does CPU and I/O scheduling. Specifically, you 
+will write a <I>non-preemptive CPU scheduler </I>that manages a <I>CPU </I>, and 
+an <I>I/O scheduler </I>that manages an <I>I/O processor</I>. You will implement 
+each of these schedulers as a <B>pthread </B>to get familiarity with the pthread 
+library available on most Unix operating systems. 
+<P><B>Description:</B> 
+<P>There are three major components that complete this project: <B>application 
+processes </B>, <B>OS </B>, and <B>hardware </B>. We will provide the first and 
+third components and you do the second component. Take a look at the <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project4/proj4-pix.GIF">interaction 
+picture</A> to see how the components fit together. The center-piece of this 
+picture (shaded portion) is what you are responsible for in this project. An 
+application process alternates between computing on the CPU and making 
+<B>blocking </B>system calls to the OS for I/O operation. You have to write the 
+OS that (a) schedules these application processes on the CPU, (b) responds to an 
+OS_CALL from the process that is currently scheduled on the CPU, (c) schedules 
+the requested I/O on the I/O processor (IOP), and (d) handles I/O completion 
+interrupt from the hardware. 
+<P><B>We provide:</B> 
+<P>To make this doable in the given timeframe, we will provide you the 
+following. 
+<UL>
+  <LI><B>CPU </B>: <BR>This is a simplified version of the processor that you 
+  were given in Project 2. A simulated processor that has the following 
+  resources visible to the OS: 
+  <OL>
+    <LI>R[0..7] - a register-file with 8 elements 
+    <LI>PC - a program counter The processor interface to the OS for starting a 
+    program is: proc_START(address); This will result in the processor setting 
+    PC to the value specified by "address" and starting the program at that 
+    address. 
+    <LI>The CPU catches one interrupt: I/O-COMPLETION. The OS can ask to be 
+    interrupted upon this exception by specifying a handler to the processor. 
+    The interface to the OS provided by the processor for installing exception 
+    handler is: proc_INSTALL_HANDLER(EXCEPTION-TYPE, handle) Upon an exception 
+    the associated handler will be called by the processor. </LI></OL>The header 
+  file <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project4/provided/cpu.h">cpu.h</A> 
+  gives the interface provided by the CPU to the operating system. 
+  <LI><B>I/O processor </B>: <BR>A simulated I/O processor that performs I/O 
+  when instructed by the OS. The I/O processor has the following resources: 
+  <OL>
+    <LI>IOP_CMD - a command register that can be set to one of IOP_READ or 
+    IOP_WRITE. 
+    <LI>IOP_DATA - a register that contains the data read if the command is a 
+    IOP_READ operation; if the command is a IOP_WRITE then this register 
+    contains the data to be written to the device. 
+    <LI>IOP_STATUS - a status register that contains the completion status of 
+    the command issued to the I/O processor. This will be one of IOP_SUCCESS or 
+    IOP_FAILURE. </LI></OL>The interface provided by the I/O processor to the OS 
+  for starting an I/O operation is: iop_START(). This should be called by the OS 
+  after the above resources have been set. The I/O processor raises the 
+  I/O-COMPLETION interrupt upon completion of the I/O operation which is caught 
+  by the CPU and delivered to the OS via the handler installed by the OS. The 
+  header file <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project4/provided/iop.h">iop.h</A> 
+  gives the interface provided by the CPU to the operating system. 
+  <LI><B>A set of Applications </B>: <BR>The set of applications that need to be 
+  scheduled on the CPU and their behavior. Each process is described by the 
+  initial values to be loaded into the registers R[0..7], and the entry-point 
+  address where process execution begins. Each application computes for a while 
+  and makes an I/O call. Upon an I/O call the I/O command is given in R[6]. If 
+  the command is IOP_READ then the data from the device is expected in R[7]. If 
+  the command is a IOP_WRITE then the data to be written is in R[7]. The 
+  application expects the completion status of the I/O command issued in 
+  R[5].</LI></UL>The CPU and the I/O processor functionality, and the applications 
+will be implemented as a library (see the <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project4/provided/makefile.txt">Makefile 
+</A>) that should be linked in with the code you implement. 
+<P><B>You Implement the following pieces of the operating system:</B> 
+<UL>
+  <LI><I>OS_CALL() </I>: This is a blocking system call that will be called by 
+  the application to indicate to the OS that it wants to do an I/O operation. 
+  The application will set R[6] and R[7] as described above. The success or 
+  failure of the I/O operation will be returned in R[5] when this process is 
+  resumed on the CPU. You will provide this entry point as part of your OS, and 
+  do the necessary actions for CPU and I/O scheduling as described below. 
+  <LI><I>Main Program </I>: At the start, the <I>main program </I>to be written 
+  by you will read in a configuration file which will have the format shown <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project4/config.txt">here</A> 
+  and do the initial set-up for the processes specified in the configuration 
+  file. There will be one line for each process in the config file. Each entry 
+  gives the name of the process, the address of the entry point procedure for 
+  the process, and the values to be loaded into the processor registers R[0..7]. 
+  Also at program startup you will install the handler for the I/O-COMPLETION 
+  interrupt handled by the CPU using the proc_INSTALL_HANDLER call defined in 
+  the <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project4/provided/cpu.h">cpu.h 
+  </A>header file. <BR>After this initial set up, the main program will create 
+  two <I>pthreads </I>that represent the CPU scheduler and the I/O scheduler 
+  respectively. 
+  <LI><I>A non-preemptive CPU scheduler:</I> This will be implemented as a 
+  <I>pthread </I>. This is used to schedule the set of applications on the CPU. 
+  <BR><I>Data Structures: </I>You will maintain a (process context block) PCB 
+  for each application that contains the state of the process: the values of the 
+  processor registers, and the PC. You will construct a "CPU ready queue" for 
+  the processes for scheduling them on the processor. You will also keep a 
+  "DEVICE queue" for the processes that need to perform I/O action. <BR><I>CPU 
+  Scheduler routine: </I>Upon an OS_CALL from the application, the scheduler 
+  will save the context of the currently scheduled process, dequeue it from the 
+  CPU ready queue, and place it at the end of the DEVICE queue. It will then 
+  signal the I/O scheduler to indicate that there is work for the I/O scheduler 
+  to do (see the <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project4/proj4-pix.GIF">interaction 
+  picture</A>). The CPU scheduler will then select the process at the head of 
+  the CPU ready queue and dispatch it on the CPU. If the CPU ready queue is 
+  empty then the CPU scheduler will await a signal from the I/O scheduler. 
+  <LI><I>I/O scheduler:</I> <BR>This will also be implemented as a <I>pthread 
+  </I>. This is a FCFS scheduler that does one I/O operation at a time. It takes 
+  the process at the head of the DEVICE queue, and calls the <I>iop_START 
+  </I>function on behalf of this process. This will also provide the handler 
+  code for dealing with I/O-COMPLETION interrupt. If the DEVICE queue is empty 
+  then the I/O scheduler will await a signal from the CPU scheduler (see the <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project4/proj4-pix.GIF">interaction 
+  picture</A>). 
+  <LI><I>I/O-COMPLETION interrupt handler </I>: Since the I/O scheduler does one 
+  operation at a time, the interrupt will always signal the completion of the 
+  I/O initiated on behalf of the first process in the DEVICE queue. Upon I/O 
+  completion (indicated by the I/O-COMPLETION interrupt), the handler will stash 
+  the IOP_DATA from the device (if it is a IOP_READ operation), and the 
+  IOP_STATUS from the device into the PCB of the process at the head of the 
+  DEVICE queue. It will then move this PCB to the tail of the CPU ready queue 
+  and signal the CPU scheduler to indicate that it has work to do. That will be 
+  the end of the handler function. 
+  <LI><I>Dispatcher: </I>Once a process has been selected by your scheduler, the 
+  dispatcher code loads the context of the selected process into the processor 
+  and starts execution of the process by calling proc_START function defined in 
+  the <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project4/provided/cpu.h">cpu.h</A> 
+  header file. </LI></UL>In the file <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project4/provided/skeleton.c">skeleton.c</A> 
+we provide the skeleton for the program that you have to write. 
+<P><B>Programming Tips </B>: 
+<P>In this project you are writing a multi-threaded program using the 
+<I>pthreads </I>library. The system call <I>pthread_create </I>allows you to 
+create a new thread (see the man page for this function). Each thread is a 
+distinct computational activity that executes concurrently. However, all the 
+threads share the same <I>address </I>space. This means you have to be careful 
+when accessing global data structures (such as the CPU and DEVICE queues). In 
+particular, you should ensure mutual exclusion using <I>pthread_mutex_lock 
+</I>and <I>pthread_mutex_unlock </I>system calls (see the man pages for these 
+functions) on variables of type <I>pthread_mutex_t </I>before accessing shared 
+data structures. 
+<P>Here are some helpful tips on using the pthreads library: 
+<P><A 
+href="http://www.cc.gatech.edu/classes/cs4431_99_spring/pthreads.pdf">Pthreads 
+programming examples</A><A 
+href="http://www.cc.gatech.edu/classes/cs4431_99_spring/pthreads.pdf"></A> 
+<P><A href="http://www.sun.com/workshop/threads/posix.html">SUN's pthread 
+page</A> contains Tutorials, FAQ's etc. 
+<P><A 
+href="http://www.mit.edu:8001/people/proven/pthreads_man.html#BASIC">pthread 
+examples (MIT web site)</A><A 
+href="http://www.mit.edu:8001/people/proven/pthreads_man.html#BASIC"></A> 
+<P><A 
+href="http://www.actcom.co.il/~choo/lupg/tutorials/multi-thread/multi-thread.html">Multi-Threaded 
+Programming With POSIX Threads</A> 
+<P><A 
+href="http://gatekeeper.dec.com/pub/DEC/SRC/research-reports/abstracts/src-rr-035.html">An 
+Introduction to Programming with Threads</A>, Birrell, DEC Systems Research 
+Center 
+<P><B>Notes:</B> 
+<OL>
+  <LI>Your main program after doing the initializations creates two threads: a 
+  CPU scheduler and an I/O scheduler. 
+  <LI>The CPU scheduler thread runs your OS code for selecting a process to 
+  schedule on the CPU and then becomes that process itself by calling 
+  proc_START. 
+  <LI>Similarly, the I/O scheduler thread decides the I/O to perform on behalf 
+  of a process and then carries out that I/O operation by calling iop_START. 
+  <LI>Thus there are only 3 threads total for the life of the program: 
+  <UL>
+    <LI>the main thread that does the initializations and then does nothing once 
+    the scheduler threads are created 
+    <LI>the CPU scheduler thread 
+    <LI>the I/O scheduler thread </LI></UL></LI></OL><B>Making the executable for 
+your project:</B> 
+<P>You are given the <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project4/provided/makefile.txt">Makefile 
+</A>which you can use to make your executable object file for the project. You 
+must also obtain the <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project4/provided/index.html">library 
+and other goodies</A> needed for building your project. 
+<P><B>When to terminate the program?</B> 
+<P>The library we provide will read in a file <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project4/provided/iocommands.cfg">iocommands.cfg</A> 
+(see <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project4/provided/index.html">library 
+and other goodies</A> for more details) to generate the OS_CALL commands to your 
+OS. YOU DON'T HAVE TO READ THIS FILE IN YOUR PART OF YOUR CODE. Every line of 
+this fine contains <BR>{IO_COMMAND} {data} {expected status of the call}. 
+<BR>The library will terminate your program when it runs out of commands from 
+this file. So you do not have to hit CTRL-C to terminate your program. This is 
+the input file for which you have to generate your final output for turnin. 
+<P><B>What to turnin?</B> 
+<UL>
+  <LI>Your CPU and I/O schedulers should store a log file of their activity. The 
+  format of the Log file for the schedulers may look something like <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project4/sched-log.txt">this</A>. 
+  You are free to choose whatever format you like. Each entry should give the 
+  following information: who is initiating this action (I/O or CPU scheduler), 
+  what is the action (e.g. move from CPU to DEVICE queue), contents of the PCB 
+  that is being moved, and the sizes of the CPU and the DEVICE queues. 
+  <P><BR>You should turnin the <B>log file </B>and your <B>source code</B> for 
+  the project.</P></LI></UL><B>How to turnin?</B> 
+<P>You can turn in your projects using the<A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/turnin.html"> Workon 
+facility</A>. 
+<P><B>Extra Credit:</B> 
+<P>All extra credit will be treated separately and not added to the total score. 
+
+<UL>
+  <LI></LI></UL><B><A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project4/grading-policy.html">Grading 
+Policy</A></B> </BODY></HTML>

@@ -1,0 +1,73 @@
+Welcome to Winter 99 Program 2
+------------------------------
+
+Choose a TollBooth ID from 0 to 9
+New booth created at 0
+
+Choose an option for TollBooth 0:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+(TollBooth 0)  Quarters: 50  Nickels: 50
+
+Choose a TollBooth ID from 0 to 9
+Choose an option for TollBooth 0:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+(TollBooth 0)  Quarters: 50  Nickels: 50
+
+Choose a TollBooth ID from 0 to 9
+New booth created at 9
+
+Choose an option for TollBooth 9:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+(TollBooth 9)  Quarters: 50  Nickels: 50
+
+Choose a TollBooth ID from 0 to 9
+Choose an option for TollBooth 0:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+(TollBooth 0)  Quarters: 50  Nickels: 50
+
+Choose a TollBooth ID from 0 to 9
+Choose an option for TollBooth 9:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit
+(TollBooth 9)  Quarters: 50  Nickels: 50
+
+Choose a TollBooth ID from 0 to 9
+New booth created at 6
+
+Choose an option for TollBooth 6:
+(1) Simulate Car at TollBooth
+(2) Print Status of TollBooth
+(3) Print Total Quarters
+(4) Print Total Nickels
+(5) Change Toll Cost
+(6) Increase Tollplaza Size
+(0) Quit

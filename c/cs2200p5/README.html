@@ -1,0 +1,230 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0071)http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project5/proj5.html -->
+<HTML><HEAD><TITLE>Project 5</TITLE>
+<META content="text/html; charset=iso-8859-1" http-equiv=Content-Type>
+<META content="MSHTML 5.00.2919.6307" name=GENERATOR></HEAD>
+<BODY>
+<H1>CS 2200 - Fall Semester 1999</H1><B>Programming Assignment V (Reliable 
+Transport Protocol)</B> <BR><B>Posted: November 19, 1999</B> <BR><B>Due: 
+Midnight, Thursday, December 9, 1999</B> 
+<P><B>Learning Outcome:</B> 
+<P>The learning outcome intended through this project is to give you a feel for 
+implementing a reliable transport protocol. Specifically, you will gain 
+experience in scatter/gather of a message into packets, dealing with packet 
+headers, maintaining packet sequence numbers, packet buffer management, and 
+dealing with upcalls. 
+<P><B>Description:</B> 
+<P>There are four components that complete this project: <B>(1) application 
+threads that generate message requests to the reliable transport layer </B>, 
+<B>(2) a reliable transport procotol (RTP) </B>, <B>(3) a device driver for the 
+network </B>, and <B>(4) an unreliable network (tobynet) </B>. We will provide 
+you the first, third, and fourth components and you do the second. 
+<P>Applications that use your reliable protocol will use the following calls: 
+<OL>
+  <LI><I>rtp_send(dst, buffer, len) </I>: This is a blocking call for the sender 
+  and return from the call guarantees the sender that the message has been 
+  delivered to the destination node specified in "dst". 
+  <LI><I>rtp_recv(src, buffer, len) </I>: This is a blocking call for the 
+  receiver and when the call returns the arguments will contain the source of 
+  the message, the contents, and the length of the message. </LI></OL>Your 
+reliable transport protocol layer will implement these two calls. Take a look at 
+the <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project5/proj5-pix.GIF">interaction 
+picture</A> to see how the components fit together. The center-piece of this 
+picture (shaded portion) is what you are responsible for in this project. An 
+application thread (T1) will periodically send a message using <B>rtp_send</B>. 
+Another application thread (T2) will periodically do a receive using 
+<B>rtp_recv</B>. You have to write the code that will (a) provide the API calls 
+<B>rtp_send</B> and <B>rtp_recv</B>, (b) packetize and send the messages, (c) 
+implement the <B>upcall</B>, and (d) receive the packets and assemble them into 
+a message to service the rtp_recv call from the application thread. 
+<P><B>We provide:</B> 
+<P>To make this doable in the given timeframe, we will provide you the 
+following. 
+<UL>
+  <LI><B>Unreliable Network (Tobynet) </B>: <BR>This network may deliver packets 
+  out of order. You do not have to directly interface with this network since we 
+  are providing a network driver. 
+  <LI><B>Network Driver</B>: The header file <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project5/provided/net.h">net.h</A> 
+  gives the interface provided by the network driver to the reliable protocol 
+  layer. It provides the following calls: 
+  <OL>
+    <LI><B>net_pkt_send(dst, buf, len) </B>: This call sends a packet in "buf" 
+    of "len" to the "dst" node. There is a maximum length limit for "len"; "buf" 
+    should have been allocated using "malloc" by the caller; the network driver 
+    is responsible for freeing the memory associated with "buf". 
+    <LI><B>net_src_address(buf, src) </B>: This call allows the RTP layer to 
+    determine the source address of a packet that it received in an upcall. 
+    "buf" is the address of the buffer which was passed to the RTP layer in the 
+    upcall. 
+    <LI><B>net_reg_upcall(handler) </B>: This call registers the pkt_recv_upcall 
+    handler with the network driver. 
+    <LI><B>net_free_buf(buf) </B>: This call frees the buffer that was passed up 
+    by the upcall from the network driver. 
+    <LI><B>net_init() </B>: This call will create the network driver thread (D) 
+    shown in the <A 
+    href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project5/proj5-pix.GIF">interaction 
+    picture</A>. </LI></OL>
+  <LI><B>Two application threads</B>: <BR>These two application threads will 
+  respectively be the sender and receiver threads and are the clients of your 
+  reliable transport layer. These threads (T1 and T2) shown in the <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project5/proj5-pix.GIF">interaction 
+  picture</A> will be created when your program calls a function <B>app_init() 
+  </B>provided as part of the library. This function is defined in the <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project5/provided/app.h">app.h</A> 
+  header file. </LI></UL>Tobynet, the network driver, and the application threads 
+will be implemented as a library (see the <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project5/provided/makefile.txt">Makefile 
+</A>) that should be linked in with the code you implement. 
+<P><B>You Implement the following pieces of code for the reliable transport 
+protocol:</B> 
+<UL>
+  <LI><I>rtp_send() and rtp_recv() </I>: These are blocking calls made by the 
+  application threads. You will provide the entry points for these two calls. 
+  Take a look at the prototypes for these two entry points in the <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project5/provided/rtp.h">rtp.h</A> 
+  header file. You will block the sending thread until the send is completed and 
+  an "ACK" message has been received. You will block the receiving thread until 
+  the message is fully assembled and ready to be handed to the receiving thread. 
+  For the rtp_send call, you will give the message to be sent to the send thread 
+  (S) via some shared data structure in your RTP layer, and signal the send 
+  thread that it has work to do. For the rtp_recv call, you will check if a 
+  message has already been assembled and ready to be handed over. If not you 
+  will block the thread until the message is ready to be handed over. If yes, 
+  you will complete the call by returning the expected values in the place 
+  holders provided in the call. <BR><B>Note </B>: The reliable transport layer 
+  is responsible for allocating memory for the message that is being assembled. 
+  It is the responsibility of the application thread to free this memory. 
+  <LI><I>Main Program </I>: At the start, the <I>main program </I>to be written 
+  by you will do any necessary initialization of data structures needed in your 
+  transport layer. These include: 
+  <OL>
+    <LI>creating the data structures for the different pieces of code in your 
+    layer to communicate with one another, as well as the mutexe and condition 
+    variables for protecting accesses to these shared data structures, 
+    <LI>initializing the network driver by calling <B>net_init()</B> which 
+    creates the network driver thread, 
+    <LI>registering the upcall handler in the network driver using 
+    net_reg_upcall, 
+    <LI>creating a send_thread (S) and a receive thread (R), </LI></OL>After all 
+  the initialization is done, your main will call <B>app_init()</B> which will 
+  create the application threads. After doing this you can simply let the main 
+  program wait for one of its children in a pthread_join statement. 
+  <LI><I>Upcall code for receiving packets from the network driver </I>: This 
+  body of code will be called by the network driver when it has a packet to 
+  deliver. You will parse the header in the incoming packet to determine if it 
+  is a DATA or ACK packet. If it is the former then you will give it to the 
+  <B>recv_thread (R) </B>. If it is the latter then you will give it to the 
+  <B>send_thread (S) </B>. You will appropriately signal the corresponding 
+  thread to indicate the packet arrival. See the <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project5/proj5-pix.GIF">interaction 
+  picture</A>. 
+  <LI><I>Receive thread functionality </I>: Every incoming data packet has a 
+  header as described in the <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project5/provided/rtp.h">rtp.h</A> 
+  header file. The payload (i.e. the data portion of the message) immediately 
+  follows the header in the incoming packet. If it is starting to assemble a new 
+  message, then it allocates a buffer (since the total size of the message is 
+  known from the header) for holding the entire message. It then assembles the 
+  incoming packets into this buffer noting that the packets may actually arrive 
+  out of order. Once the entire message has been assembled, if an rtp_recv is 
+  already pending then it will signal the waiting thread. It will also send an 
+  ACK packet using the <B>net_pkt_send </B>call defined in <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project5/provided/net.h">net.h</A> 
+  header file. This thread should also free up the packet buffer that was handed 
+  to it by the network driver using the <B>net_free_buf </B>call defined in the 
+  <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project5/provided/net.h">net.h</A> 
+  header file. 
+  <LI><I>Send thread functionality </I>: This thread is responsible for breaking 
+  the message to be sent into packets, and attaching a send header to each 
+  packet. The format of the send header is described in <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project5/provided/rtp.h">rtp.h</A> 
+  header file. It will call <B>net_pkt_send </B>repeatedly to send the packets 
+  of the message to the destination node. Note that this thread has to allocate 
+  memory for each packet using {<I> malloc</I>} before calling <B>net_pkt_send 
+  </B>. The network driver is responsible for freeing this memory when it is 
+  done with the transmission of the packet. So the RTP layer does not have to 
+  free the memory allocated for the packets by the <B>send_thread </B>. After 
+  all the packets have been handed over to the network driver, then this thread 
+  will wait for the ACK packet. Once an ACK is received, it will signal the 
+  application thread (which is waiting in the rtp_send entry point procedure) to 
+  continue execution of that thread. 
+  <LI><I>Data Structures: </I>You will have to maintain communication areas for 
+  data transfer among the code blocks you will write in the transport layer. 
+  </LI></UL>In the file <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project5/provided/skeleton.c">skeleton.c</A> 
+we provide the skeleton for the program that you have to write. 
+<P><B>Limitations of the network to make your job easier </B>: <BR>There are 
+several limitations that we have placed on the network to make your job easier: 
+<OL>
+  <LI>The network is not connected to anything! This means you can only send 
+  messages to yourself using Tobynet. The application thread we provide will 
+  basically be sending messages with the destination field set to a 
+  distinguished value <I>NET_DST_SELF </I>. 
+  <LI>There is only one application thread that sends messages and there is only 
+  one application thread that receives messages. This means that in the reliable 
+  transport layer at any time you have to deal with only ONE message that has to 
+  be packetized and sent, and only ONE message that has to assembled for 
+  reception. </LI></OL>
+<P><B>Programming </B>: <BR>As in Project 4, you will use the pthreads library 
+on Solaris to develop this project. 
+<P><B>Notes:</B> 
+<OL>
+  <LI>Your main program after doing the initializations creates two threads: a 
+  <B>send_thread (S)</B> and a <B>recv_thread (R)</B>. 
+  <LI>The entry point procedures for rtp_send and rtp_recv are executed by the 
+  respective application threads that call these procedures. 
+  <LI>The upcall for receiving and parsing an incoming packet is executed by the 
+  network driver thread. 
+  <LI>Thus there are only 6 threads total for the life of the program: 3 created 
+  by you and 3 created by us when you call the app_init and net_init library 
+  calls (see the <A 
+  href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project5/proj5-pix.GIF">interaction 
+  picture</A>): 
+  <UL>
+    <LI>the main thread that does the initializations and then does nothing once 
+    the send and receive threads are created 
+    <LI>the send_thread (S) 
+    <LI>the recv_thread (R) 
+    <LI>the network driver thread (D) 
+    <LI>the two application threads (T1 and T2). </LI></UL></LI></OL><B>Making the 
+executable for your project:</B> 
+<P>You are given the <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project5/provided/makefile.txt">Makefile 
+</A>which you can use to make your executable object file for the project. You 
+must also obtain the <A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project5/provided/index.html">library 
+and other goodies</A> needed for building your project. 
+<P><B>When to terminate the program?</B> 
+<P>The library we provide will automatically terminate the whole program after 
+doing some number of sends and receives using your reliable transport. 
+<P><B>What to turnin?</B> 
+<UL>
+  <LI>You should generate a log file of the send/receive activity in the 
+  reliable transport layer. You are free to choose whatever format you like. 
+  Each entry should contain the contents of the packet header for the message 
+  that is being sent by the send_thread, or the packet header for the packet 
+  that is received during an upcall. Additionally, you may want to associate a 
+  message-id (you can generate this sequentially for each message you are 
+  sending/receiving) with the packets being sent, and the DATA and ACK packets 
+  being received. 
+  <P><BR>You should turnin the <B>log file </B>and your <B>source code</B> for 
+  the project. </P></LI></UL><B>How to turnin?</B> 
+<P>You can turn in your projects using the<A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/turnin.html"> Workon 
+facility</A>. 
+<P><B>Extra Credit:</B> 
+<P>All extra credit will be treated separately and not added to the total score. 
+
+<P>You can enhance the reliable transport protocol to handle the following 
+additional network nasties: 
+<UL>
+  <LI>The unreliable network may corrupt the data portion (i.e. the payload) of 
+  the packets coming in. Note the header WILL always be good. 
+  <LI>The unreliable network may occasionally drop packets (DATA as well as 
+  ACKS). You will have to introduce NACK packets to handle this situation, and 
+  use TIMEOUTS on the send side as well. </LI></UL><B><A 
+href="http://www.cc.gatech.edu/classes/AY2000/cs2200_fall/project5/grading-policy.html">Grading 
+Policy</A></B> </BODY></HTML>

@@ -1,0 +1,142 @@
+Enter the root node's name :
+
+Enter Peter Freeman's child's name :
+Enter Peter Freeman's child's name :
+
+Enter Rich LeBlanc's child's name :
+Enter Rich LeBlanc's child's name :
+Enter Rich LeBlanc's child's name :
+
+Enter Russ Shackelford's child's name :
+Enter Russ Shackelford's child's name :
+
+Enter Kurt Eiselt's child's name :
+Enter Kurt Eiselt's child's name :
+Enter Kurt Eiselt's child's name :
+Enter Kurt Eiselt's child's name :
+Enter Kurt Eiselt's child's name :
+
+Enter Vu Pham's child's name :
+Enter Vu Pham's child's name :
+Enter Vu Pham's child's name :
+Enter Vu Pham's child's name :
+
+Enter Jim Greenlee's child's name :
+Enter Jim Greenlee's child's name :
+Enter Jim Greenlee's child's name :
+Enter Jim Greenlee's child's name :
+Enter Jim Greenlee's child's name :
+
+Enter Christina Berry's child's name :
+
+Enter Kurt Eckhardt's child's name :
+
+Enter Dan Lerner's child's name :
+
+Enter Alonzo Jackson's child's name :
+Enter Alonzo Jackson's child's name :
+
+Enter Ken Kladitis's child's name :
+Enter Ken Kladitis's child's name :
+Enter Ken Kladitis's child's name :
+
+Enter Jason Tang's child's name :
+Enter Jason Tang's child's name :
+Enter Jason Tang's child's name :
+Enter Jason Tang's child's name :
+Enter Jason Tang's child's name :
+
+Enter Gary Yngve's child's name :
+
+Enter Chris Bradfield's child's name :
+
+Enter Jason Turnage's child's name :
+
+Enter Patrick McNeill's child's name :
+
+Enter David Wada's child's name :
+
+Enter Chris Lenfest's child's name :
+
+Enter Justine Lee's child's name :
+
+Enter Sejal Patel's child's name :
+
+Enter John Molnar's child's name :
+
+Enter Nick Black's child's name :
+
+Enter Bill Tranmer's child's name :
+
+Welcome to Winter 99 Program 4
+------------------------------
+
+(1) Print the Tree
+(2) Search for a Name
+(3) Search for a Name, and Display its Path
+(0) Quit
+Peter Freeman
+Rich LeBlanc, Peter Freeman's child
+Russ Shackelford, Rich LeBlanc's child
+Vu Pham, Russ Shackelford's child
+Alonzo Jackson, Vu Pham's child
+David Wada, Alonzo Jackson's child
+Ken Kladitis, Vu Pham's child
+Chris Lenfest, Ken Kladitis's child
+Justine Lee, Ken Kladitis's child
+Jason Tang, Vu Pham's child
+Sejal Patel, Jason Tang's child
+John Molnar, Jason Tang's child
+Nick Black, Jason Tang's child
+Bill Tranmer, Jason Tang's child
+Kurt Eiselt, Rich LeBlanc's child
+Jim Greenlee, Kurt Eiselt's child
+Gary Yngve, Jim Greenlee's child
+Chris Bradfield, Jim Greenlee's child
+Jason Turnage, Jim Greenlee's child
+Patrick McNeill, Jim Greenlee's child
+Christina Berry, Kurt Eiselt's child
+Kurt Eckhardt, Kurt Eiselt's child
+Dan Lerner, Kurt Eiselt's child
+(1) Print the Tree
+(2) Search for a Name
+(3) Search for a Name, and Display its Path
+(0) Quit
+Enter the name to search :
+Jim Greenlee is in the tree.
+(1) Print the Tree
+(2) Search for a Name
+(3) Search for a Name, and Display its Path
+(0) Quit
+Enter the name to search :
+Laurie Wilson is not in the tree.
+(1) Print the Tree
+(2) Search for a Name
+(3) Search for a Name, and Display its Path
+(0) Quit
+Enter the name to search :
+Alonzo Jackson is in the tree.
+Alonzo Jackson, Vu Pham's child
+Vu Pham, Russ Shackelford's child
+Russ Shackelford, Rich LeBlanc's child
+Rich LeBlanc, Peter Freeman's child
+(1) Print the Tree
+(2) Search for a Name
+(3) Search for a Name, and Display its Path
+(0) Quit
+Enter the name to search :
+Jason Turnage is in the tree.
+Jason Turnage, Jim Greenlee's child
+Jim Greenlee, Kurt Eiselt's child
+Kurt Eiselt, Rich LeBlanc's child
+Rich LeBlanc, Peter Freeman's child
+(1) Print the Tree
+(2) Search for a Name
+(3) Search for a Name, and Display its Path
+(0) Quit
+Enter the name to search :
+John Preston is not in the tree.
+(1) Print the Tree
+(2) Search for a Name
+(3) Search for a Name, and Display its Path
+(0) Quit
