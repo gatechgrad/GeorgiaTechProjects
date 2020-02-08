@@ -1,0 +1,394 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0057)http://www.cc.gatech.edu/classes/cs3411_99_summer/P1.html -->
+<HTML><HEAD><TITLE>CS 3411 Program 1 - Computing Document Similarities in Perl</TITLE>
+<META content="text/html; charset=iso-8859-1" http-equiv=Content-Type>
+<META content="Phillip W. Hutto" name=Author>
+<META content="MSHTML 5.00.2919.6307" name=GENERATOR></HEAD>
+<BODY><FONT size=+2>Program 1 -- Computing Document Similarities in Perl</FONT> 
+<BR><FONT size=+1>CS 3411 (Hutto) - Programming Language Concepts - Summer 
+'99</FONT> <BR><B><FONT size=+1>DUE: 4 pm Monday 12 July (class time)</FONT></B> 
+
+<P><B><I><FONT size=+1>Got Questions? Try office hours, email or the newsgroup 
+git.cc.class.3411a</FONT></I></B> 
+<P><B><FONT size=+2>Computing Document Similarities</FONT></B> 
+<P>For your <B>first programming assignment</B> this quarter, you will complete 
+a <B>Perl code framework</B> for computing the similarity between two text 
+documents (files) expressed as a real number between 0 and 1.0. Two identical 
+documents will report a similarity factor of 1.0. Two completely distinct 
+documents will have a similarity factor of 0.0. So how do we assign a 
+<B>similarity factor</B>? The technique used by most Web search engines looks at 
+the number of <B>common "terms"</B> appearing in both documents. Documents with 
+more common terms receive a higher similarity rating. This approach assumes that 
+two documents talking about the same thing will use the same vocabulary. This 
+works most of the time but fails badly when people use completely distinct but 
+synonymous terminology. For example, one document might describe flashlights, 
+while a British version of the same document might talk about "torches". The 
+term frequency approach also fails when the same word has two distinct meanings 
+and will relate documents describing gasoline drums and snare drums. Still, the 
+longer the document, the less likely that ALL terms will fall into one of these 
+two bad cases. 
+<P>Perl is an excellent language for writing a document similarity program. It 
+has sophisticated text manipulation capabilities and powerful operations on 
+dynamic lists (arrays) and associative arrays (hashtables or, in Perl lingo, 
+"hashes") that relate a key and a value. 
+<P><B><FONT size=+1>Terms</FONT></B> 
+<P>To compare two documents, we begin by assembling a list of terms appearing in 
+each document. Consider terms to be character sequences separated by whitespace. 
+We will "clean up" the terms by removing funny punctuation and digits and 
+lowercasing everything. (This is a bit extreme but works well for our simple 
+version of the program. Real code removes commonly occuring terms, and prefixes 
+and suffixes in a process called "stemming".) 
+<P><B><FONT size=+1>Term Frequencies</FONT></B> 
+<P>Along with a list of terms appearing in each document, we will count the 
+<B>frequency of occurrence </B>of each term. This is per document. Some terms 
+appear many times in one document and not at all in another document. We can 
+easily store term frequencies in an associative array or hash where the key is 
+the term and the value is the count. We will maintain two term frequency hashes, 
+one for each document. 
+<P><B><FONT size=+1>Dictionary</FONT></B> 
+<P>Once we have term frequency hashes for each document, we can easily build a 
+single list containing all terms. This list, called the <B>dictionary</B>, will 
+contain a single occurrence (no duplicates) of each term appearing in either 
+document. We will keep the dictionary in ascending sorted order. 
+<P><B><FONT size=+1>Term Frequency "Vectors"</FONT></B> 
+<P>This approach to document similarity is called the <B>vector space model</B> 
+because it constructs a "vector" for each document that contains the frequency 
+of occurrence of each word in the dictionary (the entire document collection) in 
+that particular document. These are <B>"vectors"</B> in a <B>multi-dimensional 
+"term space"</B> where there are as many dimensions as there are terms. We can 
+compute a similarity factor by <B>computing the angle or distance</B> between 
+these vectors. Before we do that, however, we will <B>weigh</B> and 
+<B>normalize</B> these term vectors in various ways to produce more desirable 
+results. 
+<P><B><FONT size=+1>Inverse Document Frequencies</FONT></B> 
+<P>Common terms appearing in a small number of documents are weighted more 
+highly than terms appearing in all documents. The "document frequency" (df) is 
+the number of documents in which a term appears once or more. Since we are 
+working with a two document collection, this is a simple value. If the term 
+appears in both documents its df is 2, otherwise it is 1 (it must appear in at 
+least one document to even appear in the dictionary). We can use a hash to 
+calculate this number for each word in the dictionary. Once we have the document 
+frequencies, we just invert the value. Salton et al. suggest scaling these 
+values as follows where N is the number of documents in the collection (2 in our 
+case): 
+<P>&nbsp;&nbsp;&nbsp; idf<SUB>i</SUB> = log ( 1 + ( N / df<SUB>i</SUB> ) ) 
+<P>This scaling factor seems to work well empirically. 
+<P><B><FONT size=+1>Normalization Factors</FONT></B> 
+<P>If we don't "normalize" the term frequencies, long documents will have higher 
+similarity than short documents. We need to compute a normalization factor for 
+each document. When we compute the weighted term vectors, we will divide each 
+weighted frequency by the normalization factor. This ensures that the resulting 
+vectors are unit vectors in the multi-dimensional term space. To normalize a 
+two-dimensional vector (x,y), just divide each component by the length of the 
+vector. That's just the square root of the sum of <BR>the squares of the 
+components by a simple application of the Pythagorian Theorem: 
+<P>&nbsp;&nbsp;&nbsp; nf = sqrt( x*x + y*y ) 
+<P>The components of the term frequency vectors are the individual term factors 
+(tf) multiplied by the inverse document frequency (idf) of each term: 
+<P>&nbsp;&nbsp;&nbsp; tf<SUB>i</SUB> * idf<SUB>i</SUB> 
+<P>so the corresponding equation is: 
+<P>&nbsp;&nbsp;&nbsp; nf<B> </B>= sqrt( SUM<SUB>i</SUB>(&nbsp; (tf<SUB>i</SUB> * 
+idf<SUB>i</SUB>)<SUP>2</SUP>&nbsp; ) ) 
+<P>where SUM<SUB>i</SUB> means the sum over all terms in the document. 
+<P><B><FONT size=+1>Weighted Term Vectors</FONT></B> 
+<P>The heart of the algorithm is producing the weighted term vectors for each 
+document. We will represent each vector as a list of real numbers. Each value in 
+this list is associated with the corresponding term in the dictionary (they are 
+"parallel arrays"). If a word doesn't appear in the document, its weight is 0. 
+If it appears in the document, then the weighted value is: 
+<P>&nbsp;&nbsp;&nbsp; w<SUB>i</SUB> = ( tf<SUB>i</SUB> * idf<SUB>i</SUB> ) / nf 
+<P>Since these values are normalized, they should be between 0 and 1.0. If you 
+have properly normalized the vectors, compute the sum of the squares of all the 
+elements. The square root of this value should be 1.0 by the Pythagorian 
+theorem. 
+<P><B><FONT size=+1>Computing Similarity</FONT></B> 
+<P>Once we have the two weighted term frequency vectors (one for each document) 
+computing document similarity is very easy. We just compute the <B>dot 
+product</B> of the two vectors. Recall that the dot product is the sum of the 
+product of related elements (multiply the first two elements, then multiply the 
+second two and add the result and so forth.) Since the vectors have been 
+normalized (they are unit vectors), the result is guaranteed to be between 0 and 
+1.0. 
+<P>If you want to read more about this approach, check out the <A 
+href="http://www.acm.org/pubs/citations/journals/cacm/1994-37-2/p97-salton">CACM 
+article</A> by Salton, Allan and Buckley. 
+<P><B><FONT size=+2>How Do I Start?</FONT></B> 
+<P>Copy the code framework <TT><FONT size=+2><A 
+href="http://www.cc.gatech.edu/classes/cs3411_99_summer/sim.pl">sim.pl</A></FONT></TT> 
+to a system that has a Perl 5 interpreter (type "perl -v" to check). Perl is 
+very portable and you should be able to develop your program under Windows or 
+Linux but we have Perl 5 installed on all the CoC machines and on acme. Under 
+UNIX, you need to make this file executable: 
+<P><TT><FONT size=+2>&nbsp;&nbsp; chmod +x sim.pl</FONT></TT> 
+<P>The framework requires two filenames as commandline arguments so you can 
+invoke it like this: 
+<P>&nbsp;<TT><FONT size=+2>&nbsp;&nbsp; sim.pl file1 file2</FONT></TT> 
+<P>The framework has all the data structures declared and calls the appropriate 
+subroutines but does nothing so it will print out some debugging information and 
+report a similarity of 0.0 for any files you supply. 
+<P>The framework is heavily commented. You should begin by examining the 
+contents carefully. Here is the beginning of the file showing the "main" part of 
+the script. 
+<P><TT>###</TT> <BR><TT># MAIN --</TT> <BR><TT># Perl programs don't have an 
+explicit "main". Perl will execute all code in</TT> <BR><TT># the file outside 
+of subroutine definitions.</TT> <BR><TT>###</TT> 
+<P><TT>&nbsp;&nbsp;&nbsp; # require two filenames as cmd line args; remember the 
+names</TT> <BR><TT>&nbsp;&nbsp;&nbsp; @ARGV == 2 || die "Usage: sim &lt;fn1&gt; 
+&lt;fn2&gt;\n";</TT> <BR><TT>&nbsp;&nbsp;&nbsp; ( $f1, $f2 ) = @ARGV;</TT> 
+<P><TT>&nbsp;&nbsp;&nbsp; getTerms();</TT> <BR><TT>&nbsp;&nbsp;&nbsp; 
+computeTFs();</TT> <BR><TT>&nbsp;&nbsp;&nbsp; buildDict();</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp; computeIDFs();</TT> <BR><TT>&nbsp;&nbsp;&nbsp; 
+computeNFs();</TT> <BR><TT>&nbsp;&nbsp;&nbsp; computeWeights();</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp; $sim = computeSimilarity();</TT> 
+<BR><TT>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ....</TT> 
+<P>This is a great program to develop INCREMENTALLY. Begin with getTerms(), the 
+subroutine that opens the two files, and creates term lists. Once you get that 
+working, start on computeTFs(), the routine that computes term frequencies. 
+<P><B><FONT size=+2>Perl Stuff</FONT></B> 
+<P>You will probably end up loving and hating Perl at the same time. Larry Wall, 
+the designer of Perl, is an old time UNIX hacker and one of his mantras is 
+"There's More Than One Way To Do It". At first you will be overwhelmed by all 
+the capabilities of Perl. Once you learn some tricks you will start appreciating 
+how powerful and expressive the language is. Then you will spend hours debugging 
+a strange problem involving a special case of some strange feature and you will 
+start hating Perl again. 
+<P>Perl is semi-compiled. Each time you run a script, the interpreter scans the 
+entire file and compiles it into a fast intermediate representation that is then 
+interpreted. Under UNIX, the file must be executable and begin with a special 
+line indicating the location of a perl5 interpreter. On the CoC machines that 
+would be: 
+<P>&nbsp;&nbsp;&nbsp; #!/usr/local/perl5/bin/perl 
+<P>A Perl file consists of executable statements and subroutine definitions. 
+Subroutine definitions cannot be nested (like C, unlike Pascal). There is no 
+explicit main() in Perl. The interpreter simply executes all the statements in 
+the file. 
+<P><B>Variables</B> 
+<P>Perl does not require variables to be declared. This is convenient but 
+dangerous. I will ask you to "declare" all variables using the special function 
+"my". To declare and initialize a variable you can say: 
+<P>&nbsp;&nbsp;&nbsp; my $total = 0; 
+<P>You can declare several at once like this: 
+<P>&nbsp;&nbsp;&nbsp; my ( $term, $i, $nterms ); 
+<P><B>Types</B> 
+<P>Perl has a strange and flexible notion of data types. All variable names 
+begin with a special character that indicates the "type" of the variable: 
+<P>&nbsp;&nbsp;&nbsp; $scalar&nbsp;&nbsp;&nbsp;&nbsp; (number or string or 
+boolean) <BR>&nbsp;&nbsp;&nbsp; @list&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+(array) <BR>&nbsp;&nbsp;&nbsp; %hash&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (associative 
+array: key-value pairs) 
+<P>Lists and hashes are dynamic and grow and shrink on demand up to the size of 
+available memory. Perl follows the 0-1-infinity rule everywhere. The various 
+"types" have separate namespaces so $name and @name are different things and may 
+both exist in the same program. 
+<P>Command line arguments are made available to the program through a special 
+array called @ARGV. 
+<P><B>Lists / Arrays</B> 
+<P>Perl has a notion of "contexts", places where either a scalar or a list or a 
+hash is expected. Sometimes the meaning of a variable depends on the context. 
+For example, an array name like @list, returns the number of elements in the 
+list when used in a "scalar context". For example: 
+<P>&nbsp;&nbsp;&nbsp; my $n = @list;&nbsp;&nbsp;&nbsp; # scalar context so @list 
+returns list size 
+<P>In other situations, it refers to the entire list: 
+<P>&nbsp;&nbsp;&nbsp; @list = ( 1, 2, 3, 4 
+);&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+# a list context <BR>&nbsp;&nbsp;&nbsp; @list = ( 1, 2, 3, $n, 5, 6 
+);&nbsp;&nbsp;&nbsp; # memory is dynamically allocated 
+<P>Lists can also be viewed as arrays and stacks when accessed appropriately: 
+<P>&nbsp;&nbsp;&nbsp;&nbsp; push( @list, 10 ); <BR>&nbsp;&nbsp;&nbsp;&nbsp; my 
+$value = pop( @list ); 
+<P>You can select array elements using the standard square bracket notation but 
+Perl requires that you use $ before the array name when selecting an element 
+(this emphasizes that the result of selecting an element is a scalar, not a 
+list): 
+<P>&nbsp;&nbsp;&nbsp; my $third = $list[2];&nbsp;&nbsp;&nbsp; # array subscripts 
+begin at 0 
+<P>There are lots and lots of powerful array functions and operations: 
+<P>&nbsp;&nbsp;&nbsp; my @sorted = sort( @list ); 
+<P>Perl lets you leave off parentheses in function calls if you like. (It can do 
+this because variables begin with special symbols so the parser can figure it 
+out.) 
+<P>&nbsp;&nbsp;&nbsp; my @sorted = sort @list; 
+<P>Assigning to an undefined element implicitly grows the list. If you assign 
+way past the end, the elements between the new one and the last one have the 
+special value undef. Touching an undef value will generate a warning. You can 
+test whether a value is defined using the function: 
+<P>&nbsp;&nbsp;&nbsp; if ( defined( $list[100] ) ) { ... } 
+<P><B>Printing</B> 
+<P>There are two ways to print in Perl: 
+<P>&nbsp;&nbsp;&nbsp; print "hello, world\n"; <BR>&nbsp;&nbsp;&nbsp; printf "%s 
+%s\n", $word1, $word2; 
+<P>The print command has an interesting capability called "variable 
+interpolation" that evaluates variable references inside quoted strings: 
+<P>&nbsp;&nbsp;&nbsp; $whatever = "world!"; <BR>&nbsp;&nbsp;&nbsp; print "hello, 
+$whatever\n";&nbsp;&nbsp;&nbsp; # produces "hello, world!" 
+<P>There is a string concatenation operator (.) but you don't need it very 
+often. 
+<P><B>Regular Expressions / Substitute</B> 
+<P>Perl has a wide variety of capabilities for using regular expressions to 
+manipulate text. Regular expressions (res) are delimited by forward slashes so: 
+<P>&nbsp;&nbsp;&nbsp; /abc/ 
+<P>matches the string "abc" (using the implicit concatenation operator). 
+Alternation (|) and Kleene closure (*) are also available along with the 
+extensions we discussed: ^ $ . + (). Perl has several predefined "character 
+class abbreviations". For example: \d is the same as [0-9], \s matches a single 
+whitespace character and \w matches a letter, digit or underscore. There are 
+negated versions of these classes so \D matches any character that is NOT a 
+digit and so forth. The special abbreviation \b matches a "word boundary" 
+something like ^ and $ match a "line boundary". Comparing a string with a re 
+returns true or false and is done with the binary "match" operator (=~) like 
+this:<BR><BR><BR>&nbsp;&nbsp;&nbsp; if ( $name&nbsp;&nbsp; =~ /\b[Pp]hil/ ) { 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # do something 
+<BR>&nbsp;&nbsp;&nbsp; } 
+<P>A special notation is useful for matching and then replacing or substituting. 
+A similar syntax can be used in most text editors: 
+<P>&nbsp;&nbsp;&nbsp; $which = "this is a test"; <BR>&nbsp;&nbsp;&nbsp; $which 
+=~ s/test/quiz/;&nbsp;&nbsp;&nbsp; # replace test with quiz in $which 
+<P>There are zillions of other re capabilities in Perl. Checkout one of the Perl 
+texts or the recent O'Reilly book "Mastering Regular Expressions" for details. 
+<P><B>Split / Join / Translate</B> 
+<P>The split function takes a regular expression and a string. Parts of the 
+string that DO NOT match the regular expression are returned in sequence as a 
+list of values. split can be used to "tokenize" strings. You can breakup a 
+tab-delimited string into pieces like this: 
+<P>&nbsp;&nbsp;&nbsp; $s = "a\tb\tc\t\d"; <BR>&nbsp;&nbsp;&nbsp; @pieces = 
+split( /\t/, $s ); 
+<P>Split behaves a bit strangely if you split a string with leading whitespace 
+so either read the manual carefully or be sure to trim any leading whitespace 
+before you split. 
+<P>The join function is the companion to split. You give it a "glue string" and 
+an array and it returns one big string created by gluing the individual elements 
+together. To put the string above back together we could write: 
+<P>&nbsp;&nbsp;&nbsp; $s2 = join( "\t", @pieces ); 
+<P>Finally, there is an operator called tr (named after the UNIX tr command) 
+that allows you to replace or remove individual characters in a string. You 
+provide two lists of characters. Characters in the first list are replaced by 
+characters in the second list. Syntactically tr looks like the substitute 
+command: 
+<P>&nbsp;&nbsp;&nbsp; $name = tr/a-z/A-Z/;&nbsp;&nbsp;&nbsp; # translate 
+lowercase letters to uppercase <BR>&nbsp;&nbsp;&nbsp; $name = 
+tr/aeiou//d;&nbsp;&nbsp;&nbsp;&nbsp; # delete vowels 
+<P>Notice that you use an assignment operator and not the matching operator 
+(=~). Also, tr does not support general regular expressions. About the only 
+special character you can have between the forward slashes is the dash for 
+defining ranges. 
+<P><B>Subroutines / Parameters / Locals / Globals</B> 
+<P>Defining a subroutine is simple, just say: 
+<P>&nbsp;&nbsp;&nbsp; sub mySub { <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+statements; <BR>&nbsp;&nbsp;&nbsp; } 
+<P>&nbsp;&nbsp;&nbsp; $result = mySub( $one, $two, $three ); 
+<P>Paremeter passing is a bit unusual. Every sub implicitly receives a single 
+parameter with the name @_ <BR>which is a list of the parameters provided to the 
+subroutine (it's kind of like @ARGV). It is common to assign these parameters to 
+named local variables using a statement like this: 
+<P>&nbsp;&nbsp;&nbsp; my ( $p1, $p2, $p3 ) = @_; 
+<P>This is actually just a special case of&nbsp; "array assignment". For 
+example: 
+<P>&nbsp;&nbsp;&nbsp; ( $f1, $f2 ) = @ARGV; 
+<P>accesses and assigns the first two elements of the list @ARGV to the 
+specified variables. If there are additional elements in @ARGV, they are 
+ignored. If there are not enough, the unlucky variables take on the value undef. 
+
+<P>Variables "declared" with my inside a subroutine are local to that function. 
+Variables declared outside any subroutine are global. 
+<P>It is possible to return values from a subroutine. If no explicit return is 
+included, the value of the last expression evaluated in the subroutine is used 
+as the subroutine value (like LISP). It is possible to return multiple values 
+from a subroutine as a list: 
+<P>&nbsp;&nbsp;&nbsp; ( $min, $max ) = minmax( $a, $b ); 
+<P><B>Input / Filehandles</B> 
+<P>Perl has an abstraction of a UNIX file pointer called a filehandle. They look 
+like variable names in all caps. Two are provided by default: STDIN and STDOUT. 
+To read a line as a string from STDIN, just say: 
+<P>&nbsp;&nbsp;&nbsp; $line = &lt;STDIN&gt;; 
+<P>$line will contain a terminating NEWLINE which can be removed by the chomp 
+function: 
+<P>&nbsp;&nbsp;&nbsp; chomp $line; 
+<P>Evaluating &lt;STDIN&gt; by itself places a copy of the line in the special 
+variable $_. This special variable is the default for all sorts of Perl 
+commands, like print. To echo a file, removing all the newlines,&nbsp; you can 
+just say: 
+<P>&nbsp;&nbsp;&nbsp; while ( &lt;STDIN&gt; ) { 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; chomp;&nbsp;&nbsp;&nbsp; # using 
+$_ <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+print;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # using $_ <BR>&nbsp;&nbsp;&nbsp; } 
+<P>It is possible to associate a filehandle with a file or process using 
+open(..): 
+<P>&nbsp;&nbsp;&nbsp; open( MYFILE, "pathname" ); 
+<P>The &lt;&gt; operators have a special meaning when used in a "list context". 
+If you say: 
+<P>&nbsp;&nbsp;&nbsp; @lines = &lt;MYFILE&gt;; 
+<P>Perl will create an array containing ALL the lines from the specified file! 
+<P><B>Hashes</B> 
+<P>One of the more powerful features of Perl are its dynamic hash tables. 
+Variables begining with % are hashes. They can be explicitly initialized by key, 
+value pairs. Or you can simply add elements one at a time. 
+<P>&nbsp;&nbsp;&nbsp; my %hash = (); 
+<P>To add or update an element in a hash say: 
+<P>&nbsp;&nbsp;&nbsp; $hash{$key} = $value; 
+<P>To delete an element say: 
+<P>&nbsp;&nbsp;&nbsp; delete $hash{$key}; 
+<P>If you request a key that is not in the hash, the value undef is returned: 
+<P>&nbsp;&nbsp;&nbsp; if ( !defined( $hash{$key} ) ) { 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $hash{$key} = 0; 
+<BR>&nbsp;&nbsp;&nbsp; } 
+<P>Actually there is a special rule for hashes that allows you to simplify the 
+above code when you are counting things. The expression: 
+<P>&nbsp;&nbsp;&nbsp; $hash{$key}++; 
+<P>will increment the value associated with $key if defined. If you try to 
+increment a key that is not in the hash, Perl will initialize the element to 1 
+for you! 
+<P>The keys function returns a list of the keys of a hash: 
+<P>&nbsp;&nbsp;&nbsp; @keys = keys %hash; 
+<P>The values function returns a list of the values: 
+<P>&nbsp;&nbsp;&nbsp; @values = values %hash; 
+<P>These are returned in an unpredicatable order but the elements of the two 
+lists correspond. It is possible to iterate through the elements of a hash with 
+the each function: 
+<P>&nbsp;&nbsp;&nbsp; while ( ($key,$value) = each(%hash) ) { 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print "$value $key"; 
+<BR>&nbsp;&nbsp;&nbsp; } 
+<P><B>Looping</B> 
+<P>Perl has standard for, while and do-while loops from C along with a do-until 
+loop that allows you to specifiy a termination condition for a post-test loop. 
+In addition, Perl has a very useful foreach statement that allows you to iterate 
+through the elements of a list: 
+<P>&nbsp;&nbsp;&nbsp; my $element; <BR>&nbsp;&nbsp;&nbsp; foreach $element 
+(@list) { <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print "$element\n"; 
+<BR>&nbsp;&nbsp;&nbsp; } 
+<P><B>Strange Flow Control</B> (||, &amp;&amp;, if, unless) 
+<P>There is no switch statement in Perl but it is possible to build an 
+equivalent structure several different ways. In addition, Perl has a few unusual 
+control flow techniques. The short-circuited boolean operators are commonly used 
+for flow control. Here is an example using the die() function that prints an 
+error message and terminates the progam: 
+<P>&nbsp;&nbsp;&nbsp; open( MYFILE, $filename ) || die "Can't open file 
+$filename\n"; 
+<P>If the open() succeeds then the die() function is never called. 
+<P>Perl also allows the programmer to add conditionals like if and unless to the 
+END of a statement. This occasionally increases the clarity of code: 
+<P>&nbsp;&nbsp;&nbsp; $n = $list[$i] if defined( $list[$i] ); 
+<BR>&nbsp;&nbsp;&nbsp; $n = sqrt( $x ) unless $x&lt;0; 
+<P><B><FONT size=+2>Helpful Advice</FONT></B> 
+<P>There are LOTS of books on Perl. I like the O'Reilly books (strong supporters 
+of Perl; they maintain the Perl archive at their Web site). Here are three good 
+books: 
+<BLOCKQUOTE>"Learning Perl 
+  2e"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // gentle 
+  introduction, first 10 chapters on electronic reserve <BR>Schwartz &amp; 
+  Christiansen 
+  <P>"Perl 
+  Cookbook"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  // zillions of examples <BR>Christiansen &amp; Torkington 
+  <P>"Programming Perl"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // a tough 
+  read but lets you get inside Larry Wall's head <BR>Wall &amp; Christiansen 
+  &amp; Schwartz</P></BLOCKQUOTE>Check out the official Perl Web page at: 
+<P>&nbsp;&nbsp;&nbsp;<A href="http://www.perl.com/"> http://www.perl.com</A> 
+<P>There is a lot to learn but this is a really cool assignment and Perl is a 
+very interesting language, so hopefully, you won't mind jumping in the deep end! 
+We aren't out to kill people with this assignment. We just want you to have some 
+fun and learn something about Perl. Feel free to talk to your classmates&nbsp; 
+but everyone must get the program working individually. Use office hours and the 
+newsgroups. 
+<P>&nbsp;&nbsp;&nbsp; <I><FONT size=+1>Good luck! Start Early! Use Office Hours 
+Often!</FONT></I> </P></BODY></HTML>

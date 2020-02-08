@@ -1,0 +1,97 @@
+import java.awt.*;
+import java.awt.event.*;
+
+class EncryptionPolyalphabeticMethod extends EncryptionMethod  {
+
+  /** CONSTANTS **/
+
+
+  /** GLOBAL VARIABLES **/
+  TextField txt1, txt2;
+
+  public EncryptionPolyalphabeticMethod() {
+
+  }
+
+  /**
+   * encrypt
+   */
+  public String encrypt(String s, TutorialDisplay txt) {
+    String strCipherText;
+                 
+    txt1.setText(formatKey(txt1.getText()));
+    txt2.setText(formatKey(txt2.getText()));
+
+    return "Polyalphabetic Encryption";
+  }
+
+  /**
+   * abstract class
+   */
+  public Panel getOptionsPanel() {
+    Panel p;
+    Panel pnlTemp;
+
+    p = new Panel(new FlowLayout(FlowLayout.LEFT));
+
+    txt1 = new TextField(20);
+    p.add(txt1);
+    txt2 = new TextField(20);
+    p.add(txt2);
+
+//    p.add(new Label("Polyalphabetic Options"));
+
+
+
+    p.setBackground(new Color(192, 255, 192));
+
+
+
+
+    return p;
+
+  }
+
+  private String formatKey(String str) {
+    String strReturn;
+    String strInput;
+    int i;
+    int iStringLength;
+    boolean charFound;
+    char c;
+
+    strInput = str.toUpperCase();
+    strReturn = "";
+
+    for (i = 0; i < strInput.length(); i++) {
+      if ((!Character.isLetter(strInput.charAt(i))) ||
+          (strReturn.indexOf(strInput.charAt(i)) > -1))  {
+        //duplicate character, skip it
+      } else {
+        strReturn += strInput.charAt(i);
+      }
+
+    }
+
+    iStringLength = strReturn.length();
+    for (i = iStringLength; i < 26; i++) {
+      charFound = false;
+
+      c = 'A';
+      while (charFound == false) {
+        if (strReturn.indexOf(c) < 0) {
+          charFound = true;
+          strReturn += c;
+        }
+
+        c++;
+
+      }
+    }
+
+    return strReturn;
+  }
+
+
+
+}

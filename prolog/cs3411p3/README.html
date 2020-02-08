@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0057)http://www.cc.gatech.edu/classes/cs3411_99_summer/P3.html -->
+<HTML><HEAD><TITLE>CS 3411 Program 3 - Binary Search Trees in Prolog</TITLE>
+<META content="text/html; charset=iso-8859-1" http-equiv=Content-Type>
+<META content="Phillip W. Hutto" name=Author>
+<META content="MSHTML 5.00.2919.6307" name=GENERATOR></HEAD>
+<BODY><FONT size=+2>Program 3 -- Binary Tree Module in Prolog</FONT> <BR><FONT 
+size=+1>CS 3411 - Programming Language Concepts - Summer '99</FONT> <BR><B><FONT 
+size=+1>Due: 2:50pm Tuesday 10 August (Exam Time)</FONT></B> 
+<P><B><I><FONT size=+1>Got Questions? Try office hours, email or the newsgroup 
+git.cc.class.3411</FONT></I></B> 
+<BLOCKQUOTE><B><I><FONT size=+1>NO LATE PROGRAMS ACCEPTED!</FONT></I></B> 
+  <BR><B><I><FONT size=+1>GRADUATING SENIORS ARE EXEMPT FROM THIS 
+  PROGRAM!</FONT></I></B></BLOCKQUOTE><B><FONT size=+2>Recursive Data 
+Structures</FONT></B> 
+<P>For your final programming assignment this quarter, you will write a 
+collection of&nbsp; rules for representing and manipulating binary trees in 
+Prolog. You will use Prolog's two primary data structuring mechanisms for this 
+assignment: <B>symbolic structures</B> and <B>lists</B>. Prolog structures are 
+something like records in imperative programming languages but they are more 
+powerful. Prolog lists are similar to lists in Lisp. Both structures and lists 
+are fundamentally recursive. Structures are the more basic mechanism because the 
+Prolog list notation can be viewed as "syntactic sugar" for a more primitive 
+structure-based representation of lists. 
+<P>Here is a fact represented by a simple Prolog structure: 
+<P>&nbsp;&nbsp;&nbsp; <TT><FONT size=+2>book( moby_dick, author( herman, 
+melville ) ).</FONT></TT> 
+<P>This fact can be visualized as a binary tree but structures can, in general, 
+have any number of members ("arity"). As usual, things get more interesting when 
+we allow structures to contain logical variables. Structures with self-similar 
+components are easily manipulated by recursive rules so we call them&nbsp; 
+"recursive structures." Binary trees can be easily represented in Prolog by 
+recursive structures. Here is a simple rule that defines binary trees in Prolog: 
+
+<BLOCKQUOTE><TT><FONT size=+2>&nbsp;&nbsp; <I>/** binary_tree(Tree) 
+  :-</I></FONT></TT> <BR><I><TT><FONT 
+  size=+2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tree is a binary tree. 
+  */</FONT></TT></I> <BR><TT><FONT size=+2>&nbsp;&nbsp; 
+  binary_tree(void).</FONT></TT> <BR><TT><FONT size=+2>&nbsp;&nbsp; 
+  binary_tree(tree(Element,Left,Right)) :-</FONT></TT> <BR><TT><FONT 
+  size=+2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; binary_tree(Left), 
+  binary_tree(Right).</FONT></TT></BLOCKQUOTE>Notice there are no constraints on 
+the first component Element, it can be anything, but that the second and third 
+components must themselves be binary trees. As a base case, void is considered a 
+binary tree. 
+<P>Given our recursive tree definition, we can pretty easily write a rule that 
+determines if a given element appears anywhere in a given binary tree: 
+<BLOCKQUOTE><I><TT><FONT size=+2>/** tree_member(Element,Tree) 
+  :-</FONT></TT></I> <BR><I><TT><FONT size=+2>&nbsp;&nbsp;&nbsp; Element is an 
+  element of the binary tree Tree. */</FONT></TT></I> <BR><TT><FONT 
+  size=+2>tree_member(X,tree(X,Left,Right)).</FONT></TT> <BR><TT><FONT 
+  size=+2>tree_member(X,tree(Y,Left,Right)) :- tree_member(X,Left).</FONT></TT> 
+  <BR><TT><FONT size=+2>tree_member(X,tree(Y,Left,Right)) :- 
+  tree_member(X,Right).</FONT></TT></BLOCKQUOTE>This rule precisely and concisely 
+encodes the three possible cases: either the element in question is the root or 
+it appears in the left subtree or it appears in the right subtree. 
+<P>Here is another&nbsp; recursive rule that implements a preorder traversal of 
+<BLOCKQUOTE><I><TT><FONT size=+2>/** preorder(Tree,Pre) :-</FONT></TT></I> 
+  <BR><I><TT><FONT size=+2>&nbsp;&nbsp;&nbsp; Pre is a list of elements of Tree 
+  accumulated during a</FONT></TT></I> <BR><I><TT><FONT 
+  size=+2>&nbsp;&nbsp;&nbsp; preorder traversal. */</FONT></TT></I> 
+  <BR><TT><FONT size=+2>preorder(tree(X,L,R),Xs) :-</FONT></TT> <BR><TT><FONT 
+  size=+2>&nbsp;&nbsp;&nbsp; preorder(L,Ls), preorder(R,Rs), 
+  append([X|Ls],Rs,Xs).</FONT></TT> <BR><TT><FONT 
+  size=+2>preorder(void,[]).</FONT></TT></BLOCKQUOTE>This rule is a bit more 
+complicated and uses the Prolog list notation ([a,b,c]). Prolog has a special 
+operator (|) (sometimes called "split") that can be used to break a list apart 
+into its head and tail. The split operator can also be used to put a list 
+together like CONS in Lisp. We will talk more about the list notation in class 
+and you can read about it in your text and the supplemental handout. 
+<P>Here is the rule for append: 
+<BLOCKQUOTE><I><TT><FONT size=+2>/** append(Xs,Ys,XsYs) :-</FONT></TT></I> 
+  <BR><I><TT><FONT size=+2>&nbsp;&nbsp;&nbsp;&nbsp; XsYs is the result of 
+  appending the lists Xs and Ys. */</FONT></TT></I> <BR><TT><FONT 
+  size=+2>append([],Ys,Ys).</FONT></TT> <BR><TT><FONT 
+  size=+2>append([X|Xs],Ys,[X|Zs]) :- 
+append(Xs,Ys,Zs).</FONT></TT></BLOCKQUOTE><B><FONT size=+2>What Am I Supposed to 
+Do?</FONT></B> 
+<P>Implement the following rules: 
+<OL>
+  <LI><TT><FONT size=+2>inorder(Tree,In)</FONT></TT> :- In is a list containing 
+  an inorder traversal of the elements of Tree. Assume Tree is bound on input. 
+  In may be bound or unbound. If it is bound initially then the query is asking 
+  Prolog to VERIFY that In is an inorder traversal. Otherwise the query asks 
+  Prolog to GENERATE an inorder traversal. <BR>&nbsp; 
+  <LI><TT><FONT size=+2>substitute(X,Y,TreeX,TreeY)</FONT></TT> :- TreeY is the 
+  result of replacing all occurrences of element X in the binary tree TreeX by 
+  element Y. Assume X, Y, and TreeX are bound on input. <BR>&nbsp; 
+  <LI><TT><FONT size=+2>(<B>EXTRA CREDIT</B>) subtree(S,T)</FONT></TT> :- S is a 
+  subtree of T. A subtree of S is the tree defined by the root or some internal 
+  node and all of its descendants to the leaf nodes. If S and T are identical 
+  then S is a subtree of T (we are not asking about "proper" subtrees.) Assume T 
+  is bound on input. <BR>&nbsp; 
+  <LI><TT><FONT size=+2>sum_tree(TreeOfIntegers,Sum)</FONT></TT> :- calculate or 
+  verify that Sum is the sum of the integer elements in TreeOfIntegers. (Hint: 
+  You will need to use the "is" operator.) Assume TreeOfIntegers is bound. 
+  <BR>&nbsp; 
+  <LI><TT><FONT size=+2>(<B>EXTRA CREDIT</B>) ordered(TreeOfIntegers) 
+  </FONT></TT>:- holds if TreeOfIntegers is a binary search tree without 
+  duplicates. That is, for each node in the tree with element e, all the 
+  elements in the left subtree are smaller than e and all the elements in the 
+  right subtree are larger than e. (Hint: Define two helper rules 
+  ordered_right(X, Tree) and ordered_left(X,Tree) that hold if Tree is ordered 
+  and X is larger (smaller) than the largest (smallest) node of Tree.) 
+  <BR>&nbsp; 
+  <LI><TT><FONT size=+2>tree_insert(X,Tree,Tree1)</FONT></TT> :- Succeeds if 
+  Tree1 is an ordered tree resulting from inserting X into the ordered tree 
+  Tree. If X already occurs in Tree, then Tree and Tree1 are identical. (Hint: 
+  Four rules are enough.) </LI></OL><B><FONT size=+2>Details</FONT></B> 
+<P>Create a single file called <TT><FONT size=+2>tree</FONT></TT> that contains 
+all the facts and rules for the assignment. "Consult" this file each time you 
+start prolog. Begin with VERY SIMPLE RULES and gradually add complexity and more 
+rules. The "development environment" for our version of Prolog is hard to love. 
+Do the best you can with it. Brian has prepared a nice Web page with helpful 
+hints. Study the <A 
+href="http://www.cc.gatech.edu/classes/cs3411_99_summer/examples.pl">demo 
+programs</A> we have provided carefully. These will help you "think recursively" 
+in Prolog. 
+<P>You will need to use <B>one trick</B> to make life easier while developing 
+your programs. Since typing in complex tree structures is tedious and error 
+prone, you should define a few "named trees" like this at the beginning of your 
+tree module: 
+<BLOCKQUOTE><TT><FONT size=+1>/* Define a few trees to work with. 
+  */</FONT></TT> <BR><TT><FONT 
+  size=+1>tree1(tree(a,tree(b,void,void),tree(c,void,void))).</FONT></TT> 
+  <BR><TT><FONT 
+  size=+1>tree2(tree(d,tree(e,void,void),tree(f,void,void))).</FONT></TT> 
+  <BR><TT><FONT size=+1>tree3(</FONT></TT> <BR><TT><FONT 
+  size=+1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tree(&nbsp;&nbsp; 
+  a,</FONT></TT> <BR><TT><FONT 
+  size=+1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  tree(&nbsp;&nbsp; b,</FONT></TT> <BR><TT><FONT 
+  size=+1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  tree(e,void,void),</FONT></TT> <BR><TT><FONT 
+  size=+1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  tree(&nbsp;&nbsp; f,</FONT></TT> <BR><TT><FONT 
+  size=+1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  tree(g,void,void),</FONT></TT> <BR><TT><FONT 
+  size=+1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  void</FONT></TT> <BR><TT><FONT 
+  size=+1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  )</FONT></TT> <BR><TT><FONT 
+  size=+1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  ),</FONT></TT> <BR><TT><FONT 
+  size=+1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+  tree(c,void,void)</FONT></TT> <BR><TT><FONT 
+  size=+1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; )</FONT></TT> <BR><TT><FONT 
+  size=+1>).</FONT></TT></BLOCKQUOTE>Make sure you get the commas and parentheses 
+correct. Once defined you can use these named trees to test your rules like 
+this: 
+<P><TT><FONT size=+2>&nbsp;&nbsp; </FONT><FONT size=+1>prolog</FONT></TT> 
+<BR><TT><FONT size=+1>&nbsp;&nbsp;&nbsp; ?- [tree].&nbsp; /* consult the file 
+containing the tree facts and rules */</FONT></TT> <BR><TT><FONT 
+size=+1>&nbsp;&nbsp;&nbsp; ?- tree2(A), tree_element(e,A). /* does e appear in 
+tree2? */</FONT></TT> 
+<P><B><FONT size=+2>Turnin</FONT></B><B><FONT size=+2></FONT></B> 
+<P>Create a directory called p3. Your directory should contain a single file 
+named "<TT><FONT size=+2>tree</FONT></TT>" with all the required Prolog rules 
+and facts.&nbsp; In addition create a file named README with a paragraph or two 
+documenting your program. Describe any extra credit work you have done in the 
+README file. 
+<P>Submit the entire directory via turnin by the due date. Identify the project 
+as "cpp". So: 
+<P><TT><FONT size=+2>&nbsp;&nbsp;&nbsp; Login to acme</FONT></TT> <BR><TT><FONT 
+size=+2>&nbsp;&nbsp;&nbsp; Say "workon 3411"</FONT></TT> <BR><TT><FONT 
+size=+2>&nbsp;&nbsp;&nbsp; Say "turnin prolog p3"</FONT></TT> 
+<P>Verify that your submission worked by using "getback" (in a separate, empty 
+directory).<B><FONT size=+2></FONT></B> 
+<P><B><FONT size=+2>Helpful Advice</FONT></B> 
+<P>It takes awhile for the "Prolog way of thinking" to sink in. Work steadily 
+and incrementally. Spend a bit of time on a regular basis working with the 
+Prolog interpreter, reading reference material and working through the 
+assignment. Ask questions when strange things happen. Stay-tuned to the 
+newsgroup for&nbsp; related assignment announcements. 
+<P>&nbsp;&nbsp;&nbsp; <I><FONT size=+1>Good luck! Start Early! Use Office Hours 
+Often!</FONT></I> </P></BODY></HTML>

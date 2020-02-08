@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0057)http://www.cc.gatech.edu/classes/cs2390_99_spring/20.html -->
+<HTML><HEAD><TITLE>Assignment 3</TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<META content="MSHTML 5.00.2919.6307" name=GENERATOR></HEAD>
+<BODY>
+<HR>
+
+<H2>Assignment 3</H2>
+<P>
+<HR>
+Discuss at <A 
+href="http://pbl.cc.gatech.edu/cs2390/1333.html">http://pbl.cc.gatech.edu/cs2390/1333.html</A>. 
+Form your team or discuss with your team at <A 
+href="http://pbl.cc.gatech.edu/cs2390/1332.html">http://pbl.cc.gatech.edu/cs2390/1332.html</A>. 
+Due date on <A 
+href="http://www.cc.gatech.edu/classes/cs2390_99_spring/10.html">Class 
+Schedule</A>
+<P>
+<H2>Design and Implement an HTML Page Viewer</H2>
+<P><B>YOU MUST WORK IN TEAMS OF TWO TO FOUR ON THIS PROJECT!</B> The cost of not 
+working on a team is an immediate 15 point deduction on your grade.
+<P>When you turn <A 
+href="http://www.cc.gatech.edu/classes/cs2390_99_spring/18.html">Assignment 
+1</A> in, by the end of class, I want a sheet of paper from each group listing 
+the group members, their email addresses, and phone numbers. You can use the 
+team page at <A 
+href="http://pbl.cc.gatech.edu/cs2390/1332.html">http://pbl.cc.gatech.edu/cs2390/1332.html</A> 
+to advertise for your team. 
+<HR>
+
+<P>I want you to write Smalltalk code to: 
+<UL>
+  <LI>Read an HTML page from an http:// or file:// URL 
+  <LI>Display the page for a subset of HTML in a 640x480 area on the screen 
+  <LI>Provide scroll buttons at the top and bottom to scroll down (half-page) or 
+  back up (if already scrolled down.) </LI></UL>
+<P>The subset of HTML that you will support will be: 
+<UL>
+  <LI>Breaks: &lt;br&gt; 
+  <LI>Paragraph marks: &lt;p&gt; 
+  <LI>Bold, italics, and underline: &lt;b&gt;, &lt;i&gt;, &lt;ul&gt; 
+  <LI>Center: &lt;center&gt; 
+  <LI>Horizontal rules: &lt;hr&gt; 
+  <LI>Headings following these rules: 
+  <UL>
+    <LI>&lt;h1&gt; are all uppercase and underline and boldface 
+    <LI>&lt;h2&gt; are all uppercase and boldface 
+    <LI>&lt;h3&gt; are all uppercase 
+    <LI>All other levels are just displayed as a separate paragraph </LI></UL>
+  <LI>Anchors, but not with clickable links. Just display the anchor text in 
+  italics WITH THE COMPLETE REFERENCED URL (not just relative links) IN 
+  PARENTHESES AFTER THE ANCHOR TEXT. &lt;a 
+  href="http://somewhere/something.html"&gt;some anchor text&lt;/a&gt; </LI></UL>
+<P>For extra credit (5 points), you can support images (GIFs, JPEGs, and BMPs), 
+just displayed in-line, no sizing or formatting: &lt;image 
+src="http://somewhere/something.gif"&gt;. If you don't support images, just 
+display the word IMAGE in its own paragraph at the image marker.
+<P>In doing this project, you may not use any windows, menus, buttons, or text 
+areas built-in to Squeak. You must display graphics directly to the screen 
+(suggestion: clear out a 640x480 area with white, first), and you read the 
+Sensor to determine if the mouse has been clicked and where.
+<P>I want to use your code like this: <CODE><PRE>HTMLViewer on: 'http://www.cc.gatech.edu/index.html' 
+</PRE></CODE>
+<P>
+<H3>User Interface</H3>
+<P>You must provide a way to scroll up and down long pages. It is up to you to 
+come up with a usable scroll system. Buttons at the top and bottom? Scroll bar 
+with "thumb"? You decide, but you have to post the graphics yourself, do your 
+own event loop, and handle scrolling. Scrolling should scroll about 1/2 page at 
+a time.
+<P>
+<H3>Implementation Hints</H3>
+<P>
+<UL>
+  <LI>The tricky part here is probably not going to be the formatting, but the 
+  word wrapping. How do you know when to wrap a line and start a new line? 
+  <LI>Most of what you need to display formatted text is in the Text class. Look 
+  at the various supports for attributes and the classes TextAttribute, 
+  TextFontReference, TextFontChange. 
+  <LI>Text's know how to display strings with attributes, but the actual display 
+  (e.g., where on the screen, how much space on the screen) is handled in 
+  DisplayText. 
+  <LI>To get the size of a displayed text chunk, explore the below code: <CODE><PRE>www _ DisplayText text: ('www' asText) textStyle: TextStyle default copy centered.
+lll _ DisplayText text: ('lll' asText) textStyle: TextStyle default copy centered.
+www display.
+lll display.
+Transcript show: (www form boundingBox printString) ; cr.
+Transcript show: (lll form boundingBox printString); cr 
+</PRE></CODE></LI></UL>
+<P>
+<H3>Scenarios</H3>
+<UL>
+  <LI>What happens if someone goes to a page with frames or tables? Suggestion: 
+  Ignore them gracefully, no crashes. 
+  <LI>How do you display a large GIF on one page, and three pages of text on the 
+  next, and then what do you do when someone scrolls forward one page? </LI></UL>
+<P>
+<HR>
+
+<H2>Grading</H2>
+<P>You will need to turn in your <A 
+href="http://www.cc.gatech.edu/classes/cs2390_99_spring/8.html">Design 
+Documentation</A> which includes your code -- ONE PER GROUP. You can turn in to 
+any section that you have a member from. EACH GROUP MEMBER will also need to 
+mail your code to cs2390@prism.gatech.edu with the subject line "prj3, 
+123456789,d" where 123456789 is your student number and "d" is your section (a, 
+b, c, or d).
+<P>CRITERIA:
+<P>
+<H3>OOA/D (34 total)</H3>
+<LI>Good, detailed, REUSABLE Design - 18 (9 points for good HTML/parsing 
+objects, 9 points for UI objects) 
+<LI>CRC Cards - 8 points 
+<LI>Diagram - 8 points 
+<P>
+<H3>Scenarios 6</H3>(3 points each)
+<P>
+<H3>Reuse (believeable) 9</H3>
+<P>
+<H3>OOP (51)</H3>
+<UL>
+  <LI>HTML parsing 
+  <UL>
+    <LI>5 Handles breaks and paragraphs 
+    <LI>10 Handles bold, italics, and underline 
+    <LI>3 Handles centering 
+    <LI>3 Handles three levels of headers 
+    <LI>5 Handles horizontal rules 
+    <LI>10 Handles anchors and complete URL references </LI></UL>
+  <P></P>
+  <LI>UI 
+  <UL>
+    <LI>5 Displays good, usable, readable scroll buttons 
+    <LI>10 Scrolls 1/2 page each way </LI></UL>
+  <P></P>
+  <LI>5 points extra credit for correct display of IMAGE tags </LI></UL>
+<HR>
+<FONT size=-1>
+<CENTER><A href="http://www.cc.gatech.edu/classes/cs2390_99_spring/1.html">Back 
+to the top</A> | <A href="http://pbl.cc.gatech.edu/cs2390/1.html">Over to 
+CoWeb</A> </CENTER></FONT></FONT></LI></BODY></HTML>

@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0057)http://www.cc.gatech.edu/classes/cs2390_99_spring/19.html -->
+<HTML><HEAD><TITLE>Assignment 2</TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<META content="MSHTML 5.00.2919.6307" name=GENERATOR></HEAD>
+<BODY>
+<HR>
+
+<H2>Assignment 2</H2>
+<P>
+<HR>
+Ask questions at <A 
+href="http://pbl.cc.gatech.edu/cs2390/1331.html">http://pbl.cc.gatech.edu/cs2390/1331.html</A>. 
+See <A href="http://www.cc.gatech.edu/classes/cs2390_99_spring/10.html">Class 
+Schedule</A> for due date.
+<P>
+<HR>
+
+<P>How do you know if a Web page is changed? You read over the page, hope that 
+the author put some marks where something has changed, and at least put the 
+changes right at the top or right at the bottom. Now, how you can do it 
+algorithmically? Of course, you could save a copy of the page and do some kind 
+of differential analysis (<I>diff</I>) on the two versions. But that eats up 
+lots of space. Can you boil it down to just a couple numbers, or at least, a few 
+characters? A length of a page is a good indicator. But how about another? 
+Maybe... 
+<UL>
+  <LI>Grab the first three and last three characters on a page? 
+  <LI>Grab the first characters of each of the first five 
+  <LI>Add up the ASCII values of the first 10 characters on a page? 
+  <LI>Maybe the first 10 and the middle 10 and the last 10? 
+  <LI>Maybe just count key things like the number of paragraph markers 
+  (&lt;p&gt;)? 
+  <LI>Maybe combine several values by concatenating them (remember the comma is 
+  the string concatenation operator in Smalltalk) </LI></UL>
+<P>You are to write a piece of code that can compute key values: a length and 
+some kind of <I>checksum</I> or <I>indicator</I> values. <B>Your limitation is 
+15 readable ASCII characters.</B>. The length in ASCII, you can assume, will 
+always be less than 99,999 characters. The goal is to come up a characteristic 
+string that will change when and if the page changes.
+<P>I want to be able to use your code like this: <CODE><PRE>HTMLPageCharacterization for: 'http://www.cnn.com' 
+</PRE></CODE>
+<P>which should return a 15 character code for that page.
+<P>
+<H3>Implementation Hints</H3>
+<P>See the class HTTPSocket, especially the example class methods, for how to 
+grab a page. Your code should work for http:// <B>and</B> file:// URLs.
+<P>News pages are good pages to use as examples. http://www.cnn.com can change 
+frequently in useful ways.
+<P>
+<H3>Scenarios</H3>
+<P>
+<LI>A class News page always has a date and a new entry at the top of the body 
+of the page, but doesn't change the header of the page. How does your 
+characterization deal with that? 
+<LI>The page that you reference has a large table as a navigation bar, and the 
+frequently changing content is halfway down the page. How does your 
+characterization deal with that? 
+<P>
+<HR>
+
+<H2>Grading</H2>
+<P>You must turn in both code and <A 
+href="http://www.cc.gatech.edu/classes/cs2390_99_spring/8.html">Design 
+Documentation</A>. You will submit your code to cs2390@prism.gatech.edu before 
+class time. You will also hand in printed code and printed documentation.
+<P>
+<H3>Grading Criteria</H3>
+<P>DESIGN DOCUMENTATION (50 points) 
+<UL>
+  <LI>5 for Diagram: Correct in notation, doesn't break any semantic rules 
+  (e.g., subclass = is-a). 
+  <LI>10 for Good CRC: Makes sense, detailed 
+  <LI>10 for Good Overall Quality OOA/D: HAS MORE THAN ONE CLASS ON IT, follows 
+  rules in <A 
+  href="http://www.cc.gatech.edu/classes/cs2390_99_spring/7.html">Criteria for 
+  Good OOA/OOD</A> (e.g., no class is named as a verb). 
+  <LI>5 for Scenarios 
+  <LI>10 for Reasonable Detail in OOA/D -- you could code from it 
+  <LI>10 for Reuse -- makes sense, is believable, doesn't involve redefining 
+  anything. </LI></UL>
+<P>CODE (50 points)
+<P>
+<UL>
+  <LI>Below points assume http: and file: URLs work -- half of the points are 
+  for each type. 
+  <LI>10 Recognizes changes in title of page (near the top) 
+  <LI>10 Recognizes changes in beginning of body of page WHERE LENGTH DOESN'T 
+  CHANGE 
+  <LI>10 Recognizes changes at end of page WHERE LENGTH DOESN'T CHANGE 
+  <LI>10 Recognizes changes in middle where length does change 
+  <LI>10 For none of the test cases does the result ever exceed 15 characters. 
+  </LI></UL>
+<HR>
+<FONT size=-1>
+<CENTER><A href="http://www.cc.gatech.edu/classes/cs2390_99_spring/1.html">Back 
+to the top</A> | <A href="http://pbl.cc.gatech.edu/cs2390/1.html">Over to 
+CoWeb</A> </CENTER></FONT></FONT></LI></BODY></HTML>
