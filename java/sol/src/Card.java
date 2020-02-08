@@ -7,7 +7,7 @@ public static Dimension CARD_SIZE = new Dimension(65, 90);
 public static int IMAGE_SIZE = 30;
 public static int SM_IMAGE_SIZE = 10;
 //public static final String THIS_DIRECTORY = "C:\\sol\\";
-public static final String THIS_DIRECTORY = "http://www.prism.gatech.edu/~gte187k/sol/";
+//public static final String THIS_DIRECTORY = "http://www.prism.gatech.edu/~gte187k/sol/";
 
 private Image SPADE_PIC;
 private Image CLUB_PIC;
@@ -23,6 +23,7 @@ private Image SuitPic;
 
 
 public Card(String Suit, int iNumber) {
+
   Location = new Point(0,0);  
   this.Suit = Suit;
   this.iNumber = iNumber;
@@ -30,10 +31,10 @@ public Card(String Suit, int iNumber) {
 
 
 try {
-  SPADE_PIC = Toolkit.getDefaultToolkit().getImage(new URL(THIS_DIRECTORY + "spade.gif"));
-  CLUB_PIC = Toolkit.getDefaultToolkit().getImage(new URL(THIS_DIRECTORY + "club.gif"));
-  DIAMOND_PIC = Toolkit.getDefaultToolkit().getImage(new URL(THIS_DIRECTORY + "diamond.gif"));
-  HEART_PIC = Toolkit.getDefaultToolkit().getImage(new URL(THIS_DIRECTORY + "heart.gif"));
+  SPADE_PIC = Toolkit.getDefaultToolkit().getImage(new java.io.File( "./spade.gif" ).toURI().toURL());
+  CLUB_PIC = Toolkit.getDefaultToolkit().getImage(new java.io.File( "./club.gif" ).toURI().toURL());
+  DIAMOND_PIC = Toolkit.getDefaultToolkit().getImage(new java.io.File( "./diamond.gif" ).toURI().toURL());
+  HEART_PIC = Toolkit.getDefaultToolkit().getImage(new java.io.File( "./heart.gif" ).toURI().toURL());
 } catch (Exception e) {
   System.out.println(e);
 };
