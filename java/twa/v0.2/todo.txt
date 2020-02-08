@@ -1,0 +1,2 @@
+1) when user changes the name of the BBS it registers but does not
+   update immediately in the UI (user interface)

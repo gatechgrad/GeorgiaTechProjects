@@ -1,0 +1,21 @@
+[CurrentProject]
+curproj=RockPaperScissors.vpj
+[ProjectDates]
+RockPaperScissors.vpj=20001220024714000
+[ProjectFiles]
+RockPaperScissors.vpj
+[TreeExpansion]
+RockPaperScissors.vpj 0
+[State]
+SCREEN: 1024 768 176 -76 768 537 0 0 M 0 0 0 0 866 439
+CWD: D:\rps
+FILEHIST: 9
+D:\vslick\win\vslick.ini
+D:\test\Test.java
+D:\test\test.html
+D:\rpg\RPGGenerator.vpw
+D:\rpg\data\Monster.java
+D:\rpg\RPGGenerator.java
+D:\rpg\MonsterEditor.java
+D:\rpg\MonsterViewer.java
+D:\rps\RockPaperScissors.java

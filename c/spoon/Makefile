@@ -1,0 +1,10 @@
+COMPILER = gcc
+C_FILES = spoon.c
+OBJECT_FILES = spoon.o
+OUTPUT_FILE = spoon
+
+$(OUTPUT_FILE): $(OBJECT_FILES)
+	$(COMPILER) $(OBJECT_FILES) -o $(OUTPUT_FILE) -lalleg
+
+$(OBJECT_FILES): $(C_FILES)
+	$(COMPILER) -c $(C_FILES) -lalleg

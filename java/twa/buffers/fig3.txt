@@ -1,0 +1,5 @@
+> Report Sector 18545: Danzig's Merchant Cruiser entered sector.
+Received from Deployed Fighters at 03:50:01 PM S.D. 07/18/12:
+> Report Sector 18545: Danzig is attacking!
+> Danzig destroyed 2 of your fighters in sector 18545
+[Pause] - Delete messages? (Y/N) [N] You recover 25 of your turns.

@@ -1,0 +1,8 @@
+- Make all shape arrays correct 5x5 arrays
+- increased speed after every 10 lines
+- piece preview
+- end game when blocks reach top of table
+- gui controls
+- sound effects / music
+- better joystic support
+- correct randomizer

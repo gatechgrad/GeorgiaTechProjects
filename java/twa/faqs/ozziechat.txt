@@ -1,0 +1,61 @@
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`Altavista kF Ozzie  you need to set it so people can change it
+
+`Altavista keeps crashing on me
+
+Message sent on Federation comm-link.
+
+Command [TL=00:00:00]:[16473] (?=Help)? : 
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`(free inet access)
+
+Message sent on Federation comm-link.
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Ozzie  altavista has been having problems lately
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Ozzie  all the free inet programs have a hidden program in them
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Ozzie  go to grc.com and get the optout program and run it
+
+Command [TL=00:00:00]:[16473] (?=Help)? : I
+<Info>
+
+Trader Name    : Chief Warrant Officer GITCommand
+Rank and Exp   : 2,890 points, Alignment=1,250 Unselfish
+Corp           # 3, Command Software
+Ship Name      : Cerberus
+Ship Info      : Martin Ind Imperial StarShip Ported=289 Kills=0
+Date Built     : 05:48:44 PM Thu Jul 05, 2012
+Turns to Warp  : 4
+Current Sector : 16473
+Turns left     : 1000
+Total Holds    : 150 - Fuel Ore=96 Empty=54
+Fighters       : 743
+Shield points  : 41                     
+Limpet Mines T2: 2                    
+Marker Beacons : 20
+Genesis Torps  : 4
+Atomic Detn.   : 1                      
+LongRange Scan : Holographic Scanner
+TransWarp Power
+  (Type 1 Jump): 32 hops
+  (Type 2 Jump): 16 hops
+Credits        : 42,557
+
+Command [TL=00:00:00]:[16473] (?=Help)? : U
+You have 4 Genesis Torpedoes.
+Do you wish to launch one (Y/N) [N]? No
+
+Command [TL=00:00:00]:[16473] (?=Help)? : 
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`I used to use Netzero until they fixed the window hack
+
+Message sent on Federation comm-link.
+
+Command [TL=00:00:00]:[16473] (?=Help)? : 

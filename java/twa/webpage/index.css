@@ -1,0 +1,59 @@
+    body {
+      color: #FFFFFF;
+      background-color: #007070;
+      font-family: arial, sans-serif;
+      font-size: 10pt;
+      background-image: url("images/background.gif");
+
+    }
+
+    a {
+      font-size: 10pt;
+      font-weight: bold;
+      color: #006060;
+      text-decoration: none;
+      font-family: arial, sans-serif;
+
+    }
+
+    a:hover {
+      color = #A0FFFF;
+      text-decoration: underline;
+      font-family: arial, sans-serif;
+      font-size: 10pt;
+      font-weight: bold;
+
+    }
+
+    
+    .navbar {
+      color: #008080;
+      background-color: #00C0C0;
+      font-family: arial, sans-serif;
+      font-size: 10pt;
+      background-image: url("images/navbar.gif");
+
+    }
+
+    .infotext {
+      color: #A0FFFF;
+      font-size: 10pt;
+      font-family: arial, sans-serif;
+    }
+
+    .infomid {
+      color: #FFFFFF;
+      font-size: 10pt;
+      font-family: arial, sans-serif;
+      background-image: url("images/infomid.gif");
+    }
+
+    .infotop {
+      background-image: url("images/infotop.gif");
+      color: #FF0000;
+    }
+
+    .infobottom {
+      background-image: url("images/infobottom.gif");
+    }
+

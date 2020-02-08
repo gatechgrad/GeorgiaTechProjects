@@ -1,0 +1,195 @@
+Weird Errors:
+-------------------------------------------------------------------------
+java.lang.StringIndexOutOfBoundsException: String index out of range: 333
+        at java.lang.String.charAt(Unknown Source)
+        at Receiver.update(Receiver.java:309)
+        at Receiver.run(Receiver.java:147)
+        at java.lang.Thread.run(Unknown Source)
+-------------------------------------------------------------------------
+        Code: 0;40;37mm
+        strToPrint: EWS
+        Code: 0;1;40;37mm
+        strToPrint:
+        Code: 0;40;37mm
+        strToPrint: &
+        Code: 0;1;40;37mm
+        strToPrint:
+        Code: 0;1;40;33mm
+        strToPrint: D
+        Code: 0;40;37mm
+        strToPrint: ATA
+        Code: 0;1;40;37mm
+        strToPrint:
+        Code: 0;1;40;33mm
+        strToPrint: EX
+        Code: 0;40;37mm
+        strToPrint: CHANGE
+        Exception occurred during event dispatching:
+        java.lang.StringIndexOutOfBoundsException: String index out of range: 247
+                at java.lang.String.charAt(Unknown Source)
+                at Receiver.update(Receiver.java:335)
+                at Receiver.paint(Receiver.java:246)
+                at javax.swing.JComponent.paintChildren(Unknown Source)
+                at javax.swing.JComponent.paint(Unknown Source)
+                at javax.swing.JComponent.paintWithBuffer(Unknown Source)
+                at javax.swing.JComponent._paintImmediately(Unknown Source)
+                at javax.swing.JComponent.paintImmediately(Unknown Source)
+                at javax.swing.RepaintManager.paintDirtyRegions(Unknown Source)
+                at javax.swing.SystemEventQueueUtilities$ComponentWorkRequest.run(Unknow
+                n Source)
+                at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+                at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                at java.awt.EventDispatchThread.pumpOneEvent(Unknown Source)
+                at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                at java.awt.EventDispatchThread.run(Unknown Source)
+
+-------------------------------------------------------------------------
+Code: 0;1;40;34m
+strToPrint: ?
+Code: 0;40;30m
+strToPrint:
+Code: 0;40;37m
+strToPrint: <
+Code: 0;1;40;33m
+strToPrint: F
+Code: 0;40;37m
+strToPrint: >
+Code: 0;1;40;33m
+strToPrint:
+Code: 0;40;37m
+strToPrint: Trade Wars 2002 Game Server
+Code: 0;1;40;34m
+strToPrint:
+Code: 0;40;30m
+strToPrint:
+Code: 0;1;40;34m
+strToPrint:  ?
+Code: 0;40;30m
+strToPrint:
+Code: 0;1;40;34m
+strToPrint: ?
+Code: 0;40;30m
+strToPrint:
+Code: 0;40;37m
+Exception occurred during event dispatching:
+java.lang.StringIndexOutOfBoundsException: String index out of range: -31
+at java.lang.String.substring(Unknown Source)
+at java.lang.String.substring(Unknown Source)
+at Receiver.update(Receiver.java:355)
+at Receiver.paint(Receiver.java:246)
+at javax.swing.JComponent.paintChildren(Unknown Source)
+at javax.swing.JComponent.paint(Unknown Source)
+at javax.swing.JComponent.paintWithBuffer(Unknown Source)
+at javax.swing.JComponent._paintImmediately(Unknown Source)
+at javax.swing.JComponent.paintImmediately(Unknown Source)
+at javax.swing.RepaintManager.paintDirtyRegions(Unknown Source)
+at javax.swing.SystemEventQueueUtilities$ComponentWorkRequest.run(Unknow
+n Source)
+at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+at java.awt.EventQueue.dispatchEvent(Unknown Source)
+at java.awt.EventDispatchThread.pumpOneEvent(Unknown Source)
+at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+at java.awt.EventDispatchThread.run(Unknown Source)
+
+-------------------------------------------------------------------------
+strToPrint:
+Code: 0;1;40;34m
+strToPrint:
+Code: 0;40;30m
+strToPrint:
+Code: 0;1;40;34m
+strToPrint:
+Code: 0;40;30m
+strToPrint:
+Code: 0;1;40;34m
+strToPrint:  ?
+Code: 0;40;30m
+strToPrint:
+Code: 0;1;40;34m
+strToPrint: ?
+Code:
+Exception occurred during event dispatching:
+java.lang.StringIndexOutOfBoundsException: String index out of range: -25
+        at java.lang.String.substring(Unknown Source)
+                at java.lang.String.substring(Unknown Source)
+                        at Receiver.update(Receiver.java:358)
+                                at Receiver.paint(Receiver.java:246)
+                                        at javax.swing.JComponent.paintChildren(Unknown Source)
+                                                at javax.swing.JComponent.paint(Unknown Source)
+                                                        at javax.swing.JComponent.paintWithBuffer(Unknown Source)
+                                                                at javax.swing.JComponent._paintImmediately(Unknown Source)
+                                                                        at javax.swing.JComponent.paintImmediately(Unknown Source)
+                                                                                at javax.swing.RepaintManager.paintDirtyRegions(Unknown Source)
+                                                                                        at javax.swing.SystemEventQueueUtilities$ComponentWorkRequest.run(Unknow
+                                                                                        n Source)
+                                                                                                at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+                                                                                                        at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                                                                                                at java.awt.EventDispatchThread.pumpOneEvent(Unknown Source)
+                                                                                                                        at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                                                                                                                at java.awt.EventDispatchThread.run(Unknown Source)
+                                                                                                                                strToPrint:
+                                                                                                                                Code: 0;40;30m
+                                                                                                                                strToPrint:
+                                                                                                                                Code: 0;1;40;34m
+                                                                                                                                strToPrint: ????????????????????????????????????????????
+                                                                                                                                Code: 0;40;30m
+                                                                                                                                strToPrint:
+                                                                                                                                Code: 0;1;40;34m
+                                                                                                                                strToPrint: ???????????????????????
+                                                                                                                                Code: 0;40;30m
+                                                                                                                                strToPrint:
+                                                                                                                                strToPrint:
+                                                                                                                                Code: 0;40;37m
+                                                                                                                                strToPrint: Minutes Remaining:
+
+-------------------------------------------------------------------------
+Code: 0;1;40;34m
+strToPrint: ?
+Code: 0;40;30m
+strToPrint:
+Code: 0;1;40;33m
+strToPrint: I
+Code: 0;40;37m
+strToPrint: NFORMATION
+Code: 0;1
+i: 23
+index: 106
+Exception occurred during event dispatching:
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+        at java.lang.String.substring(Unknown Source)
+                at java.lang.String.substring(Unknown Source)
+                        at Receiver.update(Receiver.java:358)
+                                at Receiver.paint(Receiver.java:246)
+                                        at javax.swing.JComponent.paintChildren(Unknown Source)
+                                                at javax.swing.JComponent.paint(Unknown Source)
+                                                        at javax.swing.JComponent.paintWithBuffer(Unknown Source)
+                                                                at javax.swing.JComponent._paintImmediately(Unknown Source)
+                                                                        at javax.swing.JComponent.paintImmediately(Unknown Source)
+                                                                                at javax.swing.RepaintManager.paintDirtyRegions(Unknown Source)
+                                                                                        at javax.swing.SystemEventQueueUtilities$ComponentWorkRequest.run(Unknow
+                                                                                        n Source)
+                                                                                                at java.awt.event.InvocationEvent.dispatch(Unknown Source)
+                                                                                                        at java.awt.EventQueue.dispatchEvent(Unknown Source)
+                                                                                                                at java.awt.EventDispatchThread.pumpOneEvent(Unknown Source)
+                                                                                                                        at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+                                                                                                                                at java.awt.EventDispatchThread.run(Unknown Source)
+                                                                                                                                i: 0
+                                                                                                                                index: 0
+                                                                                                                                strToPrint:  ???????????????????              indexbbs.com             ?????????
+                                                                                                                                ???????????
+                                                                                                                                i: 1
+                                                                                                                                index: 0
+                                                                                                                                strToPrint:  ???????????????????            www.indexbbs.com           ?????????
+                                                                                                                                ???????????
+                                                                                                                                i: 2
+                                                                                                                                index: 0
+                                                                                                                                strToPrint:  ???????????????????             (770) 831-0416            ?????????
+                                                                                                                                ???????????
+                                                                                                                                i: 3
+                                                                                                                                index: 0
+                                                                                                                                strToPrint:  ???????????????????             (770) 831-0417            ?????????
+                                                                                                                                ???????????
+                                                                                                                                i: 4
+                                                                                                                                index: 0
+                                                                                                                                strToPrint:                    ?????????????????????????????????????????
+

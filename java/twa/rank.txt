@@ -1,0 +1,21 @@
+Trade Wars 2002 Trader Rankings : 07/27/12 04:24:50 PM
+
+ #       Rank  Alignment Corp        Trader Name                Ship Type
+--- --------------------- -- ------------------------------ ------------------
+  1    35,464     14,952   1 Ozzie                          Wraith
+  2    30,879      7,879   1 Baron                          Wraith
+  3    25,755      1,054   3 GITCommand                     Wraith
+  4     2,214      1,202   1 ookii mamoru                   Wraith
+  5     1,162        -89   2 Alias                          # Ship Destroyed #
+  6       896      1,213   3 Indo                           Wraith
+  7       501         90   5 Flash                          # Ship Destroyed #
+  8       200         20   5 monkey                         # Ship Destroyed #
+  9        61          1  ** Danzig                         # Ship Destroyed #
+ 10        23          0  ** Lord_devi                      # Ship Destroyed #
+ 11        22      1,005   1 tlovingc                       Wraith
+ 12         8          2  ** Lazarus Long                   Merchant Freighter
+ 13         6          0  ** The Wizard                     # Ship Destroyed #
+ 14         6          1  ** Seven                          # Ship Destroyed #
+ 15         0          0  ** battleman                      # Ship Destroyed #
+ 16         0          0  ** Fire                           # Ship Destroyed #
+ 17         0          0  ** hammer                         # Ship Destroyed #

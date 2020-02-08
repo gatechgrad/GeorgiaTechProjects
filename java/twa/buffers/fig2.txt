@@ -1,0 +1,14 @@
+Searching for messages received since your last time on:
+Received from Deployed Fighters at 02:13:28 PM S.D. 07/17/12:
+> Report Sector 2219: monkey's BattleShip entered sector.
+Received from Deployed Fighters at 02:13:29 PM S.D. 07/17/12:
+> Report Sector 2219: monkey is attacking!
+> monkey destroyed 2 of your fighters in sector 2219
+> Your fighters in sector 8482 destroyed a Sub Space Ether Probe.
+>  They traced it's transmission to monkey's I.D. code.
+Received from Deployed Fighters at 03:26:40 PM S.D. 07/17/12:
+> Report Sector 8482: monkey's BattleShip entered sector.
+Received from Deployed Fighters at 03:26:42 PM S.D. 07/17/12:
+> Report Sector 8482: monkey is attacking!
+> monkey destroyed 2 of your fighters in sector 8482
+[Pause] - Delete messages? (Y/N) [N] You recover 607 of your turns.

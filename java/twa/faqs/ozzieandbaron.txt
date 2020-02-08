@@ -1,0 +1,208 @@
+  ==-- Trade Wars 2002 --==
+
+   T - Play Trade Wars 2002
+   I - Introduction & Help
+   S - View Game Settings
+   H - High scores
+   X - Exit
+
+Enter your choice: T
+Show today's log? (Y/N) [N] No
+
+Initializing...
+
+       Hello command.com, welcome to:
+
+           Trade Wars 2002 ver 3.11.28 Gold
+
+(C) Copyright 1990-2000 John Pritchett.  All rights reserved.
+    Brought to you by Epic Interactive Strategy
+    Written by Gary Martin, Mary Ann Martin and John Pritchett
+
+For Trade Wars support, visit Epic Interactive Strategy on the Net!
+
+           Web:   http://www.eisonline.com
+           Email: twsupport@eisonline.com
+
+
+
+This copy of TW2002 is Registered to The INDEX System
+and is being brought to you courtesy of Chris Dunbar
+The Local display on the BBS is turned off, you are in Secured Mode
+[Pause]
+
+A password is required to enter this game.
+
+Password? ******
+
+                               Who's Playing                                 
+
+Chief Warrant Officer Ozzie [1]
+Chief Warrant Officer Baron [1]
+
+[Pause]
+
+Searching for messages received since your last time on:
+No messages received.
+[Pause]
+
+<Scanning for Hazardous Sectors you have marked to Avoid>
+
+  17240
+
+Do you wish to clear some avoids? (Y/N) [N] No
+
+
+You were in the game yesterday.
+For playing your turns today, you receive 1 experience point(s).
+and your alignment went up by 1 point(s).
+
+You have 119 turns this Stardate.
+
+Sector  : 16473 in uncharted space.
+Ports   : Weiss Major, Class 5 (SBS)
+Planets : (M) Cerberus' Domain
+          (L) Zeus' Domain
+          (M) Junk
+          (a) Balder's Domain
+          (a) Loki's Domain
+Fighters: 5 (yours) [Defensive]
+Mines   : 200 (Type 1 Armid) (belong to your Corp)
+Warps to Sector(s) :  9108
+
+Command [TL=00:00:00]:[16473] (?=Help)? : I
+<Info>
+
+Trader Name    : Warrant Officer GITCommand
+Rank and Exp   : 1,859 points, Alignment=1,108 Unselfish
+Corp           # 3, Command Software
+Ship Name      : Cerberus
+Ship Info      : Martin Ind Imperial StarShip Ported=182 Kills=0
+Date Built     : 05:48:44 PM Thu Jul 05, 2012
+Turns to Warp  : 4
+Current Sector : 16473
+Turns left     : 119
+Total Holds    : 150 - Empty=150
+Fighters       : 83
+Shield points  : 30                     
+Genesis Torps  : 1
+LongRange Scan : Holographic Scanner
+TransWarp Power
+  (Type 1 Jump): 0 hops
+  (Type 2 Jump): 0 hops
+Credits        : 137,919
+
+Command [TL=00:00:00]:[16473] (?=Help)? : V
+         Trade Wars 2002 Game Configuration and Status
+
+ Initial Turns per day 1000, fighters 30, credits 300, holds 20.
+ Inactive players will be deleted after 30 days.
+ Maximum players 200, sectors 20000, ports 8000, planets 4000.
+ The Maximum number of Planets per sector: 5,  Traders on a Corp: 5,
+                Ships per FedSpace Sector: 5.
+
+         The StarDock is located in sector 5114.
+         Photon Missile Wave duration is 20 seconds.
+         Ver# 3.11.28 Gold running under Sockets.
+         The local display is OFF AT ALL TIMES.
+         This game is registered to The INDEX System.
+         This game has been running for 13 days.
+
+-=-=-=-  Current Stats for 11:40:22 PM Sat Jul 07, 2012 -=-=-=-
+
+ 7,602 ports are open for business and have a net worth of 3,350,886.
+ 34 planets exist in the universe, 5% have Citadels.
+ 9 Traders (77% Good) are active in the game.
+ 444,536 Fighters and 450 Mines are in use throughout the Universe.
+ 3 Corporations are in business.
+
+Command [TL=00:00:00]:[16473] (?=Help)? : 
+<Re-Display>
+
+Sector  : 16473 in uncharted space.
+Ports   : Weiss Major, Class 5 (SBS)
+Planets : (M) Cerberus' Domain
+          (L) Zeus' Domain
+          (M) Junk
+          (a) Balder's Domain
+          (a) Loki's Domain
+Fighters: 5 (yours) [Defensive]
+Mines   : 200 (Type 1 Armid) (belong to your Corp)
+Warps to Sector(s) :  9108
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Baron  have u found any bubbles?
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Baron  or really big dead ends?
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Ozzie  got a couple mapped about 3 or 4 deep
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Ozzie  with 20k sectors it's hard to find them
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Baron  when u get back we need to get another base going
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Baron  by then we'll have 2nd wraith
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Ozzie  i'll have 1000 turns when i get back
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Baron  ya
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Baron  lets not trade in both battlestars
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Baron  just mine
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Ozzie  i'll lose about 700 on this trip
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Baron  thats not too bad
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Ozzie  ok, just remember, if we planet trade, buy a scout to trade with, and leave it in the sector
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Baron  yep
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Baron  i learned last time
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Baron  heh
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Ozzie  gitcommand has limpets out
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Baron  have a good trip
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Baron  i'm gonna colonize
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Ozzie  k, i put my money in the citadel, not much, just 10k
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Ozzie  seeya
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Baron  cya
+
+Command [TL=00:00:00]:[16473] (?=Help)? : 
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`don't mind me :-)
+
+Message sent on Federation comm-link.
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Baron  heh
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Baron  i just saw u were on
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Baron  hope u don't mind the lag, but i'm gonna colonize
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Baron  only take about 5-10mins
+
+Command [TL=00:00:00]:[16473] (?=Help)? : F Ozzie  night guys
+
+Command [TL=00:00:00]:[16473] (?=Help)? : 
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`later
+
+Message sent on Federation comm-link.
+
+Command [TL=00:00:00]:[16473] (?=Help)? : 
+
+                               Who's Playing                                 
+
+Warrant Officer GITCommand [3]
+Chief Warrant Officer Baron [1]

@@ -1,0 +1,10 @@
+COMPILER = gcc
+C_FILES = band.c
+OBJECT_FILES = band.o
+OUTPUT_FILE = band
+
+$(OUTPUT_FILE): $(OBJECT_FILES)
+	$(COMPILER) $(OBJECT_FILES) -o $(OUTPUT_FILE) -lalleg
+
+$(OBJECT_FILES): $(C_FILES)
+	$(COMPILER) -c $(C_FILES) -lalleg

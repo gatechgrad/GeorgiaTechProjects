@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Created-By: 1.3beta (Sun Microsystems Inc.)
+Main-Class: TWA

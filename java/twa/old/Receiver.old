@@ -1,0 +1,175 @@
+import javax.swing.*;
+import java.awt.*;
+import java.io.*;
+import java.net.*;
+import java.util.StringTokenizer;
+
+class Receiver extends JComponent implements Runnable {
+
+  /** CONSTANTS **/
+  private static final int SPACING = 20;
+
+  /** CLASS VARIABLES **/
+  DataInputStream theInputStream;
+  int x, y, iReceived, iLines;
+  String strData;
+  Thread threadFetcher;
+
+  /**
+    * Receiver - gets the data
+    **/
+  public Receiver(DataInputStream theInputStream) {
+    this.theInputStream = theInputStream;
+
+    x = 0;
+    y = 0;
+    iReceived = 0;
+    strData = "";
+    iLines = 0;
+
+    (threadFetcher = new Thread(this)).start();
+
+    this.setBackground(Color.white);
+    this.setForeground(Color.green);
+
+
+  }
+
+
+  /**
+    * run
+    **/
+  public void run() {
+    System.out.println("Running");
+    boolean isConnected;
+
+    isConnected = true;
+
+    try {
+      while (true && isConnected) {
+        synchronized (strData) {
+          System.out.println("Got data");
+          if (theInputStream != null) {
+            strData = strData + (char) theInputStream.readByte();
+            //System.out.print(strData);
+          } else {
+            JOptionPane.showMessageDialog(this, "Connection lost to host",
+            "Connection Lost", JOptionPane.WARNING_MESSAGE);
+            isConnected = false;
+          }
+          if (getGraphics() != null) {
+            update(getGraphics());
+          }
+        }
+      }
+    } catch (EOFException e) {
+    } catch (IOException e) {
+
+    }
+
+
+  }
+
+  /**
+    * getData - reads data from the input stream
+    **/
+  private void getData() {
+    char iChar;
+    int iCount;
+    String strToReturn = "";
+    boolean willDisplay;
+
+    willDisplay = true;
+
+/*
+
+    try {
+      iChar = (char) theInputStream.read();
+      System.out.println(" " + iChar);
+
+      // NEED TO FIX THIS SO THAT IT ONLY LOOPS WHEN DATA IS AVAILABLE
+
+      while (true) {
+        strToReturn += iChar;
+
+        if (theInputStream.available() > 0) {
+          iChar = (char) theInputStream.read();
+
+          if ((iChar == 10) || (iChar == 13)) {
+            iLines++;
+            System.out.println("" + iLines);
+          }
+
+          //if anyone wants to add color support, do it here
+          //else I will ignore the color code characters
+          if ((iChar == 27) && willDisplay) {
+            willDisplay = false;
+          } else if (!willDisplay && iChar == 'm') {
+            willDisplay = true;
+          } else if (willDisplay) {
+            System.out.print(iChar);
+          }
+        }
+                                                                           
+      }
+
+
+    } catch (IOException e) { }
+*/
+
+  }
+
+
+
+
+  /**
+    * paint
+    **/
+  public void paint(Graphics g) {
+    System.out.println("paint called");
+    update(g);
+  }
+
+
+  /**
+    * repaint
+    **/
+  public void repaint(Graphics g) {
+    System.out.println("repaint called");
+    update(g);
+  }
+
+  /**
+    * update
+    **/
+  public void update(Graphics g) {
+    System.out.println("update called");
+    g.setColor(Color.black);
+    g.fillRect(0, 0, 640, 480);
+    g.setColor(Color.green);
+    g.drawString("Hello World", 0, 20);
+
+    StringTokenizer stData = new StringTokenizer(strData, "\r\n");
+
+    y = SPACING;
+    while(stData.hasMoreTokens()) {
+      g.drawString(stData.nextToken(), 0, y);
+      y += SPACING;
+
+
+    }
+
+    System.out.println(strData);
+
+  }
+
+
+  /**
+    * main
+    **/
+  public static void main(String argv[]) {
+
+  }
+
+
+}

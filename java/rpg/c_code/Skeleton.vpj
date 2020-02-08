@@ -1,0 +1,11 @@
+[COMPILER]
+INCLUDEDIRS=
+COMPILE=
+MAKE=
+EXECUTE=,"Skeleton.exe"
+DEBUG=
+REBUILD=
+version=5.0
+workingdir=.
+[FILES]
+skeleton.c

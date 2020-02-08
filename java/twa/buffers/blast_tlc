@@ -1,0 +1,1025 @@
+    < 12> James Madison
+    < 18> Jinkoueisei
+    < 19> Shi Hoshi no Command
+    < 20> Sooshireibu no Command Ni
+    < 21> Soushireibu no Command
+
+Land on which planet <Q to abort> ? 21
+Landing sequence engaged...
+
+
+
+Planet #21 in sector 5565: Soushireibu no Command
+Class a-ibD, Sentinel
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore     49,663          1     49,663     64,600          0 10,000,000
+Organics          0          5          0      2,590          0    100,000
+Equipment         0          7          0      1,270          0    100,000
+Fighters        N/A          4     12,415         53     53,133  1,000,000
+
+Planet has a level 3 Citadel, treasury contains 0 credits.
+Military reaction=50%, QCannon power=0%, AtmosLvl=50%, SectLvl=20%
+
+You have 255 free cargo holds.
+
+Planet command (?=help) [D] M
+<Change Military>
+
+Display Planet? No
+
+There are currently 54 Fighters on this planet.
+Do you wish to (L)eave or (T)ake Fighters? [T] (Q to Exit) T
+How many Fighters do you want to take (54 Max) [54] ?
+The Fighters join your battle force.
+
+Planet command (?=help) [D] Q
+
+Blasting off from Soushireibu no Command
+
+Command [TL=00:00:00]:[5565] (?=Help)? : L
+<Preparing ship to land on planet surface>
+
+<Atmospheric maneuvering system engaged>
+Registry# and Planet Name
+-----------------------------------------------
+    < 12> James Madison
+    < 18> Jinkoueisei
+    < 19> Shi Hoshi no Command
+    < 20> Sooshireibu no Command Ni
+    < 21> Soushireibu no Command
+
+Land on which planet <Q to abort> ? 12
+Landing sequence engaged...
+
+
+
+Planet #12 in sector 5565: James Madison
+Class a-ibD, Sentinel
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore      3,701          1      3,701      1,103          0 10,000,000
+Organics          0          5          0          0          0    100,000
+Equipment         0          7          0          0          0    100,000
+Fighters        N/A          4        925         13     53,187  1,000,000
+
+You have 255 free cargo holds.
+
+Planet command (?=help) [D] C
+<Build Citadel>
+
+
+This planet does not have a Citadel on it.  If you wish to construct one,
+you must first have the raw materials on the planet to build the Citadel.
+
+Once a Citadel is built, you will then have the options of leaving your ship
+there overnight, storing credits in the treasury, and many other military
+functions that can turn your planet into a stronghold that is formidable
+indeed!  Addition of a Combat computer will enable your Citadel's systems to
+control all fighters on the planet for defense.  Purchase of a Quasar cannon
+can give your Citadel the power to attack craft in space in the sector the
+planet is in.
+
+Citadel construction on this type of planet requires the following:
+             5,000,000 Colonists to support the construction,
+                 5,000 units of Fuel Ore,
+                 2,000 units of Organics,
+                 1,000 units of Equipment and
+                     2 days to construct.
+
+Do you wish to construct one? Yes
+You need 5,000,000 Colonists to build a citadel.
+You need 5,000 units of Fuel Ore to build a citadel.
+You need 2,000 units of Organics to build a citadel.
+You need 1,000 units of Equipment to build a citadel.
+Try again later when you have enough of everything on this planet.
+Planet command (?=help) [D] Q
+
+Blasting off from James Madison
+
+Command [TL=00:00:00]:[5565] (?=Help)? : D
+<Re-Display>
+
+Sector  : 5565 in uncharted space.
+Beacon  : FedSpace, FedLaw Enforced
+Ports   : Bulgars Annex, Class 8 (BBB)
+Planets : (a) James Madison
+          (M) Jinkoueisei
+          (a) Shi Hoshi no Command
+          (a) Sooshireibu no Command Ni
+          (a) Soushireibu no Command
+Ships   : Regis Philbin [Owned by] Command Software [4], w/ 99 ftrs,
+           (IonStream Scout Marauder)
+Fighters: 5 (belong to your Corp) [Defensive]
+Mines   : 250 (Type 1 Armid) (belong to your Corp)
+        : 10 (Type 2 Limpet) (belong to your Corp)
+Warps to Sector(s) :  19507
+
+Command [TL=00:00:00]:[5565] (?=Help)? : C
+<Computer>
+
+<Computer activated>
+
+Computer command [TL=00:00:00]:[5565] (?=Help)? L
+
+List by rank (T)itles or by rank (V)alues (T,V or Q to quit) ? V
+Ranking Traders...
+Trade Wars 2002 Trader Rankings : 08/22/12 02:05:32 AM
+
+ #       Rank  Alignment Corp        Trader Name                Ship Type
+--- --------------------- -- ------------------------------ ------------------
+  1     9,672      8,359   4 GITCommand                     Wraith
+  2     5,161      1,346   5 Ookii Mamoru                   Battlestar
+  3     5,101      2,039   2 Ozzie                          Wraith
+  4     4,356       -290   3 The BOrg                       Battlestar
+  5       616      1,228   5 tlovingc                       Merchant Cruiser
+  6       402          2   1 Lazarus Long                   Merchant Freighter
+  7         1          1  ** Baron                          Merchant Cruiser
+
+Computer command [TL=00:00:00]:[5565] (?=Help)? Q
+
+<Computer deactivated>
+
+Command [TL=00:00:00]:[5565] (?=Help)? : L
+<Preparing ship to land on planet surface>
+
+<Atmospheric maneuvering system engaged>
+Registry# and Planet Name
+-----------------------------------------------
+    < 12> James Madison
+    < 18> Jinkoueisei
+    < 19> Shi Hoshi no Command
+    < 20> Sooshireibu no Command Ni
+    < 21> Soushireibu no Command
+
+Land on which planet <Q to abort> ? 21
+Landing sequence engaged...
+
+
+
+Planet #21 in sector 5565: Soushireibu no Command
+Class a-ibD, Sentinel
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore     49,663          1     49,663     64,627          0 10,000,000
+Organics          0          5          0      2,590          0    100,000
+Equipment         0          7          0      1,270          0    100,000
+Fighters        N/A          4     12,415          6     53,187  1,000,000
+
+Planet has a level 3 Citadel, treasury contains 0 credits.
+Military reaction=50%, QCannon power=0%, AtmosLvl=50%, SectLvl=20%
+
+You have 255 free cargo holds.
+
+Planet command (?=help) [D] T
+<Take/Leave Products>
+
+Display planet? No
+(L)eave or (T)ake Product? [T] T
+Which product are you taking?
+(1)Ore, (2)Org or (3)Equipment ? 1
+How many holds of Fuel Ore do you want to take ([255] empty holds) ?
+You load the Fuel Ore aboard your ship.
+
+Planet command (?=help) [D] Q
+
+Blasting off from Soushireibu no Command
+One turn deducted, 36 turns left.
+
+Command [TL=00:00:00]:[5565] (?=Help)? : 1
+<Move>
+Warping to Sector 1
+
+That Warp Lane is not adjacent.
+Do you want to engage the TransWarp drive? Yes
+Sector 1 is 18 hops away from here.
+Federation beacon acknowledged, coordinates cleared for beaming.
+Locating beam pinpointed, TransWarp Locked.
+All Systems Ready, shall we engage? Yes
+
+   ³   ú
+   ³ ú
+   ³
+   ³     ú                         ú ³
+   ³   ú           ú           ú
+   ³
+   ÀÄÄ
+   ³ ú      ú      ú       ú      ú .³
+   ³ ú      ú      ú       ú      ú .³
+   ³     ú         Ü               ú ³
+   ³    ú          ú            ú  ú ³
+   ³        ú               ú        ³
+   ³            ú        ú    ú      ³
+   ³ú              ú        ú   ú  ú ³
+   ³            ú                 ú  ³
+   ³                ú      ú         ³
+   ³ú               ú            ú   ³
+   ³              ß ßÜ               ³
+   ³                   ş             ³
+   ³        ş            ş           ³
+   ³          \ ßÜ   Üß /            ³
+   ³     ş  şş   şßÜßÜ ş   ş ş ş ş   ³
+   ³             ÜşşßÜ  \            ³
+   ³   ş   ş     şşşßş ş   şşş     ş ³
+   ³          \ ßÜ | Üş /            ³
+   ³   ş  ş şş     |     şş          ³
+   ³   ş  ş şş   ş |     şş          ³
+   ³       ş    ß    Üş /            ³
+   ³   ş  ş şş     |  ş  şş          ³
+   ³   ş     ú        ú  şş          ³
+   ³ ú      şş   ş | ş   ş      ş    ³
+   ³ ú                      ş        ³
+   ³    ú        ú    úş   şşş     ş ³
+   ³ ú     ú          ú      ú    ú  ³
+   ³ ú      ú.       ş   ú           ³
+   ³    ú          ú    .   ú        ³
+
+
+-=-=-=- TransWarp Drive Engaged! -=-=-=-
+
+Sector  : 1 in The Federation.
+Beacon  : FedSpace, FedLaw Enforced
+Ports   : Sol, Class 0 (Special)
+Planets : (M) Terra
+Traders : Civilian Baron, w/ 30 ftrs,
+           in :)]y (Sverdlov Merchant Cruiser)
+Warps to Sector(s) :  2 - 3 - 4 - 5 - 6 - 7
+
+Command [TL=00:00:00]:[1] (?=Help)? : P
+
+<A> Attack this Port
+<T> Trade at this Port
+<Q> Quit, nevermind
+
+Enter your choice [T] ? T
+<Port>
+
+Docking...
+One turn deducted, 33 turns left.
+You have 113,346 credits.
+   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+   ³²²²  . ú  .    ú °²²²²°²²²²²²²²²²²²²²²²²²²²²²²²²°²²²²²
+   ³²²²  . ú  .    ú °²²²²°²²²²²²²²²²²²²²²²²²²²²²²²²°²²²²²²²²²²²²²²²²²²²²²²²²³
+   ³ÛÛÛ.   ú    :. ú °ÛÛÛÛ
+   ³ÛÛÛ.   ú    :. ú °ÛÛÛÛ°ÛÛÄÄ¿°°°ÀÄÄÄ´ À¿°°°şÀÄÄÄ´°ÛÛş
+   ³ÛÛÛ.   ú    :. ú °ÛÛÛÛ°ÛÛÄÄ¿°°°ÀÄÄÄ´ À¿°°°şÀÄÄÄ´°ÛÛşş³úúúúúúúúúúúúúúúú
+   ³ÛÛÛ.   ú    :. ú °ÛÛÛÛ°ÛÛÄÄ¿°°°ÀÄÄÄ´ À¿°°°şÀÄÄÄ´°ÛÛşş³úúúúúúúúúúúúúúúú³ş°³
+   ³ÚÄ¿ ú . úÚÜÜÛÜÜ¿.°
+   ³ÚÄ¿ ú . úÚÜÜÛÜÜ¿.°şÚÄ¿°ÛÛÚÄÁÄÄÄÄÄÄÄÁÄÄÁÄÄÄÄÄÄ¿ ³°ÛÛş
+   ³ÚÄ¿ ú . úÚÜÜÛÜÜ¿.°şÚÄ¿°ÛÛÚÄÁÄÄÄÄÄÄÄÁÄÄÁÄÄÄÄÄÄ¿ ³°ÛÛşş³.úúúúúúúúúúúúúú.
+   ³ÚÄ¿ ú . úÚÜÜÛÜÜ¿.°şÚÄ¿°ÛÛÚÄÁÄÄÄÄÄÄÄÁÄÄÁÄÄÄÄÄÄ¿ ³°ÛÛşş³.úúúúúúúúúúúúúú.³ş°³
+   ³³ş³.¿³¿³.À
+   ³³ş³.¿³¿³.ÀßßÜÜÜÙ³°ş³ş
+   ³³ş³.¿³¿³.ÀßßÜÜÜÙ³°ş³ş³°ÛÛ³ú ú ú ú ú ú ú ú ú ú
+   ³³ş³.¿³¿³.ÀßßÜÜÜÙ³°ş³ş³°ÛÛ³ú ú ú ú ú ú ú ú ú ú³±³°ÛÛ° ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ°°
+   ³³ş³.¿³¿³.ÀßßÜÜÜÙ³°ş³ş³°ÛÛ³ú ú ú ú ú ú ú ú ú ú³±³°ÛÛ° ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ°°³
+   ³ÀÄÙÛÜÜÜÜÛúÀ´ŞÃÙ³³°
+   ³ÀÄÙÛÜÜÜÜÛúÀ´ŞÃÙ³³°ş³ş³°ÛÛ³   İÙ
+   ³ÀÄÙÛÜÜÜÜÛúÀ´ŞÃÙ³³°ş³ş³°ÛÛ³   İÙÜ À     ÜÀŞ
+   ³ÀÄÙÛÜÜÜÜÛúÀ´ŞÃÙ³³°ş³ş³°ÛÛ³   İÙÜ À     ÜÀŞ   ³±³°ÛÛ°ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿°
+   ³ÀÄÙÛÜÜÜÜÛúÀ´ŞÃÙ³³°ş³ş³°ÛÛ³   İÙÜ À     ÜÀŞ   ³±³°ÛÛ°ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿°³
+   ³ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ÀÄÙ°ÛÛ³.úúúúúúúú
+   ³ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ÀÄÙ°ÛÛ³.úúúúúúúúúúúúúúúúú.³Ú´°ÛÛş³
+   ³ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ÀÄÙ°ÛÛ³.úúúúúúúúúúúúúúúúú.³Ú´°ÛÛş³  ÜÜÜÜÜ ÜÜ ÜÜÜÜÜ  ³ş³
+   ³³ØØØØØØØØØØØØØØØØØ³ °Ú°ÛÛÀÄÄÄÂ
+   ³³ØØØØØØØØØØØØØØØØØ³ °Ú°ÛÛÀÄÄÄÂÄÂÄÄÁÂÁÄÄÄÄÄÄÄÄÙÀ´°ÛÛş³
+   ³³ØØØØØØØØØØØØØØØØØ³ °Ú°ÛÛÀÄÄÄÂÄÂÄÄÁÂÁÄÄÄÄÄÄÄÄÙÀ´°ÛÛş³ ş¿ßßŞ ³  ³ ³ßİ
+   ³³ØØØØØØØØØØØØØØØØØ³ °Ú°ÛÛÀÄÄÄÂÄÂÄÄÁÂÁÄÄÄÄÄÄÄÄÙÀ´°ÛÛş³ ş¿ßßŞ ³  ³ ³ßİ³Ú ³ş³
+   ³³ØØØØØØØØØØØØØØØØØ³ ÚÙ°
+   ³³ØØØØØØØØØØØØØØØØØ³ ÚÙ°ÛÛ°Ú¿ ³°³°°°À¿şÚÄÄÄ¿ °°°³°ÛÛ
+   ³³ØØØØØØØØØØØØØØØØØ³ ÚÙ°ÛÛ°Ú¿ ³°³°°°À¿şÚÄÄÄ¿ °°°³°ÛÛş³. . .Úşßßßßş¿. . .
+   ³³ØØØØØØØØØØØØØØØØØ³ ÚÙ°ÛÛ°Ú¿ ³°³°°°À¿şÚÄÄÄ¿ °°°³°ÛÛş³. . .Úşßßßßş¿. . .³ş³
+   ³ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ ÀÄ°ÛÛ°ÀÙ ³°À¿°° ³ ³Şßİ³
+   ³ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ ÀÄ°ÛÛ°ÀÙ ³°À¿°° ³ ³Şßİ³ şşş³°ÛÛ°ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+   ³ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ ÀÄ°ÛÛ°ÀÙ ³°À¿°° ³ ³Şßİ³ şşş³°ÛÛ°ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ°³
+   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Commerce report for: 02:05:57 AM Wed Aug 22, 2012     You can buy:
+A  Cargo holds     :   5265 credits / next hold                0
+B  Fighters        :    200 credits per fighter              565
+C  Shield Points   :    149 credits per point                394
+
+Which item do you wish to buy? (A,B,C,Q,?) C
+
+You have 9606 shields.
+How many shield armor points do you want to buy (Max 394) [0] ? 394
+You have 54,367 credits.
+
+Commerce report for: 02:06:06 AM Wed Aug 22, 2012     You can buy:
+A  Cargo holds     :   5265 credits / next hold                0
+B  Fighters        :    200 credits per fighter              271
+C  Shield Points   :    149 credits per point                  0
+
+Which item do you wish to buy? (A,B,C,Q,?) Q
+
+Command [TL=00:00:00]:[1] (?=Help)? : L
+<Preparing ship to land on planet surface>
+
+<Atmospheric maneuvering system engaged>
+<Land on Terra>
+
+effor
+junk" in orbit ab
+computer system finally establishes
+system and
+ship down automatically on
+                                       major Space Port on Terra. You shut
+                                       co
+                                       find plenty of
+                                       risk the hazardous trip i
+                                       just so they can live on a clean,
+                                         ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+It takes your very best navigational     ³ú   ú ú ÚÜÜÛÜÜ¿ ú   ú   .
+effort to avoid the multitude of "space  ³  şß    Ã
+effort to avoid the multitude of "space  ³  şß    ÃßÜÜÜÜ´    ú   ú Ü ú     ³
+junk" in orbit about this planet.  Your  ³ ú   ú    ßßßú ú    şÜÜÛÛÜÜÛÜÜşú
+computer system finally establishes a    ³ú   Â  úş ú      ú    ÜÜ
+link with the Terran Traffic control     ³  ÜÛÜÜÜ ú  ú
+system and you relax as it brings your   ³
+system and you relax as it brings your   ³ßßßßÛßßÜÜÜÜÜ  ß ú  ş  ú
+ship down automatically onto the last    ³°°± °±° ±Ş±±ßßßßß
+                                         ³
+                                         ³
+                                         ³±°±°°² °°°Û°±²ßß±°±² °±°ş±±
+
+ ³                                       ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+ ³
+ ³                                     major Space Port on Terra. You shut your
+ ³                                     systems down and head out to the main
+ ³                    ÄÄ Ä  şÜÜÜÜş     systems down and head out to the main
+ ³ úÜÜú                                colonists' departure terminal, hoping to
+                                       just so they can live on a clean,
+ ³  ÄÄ .ÄÄ . Úşß                       find plenty of eager people willing to
+ ³  ÄÄ .ÄÄ . Úşßßßßş¿ .   .  ŞÅÅİ      find plenty of eager people willing to
+ ³Ü ÄÄ                                 risk the hazardous trip in CryoFreeze
+ ³Ü ÄÄßßÜ ÜÜÜÜÜÜÜÜÜÜÜÜÜ ÜÜÜÜÜ ş        risk the hazardous trip in CryoFreeze
+ ³°°Ä                                  just so they can live on a clean,
+ ³°°ÄÄ°°°şÛÜÜÜÜ ÜÜ                     just so they can live on a clean,
+ ³°°ÄÄ°°°şÛÜÜÜÜ ÜÜ°°°±°şÛ              just so they can live on a clean,
+ ³°°ÄÄ°°°şÛÜÜÜÜ ÜÜ°°°±°şÛ ±°°±şŞÜÜ°    just so they can live on a clean,
+ ³°°ÄÄ°                                abundant planet.
+ ³°°ÄÄ°° şÛ° °  °²°°±°±                abundant planet.
+ ³°°ÄÄ°° şÛ° °  °²°°±°±şÛ°±±°°şŞ       abundant planet.
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+There are currently 210 colonists ready to leave Terra.
+Do you wish to (L)eave or (T)ake Colonists? [T] (Q to leave) T
+How many groups of Colonists do you want to take ([54] empty holds) ?
+The Colonists file aboard your ship, eager to head out to new frontiers.
+You return to your ship and leave the planet.
+
+One turn deducted, 32 turns left.
+
+Command [TL=00:00:00]:[1] (?=Help)? : 5565
+<Move>
+Warping to Sector 5565
+
+That Warp Lane is not adjacent.
+Do you want to engage the TransWarp drive? Yes
+Sector 5565 is 18 hops away from here.
+Locating beam pinpointed, TransWarp Locked.
+All Systems Ready, shall we engage? Yes
+
+   ³   ú
+   ³ ú
+   ³
+   ³     ú                         ú ³
+   ³   ú           ú           ú
+   ³
+   ÀÄÄ
+   ³ ú      ú      ú       ú      ú .³
+   ³ ú      ú      ú       ú      ú .³
+   ³     ú         Ü               ú ³
+   ³    ú          ú            ú  ú ³
+   ³        ú               ú        ³
+   ³            ú        ú    ú      ³
+   ³ú              ú        ú   ú  ú ³
+   ³            ú                 ú  ³
+   ³                ú      ú         ³
+   ³ú               ú            ú   ³
+   ³              ß ßÜ               ³
+   ³                   ş             ³
+   ³        ş            ş           ³
+   ³          \ ßÜ   Üß /            ³
+   ³     ş  şş   şßÜßÜ ş   ş ş ş ş   ³
+   ³             ÜşşßÜ  \            ³
+   ³   ş   ş     şşşßş ş   şşş     ş ³
+   ³          \ ßÜ | Üş /            ³
+   ³   ş  ş şş     |     şş          ³
+   ³   ş  ş şş   ş |     şş          ³
+   ³       ş    ß    Üş /            ³
+   ³   ş  ş şş     |  ş  şş          ³
+   ³   ş     ú        ú  şş          ³
+   ³ ú      şş   ş | ş   ş      ş    ³
+   ³ ú                      ş        ³
+   ³    ú        ú    úş   şşş     ş ³
+   ³ ú     ú          ú      ú    ú  ³
+   ³ ú      ú.       ş   ú           ³
+   ³    ú          ú    .   ú        ³
+
+
+-=-=-=- TransWarp Drive Engaged! -=-=-=-
+
+Sector  : 5565 in uncharted space.
+Beacon  : FedSpace, FedLaw Enforced
+Ports   : Bulgars Annex, Class 8 (BBB)
+Planets : (a) James Madison
+          (M) Jinkoueisei
+          (a) Shi Hoshi no Command
+          (a) Sooshireibu no Command Ni
+          (a) Soushireibu no Command
+Ships   : Regis Philbin [Owned by] Command Software [4], w/ 99 ftrs,
+           (IonStream Scout Marauder)
+Fighters: 5 (belong to your Corp) [Defensive]
+Mines   : 250 (Type 1 Armid) (belong to your Corp)
+        : 10 (Type 2 Limpet) (belong to your Corp)
+Warps to Sector(s) :  19507
+
+Command [TL=00:00:00]:[5565] (?=Help)? : L
+<Preparing ship to land on planet surface>
+
+<Atmospheric maneuvering system engaged>
+Registry# and Planet Name
+-----------------------------------------------
+    < 12> James Madison
+    < 18> Jinkoueisei
+    < 19> Shi Hoshi no Command
+    < 20> Sooshireibu no Command Ni
+    < 21> Soushireibu no Command
+
+Land on which planet <Q to abort> ? 21
+Landing sequence engaged...
+
+
+
+Planet #21 in sector 5565: Soushireibu no Command
+Class a-ibD, Sentinel
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore     49,663          1     49,663     64,391        147 10,000,000
+Organics          0          5          0      2,590          0    100,000
+Equipment         0          7          0      1,270          0    100,000
+Fighters        N/A          4     12,415         10     53,187  1,000,000
+
+Planet has a level 3 Citadel, treasury contains 0 credits.
+Military reaction=50%, QCannon power=0%, AtmosLvl=50%, SectLvl=20%
+
+You have 54 free cargo holds.
+
+Planet command (?=help) [D] S
+<Load/Unload Colonists>
+
+Display planet? No
+(L)eave or (T)ake Colonists? [L] L
+Which production group are you changing?
+(1)Ore, (2)Org or (3)Equipment Production? 1
+How many groups of Colonists do you want to leave ([54] on board) ?
+The Colonists disembark to begin their new life.
+
+Planet command (?=help) [D] D
+
+Planet #21 in sector 5565: Soushireibu no Command
+Class a-ibD, Sentinel
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore     49,717          1     49,717     64,394        147 10,000,000
+Organics          0          5          0      2,590          0    100,000
+Equipment         0          7          0      1,270          0    100,000
+Fighters        N/A          4     12,429         12     53,187  1,000,000
+
+Planet has a level 3 Citadel, treasury contains 0 credits.
+Military reaction=50%, QCannon power=0%, AtmosLvl=50%, SectLvl=20%
+
+Planet command (?=help) [D] T
+<Take/Leave Products>
+
+Display planet? No
+(L)eave or (T)ake Product? [T] L
+Which product are you leaving?
+(1)Ore, (2)Org or (3)Equipment ? 1
+How many holds of Fuel Ore do you want to leave ([147] on board) ?
+You unload the Fuel Ore from your ship.
+
+Planet command (?=help) [D] D
+
+Planet #21 in sector 5565: Soushireibu no Command
+Class a-ibD, Sentinel
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore     49,717          1     49,717     64,546          0 10,000,000
+Organics          0          5          0      2,590          0    100,000
+Equipment         0          7          0      1,270          0    100,000
+Fighters        N/A          4     12,429         13     53,187  1,000,000
+
+Planet has a level 3 Citadel, treasury contains 0 credits.
+Military reaction=50%, QCannon power=0%, AtmosLvl=50%, SectLvl=20%
+
+Planet command (?=help) [D] Q
+
+Blasting off from Soushireibu no Command
+
+Command [TL=00:00:00]:[5565] (?=Help)? : L
+<Preparing ship to land on planet surface>
+
+<Atmospheric maneuvering system engaged>
+Registry# and Planet Name
+-----------------------------------------------
+    < 12> James Madison
+    < 18> Jinkoueisei
+    < 19> Shi Hoshi no Command
+    < 20> Sooshireibu no Command Ni
+    < 21> Soushireibu no Command
+
+Land on which planet <Q to abort> ? 20
+Landing sequence engaged...
+
+
+
+Planet #20 in sector 5565: Sooshireibu no Command Ni
+Class a-ibD, Sentinel
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore     49,929          1     49,929     57,698          0 10,000,000
+Organics        551          5        110         75          0    100,000
+Equipment         0          7          0          0          0    100,000
+Fighters        N/A          4     12,509        119     53,187  1,000,000
+
+Planet has a level 2 Citadel, treasury contains 0 credits.
+Military reaction=0%
+
+Quasar Cannon under construction, 2 day(s) till complete.
+You have 255 free cargo holds.
+
+Planet command (?=help) [D] P
+<Change Colonist Population>
+
+Display planet? No
+Which production group are you moving Colonists from?
+(1)Ore, (2)Org or (3)Equipment? 1
+How many groups of Colonists do you want to move? 129
+And which group are you moving them to?
+(1)Ore, (2)Org or (3)Equipment? 2
+The Colonists drop what they were doing and start their new jobs.
+
+Planet command (?=help) [D] D
+
+Planet #20 in sector 5565: Sooshireibu no Command Ni
+Class a-ibD, Sentinel
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore     49,800          1     49,800     57,709          0 10,000,000
+Organics        680          5        136         75          0    100,000
+Equipment         0          7          0          0          0    100,000
+Fighters        N/A          4     12,484        122     53,187  1,000,000
+
+Planet has a level 2 Citadel, treasury contains 0 credits.
+Military reaction=0%
+
+Quasar Cannon under construction, 2 day(s) till complete.
+Planet command (?=help) [D] M
+<Change Military>
+
+Display Planet? No
+
+There are currently 123 Fighters on this planet.
+Do you wish to (L)eave or (T)ake Fighters? [T] (Q to Exit) T
+How many Fighters do you want to take (123 Max) [123] ?
+The Fighters join your battle force.
+
+Planet command (?=help) [D] Q
+
+Blasting off from Sooshireibu no Command Ni
+
+Command [TL=00:00:00]:[5565] (?=Help)? : L
+<Preparing ship to land on planet surface>
+
+<Atmospheric maneuvering system engaged>
+Registry# and Planet Name
+-----------------------------------------------
+    < 12> James Madison
+    < 18> Jinkoueisei
+    < 19> Shi Hoshi no Command
+    < 20> Sooshireibu no Command Ni
+    < 21> Soushireibu no Command
+
+Land on which planet <Q to abort> ? 19
+Landing sequence engaged...
+
+
+
+Planet #19 in sector 5565: Shi Hoshi no Command
+Class a-ibD, Deathstar
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore     49,634          1     49,634     65,896          0 10,000,000
+Organics     26,463          2     13,231        103          0  1,000,000
+Equipment         0          5          0          0          0  1,000,000
+Fighters        N/A          4     15,716         91     53,310 10,000,000
+
+Planet has a level 1 Citadel, treasury contains 0 credits.
+No defenses armed or deployed.
+
+Combat Control Computer under construction, 3 day(s) till complete.
+You have 255 free cargo holds.
+
+Planet command (?=help) [D] M
+<Change Military>
+
+Display Planet? No
+
+There are currently 92 Fighters on this planet.
+Do you wish to (L)eave or (T)ake Fighters? [T] (Q to Exit) T
+How many Fighters do you want to take (92 Max) [92] ?
+The Fighters join your battle force.
+
+Planet command (?=help) [D] D
+
+Planet #19 in sector 5565: Shi Hoshi no Command
+Class a-ibD, Deathstar
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore     49,634          1     49,634     65,898          0 10,000,000
+Organics     26,463          2     13,231        104          0  1,000,000
+Equipment         0          5          0          0          0  1,000,000
+Fighters        N/A          4     15,716          0     53,402 10,000,000
+
+Planet has a level 1 Citadel, treasury contains 0 credits.
+No defenses armed or deployed.
+
+Combat Control Computer under construction, 3 day(s) till complete.
+Planet command (?=help) [D] Q
+
+Blasting off from Shi Hoshi no Command
+
+Command [TL=00:00:00]:[5565] (?=Help)? : L
+<Preparing ship to land on planet surface>
+
+<Atmospheric maneuvering system engaged>
+Registry# and Planet Name
+-----------------------------------------------
+    < 12> James Madison
+    < 18> Jinkoueisei
+    < 19> Shi Hoshi no Command
+    < 20> Sooshireibu no Command Ni
+    < 21> Soushireibu no Command
+
+Land on which planet <Q to abort> ? 18
+Landing sequence engaged...
+
+
+
+Planet #18 in sector 5565: Jinkoueisei
+Class M, Satellite
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore          0          1          0          0          0    100,000
+Organics      9,925          1      9,925        303          0    100,000
+Equipment     9,890          1      9,890         78          0    100,000
+Fighters        N/A         12      1,651         17     53,402     15,000
+
+You have 255 free cargo holds.
+
+Planet command (?=help) [D] M
+<Change Military>
+
+Display Planet? No
+
+There are currently 17 Fighters on this planet.
+Do you wish to (L)eave or (T)ake Fighters? [T] (Q to Exit) T
+How many Fighters do you want to take (17 Max) [17] ?
+The Fighters join your battle force.
+
+Planet command (?=help) [D] Q
+
+Blasting off from Jinkoueisei
+
+Command [TL=00:00:00]:[5565] (?=Help)? : L
+<Preparing ship to land on planet surface>
+
+<Atmospheric maneuvering system engaged>
+Registry# and Planet Name
+-----------------------------------------------
+    < 12> James Madison
+    < 18> Jinkoueisei
+    < 19> Shi Hoshi no Command
+    < 20> Sooshireibu no Command Ni
+    < 21> Soushireibu no Command
+
+Land on which planet <Q to abort> ? 12
+Landing sequence engaged...
+
+
+
+Planet #12 in sector 5565: James Madison
+Class a-ibD, Sentinel
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore      3,701          1      3,701      1,108          0 10,000,000
+Organics          0          5          0          0          0    100,000
+Equipment         0          7          0          0          0    100,000
+Fighters        N/A          4        925         15     53,419  1,000,000
+
+You have 255 free cargo holds.
+
+Planet command (?=help) [D] M
+<Change Military>
+
+Display Planet? No
+
+There are currently 15 Fighters on this planet.
+Do you wish to (L)eave or (T)ake Fighters? [T] (Q to Exit) T
+How many Fighters do you want to take (15 Max) [15] ?
+The Fighters join your battle force.
+
+Planet command (?=help) [D] D
+
+Planet #12 in sector 5565: James Madison
+Class a-ibD, Sentinel
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore      3,701          1      3,701      1,108          0 10,000,000
+Organics          0          5          0          0          0    100,000
+Equipment         0          7          0          0          0    100,000
+Fighters        N/A          4        925          0     53,434  1,000,000
+
+Planet command (?=help) [D] Q
+
+Blasting off from James Madison
+
+Command [TL=00:00:00]:[5565] (?=Help)? : D
+<Re-Display>
+
+Sector  : 5565 in uncharted space.
+Beacon  : FedSpace, FedLaw Enforced
+Ports   : Bulgars Annex, Class 8 (BBB)
+Planets : (a) James Madison
+          (M) Jinkoueisei
+          (a) Shi Hoshi no Command
+          (a) Sooshireibu no Command Ni
+          (a) Soushireibu no Command
+Ships   : Regis Philbin [Owned by] Command Software [4], w/ 99 ftrs,
+           (IonStream Scout Marauder)
+Fighters: 5 (belong to your Corp) [Defensive]
+Mines   : 250 (Type 1 Armid) (belong to your Corp)
+        : 10 (Type 2 Limpet) (belong to your Corp)
+Warps to Sector(s) :  19507
+
+Command [TL=00:00:00]:[5565] (?=Help)? : C
+<Computer>
+
+<Computer activated>
+
+Computer command [TL=00:00:00]:[5565] (?=Help)? L
+
+List by rank (T)itles or by rank (V)alues (T,V or Q to quit) ? V
+Ranking Traders...
+Trade Wars 2002 Trader Rankings : 08/22/12 02:07:36 AM
+
+ #       Rank  Alignment Corp        Trader Name                Ship Type
+--- --------------------- -- ------------------------------ ------------------
+  1     9,672      8,359   4 GITCommand                     Wraith
+  2     5,161      1,346   5 Ookii Mamoru                   Battlestar
+  3     5,101      2,039   2 Ozzie                          Wraith
+  4     4,356       -290   3 The BOrg                       Battlestar
+  5       616      1,228   5 tlovingc                       Merchant Cruiser
+  6       402          2   1 Lazarus Long                   Merchant Freighter
+  7         1          1  ** Baron                          Merchant Cruiser
+
+Computer command [TL=00:00:00]:[5565] (?=Help)? Q
+
+<Computer deactivated>
+
+Command [TL=00:00:00]:[5565] (?=Help)? :
+
+                               Who's Playing
+
+Lieutenant J.G. GITCommand [4]
+
+The Alien Traders are on the move!
+The Ferrengi are on the move!
+
+Command [TL=00:00:00]:[5565] (?=Help)? : C
+<Computer>
+
+<Computer activated>
+
+Computer command [TL=00:00:00]:[5565] (?=Help)? L
+
+List by rank (T)itles or by rank (V)alues (T,V or Q to quit) ? V
+Ranking Traders...
+Trade Wars 2002 Trader Rankings : 08/22/12 02:08:13 AM
+
+ #       Rank  Alignment Corp        Trader Name                Ship Type
+--- --------------------- -- ------------------------------ ------------------
+  1     9,672      8,359   4 GITCommand                     Wraith
+  2     5,161      1,346   5 Ookii Mamoru                   Battlestar
+  3     5,101      2,039   2 Ozzie                          Wraith
+  4     4,356       -290   3 The BOrg                       Battlestar
+  5       616      1,228   5 tlovingc                       Merchant Cruiser
+  6       402          2   1 Lazarus Long                   Merchant Freighter
+  7         1          1  ** Baron                          Merchant Cruiser
+
+Computer command [TL=00:00:00]:[5565] (?=Help)? Q
+
+<Computer deactivated>
+
+Command [TL=00:00:00]:[5565] (?=Help)? : C
+<Computer>
+
+<Computer activated>
+
+Computer command [TL=00:00:00]:[5565] (?=Help)? D
+Enter the beginning date you wish to read from. Today is 08/22/12
+Use the format MM/DD/YY ie 04/01/02, or CR for all of the history.
+Or you may enter any text to search for if it is 8 chars or less.
+Input search date :8/22/12
+
+Searching for the first occurence of "8/22/12".
+
+Include time/date stamp? (Y/N) [N] Yes
+  -=-=-=-=-=-=-=-=-=- Trade Wars 2002 ver 3.11.34 Gold -=-=-=-=-=-=-=-=-=-
+-- 08/22/12 -- 00:05:55 AM --
+Ferrengi Serlet's Merchant Freighter was destroyed by collision with a Navigatio
+nal Hazard!
+Ferrengi Daran's T'Khasi Orion was destroyed by collision with a Navigational Ha
+zard!
+Ferrengi Serpor's T'Khasi Orion was destroyed by collision with a Navigational H
+azard!
+-- 08/22/12 -- 00:15:19 AM --
+Ferrengi Bokson's Merchant Freighter was destroyed by collision with a Navigatio
+nal Hazard!
+-- 08/22/12 -- 00:18:37 AM --
+Ferrengi Laread was attacked by The Alien Traders's fighters!
+-- 08/22/12 -- 00:18:49 AM --
+Ferrengi Monus's Assault Trader was destroyed by collision with a Navigational H
+azard!
+Ferrengi Darog's Assault Trader was destroyed by collision with a Navigational H
+azard!
+Ferrengi Rostor's Assault Trader was destroyed by collision with a Navigational
+Hazard!
+-- 08/22/12 -- 00:20:07 AM --
+Ferrengi Larog's Merchant Freighter was destroyed by collision with a Navigation
+al Hazard!
+[Pause]
+-- 08/22/12 -- 00:34:19 AM --
+Ferrengi Rosus's T'Khasi Orion was destroyed by collision with a Navigational Ha
+zard!
+Ferrengi Darson's T'Khasi Orion was destroyed by collision with a Navigational H
+azard!
+-- 08/22/12 -- 00:40:31 AM --
+Ferrengi Quatiton's Scout Marauder was destroyed by collision with a Navigationa
+l Hazard!
+-- 08/22/12 -- 00:42:29 AM --
+Ferrengi Monog's Assault Trader was destroyed by collision with a Navigational H
+azard!
+Ferrengi Serog's Assault Trader was destroyed by collision with a Navigational H
+azard!
+Ferrengi Serus's T'Khasi Orion was destroyed by collision with a Navigational Ha
+zard!
+-- 08/22/12 -- 00:50:29 AM --
+Ferrengi Larson's Assault Trader was destroyed by collision with a Navigational
+Hazard!
+Ferrengi Gars's T'Khasi Orion was destroyed by collision with a Navigational Haz
+ard!
+Ferrengi Larson's Scout Marauder was destroyed by collision with a Navigational
+Hazard!
+-- 08/22/12 -- 00:51:50 AM --
+[Pause]
+Ferrengi Monus's Scout Marauder was destroyed by collision with a Navigational H
+azard!
+Ferrengi Larton's T'Khasi Orion was destroyed by collision with a Navigational H
+azard!
+Ferrengi Feneb's Scout Marauder was destroyed by collision with a Navigational H
+azard!
+-- 08/22/12 -- 00:54:20 AM --
+Ferrengi Nikus's Merchant Freighter was destroyed by collision with a Navigation
+al Hazard!
+-- 08/22/12 -- 01:05:17 AM --
+Ferrengi Laread's Assault Trader was destroyed by collision with a Navigational
+Hazard!
+-- 08/22/12 -- 01:09:20 AM --
+Ferrengi Garsead's Merchant Freighter was destroyed by collision with a Navigati
+onal Hazard!
+-- 08/22/12 -- 01:12:29 AM --
+Ferrengi Garslet's Assault Trader was destroyed by collision with a Navigational
+ Hazard!
+Ferrengi Serik's Merchant Freighter was destroyed by collision with a Navigation
+al Hazard!
+Ferrengi Moneton's Scout Marauder was destroyed by collision with a Navigational
+ Hazard!
+-- 08/22/12 -- 01:14:50 AM --
+[Pause]
+Ferrengi Rosipor's T'Khasi Orion was destroyed by collision with a Navigational
+Hazard!
+Ferrengi Quata's Scout Marauder was destroyed by collision with a Navigational H
+azard!
+-- 08/22/12 -- 01:19:11 AM --
+Ferrengi Bokison's Assault Trader was destroyed by collision with a Navigational
+ Hazard!
+Ferrengi Monus's T'Khasi Orion was destroyed by collision with a Navigational Ha
+zard!
+-- 08/22/12 -- 01:22:22 AM --
+GITCommand DESTROYED tlovingc's Wraith!
+-- 08/22/12 -- 01:36:39 AM --
+Ferrengi Larson's T'Khasi Orion was destroyed by collision with a Navigational H
+azard!
+-- 08/22/12 -- 01:38:30 AM --
+Ferrengi Serpor's Scout Marauder was destroyed by collision with a Navigational
+Hazard!
+Ferrengi Fenlet's T'Khasi Orion was destroyed by collision with a Navigational H
+azard!
+Ferrengi Roset's Assault Trader was destroyed by collision with a Navigational H
+azard!
+-- 08/22/12 -- 01:41:36 AM --
+Ferrengi Rosan's T'Khasi Orion was destroyed by collision with a Navigational Ha
+zard!
+[Pause]
+
+Ferrengi Quatelet's Merchant Freighter was destroyed by collision with a Navigat
+ional Hazard!
+Ferrengi Quatan's Merchant Freighter was destroyed by collision with a Navigatio
+nal Hazard!
+-- 08/22/12 -- 01:43:39 AM --
+Ferrengi Larius's Merchant Freighter was destroyed by collision with a Navigatio
+nal Hazard!
+-- 08/22/12 -- 01:46:09 AM --
+Ferrengi Quatik's Merchant Freighter was destroyed by collision with a Navigatio
+nal Hazard!
+nal Hazard!
+Ferrengi Zar's T'Khasi Orion was destroyed by collision with a Navigational Haza
+rd!
+-- 08/22/12 -- 01:47:39 AM --
+Ferrengi Monlet's T'Khasi Orion was destroyed by collision with a Navigational H
+azard!
+-- 08/22/12 -- 01:52:39 AM --
+Ferrengi Bokason's T'Khasi Orion was destroyed by collision with a Navigational
+Hazard!
+-- 08/22/12 -- 01:57:09 AM --
+Ferrengi Bokius's Merchant Freighter was destroyed by collision with a Navigatio
+nal Hazard!
+-- 08/22/12 -- 02:01:51 AM --
+[Pause]
+Ferrengi Zarog's T'Khasi Orion was destroyed by collision with a Navigational Ha
+zard!
+-- 08/22/12 -- 02:02:06 AM --
+Ferrengi Seroan's Merchant Freighter was destroyed by collision with a Navigatio
+nal Hazard!
+Ferrengi Quattor's T'Khasi Orion was destroyed by collision with a Navigational
+Hazard!
+[Pause]
+
+Computer command [TL=00:00:00]:[5565] (?=Help)?

@@ -1,0 +1,140 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.event.*;
+import javax.swing.border.*;
+
+import java.util.Vector;
+
+
+/**
+ *  TextureViewer - displays all of the maps created by the user
+ *  @author Levi D. Smith
+ *  @version 0.1, December 30, 2000
+ */
+public class TextureViewer extends Viewer implements ListSelectionListener, ActionListener {
+
+    //CONSTANTS
+    public static final String DONE_BUTTON = "Done";
+    public static final String NEW_BUTTON = "New Texture";
+    public static final String EDIT_BUTTON = "Edit Texture";
+    public static final String DELETE_BUTTON = "Delete Texture";
+    public static final String WINDOW_TITLE = "Texture Viewer";
+
+    //INSTANCE VARIABLES (COMPONENTS)
+    private JButton butDone;
+    private JButton butNew;
+    private JButton butEdit;
+    private JButton butDelete;
+    private JComboBox jcbTextureSets;
+
+
+    //INSTANCE VARIABLES (DATA)
+    private Vector vectTextures;
+    
+
+    /**
+     * called when object is instantiated
+     */
+    public TextureViewer(Vector vectTextures) {
+        this.vectTextures = vectTextures;
+        setupWindow();
+    }
+
+    /**
+     * makes the main window
+     */
+    private void setupWindow() {
+        theFrame = new JFrame();
+
+        listTextures = new JList();
+        listTextures.addListSelectionListener(this);
+        listTextures.setFixedCellWidth(CELL_WIDTH);
+        listTextures.setPreferredSize(LIST_SIZE);
+        
+        
+        //button panel
+        JPanel pnlButtons = new JPanel();
+        
+        butDone = new JButton(DONE_BUTTON);
+        butDone.addActionListener(this);
+        pnlButtons.add(butDone);
+        
+        butNew = new JButton(NEW_BUTTON);
+        butNew.addActionListener(this);
+        pnlButtons.add(butNew);
+
+        butEdit = new JButton(EDIT_BUTTON);
+        butEdit.addActionListener(this);
+        pnlButtons.add(butEdit);
+
+        butDelete = new JButton(DELETE_BUTTON);
+        butDelete.addActionListener(this);
+        pnlButtons.add(butDelete);
+
+
+        theFrame.getContentPane().setLayout(new BorderLayout());
+        theFrame.getContentPane().add(new JPanel(), BorderLayout.WEST);
+        theFrame.getContentPane().add(listTextures, BorderLayout.EAST);
+        theFrame.getContentPane().add(pnlButtons, BorderLayout.SOUTH);
+
+        theFrame.setTitle(WINDOW_TITLE);
+
+        theFrame.pack();
+        theFrame.setLocation(RPGGeneratorConstants.getCenteredWindowLocation(theFrame));
+        theFrame.show();
+       
+
+    }
+
+    /**
+     * actions to be performed to the main panel when an item on the list is clicked
+     */
+    private void updateTexturePanel() {
+
+    }
+
+        
+    /**
+     * required by ListSelecitonListener
+     */
+    public void valueChanged(ListSelectionEvent e) {
+        listTextures.ensureIndexIsVisible(listTextures.getSelectedIndex());
+
+        if (e.getSource().equals(listTextures)) {
+            updateTexturePanel();
+        }
+    }
+
+    /**
+     * required by ActionListener interface
+     */
+    public void actionPerformed(ActionEvent e) {
+        String strCommand = e.getActionCommand();
+        if (strCommand.equals(DONE_BUTTON)) {
+            theFrame.dispose();
+        } else if (strCommand.equals(EDIT_BUTTON)) {
+        
+        } else if (strCommand.equals(NEW_BUTTON)) {
+            
+            new NewTextureDialog(theFrame, vectTextures);
+
+            listTextures.removeAll();
+            listTextures.setListData(vectTextures);
+
+        } else if (strCommand.equals(DELETE_BUTTON)) {
+            if ((listTextures.getSelectedIndex() > -1) &&
+                (listTextures.getSelectedIndex() < vectTextures.size())
+                ) {
+                vectTextures.removeElementAt(listTextures.getSelectedIndex());
+
+                listTextures.removeAll();
+                listTextures.setListData(vectTextures);
+
+
+            }
+
+        }
+    }
+
+}

@@ -1,0 +1,27 @@
+[CurrentProject]
+curproj=Conway.vpj
+[ProjectDates]
+Conway.vpj=20010106111028000
+[ProjectFiles]
+Conway.vpj
+[TreeExpansion]
+Conway.vpj 0
+[State]
+SCREEN: 1024 768 174 -18 768 537 0 0 N 0 0 0 0 866 439
+CWD: D:\conway
+BUFFER: BN="D:\conway\conway.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=4216 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0
+VIEW: LN=.-1 CL=1 LE=0 CX=0 CY=1 WI=5 BI=22 HT=0 HN=0 HF=0 HC=4
+WINDOW: 22 22 734 307 -1 -1 M  WF=0 WT=2 "OEM Fixed Font,10,0,1"
+BUFFER: BN="D:\conway\conway.c"
+VIEW: LN=.7540 CL=39 LE=0 CX=38 CY=32 WI=134 BI=22 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+D:\rpg\map\NewMapDialog.java
+D:\rpg\textures\NewTextureDialog.java
+D:\rpg\textures\NewTextureSetDialog.java
+D:\rpg\RPGGenerator.java
+D:\rpg\constants\RPGGeneratorConstants.java
+D:\rpg\textures\TextureSet.java
+D:\rpg\textures\TextureViewer.java
+D:\rpg\Viewer.java
+D:\conway\conway.c

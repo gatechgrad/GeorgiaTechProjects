@@ -1,0 +1,454 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.io.*;
+import java.net.*;
+import java.util.StringTokenizer;
+
+class Receiver extends JComponent implements Runnable, KeyListener {
+
+  /** CONSTANTS **/
+  public static final Color DEFAULT_FG_COLOR = Color.white;
+  public static final Color DEFAULT_BKG_COLOR = Color.black;
+
+  /** INSTANCE VARIABLES **/
+  DataInputStream theInputStream;
+  int iLinesPerScreen;
+  int x, y, iReceived, iLines;
+  int iSpacing;
+  String[] strData;
+  String strBuffer;
+  String strLine;
+  Thread threadFetcher;
+  FontMetrics fm;
+  Parser theParser;
+  TWA theTWA;
+  boolean displayText;
+  Telnet theTelnet;
+  Color colorForeground;
+  Color colorBackground;
+  boolean inTerminalCode;
+  boolean backgroundOn;
+
+  Image imgBuffer;
+  Graphics graphicsBuffer;
+
+  /**
+    * Receiver - gets the data
+    **/
+  public Receiver(DataInputStream theInputStream, TWA theTWA, Telnet theTelnet) {
+    int i;
+
+    this.theInputStream = theInputStream;
+    this.theTelnet = theTelnet;
+
+
+    x = 0;
+    y = 0;
+    iReceived = 0;
+    iLines = 0;
+    iLinesPerScreen = 24;
+
+    this.theTWA = theTWA;
+
+    if (theTWA != null) {
+      theParser = theTWA.getParser();
+    }
+
+    strData = new String[iLinesPerScreen];
+    for (i = 0; i < strData.length; i++) {
+      strData[i] = "~";
+    }
+    strBuffer = "";
+    strLine = "";
+
+    displayText = false; //display to the component or display text to console
+    inTerminalCode = false;
+
+
+    colorForeground = DEFAULT_FG_COLOR;
+    colorBackground = DEFAULT_BKG_COLOR;
+    backgroundOn = false;
+    addKeyListener(this);
+
+/*
+    fm = this.getFontMetrics(getFont());
+
+    setPreferredSize(new Dimension(fm.charWidth(' ') * 80 + 20, (iLinesPerScreen + 1) * fm.getHeight()));
+    setMaximumSize(getPreferredSize());
+*/
+
+    threadFetcher = new Thread(this);
+    threadFetcher.setPriority(Thread.MIN_PRIORITY);
+    threadFetcher.start();
+
+  }
+
+
+  /**
+    * run
+    **/
+  public void run() {
+    boolean isConnected;
+    boolean willDisplay;
+    boolean needToUpdate;
+    char theChar;
+    int i, j;
+    int iAvailable;
+
+    isConnected = true;
+    willDisplay = true;
+    needToUpdate = false;
+    strLine = "";
+
+    try {
+      while (true && isConnected) {
+        synchronized (strBuffer) {
+
+          if (theInputStream != null) {
+
+            iAvailable = theInputStream.available();
+      
+            if (iAvailable > 0) {
+              //System.out.println("iAvailable: " + iAvailable);
+              
+              for (j = 0; j < iAvailable; j++) {
+                theChar = (char) theInputStream.readByte();
+
+                if ((theChar == '\r')) {
+
+                  if (theParser != null) {
+                    theParser.parseString(strLine.trim());
+                  }
+
+                  if (iLines > (iLinesPerScreen - 1)) {
+                    for (i = 0; i < (iLinesPerScreen - 1); i++) {
+                      strData[i] = strData[i + 1];
+                    }
+                    strData[iLinesPerScreen - 1] = strLine;
+
+                  } else {
+                    strData[iLines] = strLine; //it's a line on the first screen, no scrolling needed
+                  }
+                  strLine = "";
+                  iLines++;
+
+                }
+
+                strBuffer = strBuffer + theChar;
+                strLine = strLine + theChar;
+
+              }
+
+
+
+              if (getGraphics() == null) {
+                while(getGraphics() == null) {
+                }
+              }
+
+              if (getGraphics() != null) {
+                update(getGraphics());
+              }
+
+            }
+
+
+
+          } else {
+            strData[10] = "Cannot Connect to Server";
+            isConnected = false;
+          }
+        }
+      }
+
+    } catch (EOFException e) {
+    } catch (IOException e) { }
+  }
+
+
+
+
+  /**
+    * setFont - sets the terminal font
+    *           returns the font height
+    **/
+  public int setFont(String theFont, int iFontSize) {
+    setFont(new Font(theFont, Font.PLAIN, iFontSize));
+    fm = this.getFontMetrics(getFont());
+
+
+    setPreferredSize(new Dimension(fm.charWidth(' ') * 80 + 20, (iLinesPerScreen + 1) * fm.getHeight()));
+    setMaximumSize(getPreferredSize());
+    setSize(getPreferredSize());
+
+    iSpacing = fm.getHeight();
+
+    repaint();
+    return iSpacing;
+  }
+
+  /**
+    * getLinesPerScreen
+    **/
+  public int getLinesPerScreen() {
+    return iLinesPerScreen;
+  }
+
+  /**
+    * getBuffer
+    **/
+  public String getBuffer() {
+    return strBuffer;
+  }
+
+  /**
+    * redraw
+    **/
+  public void redraw() {
+    update(getGraphics());
+  }
+
+
+  /**
+    * keyPressed
+    * keyReleased
+    * keyTyped
+    **/
+  public void keyPressed(KeyEvent e) { }
+  public void keyTyped(KeyEvent e) {
+    if (e.getKeyCode() == KeyEvent.VK_ENTER) {
+      theTelnet.getSender().sendData("\r");
+    } else {
+      theTelnet.getSender().sendData(e.getKeyChar());
+    }
+
+
+  }
+  public void keyReleased(KeyEvent e) {  }
+
+
+  public void paint(Graphics g) {
+    update(g);
+  }
+
+  /**
+    * update()
+    **/
+  public void update(Graphics g) {
+    int i, j;
+    int iCurrentChar;
+    String strToPrint;
+    int x, y;
+    int iAttribute, iBkgColor, iFgColor;
+    boolean keepLooping;
+    String strCode;
+
+
+
+    iSpacing = 14;
+
+    if ((getWidth() > 0) && (getHeight() > 0)) {
+      imgBuffer = this.createImage(getWidth(), getHeight());
+      graphicsBuffer = imgBuffer.getGraphics();
+
+      x = 0;
+      y = iSpacing;
+      graphicsBuffer.setColor(colorBackground);
+      graphicsBuffer.fillRect(0, 0, getWidth(), getHeight());
+      graphicsBuffer.setColor(colorForeground);
+
+
+
+
+      for (i = 0; i < iLinesPerScreen; i++) {
+
+        strToPrint = "";
+
+        iCurrentChar = 0;
+        keepLooping = true;
+
+
+        if (strData[i].indexOf((char) 27 + "[", iCurrentChar) < 0) {
+          keepLooping = false;
+        }
+
+
+        while (keepLooping) {
+          if (strData[i].indexOf((char) 27 + "[", iCurrentChar)) != -1) {
+            strToPrint = strData[i].substring(iCurrentChar, strData[i].indexOf((char) 27 + "[", iCurrentChar));
+            iCurrentChar = strData[i].indexOf((char) 27 + "[", iCurrentChar);
+          } else {
+
+          }
+          //System.out.println(strToPrint);
+
+          //draw the string
+          if (backgroundOn) {
+            graphicsBuffer.setColor(colorBackground);
+            graphicsBuffer.fillRect(x, y, fm.stringWidth(strToPrint), fm.getHeight());
+          }
+
+          graphicsBuffer.setColor(colorForeground);
+          graphicsBuffer.drawString(strToPrint, x, y);
+          x += fm.stringWidth(strToPrint);
+
+
+
+
+
+          //deal with the color code
+          iCurrentChar += 2;
+          strCode = "";
+
+          while ((strData[i].charAt(iCurrentChar) == '0') ||
+                 (strData[i].charAt(iCurrentChar) == '1') ||
+                 (strData[i].charAt(iCurrentChar) == '2') ||
+                 (strData[i].charAt(iCurrentChar) == '3') ||
+                 (strData[i].charAt(iCurrentChar) == '4') ||
+                 (strData[i].charAt(iCurrentChar) == '5') ||
+                 (strData[i].charAt(iCurrentChar) == '6') ||
+                 (strData[i].charAt(iCurrentChar) == '7') ||
+                 (strData[i].charAt(iCurrentChar) == '8') ||
+                 (strData[i].charAt(iCurrentChar) == '9') ||
+                 (strData[i].charAt(iCurrentChar) == ';')  ) {
+
+            strCode += strData[i].charAt(iCurrentChar);
+            iCurrentChar++;
+
+          }
+          strCode += strData[i].charAt(iCurrentChar); //get the last character of terminal code
+
+          //deal with the code
+          dealWithTerminalCode(graphicsBuffer, strCode, x, y);
+
+
+
+
+
+          iCurrentChar++; //move out of the terminal code
+
+          if (strData[i].indexOf((char) 27 + "[", iCurrentChar) < 0) {
+            keepLooping = false;
+          } else if (iCurrentChar < 0) {
+            keepLooping = false;
+          }
+
+       }
+
+       strToPrint = strData[i].substring(iCurrentChar); //the rest of the line
+       //System.out.println(strToPrint);
+
+       graphicsBuffer.drawString(strToPrint, x, y);
+
+       y += iSpacing;
+       x = 0;
+
+      }
+      //graphicsBuffer.drawString(strLine, x, y += iSpacing);
+
+      g.drawImage(imgBuffer, 0, 0, getWidth(), getHeight(), this);
+    }
+
+  }
+
+  /**
+    * dealWithTerminalCode
+    **/
+  private void dealWithTerminalCode(Graphics g, String strCode, int x, int y) {
+    int iCurrentChar;
+    String strTemp;
+    Font fontTemp;
+    boolean keepLooping;
+
+    iCurrentChar = 0;
+
+    //System.out.println("Code: " + strCode);
+
+      if (strCode.endsWith("m")) {
+        keepLooping = true;
+        while (keepLooping) {
+          if (strCode.indexOf(';', iCurrentChar) != -1) {
+            strTemp = strCode.substring(iCurrentChar, strCode.indexOf(';', iCurrentChar));
+          } else {
+            strTemp = strCode.substring(iCurrentChar, strCode.indexOf("m", iCurrentChar));
+          }
+
+
+          //System.out.println("Color Code: " + strTemp);
+
+          if (strTemp.equals("0")) {
+          } else if (strTemp.equals("1")) {
+            fontTemp = getFont();
+            g.setFont(new Font(fontTemp.getFontName(), Font.BOLD, fontTemp.getSize()));
+            backgroundOn = false;
+          } else if (strTemp.equals("5")) {
+          } else if (strTemp.equals("7")) {
+          } else if (strTemp.equals("8")) {
+  
+          } else if (strTemp.equals("30")) {
+            colorForeground = Color.black;
+          } else if (strTemp.equals("31")) {
+            colorForeground = Color.red;
+          } else if (strTemp.equals("32")) {
+            colorForeground = Color.green;
+          } else if (strTemp.equals("33")) {
+            colorForeground = Color.yellow;
+          } else if (strTemp.equals("34")) {
+            colorForeground = Color.blue;
+          } else if (strTemp.equals("35")) {
+            colorForeground = Color.magenta;
+          } else if (strTemp.equals("36")) {
+            colorForeground = Color.cyan;
+          } else if (strTemp.equals("37")) {
+            colorForeground = Color.white;
+          } else if (strTemp.equals("40")) {
+            colorBackground = Color.black;
+            backgroundOn = true;
+          } else if (strTemp.equals("44")) {
+            colorBackground = Color.blue;
+            backgroundOn = true;
+          } else if (strTemp.equals("41")) {
+            colorBackground = Color.red;
+            backgroundOn = true;
+          } else if (strTemp.equals("45")) {
+            colorBackground = Color.magenta;
+            backgroundOn = true;
+          } else if (strTemp.equals("42")) {
+            colorBackground = Color.green;
+            backgroundOn = true;
+          } else if (strTemp.equals("46")) {
+            colorBackground = Color.cyan;
+            backgroundOn = true;
+          } else if (strTemp.equals("43")) {
+            colorBackground = Color.yellow;
+            backgroundOn = true;
+          } else if (strTemp.equals("47")) {
+            colorBackground = Color.white;
+            backgroundOn = true;
+
+          }
+
+
+          if (strCode.indexOf(';', iCurrentChar) != -1) {
+            iCurrentChar = strCode.indexOf(';', iCurrentChar) + 1;
+          } else {
+            keepLooping = false;
+          }
+
+        }
+      }
+
+
+  }
+
+
+  /**
+    * main
+    **/
+  public static void main(String argv[]) {
+
+  }
+
+
+}

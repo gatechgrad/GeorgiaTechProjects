@@ -1,0 +1,931 @@
+CONNECT 26400 V42bis
+
+Wildcat! Interactive Net Server (c) 1999 Santronics Software, Inc.
+Registration number: 02-6085  v5.3.449 (Apr 26 2000)  Node: 2
+
+Connected at 24000 bps.  Ansi detected.
+
+
+
+
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ[ Welcome ]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ[ The INDEX System (tm) ]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+                   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ±±±±±±±±±±±±±±±±±±³              indexbbs.com             ³±±±±±±±±±±±±±±±±±±±
+ ±±±±±±±±±±±±±±±±±±³            www.indexbbs.com           ³±±±±±±±±±±±±±±±±±±±
+ ±±±±±±±±±±±±±±±±±±³             (770) 831-0416            ³±±±±±±±±±±±±±±±±±±±
+ ±±±±±±±±±±±±±±±±±±³             (770) 831-0417            ³±±±±±±±±±±±±±±±±±±±
+                   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ[ Please logon with your real name ]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+What is your first name? levi smith exeter
+Good evening Levi, you are caller number 64,704.
+
+Checking for personal mail, please wait...You have no new personal mail.
+
+Press [ENTER] to continue?
+
+                     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                     ³ INFORMATION NEWS & DATA EXCHANGE ³
+                     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+                             The INDEX System (tm)
+
+ ÚÄ[ Main Menu ]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ ÚÄ[ Global Commands ]Ä¿
+ ³                                                    ³ ³                     ³
+ ³ <C> Chat                                           ³ ³ <G> Goodbye         ³
+ ³                                                    ³ ³                     ³
+ ³ <D> Doors & Games                                  ³ ³ <Q> QWK Mail        ³
+ ³                                                    ³ ³                     ³
+ ³ <F> File Areas                                     ³ ³ <W> Who's Online?   ³
+ ³                                                    ³ ³                     ³
+ ³ <I> Internet Gateway                               ³ ³ <=> Page A User     ³
+ ³                                                    ³ ³                     ³
+ ³ <M> Message Menu (E-mail)                          ³ ³ <*> Check For Mail  ³
+ ³                                                    ³ ³                     ³
+ ³ <U> User Settings & Utilities                      ³ ³ <$> Subscriptions   ³
+ ³                                                    ³ ³                     ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+  Minutes Remaining: 8                                     Line 2 / 24000
+  Command: w
+
+ #    Speed    Name                   From                   Activity
+--- -------- ---------------------- ---------------------- ------------------
+  1   24000  CC                     Valhalla               Trade Wars 2002
+  2   24000  GITCommand             CollegeClosestToHell   Who is online
+  4  Telnet  Ookii Mamoru           Juban                  Trade Wars 2002
+
+Press [ENTER] to continue?
+                     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                     ³ INFORMATION NEWS & DATA EXCHANGE ³
+                     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+                             The INDEX System (tm)
+
+ ÚÄ[ Main Menu ]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ ÚÄ[ Global Commands ]Ä¿
+ ³                                                    ³ ³                     ³
+ ³ <C> Chat                                           ³ ³ <G> Goodbye         ³
+ ³                                                    ³ ³                     ³
+ ³ <D> Doors & Games                                  ³ ³ <Q> QWK Mail        ³
+ ³                                                    ³ ³                     ³
+ ³ <F> File Areas                                     ³ ³ <W> Who's Online?   ³
+ ³                                                    ³ ³                     ³
+ ³ <I> Internet Gateway                               ³ ³ <=> Page A User     ³
+ ³                                                    ³ ³                     ³
+ ³ <M> Message Menu (E-mail)                          ³ ³ <*> Check For Mail  ³
+ ³                                                    ³ ³                     ³
+ ³ <U> User Settings & Utilities                      ³ ³ <$> Subscriptions   ³
+ ³                                                    ³ ³                     ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+  Minutes Remaining: 8                                     Line 2 / 24000
+  Command: d
+
+                     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                     ³ INFORMATION NEWS & DATA EXCHANGE ³
+                     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+                             The INDEX System (tm)
+
+      ÚÄ[ Doors & Games ]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ ÚÄ[ Global Commands ]Ä¿
+      ³                                          ³ ³                     ³
+      ³ <A> L.O.R.D.                             ³ ³ <G> Goodbye         ³
+      ³                                          ³ ³                     ³
+      ³ <B> Lachrymator Adult Fantasy Game       ³ ³ <Q> QWK Mail        ³
+      ³                                          ³ ³                     ³
+      ³ <C> Hi-Low Card Game                     ³ ³ <W> Who's Online?   ³
+      ³                                          ³ ³                     ³
+      ³ <D> 16-Bit Door Games                    ³ ³ <=> Page A User     ³
+      ³                                          ³ ³                     ³
+      ³ <E> L.O.R.D. Tournament                  ³ ³ <*> Check For Mail  ³
+      ³                                          ³ ³                     ³
+      ³ <F> Trade Wars 2002 Game Server          ³ ³ <-> Main Menu       ³
+      ³                                          ³ ³                     ³
+      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+       Minutes Remaining: 8                           Line 2 / 24000
+       Command: f
+
+Connecting to BBS1, please wait...
+Once connected, use Ctrl+] to disconnect.
+Telnet connection detected.
+
+Please enter your name (ENTER for none): command.com
+Trade Wars 2002 Game Server v1.01.34                  Copyright (C) 1998-2000
+                                                    Epic Interactive Strategy
+
+Server registered to The INDEX System
+
+<A> Beginners (Standard)               <B> Advanced (Gold)
+
+<#> Players Online
+<!> View game descriptions
+<Q> Quit
+
+Trade Wars 2002 Win32 module now loading.
+
+                                Marte       ware
+                                Martech Software
+                                Martech Software
+                                Martech Software
+                                Martech Software
+                                Martech Software
+
+                                Martech Software
+                                M              e
+                                    presents
+                                    presents
+                                    presents
+                                    presents
+        ú     ú
+                   ú                           ú      .  ³
+  ú                           ú          ³   ú        ³.
+       ú         ú                ú      ³
+          ú             ú
+          ú             ú            .   ³.³ ÕŞş   ÜÜ °±²
+    ú                          ÄÍÍ°°°°°°°
+    ú                          ÄÍÍ°°°°°°°°°°°°°°°°°°±²Û²±° úú   ÄÍüııÍÄ °±²Û
+      ú         ú      .         :ÈÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍ
+    .  .ú                        . ÕØÍØ
+     ú
+     úú           ú          ú    Õ°°°°°°°°°°°°°°°°°±²Û²±°
+   .úú  ú
+   .úú  ú              ú             ³   ³    ÔŞ   ßß °±²ÛÛ
+
+    úú ú                      ú      Ù              Ş±²Û²±°İ     ú
+   ú             ú                             ú    °ş²Û
+                          ú         ú               °±²
+     ú    ú                                        .° ÜÜÜ
+ ú            ú       ú                   ú
+    ú
+    ú            ú            ú                     °ş²Ûş
+         ú                     ú             ú    ú °±²Û
+       ú      ú        ú         .ú                .
+       ú      ú        ú         .ú                .° ßßßß  .   ú      ú.
+                   ú
+   ú
+
+          ú                ú                 ú       ³ ³  ³       ú          ú
+  ú  ßßÛßßŞ                   ú          ³   ú        ³. ³.       ú         ú
+  ú  ßßÛßßŞÛßßÜŞÛßßÜŞÛßßÜŞÛ   ú          ³   ú        ³. ³.       ú         ú
+      ŞÛ  ŞÛ ŞÛŞÛúŞÛ              ú      ³    .     ú¿³³Õµ³      .    ³
+      ŞÛ  ŞÛ            ú            .   ³.³ ÕŞş   ÜÜ °±²ÛÛÜÜ   şİ¸  ³³       ú
+      ŞÛ  ŞÛßßÜŞÛßßÛŞÛ ŞÛŞÛ          .   ³.³ ÕŞş   ÜÜ °±²ÛÛÜÜ   şİ¸  ³³       ú
+    ú ŞÛ  ŞÛ ŞÛŞÛ ŞÛ           ÄÍÍ°°°°°°°°°°°°°°°°°°±²Û²±° úú   ÄÍüııÍÄ °±²Û¾
+      Şß  Ş     ú      .         :ÈÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍÍ¼:
+      Şß  Şß ŞßŞß ŞßŞßßßß        :ÈÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍØÍÍ¼:
+     úŞÛ  ŞÛŞÛßß  ú          ú    Õ°°°°°°°°°°°°°°°°°±²Û²±°       ú    úú°±²ØÍ¿
+   .úúŞÛú Ş            ú             ³   ³    ÔŞ   ßß °±²ÛÛßß   İ¾   ³ İÙ  ³  ú
+    úúŞú                      ú      Ù              Ş±²Û²±°İ     ú    ú
+    úúŞÛŞÛŞÛŞÛßßÛŞÛßß         ú      Ù              Ş±²Û²±°İ     ú    ú
+   ú  ŞÛŞÛŞÛŞ    ú                             ú    °ş²Ûş±°ş        ú     ú
+      Ş                   ú         ú               °±²Û²±°   ú
+      ŞßßßßßŞß ŞßŞß Ş     ú         ú               °±²Û²±°   ú
+    ú  ŞßßßÜŞÛ   ú            ú                     °ş²Ûş±°ş          ú
+         ú                     ú             ú    ú °±²Û²±°        ú
+     ÄÍÍÍÍŞÛŞÛÍŞÛŞÛ            ú             ú    ú °±²Û²±°        ú
+   ÄÍÍÍŞÛ     ú        ú         .ú                .° ßßßß  .   ú      ú.
+   ÄÍÍÍŞÛßßßŞÛÍŞÛŞÛÍŞÛ ú         .ú                .° ßßßß  .   ú      ú.
+ ú   ÄÍŞÛÍÍÍŞ                           ú     ú     °±²Û²±°                ú
+ ú   ÄÍŞÛÍÍÍŞÛÍŞÛŞÛÍŞÛŞÛÍ               ú     ú     °±²Û²±°                ú
+       ŞßßßßŞßßßßŞßßßß                              °±ÛÛ²Û°
+     ú    ú                                        .° ÜÜÜÜ  .
+          ú                ú                 ú       ³ ³  ³       ú          ú
+[Pause]             ú                ú         ú                       ú
+
+   ==-- Trade Wars 2002 --==
+
+   T - Play Trade Wars 2002
+   I - Introduction & Help
+   S - View Game Settings
+   H - High scores
+   X - Exit
+
+Enter your choice: T
+Show today's log? (Y/N) [N] Yes
+Include time/date stamp? (Y/N) [N] Yes
+  -=-=-=-=-=-=-=-=-=- Trade Wars 2002 ver 3.11.34 Gold -=-=-=-=-=-=-=-=-=-
+-- 08/15/12 -- 04:00:02 AM --
+
+   -=-=-=-=-=-=-=-=-=- Daily Journal S.D. 08/15/12 -=-=-=-=-=-=-=-=-=-
+-- 08/15/12 -- 04:00:07 AM --
+Bubbaland Grocery construction advanced.
+-- 08/15/12 -- 04:00:08 AM --
+Wal Mart Suptercenter construction advanced.
+-- 08/15/12 -- 04:00:09 AM --
+   -=-=-=-=-=-=-=-=-=-=-=-= End Daily Journal =-=-=-=-=-=-=-=-=-=-=-=-
+-- 08/15/12 -- 05:05:57 AM --
+Alien Trader Chalu Puamih was attacked by The Ferrengi's fighters!
+-- 08/15/12 -- 03:57:36 PM --
+The BOrg DESTROYED the planet Vapors!
+-- 08/15/12 -- 04:05:35 PM --
+The BOrg DESTROYED the planet Swiss Alps!
+-- 08/15/12 -- 04:11:31 PM --
+Starport Main Borg Battle Port began construction!
+[Pause]
+
+Initializing...
+
+       Hello command.com, welcome to:
+
+           Trade Wars 2002 ver 3.11.34 Gold
+
+(C) Copyright 1990-2000 John Pritchett.  All rights reserved.
+    Brought to you by Epic Interactive Strategy
+    Written by Gary Martin, Mary Ann Martin and John Pritchett
+
+For Trade Wars support, visit Epic Interactive Strategy on the Net!
+
+           Web:   http://www.eisonline.com
+           Email: twsupport@eisonline.com
+
+
+
+This copy of TW2002 is Registered to The INDEX System
+and is being brought to you courtesy of Chris Dunbar
+The Local display on the BBS is turned off, you are in Secured Mode
+[Pause]
+
+A password is required to enter this game.
+
+Password? ******
+
+                               Who's Playing
+
+Chief Warrant Officer Ozzie [2]
+Chief Warrant Officer Ookii Mamoru [5]
+
+The Alien Traders are on the move!
+The Ferrengi are on the move!
+
+[Pause]
+
+You recover 41 of your turns.
+
+[Pause]
+
+You have been on today.
+Searching for messages received since your last time on:
+No messages received.
+[Pause]
+
+<Scanning for Hazardous Sectors you have marked to Avoid>
+
+No Sectors are currently being avoided.
+
+
+You have 311 turns this Stardate.
+
+Sector  : 5565 in uncharted space.
+Ports   : Bulgars Annex, Class 8 (BBB)
+Planets : (O) Garakuta San
+          (M) Jinkoueisei
+          (a) Shi Hoshi no Command
+          (a) Sooshireibu no Command Ni
+          (a) Soushireibu no Command
+Fighters: 5 (belong to your Corp) [Defensive]
+Warps to Sector(s) :  19507
+
+Command [TL=00:00:00]:[5565] (?=Help)? :
+
+                               Who's Playing
+
+Chief Warrant Officer Ozzie [2]
+Chief Warrant Officer Ookii Mamoru [5]
+Chief Warrant Officer GITCommand [4]
+
+The Alien Traders are on the move!
+The Ferrengi are on the move!
+
+Command [TL=00:00:00]:[5565] (?=Help)? : L
+<Preparing ship to land on planet surface>
+
+<Atmospheric maneuvering system engaged>
+Registry# and Planet Name
+-----------------------------------------------
+    < 12> Garakuta San
+    < 18> Jinkoueisei
+    < 19> Shi Hoshi no Command
+    < 20> Sooshireibu no Command Ni
+    < 21> Soushireibu no Command
+
+Land on which planet <Q to abort> ? 21
+Landing sequence engaged...
+
+
+
+Planet #21 in sector 5565: Soushireibu no Command
+Class a-ibD, Sentinel
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore     26,271          1     26,271     10,043          0 10,000,000
+Organics          0          5          0          7          0    100,000
+Equipment         0          7          0          0          0    100,000
+Fighters        N/A          4      6,567        292     13,903  1,000,000
+
+Citadel under construction, 1 day(s) till complete.
+You have 250 free cargo holds.
+
+Planet command (?=help) [D] M
+<Change Military>
+
+Display Planet? No
+
+There are currently 293 Fighters on this planet.
+Do you wish to (L)eave or (T)ake Fighters? [T] (Q to Exit) T
+How many Fighters do you want to take (293 Max) [293] ?
+The Fighters join your battle force.
+
+Planet command (?=help) [D] Q
+
+Blasting off from Soushireibu no Command
+
+Command [TL=00:00:00]:[5565] (?=Help)? : L
+<Preparing ship to land on planet surface>
+
+<Atmospheric maneuvering system engaged>
+Registry# and Planet Name
+-----------------------------------------------
+    < 12> Garakuta San
+    < 18> Jinkoueisei
+    < 19> Shi Hoshi no Command
+    < 20> Sooshireibu no Command Ni
+    < 21> Soushireibu no Command
+
+Land on which planet <Q to abort> ? 20
+Landing sequence engaged...
+
+
+
+Planet #20 in sector 5565: Sooshireibu no Command Ni
+Class a-ibD, Sentinel
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore     12,962          1     12,962      2,314          0 10,000,000
+Organics          0          5          0        186          0    100,000
+Equipment         0          7          0        278          0    100,000
+Fighters        N/A          4      3,240        144     14,196  1,000,000
+
+Citadel under construction, 2 day(s) till complete.
+You have 250 free cargo holds.
+
+Planet command (?=help) [D] M
+<Change Military>
+
+Display Planet? No
+
+There are currently 144 Fighters on this planet.
+Do you wish to (L)eave or (T)ake Fighters? [T] (Q to Exit) T
+How many Fighters do you want to take (144 Max) [144] ?
+The Fighters join your battle force.
+
+Planet command (?=help) [D] D
+
+Planet #20 in sector 5565: Sooshireibu no Command Ni
+Class a-ibD, Sentinel
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore     12,962          1     12,962      2,315          0 10,000,000
+Organics          0          5          0        186          0    100,000
+Equipment         0          7          0        278          0    100,000
+Fighters        N/A          4      3,240          1     14,340  1,000,000
+
+Citadel under construction, 2 day(s) till complete.
+Planet command (?=help) [D] Q
+
+Blasting off from Sooshireibu no Command Ni
+
+Command [TL=00:00:00]:[5565] (?=Help)? : D
+<Re-Display>
+
+Sector  : 5565 in uncharted space.
+Ports   : Bulgars Annex, Class 8 (BBB)
+Planets : (O) Garakuta San
+          (M) Jinkoueisei
+          (a) Shi Hoshi no Command
+          (a) Sooshireibu no Command Ni
+          (a) Soushireibu no Command
+Fighters: 5 (belong to your Corp) [Defensive]
+Warps to Sector(s) :  19507
+
+Command [TL=00:00:00]:[5565] (?=Help)? : L
+<Preparing ship to land on planet surface>
+
+<Atmospheric maneuvering system engaged>
+Registry# and Planet Name
+-----------------------------------------------
+    < 12> Garakuta San
+    < 18> Jinkoueisei
+    < 19> Shi Hoshi no Command
+    < 20> Sooshireibu no Command Ni
+    < 21> Soushireibu no Command
+
+Land on which planet <Q to abort> ? 18
+Landing sequence engaged...
+
+
+
+Planet #18 in sector 5565: Jinkoueisei
+Class M, Satellite
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore          0          1          0        265          0    100,000
+Organics      4,440          1      4,440        766          0    100,000
+Equipment     5,003          1      5,003      2,215          0    100,000
+Fighters        N/A         12        786         35     14,340     15,000
+
+You have 250 free cargo holds.
+
+Planet command (?=help) [D] M
+<Change Military>
+
+Display Planet? No
+
+There are currently 35 Fighters on this planet.
+Do you wish to (L)eave or (T)ake Fighters? [T] (Q to Exit) T
+How many Fighters do you want to take (35 Max) [35] ?
+The Fighters join your battle force.
+
+Planet command (?=help) [D] Q
+
+Blasting off from Jinkoueisei
+
+Command [TL=00:00:00]:[5565] (?=Help)? : L
+<Preparing ship to land on planet surface>
+
+<Atmospheric maneuvering system engaged>
+Registry# and Planet Name
+-----------------------------------------------
+    < 12> Garakuta San
+    < 18> Jinkoueisei
+    < 19> Shi Hoshi no Command
+    < 20> Sooshireibu no Command Ni
+    < 21> Soushireibu no Command
+
+Land on which planet <Q to abort> ? 19
+Landing sequence engaged...
+
+
+
+Planet #19 in sector 5565: Shi Hoshi no Command
+Class a-ibD, Deathstar
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore      9,805          1      9,805      3,156          0 10,000,000
+Organics          0          2          0          0          0  1,000,000
+Equipment         0          5          0          0          0  1,000,000
+Fighters        N/A          4      2,451        785     14,375 10,000,000
+
+You have 250 free cargo holds.
+
+Planet command (?=help) [D] M
+<Change Military>
+
+Display Planet? No
+
+There are currently 785 Fighters on this planet.
+Do you wish to (L)eave or (T)ake Fighters? [T] (Q to Exit) T
+How many Fighters do you want to take (785 Max) [785] ?
+The Fighters join your battle force.
+
+Planet command (?=help) [D] C
+<Build Citadel>
+
+
+This planet does not have a Citadel on it.  If you wish to construct one,
+you must first have the raw materials on the planet to build the Citadel.
+
+Once a Citadel is built, you will then have the options of leaving your ship
+there overnight, storing credits in the treasury, and many other military
+functions that can turn your planet into a stronghold that is formidable
+indeed!  Addition of a Combat computer will enable your Citadel's systems to
+control all fighters on the planet for defense.  Purchase of a Quasar cannon
+can give your Citadel the power to attack craft in space in the sector the
+planet is in.
+
+Citadel construction on this type of planet requires the following:
+             5,000,000 Colonists to support the construction,
+                 5,000 units of Fuel Ore,
+                 2,000 units of Organics,
+                 1,000 units of Equipment and
+                     4 days to construct.
+
+Do you wish to construct one? Yes
+You need 5,000 units of Fuel Ore to build a citadel.
+You need 2,000 units of Organics to build a citadel.
+You need 1,000 units of Equipment to build a citadel.
+Try again later when you have enough of everything on this planet.
+Planet command (?=help) [D] D
+
+Planet #19 in sector 5565: Shi Hoshi no Command
+Class a-ibD, Deathstar
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore      9,805          1      9,805      3,157          0 10,000,000
+Organics          0          2          0          0          0  1,000,000
+Equipment         0          5          0          0          0  1,000,000
+Fighters        N/A          4      2,451          0     15,160 10,000,000
+
+Planet command (?=help) [D]
+
+Incoming transmission from Ookii Mamoru on Federation comm-link:
+without getting taken out by the feds.
+
+Planet command (?=help) [D]
+
+                               Who's Playing
+
+Chief Warrant Officer Ozzie [2]
+Chief Warrant Officer Ookii Mamoru [5]
+Chief Warrant Officer GITCommand [4]
+
+The Alien Traders are on the move!
+The Ferrengi are on the move!
+
+Planet command (?=help) [D]
+
+Incoming transmission from Ozzie on Federation comm-link:
+hi levi
+
+Planet command (?=help) [D]
+
+Incoming transmission from Ookii Mamoru on Federation comm-link:
+Will he be able to buy a wraith?
+
+Planet command (?=help) [D]
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`hey... doing a fig
+
+Incoming transmission from Ookii Mamoru on Federation comm-link:
+Hi GIT.
+
+`hey... doing a fig pickup
+
+Message sent on Federation comm-link.
+
+Planet command (?=help) [D]
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`o
+
+Incoming transmission from Ozzie on Federation comm-link:
+how many you have now?
+
+`about out of time
+
+Message sent on Federation comm-link.
+
+Planet command (?=help) [D] D
+
+Planet #19 in sector 5565: Shi Hoshi no Command
+Class a-ibD, Deathstar
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore      9,805          1      9,805      3,164          0 10,000,000
+Organics          0          2          0          0          0  1,000,000
+Equipment         0          5          0          0          0  1,000,000
+Fighters        N/A          4      2,451          1     15,160 10,000,000
+
+Planet command (?=help) [D] Q
+
+Blasting off from Shi Hoshi no Command
+
+Command [TL=00:00:00]:[5565] (?=Help)? : D
+<Re-Display>
+
+Sector  : 5565 in uncharted space.
+Ports   : Bulgars Annex, Class 8 (BBB)
+Planets : (O) Garakuta San
+          (M) Jinkoueisei
+          (a) Shi Hoshi no Command
+          (a) Sooshireibu no Command Ni
+          (a) Soushireibu no Command
+Fighters: 5 (belong to your Corp) [Defensive]
+Warps to Sector(s) :  19507
+
+Command [TL=00:00:00]:[5565] (?=Help)? :
+
+Incoming transmission from Ozzie on Federation comm-link:
+not answering?
+
+Command [TL=00:00:00]:[5565] (?=Help)? :
+
+Incoming transmission from Ozzie on Federation comm-link:
+heh
+
+Command [TL=00:00:00]:[5565] (?=Help)? :
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`last time I saw Ozzie he had 2K... but that was a couple of days ago
+
+Message sent on Federation comm-link.
+
+Command [TL=00:00:00]:[5565] (?=Help)? : I
+<Info>
+
+Trader Name    : Chief Warrant Officer GITCommand
+Rank and Exp   : 2,573 points, Alignment=1,137 Unselfish
+Corp           # 4, Command Software
+Ship Name      : Cerberus
+Ship Info      : 4 Dragons Ltd Battlestar Ported=87 Kills=0
+Date Built     : 03:42:34 PM Sun Aug 12, 2012
+Turns to Warp  : 3
+Current Sector : 5565
+Turns left     : 311
+Total Holds    : 250 - Empty=250
+Fighters       : 15,160
+Genesis Torps  : 2
+LongRange Scan : Holographic Scanner
+TransWarp Power
+  (Type 1 Jump): 0 hops
+  (Type 2 Jump): 0 hops
+Credits        : 15,632
+
+Command [TL=00:00:00]:[5565] (?=Help)? :
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`I'm at about 15K
+
+Incoming transmission from Ozzie on Federation comm-link:
+ozzie has 25k now :)
+
+`I'm at about 15K
+
+Message sent on Federation comm-link.
+
+Command [TL=00:00:00]:[5565] (?=Help)? :
+
+Incoming transmission from Ozzie on Federation comm-link:
+ookii has 1500
+
+Command [TL=00:00:00]:[5565] (?=Help)? :
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`I don't know how many borg has, but he
+
+Incoming transmission from Ozzie on Federation comm-link:
+actually, i just saw ookii, he has 1499
+
+`I don't know how many borg has, but he shot at E-probe at he at SD and never sh
+owed up so I'm assuming he has less than me
+
+Message sent on Federation comm-link.
+
+Command [TL=00:00:00]:[5565] (?=Help)? :
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`or he's good hearted
+
+Message sent on Federation comm-link.
+
+Command [TL=00:00:00]:[5565] (?=Help)? :
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`:-)
+
+Message sent on Federation comm-link.
+
+Command [TL=00:00:00]:[5565] (?=Help)? :
+
+Incoming transmission from Ozzie on Federation comm-link:
+he got the battlestar awful quick, probably sold all his fighters
+
+Command [TL=00:00:00]:[5565] (?=Help)? :
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`but he has to
+
+Incoming transmission from Ozzie on Federation comm-link:
+i'm making close to 20k a day now
+
+`but he has to have some cash in order to be shooting e-probes at people
+
+Message sent on Federation comm-link.
+
+Command [TL=00:00:00]:[5565] (?=Help)? : T
+
+Corp Menu
+Corporate command [TL=00:00:00]:[5565] (?=Help)? L
+
+                           Corporate Planet Scan
+
+ Sector  Planet Name    Ore  Org  Equ   Ore   Org   Equ   Fighters    Citadel
+ Shields Population    -=Productions=-  -=-=-=-=-On Hands-=-=-=-=-    Credits
+==============================================================================
+  5565   Garakuta San                   Class O, Oceanic           No Citadel
+   ---   (0)              0    0    0     0     0     0          0        ---
+  5565   Jinkoueisei                    Class M, Satellite         No Citadel
+   ---   (9M)             0   4T   5T   265   784    2T          2        ---
+  5565   Shi Hoshi no Command           Class a, Deathstar         No Citadel
+   ---   (10M)          10T    0    0    3T     0     0          9        ---
+  5565   Sooshireibu no Command Ni      Class a, Sentinel          No Citadel
+   ---   (13M)          13T    0    0    2T   186   278         15        ---
+  5565   Soushireibu no Command         Class a, Sentinel          No Citadel
+   ---   (26M)          26T    0    0   10T     7     0         28        ---
+======   ============  ==== ==== ==== ===== ===== ===== ========== ==========
+   ---   (58M)          49T   4T   5T   16T   977    3T         54        ---
+
+Corporate command [TL=00:00:00]:[5565] (?=Help)? Q
+
+Command [TL=00:00:00]:[5565] (?=Help)? :
+
+Incoming transmission from Ozzie on Federation comm-link:
+not if he only has one or two eprobes
+
+Command [TL=00:00:00]:[5565] (?=Help)? : L
+<Preparing ship to land on planet surface>
+
+<Atmospheric maneuvering system engaged>
+Registry# and Planet Name
+-----------------------------------------------
+    < 12> Garakuta San
+    < 18> Jinkoueisei
+    < 19> Shi Hoshi no Command
+    < 20> Sooshireibu no Command Ni
+    < 21> Soushireibu no Command
+
+Land on which planet <Q to abort> ? 21
+Landing sequence engaged...
+
+
+
+Planet #21 in sector 5565: Soushireibu no Command
+Class a-ibD, Sentinel
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore     26,271          1     26,271     10,163          0 10,000,000
+Organics          0          5          0          7          0    100,000
+Equipment         0          7          0          0          0    100,000
+Fighters        N/A          4      6,567         30     15,160  1,000,000
+
+Citadel under construction, 1 day(s) till complete.
+You have 250 free cargo holds.
+
+Planet command (?=help) [D] Q
+
+Blasting off from Soushireibu no Command
+
+Command [TL=00:00:00]:[5565] (?=Help)? : L
+
+Incoming transmission from Ozzie on Federation comm-link:
+hell, i have 5
+
+Command [TL=00:00:00]:[5565] (?=Help)? : L
+<Preparing ship to land on planet surface>
+
+<Atmospheric maneuvering system engaged>
+Registry# and Planet Name
+-----------------------------------------------
+    < 12> Garakuta San
+    < 18> Jinkoueisei
+    < 19> Shi Hoshi no Command
+    < 20> Sooshireibu no Command Ni
+    < 21> Soushireibu no Command
+
+Land on which planet <Q to abort> ? 20
+Landing sequence engaged...
+
+
+
+Planet #20 in sector 5565: Sooshireibu no Command Ni
+Class a-ibD, Sentinel
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore     12,962          1     12,962      2,373          0 10,000,000
+Organics          0          5          0        186          0    100,000
+Equipment         0          7          0        278          0    100,000
+Fighters        N/A          4      3,240         15     15,160  1,000,000
+
+Citadel under construction, 2 day(s) till complete.
+You have 250 free cargo holds.
+
+Planet command (?=help) [D] Q
+
+Blasting off from Sooshireibu no Command Ni
+
+Command [TL=00:00:00]:[5565] (?=Help)? : L
+<Preparing ship to land on planet surface>
+
+<Atmospheric maneuvering system engaged>
+Registry# and Planet Name
+-----------------------------------------------
+    < 12> Garakuta San
+    < 18> Jinkoueisei
+    < 19> Shi Hoshi no Command
+    < 20> Sooshireibu no Command Ni
+    < 21> Soushireibu no Command
+
+Land on which planet <Q to abort> ? 19
+Landing sequence engaged...
+
+
+
+Planet #19 in sector 5565: Shi Hoshi no Command
+Class a-ibD, Deathstar
+Created by: GITCommand
+Claimed by: Command Software [4]
+
+  Item    Colonists  Colonists    Daily     Planet      Ship      Planet
+           (1000s)   2 Build 1   Product    Amount     Amount     Maximum
+ -------  ---------  ---------  ---------  ---------  ---------  ---------
+Fuel Ore      9,805          1      9,805      3,197          0 10,000,000
+Organics          0          2          0          0          0  1,000,000
+Equipment         0          5          0          0          0  1,000,000
+Fighters        N/A          4      2,451         10     15,160 10,000,000
+
+You have 250 free cargo holds.
+
+Planet command (?=help) [D] Q
+
+Blasting off from Shi Hoshi no Command
+
+Command [TL=00:00:00]:[5565] (?=Help)? :
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`about 15figs/day here
+
+Message sent on Federation comm-link.
+
+Command [TL=00:00:00]:[5565] (?=Help)? :
+
+Incoming transmission from Ozzie on Federation comm-link:
+and with a battlestar, you can make enough for eprobes in a hurry
+
+Command [TL=00:00:00]:[5565] (?=Help)? :
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`true... and if he's trading and not colonizing he should have loads of cash
+
+Message sent on Federation comm-link.
+Message sent on Federation comm-link.
+
+Command [TL=00:00:00]:[5565] (?=Help)? :
+
+                               Who's Playing
+
+Chief Warrant Officer Ozzie [2]
+Chief Warrant Officer Ookii Mamoru [5]
+Chief Warrant Officer GITCommand [4]
+
+The Alien Traders are on the move!
+The Ferrengi are on the move!
+
+Command [TL=00:00:00]:[5565] (?=Help)? :
+
+Incoming transmission from Ozzie on Federation comm-link:
+and not a lot of fighters
+
+Command [TL=00:00:00]:[5565] (?=Help)? :
+
+Incoming transmission from Ozzie on Federation comm-link:
+fighters are expensive
+
+Command [TL=00:00:00]:[5565] (?=Help)? :

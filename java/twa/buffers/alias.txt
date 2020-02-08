@@ -1,0 +1,8 @@
+
+ #    Speed    Name                   From                   Activity
+--- -------- ---------------------- ---------------------- ------------------
+  1   OPEN   Waiting For Calls                                                 
+  2   OPEN   Waiting For Calls                                                 
+  3  Telnet  CHRIS KENNEDY          Miami                  Trade Wars 2002     
+  4  Telnet  EDWARD DWYER           New Jersey             Trade Wars 2002     
+  5  Telnet  GITCommand             CollegeClosestToHell   Who is online       

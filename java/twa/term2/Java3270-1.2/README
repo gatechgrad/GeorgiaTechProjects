@@ -1,0 +1,43 @@
+How to compile the IBM-3270 Emulator & Tn3270 Pragramming Package:
+
+        phoebus:java3270 1) javac Java3270.java
+
+How to test the IBM-3270 Emulator & Tn3270 Pragramming Package:
+
+        phoebus:java3270 2) appletviewer Java3270.html
+
+How to install the IBM-3270 Emulator:
+
+	WARNING - WARNING - WARNING - WARNING - WARNING - WARNING
+
+	Applets running from Netscape can only open network connections
+	to the host that provided the .class files.
+
+	For more informations see: http://www.java.sun.com/sfaq
+
+	1) If you have a Web server on your IBM-3270 host, install
+	   the package directly on the Web server.
+
+	2) Otherwise, use the "appletgateway" daemon on Web server to
+	   redirect the connections to the IBM-3270 host.
+
+	   Exemple:
+		IBM-3270 host:	sibil.unige.ch
+		Web server:	www.unige.ch
+
+	   Run the appletgateway on the Web server:
+
+		www.unige.ch% appletgateway 8500 sibil.unige.ch 23
+
+		- 8500 is the gateway port.
+	        - 23 is the default telnet port on the IBM-3270 host.
+
+	   Insert the following lines in the Applet
+	   definition file (Java3270.html):
+
+		<applet code="Java3270.class" width=571 height=408>
+		<param name=hostname value=sibil.unige.ch>
+		<param name=gateway value=www.unige.ch>
+		<param name=gatewayPort value=8500>
+		...
+		</applet>

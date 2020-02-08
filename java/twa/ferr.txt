@@ -1,0 +1,1025 @@
+
+Command [TL=00:00:00]:[16574] (?=Help)? : S
+
+Long Range Scan
+
+                          Relative Density Scan
+-----------------------------------------------------------------------------
+Sector   5731  ==>              0  Warps : 1    NavHaz :     0%    Anom : No
+Sector  10055  ==>              0  Warps : 4    NavHaz :     0%    Anom : No
+Sector  12228  ==>        422,405  Warps : 4    NavHaz :     0%    Anom : No
+Sector  13411  ==>         20,745  Warps : 4    NavHaz :     0%    Anom : No
+Sector  15306  ==>         14,195  Warps : 1    NavHaz :     0%    Anom : No
+
+Command [TL=00:00:00]:[16574] (?=Help)? : D
+<Re-Display>
+
+Sector  : 16574 in Ferrengi Space.
+Ports   : Gamorr, Class 2 (BSB)
+Planets : (M) NavHaz Killer
+Ships   : Ebony Barb [Owned by] Command Software [4], w/ 0 ftrs,
+           (Sovremenny Merchant Freighter)
+          Sapphire Scythe [Owned by] Command Software [4], w/ 0 ftrs,
+           (Ferrengi Assault Trader)
+          Emerald Axe [Owned by] Command Software [4], w/ 0 ftrs,
+           (Antarian Merchant Freighter)
+          Jade Hammer [Owned by] Command Software [4], w/ 0 ftrs,
+           (Animoso T'Khasi Orion)
+          Ruby Shard [Owned by] Command Software [4], w/ 0 ftrs,
+           (4 Dragons Ltd T'Khasi Orion)
+          Emerald Claw [Owned by] Command Software [4], w/ 0 ftrs,
+           (AldenShrike T'Khasi Orion)
+          Gold Needle [Owned by] Command Software [4], w/ 0 ftrs,
+           (QuadStar Merchant Freighter)
+          Marble War Hammer [Owned by] Command Software [4], w/ 0 ftrs,
+           (Ferrengi Assault Trader)
+          White-gold Claw [Owned by] Command Software [4], w/ 0 ftrs,
+           (Bofors T'Khasi Orion)
+          Ivory Barb [Owned by] Command Software [4], w/ 0 ftrs,
+           (Markham Space Tech Merchant Freighter)
+NavHaz  : 59% (Space Debris/Asteroids)
+Warps to Sector(s) :  5731 - 10055 - 12228 - 13411 - 15306
+
+Command [TL=00:00:00]:[16574] (?=Help)? : C
+<Computer>
+
+<Computer activated>
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:57:50 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:57:52 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? Q
+
+<Computer deactivated>
+
+Command [TL=00:00:00]:[16574] (?=Help)? : D
+<Re-Display>
+
+Sector  : 16574 in Ferrengi Space.
+Ports   : Gamorr, Class 2 (BSB)
+Planets : (M) NavHaz Killer
+Ships   : Ebony Barb [Owned by] Command Software [4], w/ 0 ftrs,
+           (Sovremenny Merchant Freighter)
+          Sapphire Scythe [Owned by] Command Software [4], w/ 0 ftrs,
+           (Ferrengi Assault Trader)
+          Emerald Axe [Owned by] Command Software [4], w/ 0 ftrs,
+           (Antarian Merchant Freighter)
+          Jade Hammer [Owned by] Command Software [4], w/ 0 ftrs,
+           (Animoso T'Khasi Orion)
+          Ruby Shard [Owned by] Command Software [4], w/ 0 ftrs,
+           (4 Dragons Ltd T'Khasi Orion)
+          Emerald Claw [Owned by] Command Software [4], w/ 0 ftrs,
+           (AldenShrike T'Khasi Orion)
+          Gold Needle [Owned by] Command Software [4], w/ 0 ftrs,
+           (QuadStar Merchant Freighter)
+          Marble War Hammer [Owned by] Command Software [4], w/ 0 ftrs,
+           (Ferrengi Assault Trader)
+          White-gold Claw [Owned by] Command Software [4], w/ 0 ftrs,
+           (Bofors T'Khasi Orion)
+          Ivory Barb [Owned by] Command Software [4], w/ 0 ftrs,
+           (Markham Space Tech Merchant Freighter)
+NavHaz  : 59% (Space Debris/Asteroids)
+Warps to Sector(s) :  5731 - 10055 - 12228 - 13411 - 15306
+
+Command [TL=00:00:00]:[16574] (?=Help)? :
+
+                               Who's Playing
+
+Ensign GITCommand [4]
+
+The Alien Traders are on the move!
+The Ferrengi are on the move!
+
+Command [TL=00:00:00]:[16574] (?=Help)? : C
+<Computer>
+
+<Computer activated>
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? L
+
+List by rank (T)itles or by rank (V)alues (T,V or Q to quit) ? V
+Ranking Traders...
+Trade Wars 2002 Trader Rankings : 08/21/12 03:58:11 AM
+
+ #       Rank  Alignment Corp        Trader Name                Ship Type
+--- --------------------- -- ------------------------------ ------------------
+  1     8,140      7,609   4 GITCommand                     Wraith
+  2     5,161      1,346   5 Ookii Mamoru                   Battlestar
+  3     5,063      2,020   2 Ozzie                          Wraith
+  4     4,210       -406   3 The BOrg                       Battlestar
+  5       661      1,220   5 tlovingc                       Battlestar
+  6       402          2   1 Lazarus Long                   Merchant Freighter
+  7         1          1  ** Baron                          Merchant Cruiser
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? Q
+
+<Computer deactivated>
+
+Command [TL=00:00:00]:[16574] (?=Help)? : D
+<Re-Display>
+
+Sector  : 16574 in Ferrengi Space.
+Ports   : Gamorr, Class 2 (BSB)
+Planets : (M) NavHaz Killer
+Ships   : Ebony Barb [Owned by] Command Software [4], w/ 0 ftrs,
+           (Sovremenny Merchant Freighter)
+          Sapphire Scythe [Owned by] Command Software [4], w/ 0 ftrs,
+           (Ferrengi Assault Trader)
+          Emerald Axe [Owned by] Command Software [4], w/ 0 ftrs,
+           (Antarian Merchant Freighter)
+          Jade Hammer [Owned by] Command Software [4], w/ 0 ftrs,
+           (Animoso T'Khasi Orion)
+          Ruby Shard [Owned by] Command Software [4], w/ 0 ftrs,
+           (4 Dragons Ltd T'Khasi Orion)
+          Emerald Claw [Owned by] Command Software [4], w/ 0 ftrs,
+           (AldenShrike T'Khasi Orion)
+          Gold Needle [Owned by] Command Software [4], w/ 0 ftrs,
+           (QuadStar Merchant Freighter)
+          Marble War Hammer [Owned by] Command Software [4], w/ 0 ftrs,
+           (Ferrengi Assault Trader)
+          White-gold Claw [Owned by] Command Software [4], w/ 0 ftrs,
+           (Bofors T'Khasi Orion)
+          Ivory Barb [Owned by] Command Software [4], w/ 0 ftrs,
+           (Markham Space Tech Merchant Freighter)
+NavHaz  : 59% (Space Debris/Asteroids)
+Warps to Sector(s) :  5731 - 10055 - 12228 - 13411 - 15306
+
+Command [TL=00:00:00]:[16574] (?=Help)? : C
+<Computer>
+
+<Computer activated>
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:58:35 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:58:36 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:58:37 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:58:37 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:05 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:06 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:07 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:07 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:07 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:07 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:08 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:08 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:13 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:14 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:15 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:20 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)?
+
+                               Who's Playing
+
+Ensign GITCommand [4]
+
+The Alien Traders are on the move!
+The Ferrengi are on the move!
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? C
+<Examine Ship Stats>
+
+You call up the Ship Catalog and browse through Starship specs.
+
+Which ship are you interested in (?=List) ?
+
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³ú      Üş
+ ³ú      ÜşşÜ   ú  .³ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ ³  ú   Ş±:
+ ³  ú   Ş±::°İú   ú ³  The Sta
+ ³
+ ³    ú Şİ::Şİ  ú   ³  advances for st
+ ³ ú   Ş
+ ³ ú   Ş³şÚ¿ş³İ  ú  ³  who desire  a  ship  with
+ ³     İ³:
+ ³     İ³:³³:³Ş     ³  capacity.   Developed
+ ³ ú  ŞÃ
+ ³ ú  ŞÃ´ş³³şÃ´İ   ú³  space piracy,  the
+ ³   úŞ
+ ³   úŞ³³:³³:³³İú   ³  fire con
+ ³  ú
+ ³  úŞÃÙ³ş³³ş³À´İ ú ³  capacity. The p
+ ³ú  Ş
+ ³ú  ŞÃÄ´:ÀÙ:ÃÄ´İú ú³  n
+ ÃÄÄÄÄÄÄ
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´  investment will pay for itself in the long run.
+ ³ ú Ş
+ ³ ú Ş³şŞÜÜÛÜİş³İ ú ³  Built exclusi
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     Basic Hold Cost:   10,000   Initial Holds:     20 Maximum Shields: 2,000
+     Main Drive Cost:   10,000    Max Fighters:  5,000  Offensive Odds: 1.4:1
+       Computer Cost:   29,000  Turns Per Warp:      3  Defensive Odds: 1.4:1
+      Ship Hull Cost:   12,300        Mine Max:     50      Beacon Max:    50
+      Ship Base Cost:   61,300     Genesis Max:      5 Long Range Scan:   Yes
+ Max Figs Per Attack:     1000 TransWarp Drive:     No  Planet Scanner:   Yes
+       Maximum Holds:       73 Transport Range:      3 Photon Missiles:    No
+
+Which ship are you interested in (?=List) ?
+You shut off the Vid Term.
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? Q
+
+<Computer deactivated>
+
+Command [TL=00:00:00]:[16574] (?=Help)? : C
+<Computer>
+
+<Computer activated>
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? L
+
+List by rank (T)itles or by rank (V)alues (T,V or Q to quit) ? V
+Ranking Traders...
+Trade Wars 2002 Trader Rankings : 08/21/12 03:59:26 AM
+
+ #       Rank  Alignment Corp        Trader Name                Ship Type
+--- --------------------- -- ------------------------------ ------------------
+  1     8,140      7,609   4 GITCommand                     Wraith
+  2     5,161      1,346   5 Ookii Mamoru                   Battlestar
+  3     5,063      2,020   2 Ozzie                          Wraith
+  4     4,210       -406   3 The BOrg                       Battlestar
+  5       661      1,220   5 tlovingc                       Battlestar
+  6       402          2   1 Lazarus Long                   Merchant Freighter
+  7         1          1  ** Baron                          Merchant Cruiser
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? Q
+
+<Computer deactivated>
+
+Command [TL=00:00:00]:[16574] (?=Help)? : C
+<Computer>
+
+<Computer activated>
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? D
+Enter the beginning date you wish to read from. Today is 08/21/12
+Use the format MM/DD/YY ie 04/01/02, or CR for all of the history.
+Or you may enter any text to search for if it is 8 chars or less.
+Input search date :8/21/12
+
+Searching for the first occurence of "8/21/12".
+
+Include time/date stamp? (Y/N) [N] No
+  -=-=-=-=-=-=-=-=-=- Trade Wars 2002 ver 3.11.34 Gold -=-=-=-=-=-=-=-=-=-
+GITCommand captured Wisi Qoicul's Assault Trader!
+GITCommand captured Raho Quogeth's Merchant Cruiser!
+GITCommand captured Neezson's Assault Trader!
+GITCommand DESTROYED Neezus's Scout Marauder!
+"Better run while you can, GITCommand!  Death calls your name", says Neezus.
+GITCommand captured Garseb's Merchant Freighter!
+GITCommand DESTROYED Zartor's Assault Trader!
+"GITCommand, your ass is MINE!", Zartor screams.
+GITCommand DESTROYED Nike's Scout Marauder!
+GITCommand DESTROYED Darilet's T'Khasi Orion!
+"GITCommand, why don't you just go &*%! off, eh?", cries Darilet.
+GITCommand DESTROYED Nikson's Merchant Freighter!
+"I WILL kill you someday, GITCommand", swears Nikson.
+Ferrengi Quateb was attacked by Command Software's fighters!
+Ferrengi Quateb's Merchant Freighter was destroyed by Command Software's fighter
+s!
+Ferrengi Quattor was attacked by Command Software's fighters!
+Ferrengi Quattor's Merchant Freighter was destroyed by Command Software's fighte
+rs!
+Ferrengi Garsik was attacked by Command Software's fighters!
+Ferrengi Garsik's Scout Marauder was destroyed by Command Software's fighters!
+Ferrengi Neezad was attacked by Command Software's fighters!
+[Pause]
+Ferrengi Neezad's Assault Trader was destroyed by Command Software's fighters!
+Ferrengi Larog was attacked by Command Software's fighters!
+Ferrengi Larog's T'Khasi Orion was destroyed by Command Software's fighters!
+Ferrengi Boket was attacked by Command Software's fighters!
+GITCommand was attacked by The Ferrengi's fighters!
+GITCommand DESTROYED Rosus's T'Khasi Orion!
+"How did you do that?  Ram me with your nose, GITCommand?", asks Rosus.
+GITCommand DESTROYED Daruik's Scout Marauder!
+"Here, blow THIS up, GITCommand!", cries Daruik.
+GITCommand DESTROYED Garsog's Scout Marauder!
+"Nice shootin', GITCommand.  You're dead.", swears Garsog.
+GITCommand captured Serson's Assault Trader!
+GITCommand captured Rosus's Merchant Freighter!
+GITCommand DESTROYED Seraad's Assault Trader!
+GITCommand DESTROYED Quatotor's Merchant Freighter!
+"GITCommand, why don't you just go &*%! off, eh?", cries Quatotor.
+GITCommand DESTROYED Laret's Scout Marauder!
+"GITCommand, your mother was a Cabal reject", spits Laret.
+GITCommand DESTROYED Serpor's Merchant Freighter!
+"Quit being an asshole, GITCommand!", berates Serpor.
+GITCommand captured Fenet's T'Khasi Orion!
+GITCommand captured Rosan's T'Khasi Orion!
+GITCommand captured Fenad's T'Khasi Orion!
+[Pause]
+GITCommand DESTROYED Serus's T'Khasi Orion!
+"Nice shootin', GITCommand.  You're dead.", swears Serus.
+Ferrengi Garsuan's Merchant Freighter was destroyed by collision with a Navigati
+onal Hazard!
+Ferrengi Boket's T'Khasi Orion was destroyed by collision with a Navigational Ha
+zard!
+GITCommand DESTROYED Zarlet's Scout Marauder!
+GITCommand DESTROYED Niktor's Scout Marauder!
+"GITCommand, your ass is MINE!", Niktor screams.
+Ferrengi Gars's BattleShip was destroyed by collision with a Navigational Hazard
+!
+GITCommand captured Darson's Merchant Freighter!
+GITCommand captured Garsson's Assault Trader!
+Ferrengi Neez's Scout Marauder was destroyed by collision with a Navigational Ha
+zard!
+GITCommand captured Zarik's T'Khasi Orion!
+GITCommand DESTROYED Neezton's Scout Marauder!
+"Death is the Bride of the Warrior. Your mother was a trout, GITCommand", slings
+ Neezton.
+GITCommand DESTROYED Neeze's Assault Trader!
+"Hey, GITCommand!  Do you still drool?", asks Neeze.
+GITCommand DESTROYED Bokead's Scout Marauder!
+GITCommand DESTROYED Zareb's Scout Marauder!
+[Pause]
+"GITCommand is in sector 460!", shouts Zareb.
+GITCommand DESTROYED Garse's Scout Marauder!
+"May your ship self destruct GITCommand!", says Garse, as he smiles knowingly.
+GITCommand DESTROYED Seran's T'Khasi Orion!
+GITCommand DESTROYED Fen's Merchant Freighter!
+"Your wife didn't like being blown up with me, GITCommand!", taunts Fen.
+Ferrengi Quatet's Scout Marauder was destroyed by collision with a Navigational
+Hazard!
+GITCommand DESTROYED Garsog's Assault Trader!
+GITCommand DESTROYED Serlet's Merchant Freighter!
+GITCommand DESTROYED Garselet's Scout Marauder!
+GITCommand DESTROYED Fenean's Scout Marauder!
+"Hey, GITCommand. Still being abused by your wife, eh?", laughs Fenean.
+GITCommand DESTROYED Nikson's Assault Trader!
+"I'm going to have your eyes for lunch someday GITCommand!", growls Nikson.
+GITCommand DESTROYED Darlet's T'Khasi Orion!
+"This is gonna bring you some serious bad karma, GITCommand", yells Darlet.
+GITCommand DESTROYED Laraik's Assault Trader!
+"What a dweeb you are, GITCommand", calls Laraik.
+GITCommand DESTROYED Nikason's Assault Trader!
+GITCommand DESTROYED Quatoad's T'Khasi Orion!
+Ferrengi Bok's Merchant Freighter was destroyed by collision with a Navigational
+ Hazard!
+[Pause]
+GITCommand DESTROYED Bok's T'Khasi Orion!
+"Someday, Death will come for you, GITCommand", screams Bok.
+GITCommand DESTROYED Garset's Scout Marauder!
+"I'm gonna tell the Ferrengi where you are GITCommand!", threatens Garset.
+Ferrengi Serilet's Merchant Freighter was destroyed by collision with a Navigati
+onal Hazard!
+Ferrengi Nikipor's Missile Frigate was destroyed by collision with a Navigationa
+l Hazard!
+GITCommand DESTROYED Darlet's Merchant Freighter!
+Ferrengi Rosupor's Merchant Freighter was destroyed by collision with a Navigati
+onal Hazard!
+GITCommand DESTROYED Zareb's T'Khasi Orion!
+Ferrengi Zaran's T'Khasi Orion was destroyed by collision with a Navigational Ha
+zard!
+GITCommand DESTROYED Dare's T'Khasi Orion!
+Ferrengi Larpor's T'Khasi Orion was destroyed by collision with a Navigational H
+azard!
+Ferrengi Monik's Merchant Freighter was destroyed by collision with a Navigation
+al Hazard!
+Ferrengi Seraton's Assault Trader was destroyed by collision with a Navigational
+ Hazard!
+GITCommand DESTROYED Nikeb's Scout Marauder!
+"You are so illiterate, your parents couldn't have been married!", laughs Nikeb.
+[Pause]
+Ferrengi Monoton's Scout Marauder was destroyed by collision with a Navigational
+ Hazard!
+GITCommand DESTROYED Neezpor's Scout Marauder!
+Ferrengi Neez's Assault Trader was destroyed by collision with a Navigational Ha
+zard!
+GITCommand captured Roslet's Merchant Freighter!
+Ferrengi Garsad's T'Khasi Orion was destroyed by collision with a Navigational H
+azard!
+GITCommand DESTROYED Roset's Scout Marauder!
+Ferrengi Fentor's Merchant Freighter was destroyed by collision with a Navigatio
+nal Hazard!
+GITCommand DESTROYED Daran's T'Khasi Orion!
+Ferrengi Zarus's T'Khasi Orion was destroyed by collision with a Navigational Ha
+zard!
+GITCommand DESTROYED Darton's Assault Trader!
+"Don't ever forget to look behind you, GITCommand", yells Darton.
+GITCommand DESTROYED Neezik's T'Khasi Orion!
+Ferrengi Rosad's Assault Trader was destroyed by collision with a Navigational H
+azard!
+GITCommand DESTROYED Dareb's T'Khasi Orion!
+"War-mongering, flat-headed, Ferringi-loving scum!", cries Dareb.
+GITCommand DESTROYED Boktor's Assault Trader!
+Ferrengi Quatet's T'Khasi Orion was destroyed by collision with a Navigational H
+azard!
+[Pause]
+
+[Pause]
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? Q
+
+<Computer deactivated>
+
+Command [TL=00:00:00]:[16574] (?=Help)? : D
+<Re-Display>
+
+Sector  : 16574 in Ferrengi Space.
+Ports   : Gamorr, Class 2 (BSB)
+Planets : (M) NavHaz Killer
+Ships   : Ebony Barb [Owned by] Command Software [4], w/ 0 ftrs,
+           (Sovremenny Merchant Freighter)
+          Sapphire Scythe [Owned by] Command Software [4], w/ 0 ftrs,
+           (Ferrengi Assault Trader)
+          Emerald Axe [Owned by] Command Software [4], w/ 0 ftrs,
+           (Antarian Merchant Freighter)
+          Jade Hammer [Owned by] Command Software [4], w/ 0 ftrs,
+           (Animoso T'Khasi Orion)
+          Ruby Shard [Owned by] Command Software [4], w/ 0 ftrs,
+           (4 Dragons Ltd T'Khasi Orion)
+          Emerald Claw [Owned by] Command Software [4], w/ 0 ftrs,
+           (AldenShrike T'Khasi Orion)
+          Gold Needle [Owned by] Command Software [4], w/ 0 ftrs,
+           (QuadStar Merchant Freighter)
+          Marble War Hammer [Owned by] Command Software [4], w/ 0 ftrs,
+           (Ferrengi Assault Trader)
+          White-gold Claw [Owned by] Command Software [4], w/ 0 ftrs,
+           (Bofors T'Khasi Orion)
+          Ivory Barb [Owned by] Command Software [4], w/ 0 ftrs,
+           (Markham Space Tech Merchant Freighter)
+NavHaz  : 59% (Space Debris/Asteroids)
+Warps to Sector(s) :  5731 - 10055 - 12228 - 13411 - 15306
+
+Command [TL=00:00:00]:[16574] (?=Help)? : C
+<Computer>
+
+<Computer activated>
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:52 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:53 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:54 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:55 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:56 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:56 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:57 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:59 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? T
+
+03:59:59 AM Tue Aug 21, 2012
+
+
+Computer command [TL=00:00:00]:[16574] (?=Help)?
+
+You recover 41 of your turns.
+
+Computer command [TL=00:00:00]:[16574] (?=Help)? Q
+
+<Computer deactivated>
+
+Command [TL=00:00:00]:[16574] (?=Help)? : D
+<Re-Display>
+
+Sector  : 16574 in Ferrengi Space.
+Ports   : Gamorr, Class 2 (BSB)
+Planets : (M) NavHaz Killer
+Ships   : Ebony Barb [Owned by] Command Software [4], w/ 0 ftrs,
+           (Sovremenny Merchant Freighter)
+          Sapphire Scythe [Owned by] Command Software [4], w/ 0 ftrs,
+           (Ferrengi Assault Trader)
+          Emerald Axe [Owned by] Command Software [4], w/ 0 ftrs,
+           (Antarian Merchant Freighter)
+          Jade Hammer [Owned by] Command Software [4], w/ 0 ftrs,
+           (Animoso T'Khasi Orion)
+          Ruby Shard [Owned by] Command Software [4], w/ 0 ftrs,
+           (4 Dragons Ltd T'Khasi Orion)
+          Emerald Claw [Owned by] Command Software [4], w/ 0 ftrs,
+           (AldenShrike T'Khasi Orion)
+          Gold Needle [Owned by] Command Software [4], w/ 0 ftrs,
+           (QuadStar Merchant Freighter)
+          Marble War Hammer [Owned by] Command Software [4], w/ 0 ftrs,
+           (Ferrengi Assault Trader)
+          White-gold Claw [Owned by] Command Software [4], w/ 0 ftrs,
+           (Bofors T'Khasi Orion)
+          Ivory Barb [Owned by] Command Software [4], w/ 0 ftrs,
+           (Markham Space Tech Merchant Freighter)
+NavHaz  : 59% (Space Debris/Asteroids)
+Warps to Sector(s) :  5731 - 10055 - 12228 - 13411 - 15306
+
+Command [TL=00:00:00]:[16574] (?=Help)? : 12228
+<Move>
+Warping to Sector 12228
+Quasar Blast!
+The console reports damages of 3333 battle points!
+3333 K3-A Fighters destroyed by the blast!
+[Pause]
+
+Sector  : 12228 in Ferrengi Space.
+Planets : (M) Ferrengal II
+Ferrengi: Merchant Baron Quataog, w/ 0 ftrs,
+           in Marble Garrote (Mainstay Ltd T'Khasi Orion)
+          Merchant Prince Monson, w/ 0 ftrs,
+           in Sapphire Barb (Ferrengi Assault Trader)
+          Merchant Baron Nikik, w/ 0 ftrs,
+           in Diamond Axe (Antarian Scout Marauder)
+Fighters: 84,341 (The Ferrengi) [Offensive]
+Warps to Sector(s) :  (5783) - (15434) - 16574 - (18048)
+
+Fighter Attack!
+Combat computer reports damages of 16185 battle points!
+16185 K3-A Fighters destroyed by the attack!
+
+You have to destroy the fighters to remain in this sector.
+
+Your fighters: 47,742 vs. theirs: 4,433
+Option? (A,D,I,R,?):? A
+<Attack>
+How many fighters do you wish to use (0 to 47,742) [0]? 2000
+You lost 1,170 fighter(s)
+You destroyed 4,433 enemy fighters.
+For attacking this slimeball's fighters you receive 78 experience point(s).
+You have been promoted to Lieutenant J.G.!
+your alignment went up by 54 point(s).
+You destroyed all the fighters.
+
+Sector  : 12228 in Ferrengi Space.
+Planets : (M) Ferrengal II
+Ferrengi: Merchant Baron Quataog, w/ 0 ftrs,
+           in Marble Garrote (Mainstay Ltd T'Khasi Orion)
+          Merchant Prince Monson, w/ 0 ftrs,
+           in Sapphire Barb (Ferrengi Assault Trader)
+          Merchant Baron Nikik, w/ 0 ftrs,
+           in Diamond Axe (Antarian Scout Marauder)
+Warps to Sector(s) :  (5783) - (15434) - 16574 - (18048)
+
+Command [TL=00:00:00]:[12228] (?=Help)? : A
+<Attack>
+Attack Quataog's T'Khasi Orion (46,572-0) (Y/N) [N]? Yes
+Combat scanners show enemy shields at 10%
+How many fighters do you wish to use (0 to 46,572) [0]? 100
+Your fighters encounter a powerful force-shield around the enemy ship!
+   ³ ‘
+   ³       ú             ú        ú
+   ³
+   ³     ú
+   ³ú       ú         ú     ú      ÄÄ³
+   ³    ú
+   ³ú       ú      ú
+   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+   ³     Ú ú             ú      ¿ úÄÄ³
+   ³       ú             ú        úÄÄ³
+   ³    ú    Ú           ú¿     ú  ÄÄ³
+   ³    ú                  ú       ÄÄ³
+   ³ú       ú   À     úÙ    ú      ÄÄ³
+   ³ú       ú   À     úÙ    ú      ÄÄ³
+   ³ ‘  |ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ı Ä³
+   ³ ‘  |ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ı Ä³
+   ³ú    /  ú    FIRING    ú  \   ú Ä³
+   ³   ú     /    ú            ú    Ä³
+   ³ú       ú  /À     úÙ\   ú      ÄÄ³
+   ³     ú        şÜÜş             úÄ³
+   ³   ú          ú            ú    Ä³
+   ³    ú   ş              ú       ÄÄ³
+   ³    ú                  ú       ÄÄ³
+   ³   ú        ş ú            ú    Ä³
+   ³    ú   ş      ş     ş ú       ÄÄ³
+   ³    ú                  ú       ÄÄ³
+   ³     ú        ş ş              úÄ³
+   ³     ú        ş ş              úÄ³
+   ³     ú        ş ş              úÄ³
+   ³ú       ú   À     úÙ    ú      ÄÄ³
+   ³     ú        .                úÄ³
+   ³ú       TARGET DESTROYED      ú Ä³
+
+
+For attacking this slimeball you receive 1 experience point(s).
+and your alignment went up by 1 point(s).
+You lost 22 fighter(s), 46,550 remain.
+For defeating this villain you receive 16 experience point(s).
+and your alignment went up by 132 point(s).
+You find Quataog's credits worth 127!
+Excellent, you have obliterated the target!
+...In fact, TOO excellent! You can't salvage anything from it!
+"Geez, GITCommand, we just can't take you anywhere", Quataog states.
+
+Command [TL=00:00:00]:[12228] (?=Help)? : A
+<Attack>
+Attack Monson's Assault Trader (46,550-0) (Y/N) [N]? Yes
+Combat scanners show enemy shields at 52%
+How many fighters do you wish to use (0 to 46,550) [0]? 100
+Your fighters encounter a powerful force-shield around the enemy ship!
+   ³ ‘
+   ³       ú             ú        ú
+   ³
+   ³     ú
+   ³ú       ú         ú     ú      ÄÄ³
+   ³    ú
+   ³ú       ú      ú
+   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+   ³     Ú ú             ú      ¿ úÄÄ³
+   ³       ú             ú        úÄÄ³
+   ³    ú    Ú           ú¿     ú  ÄÄ³
+   ³    ú                  ú       ÄÄ³
+   ³ú       ú   À     úÙ    ú      ÄÄ³
+   ³ú       ú   À     úÙ    ú      ÄÄ³
+   ³ ‘  |ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ı Ä³
+   ³ ‘  |ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ı Ä³
+   ³ú    /  ú    FIRING    ú  \   ú Ä³
+   ³   ú     /    ú            ú    Ä³
+   ³ú       ú  /À     úÙ\   ú      ÄÄ³
+   ³     ú        şÜÜş             úÄ³
+   ³   ú          ú            ú    Ä³
+   ³    ú   ş              ú       ÄÄ³
+   ³    ú                  ú       ÄÄ³
+   ³   ú        ş ú            ú    Ä³
+   ³    ú   ş      ş     ş ú       ÄÄ³
+   ³    ú                  ú       ÄÄ³
+   ³     ú        ş ş              úÄ³
+   ³     ú        ş ş              úÄ³
+   ³     ú        ş ş              úÄ³
+   ³ú       ú   À     úÙ    ú      ÄÄ³
+   ³     ú        .                úÄ³
+   ³ú       TARGET DESTROYED      ú Ä³
+
+
+For attacking this slimeball you receive 2 experience point(s).
+You lost 43 fighter(s), 46,507 remain.
+For defeating this villain you receive 21 experience point(s).
+and your alignment went up by 35 point(s).
+You destroyed the ship and salvaged these cargo holds:
+   7 with fuel ore
+
+Command [TL=00:00:00]:[12228] (?=Help)? : A
+<Attack>
+Attack Nikik's Scout Marauder (46,507-0) (Y/N) [N]? Yes
+Combat scanners show enemy shields at 100%
+How many fighters do you wish to use (0 to 46,507) [0]? 100
+Your fighters encounter a powerful force-shield around the enemy ship!
+   ³ ‘
+   ³       ú             ú        ú
+   ³
+   ³     ú
+   ³ú       ú         ú     ú      ÄÄ³
+   ³    ú
+   ³ú       ú      ú
+   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+   ³     Ú ú             ú      ¿ úÄÄ³
+   ³       ú             ú        úÄÄ³
+   ³    ú    Ú           ú¿     ú  ÄÄ³
+   ³    ú                  ú       ÄÄ³
+   ³ú       ú   À     úÙ    ú      ÄÄ³
+   ³ú       ú   À     úÙ    ú      ÄÄ³
+   ³ ‘  |ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ı Ä³
+   ³ ‘  |ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ı Ä³
+   ³ú    /  ú    FIRING    ú  \   ú Ä³
+   ³   ú     /    ú            ú    Ä³
+   ³ú       ú  /À     úÙ\   ú      ÄÄ³
+   ³     ú        şÜÜş             úÄ³
+   ³   ú          ú            ú    Ä³
+   ³    ú   ş              ú       ÄÄ³
+   ³    ú                  ú       ÄÄ³
+   ³   ú        ş ú            ú    Ä³
+   ³    ú   ş      ş     ş ú       ÄÄ³
+   ³    ú                  ú       ÄÄ³
+   ³     ú        ş ş              úÄ³
+   ³     ú        ş ş              úÄ³
+   ³     ú        ş ş              úÄ³
+   ³ú       ú   À     úÙ    ú      ÄÄ³
+   ³     ú        .                úÄ³
+   ³ú       TARGET DESTROYED      ú Ä³
+
+
+For attacking this slimeball you receive 3 experience point(s).
+and your alignment went up by 4 point(s).
+You lost 50 fighter(s), 46,457 remain.
+For defeating this villain you receive 9 experience point(s).
+and your alignment went up by 205 point(s).
+You find Nikik's credits worth 155!
+You destroyed the ship and salvaged these cargo holds:
+   2 with fuel ore
+
+Command [TL=00:00:00]:[12228] (?=Help)? : D
+<Re-Display>
+
+Sector  : 12228 in Ferrengi Space.
+Planets : (M) Ferrengal II
+NavHaz  : 3% (Space Debris/Asteroids)
+Warps to Sector(s) :  (5783) - (15434) - 16574 - (18048)
+
+Command [TL=00:00:00]:[12228] (?=Help)? : L
+<Preparing ship to land on planet surface>
+
+<Atmospheric maneuvering system engaged>
+Landing sequence engaged...
+
+Quasar Blast!
+The console reports damages of 13500 battle points!
+13500 K3-A Fighters destroyed by the blast!
+[Pause]
+
+Fighter Attack!
+Combat computer reports damages of 16719 battle points!
+16719 K3-A Fighters destroyed by the attack!
+[Pause]
+You have to destroy the fighters defending the planet to land.
+
+Fighters: 16238 / 86454
+Option? (A,I,R,?):? A
+<Attack>
+How many fighters do you wish to use (0 to 16,238) [0]? 5000
+You lost 5000 fighter(s)
+You destroyed 6430 enemy fighters.
+Fighters: 11238 / 80024
+Option? (A,I,R,?):? A
+<Attack>
+How many fighters do you wish to use (0 to 11,238) [0]? 0
+Your ship cannot control that number of fighters.
+Fighters: 11238 / 80027
+Option? (A,I,R,?):? R
+You turn tail and retreat from this planet.
+
+You were repelled!
+
+
+Command [TL=00:00:00]:[12228] (?=Help)? : D
+<Re-Display>
+
+Sector  : 12228 in Ferrengi Space.
+Planets : (M) Ferrengal II
+NavHaz  : 3% (Space Debris/Asteroids)
+Warps to Sector(s) :  (5783) - (15434) - 16574 - (18048)
+
+Command [TL=00:00:00]:[12228] (?=Help)? :
+
+a Ferrengi ship lifts off from Ferrengal II.
+
+Command [TL=00:00:00]:[12228] (?=Help)? : D
+<Re-Display>
+
+Sector  : 12228 in Ferrengi Space.
+Planets : (M) Ferrengal II
+Ferrengi: Merchant Prince Fenus, w/ 211 ftrs,
+           in Gold Claw (Martel Matra T'Khasi Orion)
+NavHaz  : 3% (Space Debris/Asteroids)
+Warps to Sector(s) :  (5783) - (15434) - 16574 - (18048)
+
+Command [TL=00:00:00]:[12228] (?=Help)? : A
+<Attack>
+Attack Fenus's T'Khasi Orion (11,238-211) (Y/N) [N]? Yes
+Combat scanners show enemy shields at 11%
+How many fighters do you wish to use (0 to 11,238) [0]? 100
+Your fighters encounter a powerful force-shield around the enemy ship!
+
+For attacking this slimeball you receive 5 experience point(s).
+and your alignment went up by 7 point(s).
+You lost 88 fighter(s), 11,150 remain.
+For defeating this villain you receive 22 experience point(s).
+and your alignment went up by 208 point(s).
+You find Fenus's credits worth 152!
+The ship is abandoned! Its all yours!
+
+Command [TL=00:00:00]:[12228] (?=Help)? : D
+<Re-Display>
+
+Sector  : 12228 in Ferrengi Space.
+Planets : (M) Ferrengal II
+Ships   : Gold Claw [Owned by] Command Software [4], w/ 0 ftrs,
+           (Martel Matra T'Khasi Orion)
+NavHaz  : 3% (Space Debris/Asteroids)
+Warps to Sector(s) :  (5783) - (15434) - 16574 - (18048)
+
+Command [TL=00:00:00]:[12228] (?=Help)? : S
+
+Long Range Scan
+Select (H)olo Scan or (D)ensity Scan or (Q)uit? [D] H
+One turn deducted, 38 turns left.
+
+Sector  : 5783 in Ferrengi Space (unexplored).
+Ports   : Musika, Class 2 (BSB)
+Fighters: 5,200 (The Ferrengi) [Defensive]
+Mines   : 6 (Type 1 Armid) (The Ferrengi)
+
+Sector  : 15434 in Ferrengi Space (unexplored).
+Ports   : Ferrengal Station, Class 7 (SSS)
+Ferrengi: Executive Merchant Monan, w/ 750 ftrs,
+           in Diamond Scythe (Ferrengi Assault Trader)
+Fighters: 5,700 (The Ferrengi) [Defensive]
+Mines   : 6 (Type 1 Armid) (The Ferrengi)
+
+Sector  : 16574 in Ferrengi Space.
+Ports   : Gamorr, Class 2 (BSB)
+Planets : (M) NavHaz Killer
+Ships   : Ebony Barb [Owned by] Command Software [4], w/ 0 ftrs,
+           (Sovremenny Merchant Freighter)
+          Sapphire Scythe [Owned by] Command Software [4], w/ 0 ftrs,
+           (Ferrengi Assault Trader)
+          Emerald Axe [Owned by] Command Software [4], w/ 0 ftrs,
+           (Antarian Merchant Freighter)
+          Jade Hammer [Owned by] Command Software [4], w/ 0 ftrs,
+           (Animoso T'Khasi Orion)
+          Ruby Shard [Owned by] Command Software [4], w/ 0 ftrs,
+           (4 Dragons Ltd T'Khasi Orion)
+          Emerald Claw [Owned by] Command Software [4], w/ 0 ftrs,
+           (AldenShrike T'Khasi Orion)
+          Gold Needle [Owned by] Command Software [4], w/ 0 ftrs,
+           (QuadStar Merchant Freighter)
+          Marble War Hammer [Owned by] Command Software [4], w/ 0 ftrs,
+           (Ferrengi Assault Trader)
+          White-gold Claw [Owned by] Command Software [4], w/ 0 ftrs,
+           (Bofors T'Khasi Orion)
+          Ivory Barb [Owned by] Command Software [4], w/ 0 ftrs,
+           (Markham Space Tech Merchant Freighter)
+NavHaz  : 56% (Space Debris/Asteroids)
+
+Sector  : 18048 in Ferrengi Space (unexplored).
+Fighters: 6,574 (The Ferrengi) [Defensive]
+Mines   : 6 (Type 1 Armid) (The Ferrengi)
+
+Sector  : 12228 in Ferrengi Space.
+Planets : (M) Ferrengal II
+Ships   : Gold Claw [Owned by] Command Software [4], w/ 0 ftrs,
+           (Martel Matra T'Khasi Orion)
+NavHaz  : 3% (Space Debris/Asteroids)
+Warps to Sector(s) :  5783 - 15434 - 16574 - 18048
+
+Command [TL=00:00:00]:[12228] (?=Help)? :
+
+a Ferrengi ship lifts off from Ferrengal II.
+
+Command [TL=00:00:00]:[12228] (?=Help)? : D
+<Re-Display>
+
+Sector  : 12228 in Ferrengi Space.
+Planets : (M) Ferrengal II
+Ferrengi: Trader Darlet, w/ 117 ftrs,
+           in Marble Dagger (Ferrengi Assault Trader)
+Ships   : Gold Claw [Owned by] Command Software [4], w/ 0 ftrs,
+           (Martel Matra T'Khasi Orion)
+NavHaz  : 3% (Space Debris/Asteroids)
+Warps to Sector(s) :  5783 - 15434 - 16574 - 18048
+
+Command [TL=00:00:00]:[12228] (?=Help)? : A
+<Attack>
+Attack Darlet's Assault Trader (11,150-117) (Y/N) [N]? Yes
+Combat scanners show enemy shields at 34%
+How many fighters do you wish to use (0 to 11,150) [0]? 100
+Your fighters encounter a powerful force-shield around the enemy ship!
+   ³ ‘
+   ³       ú             ú        ú
+   ³
+   ³     ú
+   ³ú       ú         ú     ú      ÄÄ³
+   ³    ú
+   ³ú       ú      ú
+   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+   ³     Ú ú             ú      ¿ úÄÄ³
+   ³       ú             ú        úÄÄ³
+   ³    ú    Ú           ú¿     ú  ÄÄ³
+   ³    ú                  ú       ÄÄ³
+   ³ú       ú   À     úÙ    ú      ÄÄ³
+   ³ú       ú   À     úÙ    ú      ÄÄ³
+   ³ ‘  |ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ı Ä³
+   ³ ‘  |ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ÄÄÄÄ|ı Ä³
+   ³ú    /  ú    FIRING    ú  \   ú Ä³
+   ³   ú     /    ú            ú    Ä³
+   ³ú       ú  /À     úÙ\   ú      ÄÄ³
+   ³     ú        şÜÜş             úÄ³
+   ³   ú          ú            ú    Ä³
+   ³    ú   ş              ú       ÄÄ³
+   ³    ú                  ú       ÄÄ³
+   ³   ú        ş ú            ú    Ä³
+   ³    ú   ş      ş     ş ú       ÄÄ³
+   ³    ú                  ú       ÄÄ³
+   ³     ú        ş ş              úÄ³
+   ³     ú        ş ş              úÄ³
+   ³     ú        ş ş              úÄ³
+   ³ú       ú   À     úÙ    ú      ÄÄ³
+   ³     ú        .                úÄ³
+   ³ú       TARGET DESTROYED      ú Ä³
+
+
+For attacking this slimeball you receive 3 experience point(s).
+and your alignment went up by 1 point(s).
+You lost 56 fighter(s), 11,094 remain.
+ For defeating this villain your alignment went up by 74 point(s).
+You find Darlet's credits worth 1,153!
+You destroyed the ship and salvaged these cargo holds:
+   6 with equipment
+"How did you do that?  Ram me with your nose, GITCommand?", asks Darlet.
+"How did you do that?  Ram me with your nose, GITCommand?", asks Darlet.
+
+Command [TL=00:00:00]:[12228] (?=Help)? : D
+<Re-Display>
+
+Sector  : 12228 in Ferrengi Space.
+Planets : (M) Ferrengal II
+Ships   : Gold Claw [Owned by] Command Software [4], w/ 0 ftrs,
+           (Martel Matra T'Khasi Orion)
+NavHaz  : 4% (Space Debris/Asteroids)
+Warps to Sector(s) :  5783 - 15434 - 16574 - 18048
+
+Command [TL=00:00:00]:[12228] (?=Help)? :
+
+Monan warps into the sector.
+
+Command [TL=00:00:00]:[12228] (?=Help)? :
+
+a Ferrengi ship is powering up weapons systems!
+
+Incoming transmission from Shipboard Computers:
+Ferrengi Monan destroyed 157 fighters.
+
+Command [TL=00:00:00]:[12228] (?=Help)? :

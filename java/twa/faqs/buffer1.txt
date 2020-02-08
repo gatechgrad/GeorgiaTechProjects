@@ -1,0 +1,612 @@
+   ==-- Trade Wars 2002 --==
+
+   T - Play Trade Wars 2002
+   I - Introduction & Help
+   S - View Game Settings
+   H - High scores
+   X - Exit
+
+Enter your choice: T
+Show today's log? (Y/N) [N] No
+
+Initializing...
+
+       Hello command.com, welcome to:
+
+           Trade Wars 2002 ver 3.11.28 Gold
+
+(C) Copyright 1990-2000 John Pritchett.  All rights reserved.
+    Brought to you by Epic Interactive Strategy
+    Written by Gary Martin, Mary Ann Martin and John Pritchett
+
+For Trade Wars support, visit Epic Interactive Strategy on the Net!
+
+           Web:   http://www.eisonline.com
+           Email: twsupport@eisonline.com
+
+
+
+This copy of TW2002 is Registered to The INDEX System
+and is being brought to you courtesy of Chris Dunbar
+The Local display on the BBS is turned off, you are in Secured Mode
+[Pause]
+
+A password is required to enter this game.
+
+Password? ******
+
+                               Who's Playing                                 
+
+Private Indo
+
+[Pause]
+
+You have been on today.
+Searching for messages received since your last time on:
+No messages received.
+[Pause]
+
+<Scanning for Hazardous Sectors you have marked to Avoid>
+
+  17240
+
+Do you wish to clear some avoids? (Y/N) [N] No
+
+
+
+You have 746 turns this Stardate.
+
+Sector  : 1449 in uncharted space.
+Ports   : Caloran Annex, Class 2 (BSB)
+Warps to Sector(s) :  1243 - 6351
+
+Command [TL=00:00:00]:[1449] (?=Help)? : I
+<Info>
+
+Trader Name    : Corporal GITCommand
+Rank and Exp   : 23 points, Alignment=4 Tolerant
+Ship Name      : Cerberus
+Ship Info      : Seeschlange Merchant Freighter Ported=91 Kills=0
+Date Built     : 00:36:29 AM Tue Jun 26, 2012
+Turns to Warp  : 2
+Current Sector : 1449
+Turns left     : 746
+Total Holds    : 30 - Organics=30
+Fighters       : 5
+LongRange Scan : Density Scanner
+Credits        : 9,961
+
+Command [TL=00:00:00]:[1449] (?=Help)? : V
+         Trade Wars 2002 Game Configuration and Status
+
+ Initial Turns per day 750, fighters 30, credits 300, holds 20.
+ Inactive players will be deleted after 30 days.
+ Maximum players 200, sectors 20000, ports 8000, planets 4000.
+ The Maximum number of Planets per sector: 5,  Traders on a Corp: 5,
+                Ships per FedSpace Sector: 5.
+
+         The StarDock is located in sector 5114.
+         Photon Missile Wave duration is 20 seconds.
+         Ver# 3.11.28 Gold running under Sockets.
+         The local display is OFF AT ALL TIMES.
+         This game is registered to The INDEX System.
+         This game has been running for 7 days.
+
+-=-=-=-  Current Stats for 07:53:17 PM Mon Jul 02, 2012 -=-=-=-
+
+ 7,601 ports are open for business and have a net worth of 1,341,637.
+ 26 planets exist in the universe, 3% have Citadels.
+ 8 Traders (87% Good) are active in the game.
+ 343,741 Fighters and 50 Mines are in use throughout the Universe.
+ 2 Corporations are in business.
+
+Command [TL=00:00:00]:[1449] (?=Help)? : 
+<Re-Display>
+
+Sector  : 1449 in uncharted space.
+Ports   : Caloran Annex, Class 2 (BSB)
+Warps to Sector(s) :  1243 - 6351
+
+Command [TL=00:00:00]:[1449] (?=Help)? : 6351
+<Move>
+Warping to Sector 6351 
+
+Sector  : 6351 in uncharted space.
+Ports   : Shaula, Class 3 (SBB)
+Warps to Sector(s) :  854 - 1449 - (1551) - (5901) - 9108
+
+Command [TL=00:00:00]:[6351] (?=Help)? : I
+<Info>
+
+Trader Name    : Corporal GITCommand
+Rank and Exp   : 23 points, Alignment=4 Tolerant
+Ship Name      : Cerberus
+Ship Info      : Seeschlange Merchant Freighter Ported=91 Kills=0
+Date Built     : 00:36:29 AM Tue Jun 26, 2012
+Turns to Warp  : 2
+Current Sector : 6351
+Turns left     : 744
+Total Holds    : 30 - Organics=30
+Fighters       : 5
+LongRange Scan : Density Scanner
+Credits        : 9,961
+
+Command [TL=00:00:00]:[6351] (?=Help)? : F Baron  hey indo, u gone evil eyt?
+
+Command [TL=00:00:00]:[6351] (?=Help)? : F Indo   nah, doing it right now
+
+Command [TL=00:00:00]:[6351] (?=Help)? : F Indo   colo dumping doesn't count anymore
+
+Command [TL=00:00:00]:[6351] (?=Help)? : F Baron  damnit, that sux
+
+Command [TL=00:00:00]:[6351] (?=Help)? : F Baron  time for plan b then
+
+Command [TL=00:00:00]:[6351] (?=Help)? : F Indo   lol, ya i guess
+
+Command [TL=00:00:00]:[6351] (?=Help)? : You recover 6 of your turns.
+
+Command [TL=00:00:00]:[6351] (?=Help)? : F Baron  hurry up
+
+Command [TL=00:00:00]:[6351] (?=Help)? : D
+<Re-Display>
+
+Sector  : 6351 in uncharted space.
+Ports   : Shaula, Class 3 (SBB)
+Warps to Sector(s) :  854 - 1449 - (1551) - (5901) - 9108
+
+Command [TL=00:00:00]:[6351] (?=Help)? : C
+<Computer>
+
+<Computer activated>
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? L
+
+List by rank (T)itles or by rank (V)alues (T,V or Q to quit) ? V
+Ranking Traders...
+Trade Wars 2002 Trader Rankings : 07/02/12 08:01:18 PM
+
+ #       Rank  Alignment Corp        Trader Name                Ship Type 
+--- --------------------- -- ------------------------------ ------------------ 
+  1     2,428      1,001   1 Ozzie                          Imperial StarShip
+  2     1,739        232   1 Baron                          Merchant Freighter
+  3     1,081       -108   2 Alias                          Havoc GunStar
+  4       168         25  ** ookii mamoru                   Merchant Freighter
+  5        23          4  ** GITCommand                     Merchant Freighter
+  6        13          1  ** Seven                          Merchant Cruiser
+  7         7          1  ** Lazarus Long                   Merchant Freighter
+  8         3          0  ** Indo                           Merchant Freighter
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? F Indo   ok, go ahead
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? L
+
+List by rank (T)itles or by rank (V)alues (T,V or Q to quit) ? V
+Ranking Traders...
+Trade Wars 2002 Trader Rankings : 07/02/12 08:01:48 PM
+
+ #       Rank  Alignment Corp        Trader Name                Ship Type 
+--- --------------------- -- ------------------------------ ------------------ 
+  1     2,428      1,001   1 Ozzie                          Imperial StarShip
+  2     1,739        232   1 Baron                          Merchant Freighter
+  3     1,081       -108   2 Alias                          Havoc GunStar
+  4       168         25  ** ookii mamoru                   Merchant Freighter
+  5        23          4  ** GITCommand                     Merchant Freighter
+  6        13          1  ** Seven                          Merchant Cruiser
+  7         7          1  ** Lazarus Long                   Merchant Freighter
+  8         3          0  ** Indo                           Merchant Freighter
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? L
+
+List by rank (T)itles or by rank (V)alues (T,V or Q to quit) ? V
+Ranking Traders...
+Trade Wars 2002 Trader Rankings : 07/02/12 08:01:56 PM
+
+ #       Rank  Alignment Corp        Trader Name                Ship Type 
+--- --------------------- -- ------------------------------ ------------------ 
+  1     2,428      1,001   1 Ozzie                          Imperial StarShip
+  2     1,739        232   1 Baron                          Merchant Freighter
+  3     1,081       -108   2 Alias                          Havoc GunStar
+  4       168         25  ** ookii mamoru                   Merchant Freighter
+  5        23          4  ** GITCommand                     Merchant Freighter
+  6        13          1  ** Seven                          Merchant Cruiser
+  7         7          1  ** Lazarus Long                   Merchant Freighter
+  8         3          0  ** Indo                           Merchant Freighter
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? L
+
+List by rank (T)itles or by rank (V)alues (T,V or Q to quit) ? V
+Ranking Traders...
+Trade Wars 2002 Trader Rankings : 07/02/12 08:02:03 PM
+
+ #       Rank  Alignment Corp        Trader Name                Ship Type 
+--- --------------------- -- ------------------------------ ------------------ 
+  1     2,428      1,001   1 Ozzie                          Imperial StarShip
+  2     1,739        232   1 Baron                          Merchant Freighter
+  3     1,081       -108   2 Alias                          Havoc GunStar
+  4       168         25  ** ookii mamoru                   Merchant Freighter
+  5        23          4  ** GITCommand                     Merchant Freighter
+  6        13          1  ** Seven                          Merchant Cruiser
+  7         7          1  ** Lazarus Long                   Merchant Freighter
+  8         3          0  ** Indo                           Merchant Freighter
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? F Baron  u first
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? L
+
+List by rank (T)itles or by rank (V)alues (T,V or Q to quit) ? V
+Ranking Traders...
+Trade Wars 2002 Trader Rankings : 07/02/12 08:02:16 PM
+
+ #       Rank  Alignment Corp        Trader Name                Ship Type 
+--- --------------------- -- ------------------------------ ------------------ 
+  1     2,428      1,001   1 Ozzie                          Imperial StarShip
+  2     1,739        232   1 Baron                          Merchant Freighter
+  3     1,081       -108   2 Alias                          Havoc GunStar
+  4       168         25  ** ookii mamoru                   Merchant Freighter
+  5        23          4  ** GITCommand                     Merchant Freighter
+  6        13          1  ** Seven                          Merchant Cruiser
+  7         7          1  ** Lazarus Long                   Merchant Freighter
+  8         3          0  ** Indo                           Merchant Freighter
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? L
+
+List by rank (T)itles or by rank (V)alues (T,V or Q to quit) ? V
+Ranking Traders...
+Trade Wars 2002 Trader Rankings : 07/02/12 08:02:25 PM
+
+ #       Rank  Alignment Corp        Trader Name                Ship Type 
+--- --------------------- -- ------------------------------ ------------------ 
+  1     2,428      1,001   1 Ozzie                          Imperial StarShip
+  2     1,739        232   1 Baron                          Merchant Freighter
+  3     1,081       -108   2 Alias                          Havoc GunStar
+  4       168         25  ** ookii mamoru                   Merchant Freighter
+  5        23          4  ** GITCommand                     Merchant Freighter
+  6        13          1  ** Seven                          Merchant Cruiser
+  7         7          1  ** Lazarus Long                   Merchant Freighter
+  8         3          0  ** Indo                           Merchant Freighter
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? L
+
+List by rank (T)itles or by rank (V)alues (T,V or Q to quit) ? V
+Ranking Traders...
+Trade Wars 2002 Trader Rankings : 07/02/12 08:02:37 PM
+
+ #       Rank  Alignment Corp        Trader Name                Ship Type 
+--- --------------------- -- ------------------------------ ------------------ 
+  1     2,428      1,001   1 Ozzie                          Imperial StarShip
+  2     1,739        232   1 Baron                          Merchant Freighter
+  3     1,081       -108   2 Alias                          Havoc GunStar
+  4       168         25  ** ookii mamoru                   Merchant Freighter
+  5        23          4  ** GITCommand                     Merchant Freighter
+  6        13          1  ** Seven                          Merchant Cruiser
+  7         7          1  ** Lazarus Long                   Merchant Freighter
+  8         3          0  ** Indo                           Merchant Freighter
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? L
+
+List by rank (T)itles or by rank (V)alues (T,V or Q to quit) ? V
+Ranking Traders...
+Trade Wars 2002 Trader Rankings : 07/02/12 08:02:44 PM
+
+ #       Rank  Alignment Corp        Trader Name                Ship Type 
+--- --------------------- -- ------------------------------ ------------------ 
+  1     2,428      1,001   1 Ozzie                          Imperial StarShip
+  2     1,739        232   1 Baron                          Merchant Freighter
+  3     1,081       -108   2 Alias                          Havoc GunStar
+  4       168         25  ** ookii mamoru                   Merchant Freighter
+  5        23          4  ** GITCommand                     Merchant Freighter
+  6        13          1  ** Seven                          Merchant Cruiser
+  7         7          1  ** Lazarus Long                   Merchant Freighter
+  8         3          0  ** Indo                           Merchant Freighter
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? L
+
+List by rank (T)itles or by rank (V)alues (T,V or Q to quit) ? V
+Ranking Traders...
+Trade Wars 2002 Trader Rankings : 07/02/12 08:03:03 PM
+
+ #       Rank  Alignment Corp        Trader Name                Ship Type 
+--- --------------------- -- ------------------------------ ------------------ 
+  1     2,428      1,001   1 Ozzie                          Imperial StarShip
+  2     1,739        232   1 Baron                          Merchant Freighter
+  3     1,081       -108   2 Alias                          Havoc GunStar
+  4       168         25  ** ookii mamoru                   Merchant Freighter
+  5        23          4  ** GITCommand                     Merchant Freighter
+  6        13          1  ** Seven                          Merchant Cruiser
+  7         7          1  ** Lazarus Long                   Merchant Freighter
+  8         3          0  ** Indo                           Merchant Freighter
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? L
+
+List by rank (T)itles or by rank (V)alues (T,V or Q to quit) ? V
+Ranking Traders...
+Trade Wars 2002 Trader Rankings : 07/02/12 08:04:00 PM
+
+ #       Rank  Alignment Corp        Trader Name                Ship Type 
+--- --------------------- -- ------------------------------ ------------------ 
+  1     2,428      1,001   1 Ozzie                          Imperial StarShip
+  2     1,739        232   1 Baron                          Merchant Freighter
+  3     1,081       -108   2 Alias                          Havoc GunStar
+  4       168         25  ** ookii mamoru                   Merchant Freighter
+  5        23          4  ** GITCommand                     Merchant Freighter
+  6        13          1  ** Seven                          Merchant Cruiser
+  7         7          1  ** Lazarus Long                   Merchant Freighter
+  8         3          0  ** Indo                           Merchant Freighter
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? F Indo   there we go
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? 
+
+                               Who's Playing                                 
+
+Corporal GITCommand
+Warrant Officer Baron [1]
+Smuggler 3rd Class Indo
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? L
+
+List by rank (T)itles or by rank (V)alues (T,V or Q to quit) ? V
+Ranking Traders...
+Trade Wars 2002 Trader Rankings : 07/02/12 08:04:27 PM
+
+ #       Rank  Alignment Corp        Trader Name                Ship Type 
+--- --------------------- -- ------------------------------ ------------------ 
+  1     2,428      1,001   1 Ozzie                          Imperial StarShip
+  2     1,566        232   1 Baron                          *** Escape Pod ***
+  3     1,081       -108   2 Alias                          Havoc GunStar
+  4       173       -116  ** Indo                           Merchant Freighter
+  5       168         25  ** ookii mamoru                   Merchant Freighter
+  6        23          4  ** GITCommand                     Merchant Freighter
+  7        13          1  ** Seven                          Merchant Cruiser
+  8         7          1  ** Lazarus Long                   Merchant Freighter
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? 
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`now we aren't podding, are we??
+
+Message sent on Federation comm-link.
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? F Indo   what u think?
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? F Indo   hey, i get free money :0
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? L
+
+List by rank (T)itles or by rank (V)alues (T,V or Q to quit) ? V
+Ranking Traders...
+Trade Wars 2002 Trader Rankings : 07/02/12 08:06:33 PM
+
+ #       Rank  Alignment Corp        Trader Name                Ship Type 
+--- --------------------- -- ------------------------------ ------------------ 
+  1     2,428      1,001   1 Ozzie                          Imperial StarShip
+  2     1,583        290   1 Baron                          Merchant Freighter
+  3     1,081       -108   2 Alias                          Havoc GunStar
+  4       168         25  ** ookii mamoru                   Merchant Freighter
+  5       156       -116  ** Indo                           *** Escape Pod ***
+  6        23          4  ** GITCommand                     Merchant Freighter
+  7        13          1  ** Seven                          Merchant Cruiser
+  8         7          1  ** Lazarus Long                   Merchant Freighter
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? F Baron  hey i offered u first GIT
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? F Baron  but u didn't say anything
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? F Baron  u could have made an easy 300k
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? 
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`nah... I prefer to earn my money honestly
+
+Message sent on Federation comm-link.
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? 
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`dF Indo   lol
+
+`don't you woe F Indo   what robbing ports
+
+`don't you woe me 300F Indo   :)
+
+`don't you woe me 300K for my ISS that you stole from me??
+
+Message sent on Federation comm-link.
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? E
+
+                            The Bad Guys                                  
+Rank        Title           Experience   Rank        Title          Experience
+---- ---------------------- ----------   ---- --------------------- ----------
+< 1> Nuisance 3rd Class             2    <12> Terrorist                 4,096
+< 2> Nuisance 2nd Class             4    <13> Pirate                    8,192
+< 3> Nuisance 1st Class             8    <14> Infamous Pirate          16,384
+< 4> Menace 3rd Class              16    <15> Notorious Pirate         32,768
+< 5> Menace 2nd Class              32    <16> Dread Pirate             65,536
+< 6> Menace 1st Class              64    <17> Galactic Scourge        131,072
+< 7> Smuggler 3rd Class           128    <18> Enemy of the State      262,144
+< 8> Smuggler 2nd Class           256    <19> Enemy of the People     524,288
+< 9> Smuggler 1st Class           512    <20> Enemy of Humankind    1,048,576
+<10> Smuggler Savant            1,024    <21> Heinous Overlord      2,097,152
+<11> Robber                     2,048    <22> Prime Evil            4,194,304
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? R
+What sector is the port in? [6351] 
+
+Commerce report for Shaula: 08:08:03 PM Mon Jul 02, 2012
+
+ Items     Status  Trading % of max OnBoard
+ -----     ------  ------- -------- -------
+Fuel Ore   Selling   2810    100%       0
+Organics   Buying    1960    100%      30
+Equipment  Buying    1150    100%       0
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? 
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`err owe
+
+Message sent on Federation comm-link.
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? F Indo   what iss?
+
+Computer command [TL=00:00:00]:[6351] (?=Help)? Q
+
+<Computer deactivated>
+
+Command [TL=00:00:00]:[6351] (?=Help)? : 
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`wF Indo   seriously
+
+`when I went on vacation , you stole my ISS and kicked me off the corp
+
+Message sent on Federation comm-link.
+
+Command [TL=00:00:00]:[6351] (?=Help)? : F Indo   ohh 
+
+Command [TL=00:00:00]:[6351] (?=Help)? : F Indo   that iss
+
+Command [TL=00:00:00]:[6351] (?=Help)? : 
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`yeF Indo   hmm
+
+`yeah
+
+Message sent on Federation comm-link.
+
+Command [TL=00:00:00]:[6351] (?=Help)? : 
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`:-)
+
+Message sent on Federation comm-link.
+
+Command [TL=00:00:00]:[6351] (?=Help)? : F Indo   maybe we can work something out
+
+Command [TL=00:00:00]:[6351] (?=Help)? : 
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`nah, you guys have stabbed me in the back too many times already
+
+Message sent on Federation comm-link.
+
+Command [TL=00:00:00]:[6351] (?=Help)? : 
+
+                               Who's Playing                                 
+
+Corporal GITCommand
+Warrant Officer Baron [1]
+Smuggler 3rd Class Indo
+
+Command [TL=00:00:00]:[6351] (?=Help)? : T
+
+Corp Menu
+Corporate command [TL=00:00:00]:[6351] (?=Help)? ?
+
+??????????????????????? 2 0 0 2 ??????????????????????????
+? <D> Display Corporations    <X> Leave Your Corporation ?
+? <J> Join a Corporation      <L> List Corporate Planets ?
+? <M> Make a New Corporation  <!> Corporation Help       ?
+? <Q> QUIT Corp Menu          <A> Show Corporate Assets  ?
+? -- (Corporations Only) --       & Member Locations     ?
+? <C> Credit Transfer         <T> Send Corporate Memo    ?
+? <F> Fighter Transfer          - C.E.O.s  Only -        ?
+? <H> Mine Transfer           <P> Corporate Security     ?
+? <S> Shields Transfer        <R> Drop Corporate Member  ?
+????????????????????????? v3 ?????????????????????????????
+
+Corporate command [TL=00:00:00]:[6351] (?=Help)? M
+<Create New Corporation>
+
+Enter Corp name F Indo   nah, i'm talking about just paying u the money and that be the end of it
+
+Enter Corp name Command Software
+Command Software is what you want? F Indo   i ain't corping this game
+
+Command Software is what you want? Yes
+
+Enter Corp password BYTEME
+BYTEME is what you want? Yes
+
+Corporate command [TL=00:00:00]:[6351] (?=Help)? Q
+
+Command [TL=00:00:00]:[6351] (?=Help)? : 
+
+Federation comm-link: [<ENTER> for multiple lines]
+
+`well, I'll talk to you guys later
+
+Message sent on Federation comm-link.
+
+Command [TL=00:00:00]:[6351] (?=Help)? : Q
+<Quit>
+Confirmed? (Y/N)? Yes
+
+
+   ==-- Trade Wars 2002 --==
+
+   T - Play Trade Wars 2002
+   I - Introduction & Help
+   S - View Game Settings
+   H - High scores
+   X - Exit
+
+Enter your choice: X
+
+...Now leaving Trade Wars 2002 and returning to system.
+
+Trade Wars 2002 Game Server v1.01.28                  Copyright (C) 1998-2000
+                                                    Epic Interactive Strategy
+
+Server registered to The INDEX System
+
+<A> Beginners (Standard)               <B> Advanced (Gold)
+
+<#> Players Online
+<!> View game descriptions
+<Q> Quit
+
+Selection (? for menu): Q
+Telnet session closed.
+
+Press [ENTER] to continue? 
+                     ????????????????????????????????????
+                     ? INFORMATION NEWS & DATA EXCHANGE ?
+                     ????????????????????????????????????
+                             The INDEX System (tm)
+                                                     
+      ??[ Doors & Games ]????????????????????????? ??[ Global Commands ]??
+      ?                                          ? ?                     ?
+      ? <A> L.O.R.D.                             ? ? <G> Goodbye         ?
+      ?                                          ? ?                     ?
+      ? <B> Lachrymator Adult Fantasy Game       ? ? <Q> QWK Mail        ?
+      ?                                          ? ?                     ?
+      ? <C> Hi-Low Card Game                     ? ? <W> Who's Online?   ?
+      ?                                          ? ?                     ?
+      ? <D> 16-Bit Door Games                    ? ? <=> Page A User     ?
+      ?                                          ? ?                     ?
+      ? <E> L.O.R.D. Tournament                  ? ? <*> Check For Mail  ?
+      ?                                          ? ?                     ?
+      ? <F> Trade Wars 2002 Game Server          ? ? <-> Main Menu       ?
+      ?                                          ? ?                     ?
+      ???????????????????????????????????????????? ???????????????????????
+       Minutes Remaining: 40                          Line 3 / Telnet
+       Command: w
+
+ #    Speed    Name                   From                   Activity
+--- -------- ---------------------- ---------------------- ------------------
+  1   OPEN   Waiting For Calls                                                 
+  2   OPEN   Waiting For Calls                                                 
+  3  Telnet  GITCommand             College closest toHell Who is online       
+  4  Telnet  CHRIS KENNEDY          Miami                  Trade Wars 2002     

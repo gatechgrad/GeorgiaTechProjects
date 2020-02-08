@@ -1,0 +1,61 @@
+#include <allegro.h>
+
+#define TITLE_PIC "title.pcx"
+
+int main(void) {
+
+  BITMAP *my_image;
+  BITMAP *my_image2;
+  BITMAP *offscreen;
+  PALLETE my_pallete;
+  PALLETE my_pallete2;
+  PALLETE my_pallete3;
+
+
+
+  allegro_init();
+  install_keyboard();
+
+  set_color_depth(256);
+  set_gfx_mode(GFX_VGA, 320, 200, 0, 0);
+
+  generate_332_pallete(my_pallete2);
+  offscreen = create_bitmap_ex(16, 320, 200);
+  clear(offscreen);
+
+/*
+  set_pallete(my_pallete2);
+*/
+  clear_to_color(screen, makecol(0, 0, 0));
+
+
+  my_image2 = load_bmp("sword.bmp", my_pallete);
+
+/*
+  my_image = load_bmp("title.bmp", my_pallete3);
+*/
+
+  blit(my_image2, offscreen, 0, 0, 0, 20, 320, 200);
+
+ /*
+  blit(my_image, offscreen, 0, 0, 0, 0, 320, 200);
+  */
+
+  vline(screen, 50, 0, 200, makecol(255, 0, 0));
+  vline(screen, 55, 0, 200, makecol(0, 255, 0));
+  vline(screen, 60, 0, 200, makecol(0, 0, 255));
+
+  blit(offscreen, screen, 0, 0, 0, 0, 320, 200);
+
+/*
+  destroy_bitmap(my_image);
+*/
+
+  destroy_bitmap(my_image2);
+
+
+  readkey();
+
+  /*   vline(screen, 50, 25, 100, 5);  */
+  return 0;
+}

@@ -1,0 +1,20 @@
+
+You have been on today.
+Searching for messages received since your last time on:
+> Your fighters in sector 11546 destroyed a Sub Space Ether Probe.
+>  They traced it's transmission to Baron's I.D. code.
+Received from Deployed Fighters at 01:48:30 PM S.D. 07/14/12:
+> Report Sector 11546: Baron's Wraith entered sector.
+Received from Deployed Fighters at 01:48:31 PM S.D. 07/14/12:
+> Report Sector 11546: Baron is attacking!
+> Baron destroyed 2 of your fighters in sector 11546
+> Your fighters in sector 2334 destroyed a Sub Space Ether Probe.
+>  They traced it's transmission to Baron's I.D. code.
+Received from Deployed Fighters at 01:48:49 PM S.D. 07/14/12:
+> Report Sector 2334: Baron's Wraith entered sector.
+Received from Deployed Fighters at 01:48:49 PM S.D. 07/14/12:
+> Report Sector 2334: Baron is attacking!
+> Baron destroyed 2 of your fighters in sector 2334
+[Pause] - Delete messages? (Y/N) [N] You recover 664 of your turns.
+
+[Pause] - Delete messages? (Y/N) [N] 

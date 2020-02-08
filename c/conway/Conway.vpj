@@ -1,0 +1,16 @@
+[COMPILER]
+version=5.0b
+MACRO=\n
+compile=concur|capture|:Compile:&Compile,
+make=concur|capture|:Build:&Build,gcc %{*.c} -o conway -lalleg
+rebuild=concur|capture|:Rebuild:&Rebuild,
+debug=:Debug:&Debug,
+execute=:Execute:E&xecute,conway
+user1=hide|:User 1:User 1,
+user2=hide|:User 2:User 2,
+workingdir=.
+includedirs=
+reffile=
+[FILES]
+conway.c
+[ASSOCIATION]

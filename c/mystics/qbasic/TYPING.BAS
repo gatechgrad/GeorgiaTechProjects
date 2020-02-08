@@ -1,0 +1,89 @@
+DECLARE SUB test1 ()
+SCREEN 12
+test1
+
+SUB test1
+
+LOCATE 5, 2
+COLOR 8
+PRINT "TEST TEST TEST"
+Ltr1$ = "T"
+Ltr2$ = "E"
+Ltr3$ = "S"
+Ltr4$ = "T"
+Ltr5$ = " "
+Ltr6$ = "T"
+Ltr7$ = "E"
+Ltr8$ = "S"
+Ltr9$ = "T"
+Ltr10$ = " "
+Ltr11$ = "T"
+Ltr12$ = "E"
+Ltr13$ = "S"
+Ltr14$ = "T"
+
+COLOR 15
+
+
+DO
+LOOP UNTIL INKEY$ = Ltr1$
+  LOCATE 5, 2
+  PRINT Ltr1$
+DO
+LOOP UNTIL INKEY$ = Ltr2$
+  LOCATE 5, 3
+  PRINT Ltr2$
+DO
+LOOP UNTIL INKEY$ = Ltr3$
+  LOCATE 5, 4
+  PRINT Ltr3$
+DO
+LOOP UNTIL INKEY$ = Ltr4$
+  LOCATE 5, 5
+  PRINT Ltr4$
+DO
+LOOP UNTIL INKEY$ = Ltr5$
+  LOCATE 5, 6
+  PRINT Ltr5$
+DO
+LOOP UNTIL INKEY$ = Ltr6$
+  LOCATE 5, 7
+  PRINT Ltr6$
+DO
+LOOP UNTIL INKEY$ = Ltr7$
+  LOCATE 5, 8
+  PRINT Ltr7$
+DO
+LOOP UNTIL INKEY$ = Ltr8$
+  LOCATE 5, 9
+  PRINT Ltr8$
+DO
+LOOP UNTIL INKEY$ = Ltr9$
+  LOCATE 5, 10
+  PRINT Ltr9$
+DO
+LOOP UNTIL INKEY$ = Ltr10$
+  LOCATE 5, 11
+  PRINT Ltr10$
+DO
+LOOP UNTIL INKEY$ = Ltr11$
+  LOCATE 5, 12
+  PRINT Ltr11$
+DO
+LOOP UNTIL INKEY$ = Ltr12$
+  LOCATE 5, 13
+  PRINT Ltr12$
+DO
+LOOP UNTIL INKEY$ = Ltr13$
+  LOCATE 5, 14
+  PRINT Ltr13$
+DO
+LOOP UNTIL INKEY$ = Ltr14$
+  LOCATE 5, 15
+  PRINT Ltr14$
+
+
+
+
+END SUB
+

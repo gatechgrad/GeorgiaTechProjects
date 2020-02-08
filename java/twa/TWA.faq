@@ -1,0 +1,23 @@
+Frequently Asked Questions
+----------------------------------------------------
+
+Q:  Can I use dial-up with Advantage?
+A:  No, at the current time Advantage is telnet only.
+
+Q:  Where can I find the latest update?
+A:  http://www.prism.gatech.edu/~gte187k/twa
+      or
+    http://flying.to/advantage
+
+Q:  I got stuck while using the graphical interface.  What do
+    I do?
+A:  Press F6 to display the console.  You will be able to fix
+    any problems from there.
+
+Q:  The graphics don't display correctly.  I see a lot of equal
+    signs on the console.
+A:  Java requires all fonts to be in TTF format, and I don't have
+    an IBM font in TTF format.  If anyone has one or a FON to TTF
+    converter please let me know.
+
+

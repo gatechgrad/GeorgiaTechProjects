@@ -1,0 +1,12 @@
+<Atmospheric maneuvering system engaged>
+Registry# and Planet Name                    Citadel RLvl Fighters QCanRLvl Cls
+-------------------------------------------------------------------------------
+    <  1> Terra                                None    0%    403T    None    M
+          Owned by: Federation
+
+Land on which planet <Q to abort> ? 1
+<Land on Terra>
+
+Ittakesyourverybestnavigationaleffor
+ttoavoidthemultitudeof"spacejunk"inorbitab
+outthisplanet.Yourcomputersystemfinallyestablishes

@@ -1,0 +1,33 @@
+[ProjectDates]
+Skeleton.vpj=20010101052322000
+[CurrentProject]
+curproj=Skeleton.vpj
+[ProjectFiles]
+Skeleton.vpj
+[TreeExpansion]
+Skeleton.vpj 0
+[State]
+SCREEN: 1024 768 176 -328 768 537 0 0 M 0 0 0 0 866 439
+CWD: D:\rpg\c_code
+BUFFER: BN="D:\rpg\c_code\demo.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=4152 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0
+VIEW: LN=.8346 CL=5 LE=0 CX=4 CY=25 WI=5 BI=23 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="d:\rpg\c_code\skeleton.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C	HM=0 MF=4152 TL=0 MLL=0 ASE=0 LNL=6 LCF=0 CAPS=0
+VIEW: LN=.1492 CL=1 LE=0 CX=0 CY=20 WI=5 BI=25 HT=0 HN=0 HF=0 HC=4
+WINDOW: 66 66 734 307 -1 -1 N  WF=0 WT=3 "OEM Fixed Font,10,0,1"
+BUFFER: BN="D:\rpg\c_code\demo.c"
+VIEW: LN=.8346 CL=5 LE=0 CX=4 CY=25 WI=122 BI=23 HT=0 HN=0 HF=0 HC=4
+WINDOW: 22 22 734 307 -1 -1 M  WF=0 WT=2 "OEM Fixed Font,10,0,1"
+BUFFER: BN="d:\rpg\c_code\skeleton.c"
+VIEW: LN=.426 CL=64 LE=0 CX=63 CY=22 WI=200 BI=25 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+D:\rpg\map\CellDisplay.java
+D:\rpg\map\MapEditor.java
+D:\mystuff\Decoder.java
+D:\emu\nintendo\hack.nes
+D:\emu\nintendo\roms\hack2.nes
+D:\mystuff\decoder\Decoder.java
+D:\emu\snes\hacking\NesTextConverter.java
+D:\rpg\c_code\demo.c
+d:\rpg\c_code\skeleton.c

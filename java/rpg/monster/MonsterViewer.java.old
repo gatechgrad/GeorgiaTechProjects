@@ -1,0 +1,262 @@
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.*;
+import javax.swing.event.*;
+import javax.swing.border.*;
+
+import java.util.Vector;
+
+
+/**
+ *  MonsterViewer - displays all of the monsters created by the user
+ *  @author Levi D. Smith
+ *  @version 0.1
+ */
+public class MonsterViewer implements ListSelectionListener, ActionListener {
+
+    //CONSTANTS
+    public static final int CELL_WIDTH = 192;
+    public static final Dimension DISPLAY_SIZE = new Dimension(128, 256);
+    public static final String DONE_BUTTON = "Done";
+    public static final String NEW_BUTTON = "New Monster";
+    public static final String EDIT_BUTTON = "Edit Monster";
+    public static final String DELETE_BUTTON = "Delete Monster";
+
+
+
+    //INSTANCE VARIABLES
+    private JFrame theFrame;
+    private JList listMonsters;
+    private JPanel pnlImages;
+
+    private JLabel lblMonsterName;
+    private JLabel lblMonsterMaxHP;
+    private JLabel lblMonsterMaxMP;
+    private JLabel lblMonsterLevel;
+    private JLabel lblMonsterMoney;
+    private JLabel lblMonsterExperience;
+
+
+
+    private JButton butDone;
+    private JButton butNew;
+    private JButton butEdit;
+    private JButton butDelete;
+
+
+    private Vector vectMonsters;
+    
+    public MonsterViewer(Vector vectMonsters) {
+        this.vectMonsters = vectMonsters;
+        setupWindow();
+        
+    }
+
+    /**
+     * makes the main window
+     */
+    private void setupWindow() {
+        theFrame = new JFrame();
+
+        listMonsters = new JList(vectMonsters);
+        listMonsters.addListSelectionListener(this);
+        listMonsters.setFixedCellWidth(CELL_WIDTH);
+        
+        JScrollPane pnlList = new JScrollPane(listMonsters, ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS, ScrollPaneConstants.HORIZONTAL_SCROLLBAR_AS_NEEDED);
+        JPanel pnlMonster = new JPanel();
+        pnlMonster.setPreferredSize(DISPLAY_SIZE);
+        JPanel pnlTemp;
+        pnlMonster.setLayout(new BoxLayout(pnlMonster, BoxLayout.Y_AXIS));
+        pnlMonster.setAlignmentX(Box.LEFT_ALIGNMENT);
+        pnlMonster.setAlignmentY(Box.TOP_ALIGNMENT);
+
+        pnlImages = new JPanel();
+        pnlImages.setLayout(new BoxLayout(pnlImages, BoxLayout.X_AXIS));
+        pnlImages.setAlignmentX(Box.LEFT_ALIGNMENT);
+        pnlMonster.add(pnlImages);
+
+
+        pnlTemp = new JPanel();
+        pnlTemp.setLayout(new BoxLayout(pnlTemp, BoxLayout.X_AXIS));
+        pnlTemp.setAlignmentX(Box.LEFT_ALIGNMENT);
+        pnlTemp.add(new JLabel("Name: "));
+        lblMonsterName = new JLabel("");
+        pnlTemp.add(lblMonsterName);
+        pnlMonster.add(pnlTemp);
+
+        pnlTemp = new JPanel();
+        pnlTemp.setLayout(new BoxLayout(pnlTemp, BoxLayout.X_AXIS));
+        pnlTemp.setAlignmentX(Box.LEFT_ALIGNMENT);
+        pnlTemp.add(new JLabel("HP: "));
+        lblMonsterMaxHP = new JLabel("");
+        pnlTemp.add(lblMonsterMaxHP);
+        pnlMonster.add(pnlTemp);
+
+        pnlTemp = new JPanel();
+        pnlTemp.setLayout(new BoxLayout(pnlTemp, BoxLayout.X_AXIS));
+        pnlTemp.setAlignmentX(Box.LEFT_ALIGNMENT);
+        pnlTemp.add(new JLabel("MP: "));
+        lblMonsterMaxMP = new JLabel("");
+        pnlTemp.add(lblMonsterMaxMP);
+        pnlMonster.add(pnlTemp);
+
+        pnlTemp = new JPanel();
+        pnlTemp.setLayout(new BoxLayout(pnlTemp, BoxLayout.X_AXIS));
+        pnlTemp.setAlignmentX(Box.LEFT_ALIGNMENT);
+        pnlTemp.add(new JLabel("Level: "));
+        lblMonsterLevel = new JLabel("");
+        pnlTemp.add(lblMonsterLevel);
+        pnlMonster.add(pnlTemp);
+
+        pnlTemp = new JPanel();
+        pnlTemp.setLayout(new BoxLayout(pnlTemp, BoxLayout.X_AXIS));
+        pnlTemp.setAlignmentX(Box.LEFT_ALIGNMENT);
+        pnlTemp.add(new JLabel("Money: "));
+        lblMonsterMoney = new JLabel("");
+        pnlTemp.add(lblMonsterMoney);
+        pnlMonster.add(pnlTemp);
+
+        pnlTemp = new JPanel();
+        pnlTemp.setLayout(new BoxLayout(pnlTemp, BoxLayout.X_AXIS));
+        pnlTemp.setAlignmentX(Box.LEFT_ALIGNMENT);
+        pnlTemp.add(new JLabel("Experience: "));
+        lblMonsterExperience = new JLabel("");
+        pnlTemp.add(lblMonsterExperience);
+        pnlMonster.add(pnlTemp);
+
+
+
+
+        //button panel
+        JPanel pnlButtons = new JPanel();
+        
+        butDone = new JButton(DONE_BUTTON);
+        butDone.addActionListener(this);
+        pnlButtons.add(butDone);
+        
+        butNew = new JButton(NEW_BUTTON);
+        butNew.addActionListener(this);
+        pnlButtons.add(butNew);
+
+        butEdit = new JButton(EDIT_BUTTON);
+        butEdit.addActionListener(this);
+        pnlButtons.add(butEdit);
+
+        butDelete = new JButton(DELETE_BUTTON);
+        butDelete.addActionListener(this);
+        pnlButtons.add(butDelete);
+
+
+        theFrame.getContentPane().setLayout(new BorderLayout());
+        theFrame.getContentPane().add(pnlMonster, BorderLayout.WEST);
+        theFrame.getContentPane().add(pnlList, BorderLayout.EAST);
+        theFrame.getContentPane().add(pnlButtons, BorderLayout.SOUTH);
+
+        theFrame.pack();
+        theFrame.setLocation(RPGGeneratorConstants.getCenteredWindowLocation(theFrame));
+        theFrame.show();
+
+
+
+    }
+
+    /**
+     * frame containing specific monster data
+     */
+    private void updateMonsterPanel() {
+        int i;
+        Monster monsterCurrent;
+         
+        monsterCurrent = findSelectedMonster();
+        
+        
+
+        if (monsterCurrent != null) {
+            lblMonsterName.setText(monsterCurrent.getName());
+            lblMonsterMaxHP.setText(String.valueOf(monsterCurrent.getMaxHP()));
+            lblMonsterMaxMP.setText(String.valueOf(monsterCurrent.getMaxMP()));
+            lblMonsterLevel.setText(String.valueOf(monsterCurrent.getLevel()));
+            lblMonsterMoney.setText(String.valueOf(monsterCurrent.getMoney()));
+            lblMonsterExperience.setText(String.valueOf(monsterCurrent.getExperience()));
+
+            Vector vectSprites = monsterCurrent.getAllSprites();
+            pnlImages.removeAll();
+            for (i = 0; i < vectSprites.size(); i++) {
+                pnlImages.add(new JButton(((ImageIcon) vectSprites.elementAt(i))));
+
+            }
+        }        
+    }
+
+    /**
+     * finds the monsters which is currently selected in the list
+     */
+    public Monster findSelectedMonster() {
+         Monster monsterToReturn;
+
+         monsterToReturn = null;
+
+         int iCurrentIndex;
+
+        iCurrentIndex = listMonsters.getSelectedIndex();
+        if (iCurrentIndex > -1) {
+            monsterToReturn = ((Monster) vectMonsters.elementAt(iCurrentIndex));
+        }
+
+        return monsterToReturn;
+    }
+
+    
+    /**
+     * required by ListSelecitonListener
+     */
+    public void valueChanged(ListSelectionEvent e) {
+        listMonsters.ensureIndexIsVisible(listMonsters.getSelectedIndex());
+
+        if (e.getSource().equals(listMonsters)) {
+            updateMonsterPanel();                
+        }
+    }
+
+    /**
+     * required by ActionListener interface
+     */
+    public void actionPerformed(ActionEvent e) {
+        String strCommand = e.getActionCommand();
+        if (strCommand.equals(DONE_BUTTON)) {
+            theFrame.dispose();
+        } else if (strCommand.equals(EDIT_BUTTON)) {
+            Monster monsterCurrent;
+
+            monsterCurrent = findSelectedMonster();
+
+            if (monsterCurrent != null) {
+                new MonsterEditor(theFrame, monsterCurrent);
+            } else {
+                JOptionPane.showMessageDialog(theFrame, "Please Choose A Monster First", "Monster Not Chosen", JOptionPane.WARNING_MESSAGE);
+            }
+
+        } else if (strCommand.equals(NEW_BUTTON)) {
+            
+            Monster monsterNew = new Monster("New Monster", 0, 0, 0);
+            vectMonsters.addElement(monsterNew);
+            
+            listMonsters.removeAll();
+            listMonsters.setListData(vectMonsters);
+
+        } else if (strCommand.equals(DELETE_BUTTON)) {
+            if ((listMonsters.getSelectedIndex() > -1) &&
+                (listMonsters.getSelectedIndex() < vectMonsters.size())
+                ) {
+                vectMonsters.removeElementAt(listMonsters.getSelectedIndex());
+
+                listMonsters.removeAll();
+                listMonsters.setListData(vectMonsters);
+
+
+            }
+
+        }
+    }
+
+}
