@@ -1,0 +1,12 @@
+section Surfaces{
+
+}
+
+section Fonts{
+
+}
+
+
+section Samples{
+        SFX_Sword = sounds/sword.wav (type=sample);
+}
