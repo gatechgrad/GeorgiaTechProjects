@@ -1,0 +1,452 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>New Page 1</title>
+</head>
+
+<body>
+
+<p align="center"><font size="6"><b>Database Documentation (SQL Server)</b></font></p>
+<hr>
+<p align="left"><b>TABLE SETUP:</b></p>
+<table border="1" width="100%">
+  <tr>
+    <td width="20%"><b>ALARM_CONSTANTS_T</b></td>
+    <td width="20%">ALARM_ID</td>
+    <td width="20%">ALARM_NAME</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20%"><b>ALARM_T</b></td>
+    <td width="20%">DEVICE_ID</td>
+    <td width="20%">ALARM_ID</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20%"><b>BEHAVIOR_NAME_T</b></td>
+    <td width="20%">BEHAVIOR_ID</td>
+    <td width="20%">BEHAVIOR_NAME</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20%"><b>BEHAVIOR_SET_T</b></td>
+    <td width="20%">BEHAVIOR_SET_ID</td>
+    <td width="20%">BEHAVIOR_TYPE_ID</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20%"><b>BEHAVIOR_T</b></td>
+    <td width="20%">BEHAVIOR_TYPE_ID</td>
+    <td width="20%">BEHAVIOR_CHARACTERISTIC</td>
+    <td width="20%">BEHAVIOR_ID</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20%"><b>BEHAVIOR_SET_NAME_T</b></td>
+    <td width="20%">BEHAVIOR_SET_ID</td>
+    <td width="20%">SEHAVIOR_SET_NAME</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20%"><b>DEVICE_SYSTEM_T</b></td>
+    <td width="20%">DEVICE_ID</td>
+    <td width="20%">SYSTEM_ID</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20%"><b>DEVICE_T</b></td>
+    <td width="20%">DEVICE_ID</td>
+    <td width="20%">DEVICE_NAME</td>
+    <td width="20%">LOCATION</td>
+    <td width="20%">BEHAVIOR_SET_ID</td>
+    <td width="20%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20%"><b>DEVICE_ZONE_T</b></td>
+    <td width="20%">DEVICE_ID</td>
+    <td width="20%">ZONE_ID</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20%"><b>SENSOR_READING_CONSTANTS_T</b></td>
+    <td width="20%">SENSOR_ID</td>
+    <td width="20%">SENSOR_NAME</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20%"><b>SENSOR_READING_T</b></td>
+    <td width="20%">DEVICE_ID</td>
+    <td width="20%">SENSOR_ID</td>
+    <td width="20%">READING</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20%"><b>STATUS_CONSTANTS_T</b></td>
+    <td width="20%">STATUS_ID</td>
+    <td width="20%">STATUS_NAME</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20%"><b>STATUS_T</b></td>
+    <td width="20%">DEVICE_ID</td>
+    <td width="20%">STATUS_ID</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20%"><b>SYSTEM_T</b></td>
+    <td width="20%">SYSTEM_ID</td>
+    <td width="20%">PARENT</td>
+    <td width="20%">NAME</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20%"><b>USERS_T</b></td>
+    <td width="20%">FIRST_NAME</td>
+    <td width="20%">LAST_NAME</td>
+    <td width="20%">USER_TYPE</td>
+    <td width="20%">PASSWORD</td>
+    <td width="20%">USER_ID</td>
+  </tr>
+  <tr>
+    <td width="20%"><b>ZONE_SYSTEM_T</b></td>
+    <td width="20%">ZONE_ID</td>
+    <td width="20%">SYSTEM_ID</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20%"><b>ZONE_T</b></td>
+    <td width="20%">ZONE_ID</td>
+    <td width="20%">ZONE_NAME</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+    <td width="20%">&nbsp;</td>
+  </tr>
+</table>
+<p><b>TABLE CONSTRAINTS:</b></p>
+<p><b>ALARM_CONSTANTS_T:</b></p>
+<table border="1" width="100%">
+  <tr>
+    <td width="33%">ALARM_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Primary Key</td>
+  </tr>
+  <tr>
+    <td width="33%">ALARM_NAME</td>
+    <td width="33%">VARCHAR (50)</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+</table>
+<p><b>&nbsp;ALARM_T:</b></p>
+<table border="1" width="100%">
+  <tr>
+    <td width="33%">DEVICE_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Foreign Key (DEVICE_T)</td>
+  </tr>
+  <tr>
+    <td width="33%">ALARM_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Foreign Key (ALARM_CONSTANTS_T)</td>
+  </tr>
+</table>
+<p><b>BEHAVIOR_NAME_T:</b></p>
+<table border="1" width="100%">
+  <tr>
+    <td width="33%">BEHAVIOR_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Primary Key</td>
+  </tr>
+  <tr>
+    <td width="33%">BEHAVIOR_NAME</td>
+    <td width="33%">VARCHAR (16)</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+</table>
+<p><b>BEHAVIOR_SET_T:</b></p>
+<table border="1" width="100%">
+  <tr>
+    <td width="33%">BEHAVIOR_SET_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Primary Key</td>
+  </tr>
+  <tr>
+    <td width="33%">BEHAVIOR_TYPE_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Foreign Key (BEHAVIOR_T)</td>
+  </tr>
+</table>
+<p><b>BEHAVIOR_T:</b></p>
+<table border="1" width="100%">
+  <tr>
+    <td width="33%">BEHAVIOR_TYPE_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Primary Key</td>
+  </tr>
+  <tr>
+    <td width="33%">BEHAVIOR_CHARACTERISTIC</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="33%">BEHAVIOR_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Foreign Key (BEHAVIOR_NAME_T)</td>
+  </tr>
+</table>
+<p><b>BEHAVIOR_SET_NAME_T:</b></p>
+<table border="1" width="100%">
+  <tr>
+    <td width="33%">BEHAVIOR_SET_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Foreign Key (BEHAVIOR_SET_T)</td>
+  </tr>
+  <tr>
+    <td width="33%">BEHAVIOR_SET_NAME</td>
+    <td width="33%">VARCHAR (50)</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+</table>
+<p><b>DEVICE_SYSTEM_T:</b></p>
+<table border="1" width="100%">
+  <tr>
+    <td width="33%">DEVICE_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Foreign Key (DEVICE_T)</td>
+  </tr>
+  <tr>
+    <td width="33%">SYSTEM_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Foreign Key (SYSTEM_T)</td>
+  </tr>
+</table>
+<p><b>DEVICE_T:</b></p>
+<table border="1" width="100%">
+  <tr>
+    <td width="33%">DEVICE_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Primary Key</td>
+  </tr>
+  <tr>
+    <td width="33%">DEVICE_NAME</td>
+    <td width="33%">VARCHAR (50)</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="33%">LOCATION</td>
+    <td width="33%">VARCHAR (50)</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="33%">BEHAVIOR_SET_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Foreign Key (BEHAVIOR_SET_T)</td>
+  </tr>
+</table>
+<p><b>DEVICE_ZONE_T:</b></p>
+<table border="1" width="100%">
+  <tr>
+    <td width="33%">DEVICE_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Foreign Key (DEVICE_T)</td>
+  </tr>
+  <tr>
+    <td width="33%">ZONE_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Foreign Key (ZONE_T)</td>
+  </tr>
+</table>
+<p><b>SENSOR_READING_CONSTANTS_T:</b></p>
+<table border="1" width="100%">
+  <tr>
+    <td width="33%">SENSOR_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Primary Key</td>
+  </tr>
+  <tr>
+    <td width="33%">SENSOR_NAME</td>
+    <td width="33%">VARCHAR (50)</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+</table>
+<p><b>SENSOR_READING_T:</b></p>
+<table border="1" width="100%">
+  <tr>
+    <td width="33%">DEVICE_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Foreign Key (DEVICE_T)</td>
+  </tr>
+  <tr>
+    <td width="33%">SENSOR_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Foreign Key (SENSOR_READING_CONSTANTS_T)</td>
+  </tr>
+  <tr>
+    <td width="33%">READING</td>
+    <td width="33%">FLOAT</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+</table>
+<p><b>STATUS_CONSTANTS_T:</b></p>
+<table border="1" width="100%">
+  <tr>
+    <td width="33%">STATUS_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Primary Key</td>
+  </tr>
+  <tr>
+    <td width="33%">STATUS_NAME</td>
+    <td width="33%">VARCHAR (50)</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+</table>
+<p><b>STATUS_T:</b></p>
+<table border="1" width="100%">
+  <tr>
+    <td width="33%">DEVICE_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Foreign Key (DEVICE_T)</td>
+  </tr>
+  <tr>
+    <td width="33%">STATUS_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Foreign Key (STATUS_CONSTANTS_T)</td>
+  </tr>
+</table>
+<p><b>SYSTEM_T:</b></p>
+<table border="1" width="100%">
+  <tr>
+    <td width="33%">SYSTEM_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Primary Key</td>
+  </tr>
+  <tr>
+    <td width="33%">PARENT</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="33%">NAME</td>
+    <td width="33%">VARCHAR (50)</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+</table>
+<p><b>USERS_T:</b></p>
+<table border="1" width="100%">
+  <tr>
+    <td width="33%">FIRST_NAME</td>
+    <td width="33%">VARCHAR (50)</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="33%">LAST_NAME</td>
+    <td width="33%">VARCHAR (50)</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="33%">USER_ID</td>
+    <td width="33%">VARCHAR (10)</td>
+    <td width="34%">Primary Key</td>
+  </tr>
+  <tr>
+    <td width="33%">USER_TYPE</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="33%">PASSWORD</td>
+    <td width="33%">VARCHAR (10)</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+</table>
+<p><b>ZONE_SYSTEM_T:</b></p>
+<table border="1" width="100%">
+  <tr>
+    <td width="33%">ZONE_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Foreign Key (ZONE_T)</td>
+  </tr>
+  <tr>
+    <td width="33%">SYSTEM_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Foreign Key (SYSTEM_T)</td>
+  </tr>
+</table>
+<p><b>ZONE_T:</b></p>
+<table border="1" width="100%">
+  <tr>
+    <td width="33%">ZONE_ID</td>
+    <td width="33%">INTEGER</td>
+    <td width="34%">Primary Key</td>
+  </tr>
+  <tr>
+    <td width="33%">ZONE_NAME</td>
+    <td width="33%">VARCHAR (50)</td>
+    <td width="34%">&nbsp;</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<hr>
+<p align="center"><font size="6"><b>Database UI Documentation (JSP Pages)</b></font></p>
+<hr>
+
+<b><font size=+2>Database UI Screen Shots</font></b>
+
+<p><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/screenshots/add_device.gif">Add
+
+Device Screen</a>
+
+<br><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/screenshots/device_list.gif">Device
+
+List Screen</a>
+
+<br><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/screenshots/login.gif">Login
+
+Screen</a>
+
+<br><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/screenshots/main_menu.gif">Main
+
+Menu</a>
+
+<p><b><font size=+2>Database SQL Code</font></b>
+
+<p><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/sql_statements.txt">SQL
+
+Statements</a>
+
+<hr>
+
+<p align="left"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/index.html">Back
+to Main Page</a></p>
+
+</body>
+
+</html>

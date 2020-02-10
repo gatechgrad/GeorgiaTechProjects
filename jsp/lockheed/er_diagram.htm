@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0063)http://deprecated.rootnode.com/jeff/lockheed/project/er_diagram -->
+<HTML><HEAD><TITLE>er_diagram</TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<SCRIPT language=javascript type=text/javascript>
+function createWindow(cUrl,cName,cFeatures) {
+var xWin = window.open(cUrl,cName,cFeatures)
+}
+</SCRIPT>
+
+<META content="Microsoft FrontPage 4.0" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff>
+<TABLE align=center border=0 width="80%">
+  <TBODY>
+  <TR>
+    <TD></TD>
+    <TD align=right></TD>
+    <TD align=right></TD></TR>
+  <TR>
+    <TD colSpan=3>
+      <p align="center"><b><font size="6">E-R Diagram&nbsp;</font></b></p>
+      <p align="center">&nbsp;
+    </TD></TR>
+  <TR>
+    <TD colSpan=3></TD></TR>
+  <TR>
+    <TD colSpan=3>
+    </TD></TR>
+  <TR>
+    <TD colSpan=3>
+      <DIV id=text>The objective of Lockheeds project is to create a database 
+      capable of tracking devices. These devices are capable of reporting their 
+      status, tempature, flow rate and so on..<BR>The database should be capable 
+      of storing the location of the device. The device supplier and its 
+      maintanence records.<BR>The database must be capable of storing future 
+      devices and capture its readings which will not be defined until the 
+      device is installed.<BR>The database entities are device, system, zone, 
+      supplier, maintainer, and measurement type. (measurement type = 
+      behavior)<BR>As you can see in the diagram a device can be related to a 
+      system by grouping. Devices are logicly grouped into systems. Systems can 
+      be related to each other in a hierarcy. With this design a system can be a 
+      substem of another system and so on. Another organizational tool lockheed 
+      requested was the ability to place devices in a zone. Here you can see a 
+      device is related to a zone by the zoning table.<BR>It is also of interest 
+      to have the ability to connect a device to another device. In the ER 
+      Diagram below you can see that two devices are related by a 
+      connection.<BR>And obviously a device is related to a supplier by an 
+      installation and a device is related to a maintainer by its maintence 
+      records.<BR>The tricky part of the ER Diagram is to allow a device to 
+      record its measurements when the measurement types that the device records 
+      is unknown until installaion.<BR>We prepose to solve this by relating a 
+      device to measurement types with a dynamicdb. The dynamicDB relation 
+      stores all the information to properly extract from the runtime created 
+      table which will store the devices measurements.<BR><IMG alt=erdiagram 
+      height=651 src="erdiagram.jpg" width=994> </DIV></TD></TR>
+  <TR>
+    <TD colSpan=3>
+      <HR>
+    </TD></TR>
+  <TR>
+    <TD align=middle colSpan=3></TD></TR></TBODY></TABLE></BODY></HTML>

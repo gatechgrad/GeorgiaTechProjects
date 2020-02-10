@@ -1,0 +1,299 @@
+/* Microsoft SQL Server - Scripting			*/
+/* Server: WSTATION02					*/
+/* Database: RWL					*/
+/* Creation Date 12/2/00 12:05:45 PM 			*/
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[ALARM_T]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[ALARM_T]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[BEHAVIOR_CHARACTERISTICS_T]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[BEHAVIOR_CHARACTERISTICS_T]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[BEHAVIOR_NAME_T]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[BEHAVIOR_NAME_T]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[BEHAVIOR_SET_NAME_T]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[BEHAVIOR_SET_NAME_T]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[BEHAVIOR_SET_T]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[BEHAVIOR_SET_T]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[BEHAVIOR_T]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[BEHAVIOR_T]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[DEVICE_SYSTEM_T]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[DEVICE_SYSTEM_T]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[DEVICE_T]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[DEVICE_T]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[DEVICE_ZONE_T]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[DEVICE_ZONE_T]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[SENSOR_READING_T]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[SENSOR_READING_T]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[STATUS_T]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[STATUS_T]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[SYSTEM_T]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[SYSTEM_T]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[USERS_T]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[USERS_T]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[ZONE_SYSTEM_T]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[ZONE_SYSTEM_T]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[ZONE_T]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)
+drop table [dbo].[ZONE_T]
+GO
+
+CREATE TABLE [dbo].[ALARM_T] (
+	[DEVICE_ID] [int] NOT NULL ,
+	[ALARM_ID] [int] NOT NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[BEHAVIOR_CHARACTERISTICS_T] (
+	[CHARACTERISTIC_ID] [int] IDENTITY (1, 1) NOT NULL ,
+	[CHARACTERISTIC_NAME] [text] NULL ,
+	[CHARACTERISTIC_TYPE] [int] NULL 
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[BEHAVIOR_NAME_T] (
+	[BEHAVIOR_ID] [int] IDENTITY (1, 1) NOT NULL ,
+	[BEHAVIOR_NAME] [varchar] (50) NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[BEHAVIOR_SET_NAME_T] (
+	[BEHAVIOR_SET_ID] [int] IDENTITY (1, 1) NOT NULL ,
+	[BEHAVIOR_SET_NAME] [varchar] (50) NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[BEHAVIOR_SET_T] (
+	[BEHAVIOR_SET_ID] [int] NOT NULL ,
+	[BEHAVIOR_ID] [int] NOT NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[BEHAVIOR_T] (
+	[CHARACTERISTIC_ID] [int] NOT NULL ,
+	[BEHAVIOR_ID] [int] NOT NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[DEVICE_SYSTEM_T] (
+	[DEVICE_ID] [int] NOT NULL ,
+	[SYSTEM_ID] [int] NOT NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[DEVICE_T] (
+	[DEVICE_ID] [int] IDENTITY (1, 1) NOT NULL ,
+	[DEVICE_NAME] [char] (50) NOT NULL ,
+	[LOCATION] [char] (50) NOT NULL ,
+	[BEHAVIOR_SET_ID] [int] NOT NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[DEVICE_ZONE_T] (
+	[DEVICE_ID] [int] NOT NULL ,
+	[ZONE_ID] [int] NOT NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[SENSOR_READING_T] (
+	[DEVICE_ID] [int] NOT NULL ,
+	[SENSOR_ID] [int] NOT NULL ,
+	[READING] [char] (50) NOT NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[STATUS_T] (
+	[DEVICE_ID] [int] NOT NULL ,
+	[STATUS_ID] [int] NOT NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[SYSTEM_T] (
+	[SYSTEM_ID] [int] IDENTITY (1, 1) NOT NULL ,
+	[PARENT_ID] [int] NOT NULL ,
+	[SYSTEM_NAME] [char] (50) NOT NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[USERS_T] (
+	[FIRST_NAME] [char] (50) NOT NULL ,
+	[LAST_NAME] [char] (50) NOT NULL ,
+	[USER_TYPE] [int] NOT NULL ,
+	[PASSWORD] [char] (10) NOT NULL ,
+	[USER_ID] [char] (10) NOT NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[ZONE_SYSTEM_T] (
+	[ZONE_ID] [int] NOT NULL ,
+	[SYSTEM_ID] [int] NOT NULL 
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[ZONE_T] (
+	[ZONE_ID] [int] IDENTITY (1, 1) NOT NULL ,
+	[ZONE_NAME] [text] NULL 
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+
+
+
+
+
+
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[BEHAVIOR_CHARACTERISTICS_V]') and OBJECTPROPERTY(id, N'IsView') = 1)
+drop view [dbo].[BEHAVIOR_CHARACTERISTICS_V]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[BEHAVIOR_CONSTRAINTS_V]') and OBJECTPROPERTY(id, N'IsView') = 1)
+drop view [dbo].[BEHAVIOR_CONSTRAINTS_V]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[BEHAVIOR_V]') and OBJECTPROPERTY(id, N'IsView') = 1)
+drop view [dbo].[BEHAVIOR_V]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[DEVICE_SYSTEM_V]') and OBJECTPROPERTY(id, N'IsView') = 1)
+drop view [dbo].[DEVICE_SYSTEM_V]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[DEVICE_ZONE_V]') and OBJECTPROPERTY(id, N'IsView') = 1)
+drop view [dbo].[DEVICE_ZONE_V]
+GO
+
+if exists (select * from sysobjects where id = object_id(N'[dbo].[ZONE_SYSTEM_V]') and OBJECTPROPERTY(id, N'IsView') = 1)
+drop view [dbo].[ZONE_SYSTEM_V]
+GO
+
+SET QUOTED_IDENTIFIER  ON    SET ANSI_NULLS  ON 
+GO
+
+CREATE VIEW dbo.BEHAVIOR_CHARACTERISTICS_V
+AS
+SELECT D.BEHAVIOR_ID, D.CHARACTERISTIC_ID, 
+    C.CHARACTERISTIC_NAME, C.CHARACTERISTIC_TYPE, 
+    E.BEHAVIOR_NAME
+FROM BEHAVIOR_T D, BEHAVIOR_CHARACTERISTICS_T C, 
+    BEHAVIOR_NAME_T E
+WHERE D.CHARACTERISTIC_ID = C.CHARACTERISTIC_ID AND 
+    D.BEHAVIOR_ID = E.BEHAVIOR_ID
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+CREATE VIEW dbo.BEHAVIOR_CONSTRAINTS_V
+AS
+SELECT D.DEVICE_ID, C.CHARACTERISTIC_ID
+FROM DEVICE_T D INNER JOIN
+    ALARM_T ON 
+    D.DEVICE_ID = ALARM_T.DEVICE_ID INNER JOIN
+    BEHAVIOR_CHARACTERISTICS_T C ON 
+    ALARM_T.ALARM_ID = C.CHARACTERISTIC_ID INNER JOIN
+    STATUS_T ON D.DEVICE_ID = STATUS_T.DEVICE_ID AND 
+    C.CHARACTERISTIC_ID = STATUS_T.STATUS_ID INNER JOIN
+    SENSOR_READING_T ON 
+    D.DEVICE_ID = SENSOR_READING_T.DEVICE_ID AND 
+    C.CHARACTERISTIC_ID = SENSOR_READING_T.SENSOR_ID
+WHERE (C.CHARACTERISTIC_ID =
+        (SELECT CHARACTERISTIC_ID
+      FROM BEHAVIOR_T
+      WHERE BEHAVIOR_ID =
+               (SELECT BEHAVIOR_ID
+             FROM BEHAVIOR_SET_T
+             WHERE BEHAVIOR_SET_ID =
+                      (SELECT BEHAVIOR_SET_ID
+                    FROM DEVICE_T
+                    WHERE DEVICE_ID = D.DEVICE_ID))))
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+SET QUOTED_IDENTIFIER  ON    SET ANSI_NULLS  ON 
+GO
+
+CREATE VIEW dbo.BEHAVIOR_V
+AS
+SELECT D.BEHAVIOR_SET_ID, F.BEHAVIOR_SET_NAME, 
+    D.BEHAVIOR_ID, E.BEHAVIOR_NAME
+FROM BEHAVIOR_SET_T D, BEHAVIOR_NAME_T E, 
+    BEHAVIOR_SET_NAME_T F
+WHERE D.BEHAVIOR_ID = E.BEHAVIOR_ID AND 
+    D.BEHAVIOR_SET_ID = F.BEHAVIOR_SET_ID
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+SET QUOTED_IDENTIFIER  ON    SET ANSI_NULLS  ON 
+GO
+
+CREATE VIEW dbo.DEVICE_SYSTEM_V
+AS
+SELECT D.SYSTEM_ID, D.DEVICE_ID, E.DEVICE_NAME
+FROM DEVICE_SYSTEM_T D, DEVICE_T E
+WHERE D.DEVICE_ID = E.DEVICE_ID
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+SET QUOTED_IDENTIFIER  ON    SET ANSI_NULLS  ON 
+GO
+
+CREATE VIEW dbo.DEVICE_ZONE_V
+AS
+SELECT D.ZONE_ID, D.DEVICE_ID, E.DEVICE_NAME
+FROM DEVICE_ZONE_T D, DEVICE_T E
+WHERE D.DEVICE_ID = E.DEVICE_ID
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+SET QUOTED_IDENTIFIER  ON    SET ANSI_NULLS  ON 
+GO
+
+CREATE VIEW dbo.ZONE_SYSTEM_V
+AS
+SELECT D.ZONE_ID, D.SYSTEM_ID, E.SYSTEM_NAME
+FROM ZONE_SYSTEM_T D, SYSTEM_T E
+WHERE D.SYSTEM_ID = E.SYSTEM_ID
+
+GO
+SET QUOTED_IDENTIFIER  OFF    SET ANSI_NULLS  ON 
+GO
+
+
+

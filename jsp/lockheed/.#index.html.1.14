@@ -1,0 +1,426 @@
+<<<<<<< index.html
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+
+<html>
+
+<head>
+
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+   <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+
+   <title>Lockheed Martin Project Page</title>
+
+</head>
+
+<body>
+
+&nbsp;
+
+<table WIDTH="100%" >
+
+<tr VALIGN=TOP>
+
+<td ALIGN=CENTER VALIGN=CENTER><img SRC="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/logo.gif" NOSAVE BORDER=0 height=51 width=294></td>
+
+
+
+<td>
+
+<center>
+
+<h1>
+
+<font face="Verdana"><font size=+2>Lockheed Martin Project Page</font></font></h1></center>
+
+</td>
+
+</tr>
+
+</table>
+
+
+
+<p>
+
+<hr>
+
+<h2>
+
+<font face="Verdana"><font size=+1>Description</font></font></h2>
+
+<font face="Verdana">The project was introduced to the Real World Lab in
+
+an effort to design a flexible and robust information system for the management
+
+of mechanical devices.</font>
+
+<center>
+
+<p><img SRC="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/lastsemester/images/missile.jpg" height=487 width=353><img SRC="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/lastsemester/images/control.jpg" height=391 width=476><img SRC="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/lastsemester/images/bigboat.jpg" height=250 width=392>
+
+<p>&nbsp;
+
+<p><img border="0" src="Group.jpg" width="1277" height="450"></center><p>&nbsp;
+
+<p><font face="Verdana">The project is being sponsored by <a href="http://www.lockheedmartin.com">Lockheed
+
+Martin</a>.</font>
+
+<hr>
+
+<h2>
+
+<font face="Verdana"><font size=+1>Contacts</font></font></h2>
+
+
+
+<ul>
+
+<li>
+
+<font face="Verdana"><b>Project Customers</b>, <a href="http://www.lockheedmartin.com">Lockheed
+
+Martin</a></font></li>
+
+
+
+<ul>
+
+<li>
+
+<font face="Verdana">Scott Hoyle, <a href="mailto:scott.b.hoyle@lmco.com">scott.b.hoyle@lmco.com</a></font></li>
+
+
+
+<li>
+
+<font face="Verdana">David Morgan, <a href="mailto:david.c.morgan@lmco.com">david.c.morgan@lmco.com</a></font></li>
+
+
+
+<li>
+
+<font face="Verdana">Shane Mueller, <a href="mailto:shane.p.mueller@lmco.com">shane.p.mueller@lmco.com</a></font></li>
+
+</ul>
+
+</ul>
+
+
+
+<ul>
+
+<li>
+
+<b><font face="Verdana">Project Advisor</font></b></li>
+
+
+
+<ul>
+
+<li>
+
+David Smith, <a href="mailto:rwlmgr@cc.gatech.edu">rwlmgr@cc.gatech.edu</a><br>
+
+<BR></li>
+
+</ul>
+
+
+
+<li>
+
+<b><font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/contact.html">Team
+
+Members</a></font></b></li>
+
+</ul>
+
+
+
+<hr align="left">
+
+<p><b><font face="Verdana"><font size=+1>Current Semester Information</font></font></b>
+
+<p><font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/statusreports.html">Status
+
+Reports</a> (ongoing)</font><font face="Verdana"></font>
+
+<p><font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/meetings.html">Meeting
+
+Minutes</a> (ongoing)</font>
+
+<p><font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/short.project.plan.html">Short-Term
+
+Project Plan</a> (9/14)</font><font face="Verdana"></font>
+
+<p><font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/long.project.plan.html">Long-Term
+
+Project Plan</a> (9/14)</font><font face="Verdana"></font>
+
+<p><font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/requirements.html">Requirements
+
+Document</a> (9/15)</font><font face="Verdana"></font>
+
+<p><font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/usecases.gif">Use Cases</a> (9/15)</font><font face="Verdana"></font>
+
+<p><font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/design.doc.html">Design
+
+Document</a> (9/15)</font>
+
+<p><font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/dbdesign.JPG">DB
+Design</a> (9/24)</font>
+
+<p><font face="Verdana">Reviews Document (10/27)</font><font face="Verdana"></font>
+
+<p><font face="Verdana">User Manual (11/3)</font><font face="Verdana"></font>
+
+<p><font face="Verdana">Testing Document (11/17)</font><font face="Verdana"></font>
+
+<p><font face="Verdana">End-of-semester document (12/1)</font>
+
+<br>
+
+<hr>
+
+<h2>
+
+<font face="Verdana"><font size=+1>Historical Information</font></font></h2>
+
+<font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/history.html">Click
+
+here for the historical pages of the Lockheed Martin project</a></font>
+
+
+<hr>
+
+<h2>
+
+<font face="Verdana"><font size=+1>Process Improvement Information</font></font></h2>
+
+<font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/process.html">Click
+
+here for the process improvements</a></font>
+
+<hr>
+
+</body>
+
+</html>
+
+=======
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+
+<html>
+
+<head>
+
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+   <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+
+   <title>Lockheed Martin Project Page</title>
+
+</head>
+
+<body>
+
+&nbsp;
+
+<table WIDTH="100%" >
+
+<tr VALIGN=TOP>
+
+<td ALIGN=CENTER VALIGN=CENTER><img SRC="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/logo.gif" NOSAVE BORDER=0 height=51 width=294></td>
+
+
+
+<td>
+
+<center>
+
+<h1>
+
+<font face="Verdana"><font size=+2>Lockheed Martin Project Page</font></font></h1></center>
+
+</td>
+
+</tr>
+
+</table>
+
+
+
+<p>
+
+<hr>
+
+<h2>
+
+<font face="Verdana"><font size=+1>Description</font></font></h2>
+
+<font face="Verdana">The project was introduced to the Real World Lab in
+
+an effort to design a flexible and robust information system for the management
+
+of mechanical devices.</font>
+
+<center>
+
+<p><img SRC="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/lastsemester/images/missile.jpg" height=487 width=353><img SRC="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/lastsemester/images/control.jpg" height=391 width=476><img SRC="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/lastsemester/images/bigboat.jpg" height=250 width=392>
+
+<p>&nbsp;
+
+<p><img border="0" src="Group.jpg" width="1277" height="450"></center><p>&nbsp;
+
+<p><font face="Verdana">The project is being sponsored by <a href="http://www.lockheedmartin.com">Lockheed
+
+Martin</a>.</font>
+
+<hr>
+
+<h2>
+
+<font face="Verdana"><font size=+1>Contacts</font></font></h2>
+
+
+
+<ul>
+
+<li>
+
+<font face="Verdana"><b>Project Customers</b>, <a href="http://www.lockheedmartin.com">Lockheed
+
+Martin</a></font></li>
+
+
+
+<ul>
+
+<li>
+
+<font face="Verdana">Scott Hoyle, <a href="mailto:scott.b.hoyle@lmco.com">scott.b.hoyle@lmco.com</a></font></li>
+
+
+
+<li>
+
+<font face="Verdana">David Morgan, <a href="mailto:david.c.morgan@lmco.com">david.c.morgan@lmco.com</a></font></li>
+
+
+
+<li>
+
+<font face="Verdana">Shane Mueller, <a href="mailto:shane.p.mueller@lmco.com">shane.p.mueller@lmco.com</a></font></li>
+
+</ul>
+
+</ul>
+
+
+
+<ul>
+
+<li>
+
+<b><font face="Verdana">Project Advisor</font></b></li>
+
+
+
+<ul>
+
+<li>
+
+David Smith, <a href="mailto:rwlmgr@cc.gatech.edu">rwlmgr@cc.gatech.edu</a><br>
+
+<BR></li>
+
+</ul>
+
+
+
+<li>
+
+<b><font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/contact.html">Team
+
+Members</a></font></b></li>
+
+</ul>
+
+
+
+<hr align="left">
+
+<p><b><font face="Verdana"><font size=+1>Current Semester Information</font></font></b>
+
+<p><font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/statusreports.html">Status
+
+Reports</a> (ongoing)</font><font face="Verdana"></font>
+
+<p><font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/meetings.html">Meeting
+
+Minutes</a> (ongoing)</font>
+
+<p><font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/short.project.plan.html">Short-Term
+
+Project Plan</a> (9/14)</font><font face="Verdana"></font>
+
+<p><font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/long.project.plan.html">Long-Term
+
+Project Plan</a> (9/14)</font><font face="Verdana"></font>
+
+<p><font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/requirements.html">Requirements
+
+Document</a> (9/15)</font><font face="Verdana"></font>
+
+<p><font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/usecases.gif">Use Cases</a> (9/15)</font><font face="Verdana"></font>
+
+<p><font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/design.doc.html">Design
+
+Document</a> (9/15)</font>
+
+<p><font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/database_diagram.jpg">DB
+Design Diagram</a> (9/29)</font>
+
+<p><font face="Verdana"><a href="www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/object_diagram.jpg">DB
+Object Diagram</a> (9/29)</font><p><font face="Verdana"><a href="www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/presentation.html">Midterm
+Presentation Outline</a> (9/29)</font>
+
+<p><font face="Verdana">Reviews Document (10/27)</font><font face="Verdana"></font>
+
+<p><font face="Verdana">User Manual (11/3)</font><font face="Verdana"></font>
+
+<p><font face="Verdana">Testing Document (11/17)</font><font face="Verdana"></font>
+
+<p><font face="Verdana">End-of-semester document (12/1)</font>
+
+<br>
+
+<hr>
+
+<h2>
+
+<font face="Verdana"><font size=+1>Historical Information</font></font></h2>
+
+<font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/history.html">Click
+
+here for the historical pages of the Lockheed Martin project</a></font>
+
+<hr>
+
+<h2>
+
+<font face="Verdana"><font size=+1>Process Improvement Information</font></font></h2>
+
+<font face="Verdana"><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/process.html">Click
+
+here for the process improvements</a></font>
+
+<hr>
+
+</body>
+
+</html>
+
+>>>>>>> 1.14

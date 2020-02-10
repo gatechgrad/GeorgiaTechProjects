@@ -1,0 +1,99 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.75 [en] (WinNT; U) [Netscape]">
+</head>
+<body>
+&nbsp;
+<center><table BORDER=5 CELLPADDING=2 WIDTH="90%" >
+<tr VALIGN=CENTER>
+<td ALIGN=CENTER COLSPAN="2"><b><font face="Verdana"><font size=+2>Design
+Document</font></font></b></td>
+</tr>
+
+<tr VALIGN=CENTER>
+<td><img SRC="logo.gif" height=51 width=294></td>
+
+<td ALIGN=CENTER><font face="Verdana"><font size=+2>RWL</font></font></td>
+</tr>
+</table></center>
+
+<p><b><font face="Verdana"><font size=-1>Overall Design</font></font></b>
+<p><font face="Verdana"><font size=-1>The system consists of three major
+components:</font></font>
+<ul>
+<li>
+<b><font face="Verdana"><font size=-1>devices which store information in
+the database</font></font></b></li>
+</ul>
+
+<blockquote><font face="Verdana"><font size=-1>There is a variety of devices
+the system stores information on. Each type of device stores a unique set
+of information. The devices push information into the proper location in
+the database. A group of these devices is known as a subsystem.</font></font>
+<p><font face="Verdana"><font size=-1>For example, flow meters store water
+temperature, flow rate, and water pressure, but air temperature sensors
+only record one thing, air temperature. The cooling subsystem might consist
+of two flow meters, and eight air temperature sensors.</font></font></blockquote>
+
+<ul>
+<li>
+<b><font face="Verdana"><font size=-1>back end database</font></font></b></li>
+</ul>
+
+<blockquote><font face="Verdana"><font size=-1>The back end database stores
+information about devices. It is designed to be implemented in any DBMS
+(Oracle, MS SQL Server, MySQL). The database should be flexible, allowing
+for the storage of many different types of devices. The system should also
+be redundant. The redundancy will probably be achieved using the features
+of the DBMS, but it is possible that a custom solution will be coded by
+future teams.</font></font>
+<p><font face="Verdana"><font size=-1>For example, the database may have
+support for storing information about heat pumps, water pumps and valves.
+If it suddenly becomes necessary to store information about cooling fans,
+the database must be easily updated to support the new device type.</font></font></blockquote>
+
+<ul>
+<li>
+<b><font face="Verdana"><font size=-1>front end interface</font></font></b></li>
+</ul>
+
+<blockquote><font face="Verdana"><font size=-1>The front end will provide
+a useful interface to the information in the database. It must be possible
+to see instantaneous as well as historical information about devices. The
+interface will also handle maintenance tasks, such as adding a new device
+type to the system, setting access permissions for users, or changing a
+password.</font></font>
+<p><font face="Verdana"><font size=-1>For example, if the ship was under
+fire and a certain subsystem was malfunctioning, the interface would provide
+an instant status of all devices in that subsystem, allowing the operator
+to pinpoint the device causing the problem.</font></font>
+<p><font face="Verdana"><font size=-1>Another example would be a maintenance
+person trying to make a decision about what water pump he should use out
+of the storage closet. He could look up the history for each water pump,
+and choose the one that had been repaired once instead of the one repaired
+twelve times.</font></font></blockquote>
+<font face="Verdana"><font size=-1>Summer of 2000 to designed and implemented
+the back end database in Access.</font></font>
+<br><font face="Verdana"><font size=-1>Fall of 2000 will design and implement
+the back end database in MySQL and design and implement a web-based front
+end.</font></font>
+<br><font face="Verdana"><font size=-1>Spring of 2000 will integrate the
+back and front ends together and make modifications as necessary or stated
+by the customer.</font></font>
+<p><b><font face="Verdana"><font size=-1>Database Design</font></font></b>
+<p><img SRC="db.jpg" height=585 width=1038>
+<br><b><font face="Verdana"><font size=-1>Note:&nbsp; This diagram does
+not show relationships or view but all views are based off these tables.</font></font></b><br>
+<BR>
+<br><br>
+<b><font face="Verdana"><font size=-1><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/dbdoc.html">More
+on the Database Design</a></font></font></b><br>
+<br>
+
+<hr WIDTH="100%">
+<p><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed.proj.page.html">Back
+to Main Page</a>
+</body>
+</html>

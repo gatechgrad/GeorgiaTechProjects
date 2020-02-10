@@ -1,0 +1,346 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+
+<html>
+
+<head>
+
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+   <meta name="GENERATOR" content="Mozilla/4.51 [en] (WinNT; U) [Netscape]">
+
+   <title>Requirements Document</title>
+
+</head>
+
+<body>
+
+&nbsp;
+
+<center><table BORDER=5 CELLPADDING=2 WIDTH="90%" >
+
+<tr VALIGN=CENTER>
+
+<td ALIGN=CENTER COLSPAN="2"><b><font face="Verdana"><font size=+2>Requirements
+
+Document</font></font></b></td>
+
+</tr>
+
+
+
+<tr VALIGN=CENTER>
+
+<td><img SRC="logo.gif" height=51 width=294></td>
+
+
+
+<td ALIGN=CENTER><font face="Verdana"><font size=+2>RWL</font></font></td>
+
+</tr>
+
+</table></center>
+
+
+
+<p><b><u><font size=+1>Introduction:</font></u></b>
+
+<p>Lockheed Martin of Moorestown, NJ requested the services of the RWL
+
+to design a flexible and robust information system for the management of
+
+mechanical devices.&nbsp; The intent of this project is to provide an information
+
+system for the data collected from these devices. The system will be flexible,
+
+allowing for many types of devices. The system will also be modular; new
+
+devices can be added at any time. Furthermore, the system will provide
+
+an interface to the data. The interface presents instantaneous status information
+
+and historical data for each device. The parameters of the system, such
+
+as user access, device properties, and device reporting intervals, will
+
+be configurable. Finally, the system will be redundant.
+
+<br>&nbsp;
+
+<p><b><u><font size=+1>Project Advisor:</font></u></b>
+
+<p>The project advisor for the Lockheed Martin group is David Smith. &lt;rwlmgr@cc.gatech.edu>
+
+We communicate with Professor Smith through weekly status emails and meetings
+
+when necessary.&nbsp; The primary concern for our project advisor is to
+
+guide our team and to keep us on the right track.
+
+<br>&nbsp;
+
+<p><b><u><font size=+1>Project Sponsor:</font></u></b>
+
+<p>The main project sponsor for the Lockheed Martin group is Scott Hoyle
+
+&lt;scott.b.hoyle@lmco.com>, manager of Advanced Control System Programs
+
+of the Naval Electronics and Surveillance Systems division in Moorestown,
+
+NJ.&nbsp; Two other key players within Scott's team includes Shane Mueller
+
+&lt;shane.p.mueller@lmco.com> and David Morgan. &lt;david.c.morgan@lmco.com>
+
+We communicate with Scott and his team through weekly conference calls
+
+on Fridays as well as through e-mail messages.&nbsp; Scott Hoyle's office
+
+number:&nbsp; 856-608-4029
+
+<p><b><u><font size=+1>Overall Requirements:</font></u></b>
+
+<ul>
+
+<li>
+1.1 Requirement:  User is able to add a new device to the system (Modularity)<br>
+Test:  The device the user added is added to the database in the proper tables<br>
+</li>
+
+<li>
+1.2 Requirement:  User is able to Add New Types of Devices to the system (Flexibility)<br>
+Test:  The new device type is added to the database with the new tables made and the proper linking estabilished to the correct tables involved<br>
+</li>
+
+<li>
+1.3 Requirement:  User is able to view instantaneous info about device(s)<br>
+Test:  Status information about device(s) is displayed to the user from the information in the database<br>
+</li>
+
+<li>
+1.4 Requirement:  User is able to view historical information about device(s)<br>
+Test:  Historical information about device(s) are displayed to the user from the information in the database<br>
+</li>
+
+<li>
+1.5 Requirement:  Redundancy In Case of Disaster<br>
+Test:  Database is implemented in standard DBMS software<br>
+</li>
+
+<li>
+1.5 Requirement:  Configurable Parameters (User Access/Securty, etc.)<br>
+  1.5.1 Test1:  Superuser is able to add user(s) with normal or mangerial security access<br>
+  1.5.2 Test2:  Superuser is able to remove user(s) with normal or managerial security access<br>
+  1.5.3 Test3:  Normal users are unable to remove, modify, or add other users to the database<br>
+</li>
+
+<li>
+1.6 Requirement:  Implement a front end user interface for user to access database commands<br>
+Test:  User is able to access the given database commands through some sort of interface; be it a console, JSP page, java applet or any other type of user interface<br>
+</li>
+</ul>
+
+<b><u><font size=+1>Database Information Requirements:</font></u></b>
+
+<p><b>Device Information</b>
+
+<dir>
+
+<li>
+2.1 Requirement: All devices have a usable (easily discernable) device name, an 
+identifier, a location and a description.<br>
+Test: Database contains name, id, location and description fields.<br>
+</li>
+
+<li>
+2.2. Requirement: They each belong to a subsystem within a system.<br>
+Test: All devices have a subsytem, or system, field which is filled out.<br>
+</li>
+
+<li>
+2.3 Requirement: Each device has a physical installation and software updates that are 
+done. We want to be able to record the time and date of each of these events as 
+well as who did that task.<br>
+Test: Database contains fields for each device which allow for dates and 
+usernames for each of the tasks.<br>
+</li>
+
+
+
+<li>
+2.4 Requirement: Various device types have various state data that they need to record 
+(with a time stamp)<br>
+Test: State data is stored for each device along with a corresponding time 
+stamp for last update<br>
+</li>
+
+<li>
+2.5 Requirement: A device can be standalone which means it does not have to be in a zone or contained in any system<br>
+Test: Add a device without linking it to anything and make sure it's not linked to anything.<br>
+</li>
+
+<li> 
+2.6 Requirement: A device can be added to one or more systems.<br>
+Test: Add the device to 1 system and then add it to another system and check for device being in both systems.<br>
+</li>
+
+<li>
+2.7 Requirement: A device can be a member of a zone without being a member of a system.<br>
+Test: Add device to a zone but not a system, make sure device is part of the zone and of no systems.<br>
+</li>
+
+<li>
+2.8 Requirement: Behavior set is only able to be removed if and only if no devices reference it.<br>
+Test: Try removing a behavior set that a device is referencing and removing with no devices referencing.<br>
+</li>
+
+<li>
+2.9 Requirement: Behaviors are only able to be removed if and only if no behavior sets reference it.<br>
+Test: Try removing a behavior that a behavior set references and removing with no behavior sets referencing it.<Br>
+</li>
+
+
+</dir>
+Examples of devices:<br>
+Heat pumps and water pumps need to record their status of On/Standby/Off and an alarm state.<br>
+Valves need to record their status of Open/Closed and an alarm state.<br>
+Air temperature sensors record only one thing - air temperature.<br>
+Flow meters record water temperature, flow rate and water pressure.<br>
+
+<p><b>Subsystem Information</b>
+
+<ul>
+
+<li>
+3.1 Requirement:  A subsystem is a hierarchical grouping of devices.  An overall 
+status needs to be maintained for each subsystem which will be 
+Red, Yellow, Green, or Blue.<br>
+Test:  Each subsystem in the database has a correct status.<br>
+</li>
+
+</ul>
+
+<b>System Information</b>
+
+<ul>
+
+<li>
+4.1 Requirement: A system is a hierarchical grouping of subsystems.  An overall 
+status needs to be maintained for each system.  That status will be Red, 
+Yellow, Green, or Blue.<br>
+Test:  Each system in the database has a correct status.<br>
+</li>
+<li>
+4.2 Requirement: A system shall not be removed if it contains devices or other systems.<br>
+Test:  Each system containing anything under it should not be removed, only systems that are empty are able to be removed.<br>
+</li>
+<li>
+4.3 Requirement: A system snapshot should be able to be viewed.<br>
+Test: List contains listing of devices and all their statuses and readings.<br>
+</li>
+
+</ul>
+
+<b>Subsystems within Systems Information</b>
+
+<ul>
+
+<li>
+5.1 Requirement:  Each system can contain one or more of each type of 
+subsystem.  A status must be maintained for each subsystem within each 
+system.  That status will be Red, Yellow, Green, or Blue.<br>
+Test:  Each system in the database which contains a subsystem contains a 
+correct status for each subsystem<br>
+</li>
+
+</ul>
+
+<b>Context Information</b>
+
+<ul>
+
+<li>
+6.1 Requirement: Context is a discrete combination of various states.&nbsp; Some states
+are mutually exclusive.  In Port, Underway, and At Anchor are all mutually exclusive.&nbsp; The
+Underway category has subsets - Offense, Defense, Efficient, Quiet, and
+Restricted Maneuvering (Some of these may occur simultaneously). <br>
+Test: Verify states are updated when a change of state is issued.
+</li>
+
+</ul>
+
+<b>Historical Snapshot of Entire System</b>
+
+<ul>
+
+<li>
+7.1 Requirement: Must have the ability to record all state values for all objects at an
+instant of time.<br>
+Test: Application returns all state values for all objects in the database for any given timeframe.<br>
+</li>
+
+</ul>
+
+<b>Readiness Information</b>
+
+<ul>
+
+<li>
+8.1 Requirement: Readiness information for various warfare areas must be maintained.  
+The status will be Red, Yellow, Green, or Blue.<br>
+Test: Various warfare areas maintain a correct status.<br>
+</li>
+
+</ul>
+
+<b>Zone Information</b>
+
+<ul>
+
+<li>
+9.1 Requirement: Zones contain systems and stand alone devices.<br>
+Test: No zone should be empty and contain only systems and standalone devices.<Br>
+</li>
+
+</ul>
+
+<b>DB Language for Implementation</b>
+
+<ul>
+
+<li>
+10.1 Requirement: Use SQL Server 2000 as the database language<br>
+Test: Server laptop has SQL Server 2000 installed and database is running on 
+it.<br> </li>
+
+
+<li>
+10.2 Requirement: The server laptop will be setup for implementation and testing 
+purposes of the db.<br>
+Test: Server is running with database server.<br>
+</li>
+
+</ul>
+
+<b><u><font size=+1>User Interface Information Requirements:</font></u></b><b><u><font size=+1></font></u></b>
+
+<p><b>UI Needs</b>
+
+<ul>
+
+<li>
+11.1 Requirement: Able to display a web-based interface for specific users defined 
+in the use cases.<br>
+Test: UI is accessed over a network of some sort via a web browser<br>
+</li>
+
+</ul>
+
+<hr WIDTH="100%">
+
+<p><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed.proj.page.html">Back
+
+to Main Page</a>
+
+</body>
+
+</html>
+

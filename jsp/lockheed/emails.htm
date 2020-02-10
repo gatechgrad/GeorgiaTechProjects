@@ -1,0 +1,612 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Tamrah Snyder">
+   <meta name="GENERATOR" content="Mozilla/4.74 [en] (WinNT; U) [Netscape]">
+   <title>emails</title>
+</head>
+<body>
+
+<center><b><font size=+2>Emails sent amongst group members and clients</font></b>
+<p>
+<hr WIDTH="100%"></center>
+From:&nbsp; "Morgan, David C" &lt;david.c.morgan@lmco.com>
+<br>Subject:&nbsp; ER Diagram comments
+<br>Date:&nbsp; Mon, 25 Sep 2000 09:21:00 -0400
+<p>For your ER Diagram, I have a few comments:
+<p>* Valves and pumps each will have a state (i.e. Open/Closed, On/Off,
+etc) and an alarm value.&nbsp; The diagram should to show an Alarm element
+for the valve.
+<br>* We have two types of pumps; heat pumps and water pumps.&nbsp; In
+many ways, they behave the same way - for now.&nbsp; In the long term,
+however, they may change.
+<br>&nbsp;&nbsp;&nbsp; Thus they should be represented as separate objects.
+<br>* Sensors all behave the same way - they return raw float values. Some
+sensors return more than one value, but it is still just a float. With
+this in mind, it may be
+<br>&nbsp;&nbsp;&nbsp; better to organize all sensor information into a
+single entity with the ability to discern they type of reading via an index
+value of some kind.&nbsp; This would end up
+<br>&nbsp;&nbsp;&nbsp; merging your Flow Meter, Meter and Sensor entities
+into one entity with three elements - a device identifier, the index to
+discern the type of reading and the reading itself.
+<br>* I don't understand the Ship State or the In Storage elements for
+the Device entity.
+<br>* I don't think the System entity describes what we're doing.&nbsp;
+I think the breakdown that I sent out earlier this morning will clarify
+our intentions here to a large degree.
+<br>&nbsp;
+<p>
+<hr WIDTH="100%">From:&nbsp; "Morgan, David C" &lt;david.c.morgan@lmco.com>
+<br>Subject:&nbsp; RWL database project
+<br>Date:&nbsp; Mon, 25 Sep 2000 08:04:18 -0400
+<p>Not going into detailed design will be tough for me, so please bear
+with. I'm used to solving the problem, not phrasing the problem so that
+it can be solved.
+<p>A quick rundown of the overall needs we have for this semester - Ability
+to record object information, object behavior, object state information,
+system and subsystem state information, and a method of associating objects
+with systems and subsystems.&nbsp; We will need stored procedures to do
+lookups of the state of any object, system or subsystem and to perform
+updates of the state information for a given object, system or subsystem.&nbsp;
+Utility procedures would include the ability to assign objects to systems
+and subsystems, create objects, create ehaviors/sets of behaviors, create
+systems and subsystems, etc.&nbsp; Also useful would be generic informational
+lookups such as all devices in a subsystem within a system and their current
+states, behavioral descriptions, all objects in alarm, etc.
+<p>A bit more detail -
+<br>The database needs to be able to provide a means of tracking data of
+various types for components.&nbsp; This entails modeling behaviors based
+off of the data being entered.&nbsp; That requires abstraction of the database
+structures so that the data can be self defining in nature.&nbsp; For example,
+a valve can be open or closed.&nbsp; It can also have an alarm status (for
+now, that means it's either in alarm or it's not, but don't make this a
+boolean since future alarm states may include diagnostic information).&nbsp;
+These are two discrete behaviors that can be attributed to a valve.&nbsp;
+The alarm status behavior is no different than the alarm status behavior
+for a heat pump.&nbsp; Therefore, that single behavior can be attributed
+to both types of objects.
+<p>Additionally, a heat pump can be off, cooling or heating.&nbsp; These
+states are similar to the valve being open or closed, so they can be described
+in a similar fashion, but constraints need to be used to keep the correct
+behaviors associated with the correct object types.&nbsp; One method of
+accomplishing this is to define generalized behavior characteristics, associated
+with predefined values (-1=In alarm, 0=Not in alarm, 1=Cooling, 2=Heating,
+3=Open 4=Closed, etc), then define behaviors that can use only certain
+aspects of those characteristics (valve state behavior would be allowed
+to use 3 and 4, heat pump state behavior would be allowed to use 1 and
+2, alarm behavior would be allowed to use -1 and 0).&nbsp; Once the characteristics
+of all needed behaviors are defined, then behaviors can be grouped together
+into sets of behaviors (valves would use the valve state behavior and alarm
+behavior while heat pumps would use heat pump state behavior and alarm
+behavior).&nbsp; With a set of behaviors defined, object types can be mapped
+to a behavior set and thus allow for specific objects to be mapped to specific
+characteristics.
+<p>When behaviors have been defined, objects can be created.&nbsp; The
+objects themselves will need at least three pieces of information - a unique
+identifier, a useful description and an object type which will end up defining
+how it behaves.&nbsp; We also want to include other information that is
+specific to the individual object - most recent firmware update, physical
+location of the object, notes, name of the person responsible for the latest
+maintenance, etc.
+<p>After objects are defined, they can be grouped together.&nbsp; The grouping
+method we're using is via system (we also tend to call this "Zone", as
+in "Zone 5") and subsystem (we tend to call this a "System", as in "Environmental
+System").&nbsp; So, a device can be assigned to any subsystem within any
+system (i.e. a valve can be assigned to belong to the Fuel system of Zone
+7).&nbsp; Any one device could be assigned to multiple zones and/or systems.
+<p>Subsystems and systems also have statuses that must be maintained.&nbsp;
+Every subsystem belongs to a system, however it is not exclusive (i.e.
+the same Environmental system may span both Zone 4 and Zone 5), not all
+inclusive (some zones have an Environmental system, but no Fuel system)
+and their status must each be maintained discretely (Zone 4's Environmental
+system may be red while it's Fuel system may be green).&nbsp; Additionally,
+broad scale system and subsystem statuses must be maintained (i.e. the
+Environmental System of the entire ship may be yellow while Zone 4's Environmental
+System may be red).
+<p>Once we have a bunch of fully described objects (their individual information
+and how they fit into the ship structure via the system and subsystem format)
+and we know how they behave, we can create state tables that will contain
+the information that the defined behaviors allow.&nbsp; A valve state table
+would include fields for valve state (open or closed) and alarm status
+(in alarm or not in alarm).&nbsp; The structure of a heat pump state table
+would be identical, but the constraints imposed by the above behavior definitions
+would make it hold states of Cooling, Heating, Off, etc in the state field
+instead of the open or closed values that apply to valves.&nbsp; The alarm
+status would behave identically to the valve alarm status since the same
+behavior was assigned to each behavior set.
+<p>
+<hr WIDTH="100%">
+<br>From:&nbsp; "Mueller, Shane P" &lt;shane.p.mueller@lmco.com>
+<br>Subject:&nbsp; RE: Real World Lab Project Notebook
+<br>Date:&nbsp; Fri, 01 Sep 2000 15:14:18 -0400
+<p>Hello Brett,
+<p>I do not have any suggestions at this time.&nbsp;&nbsp; I am the lead
+electrical
+<br>engineer on the project, so I don't know the details concerning the
+software
+<br>aspect of the project. Dave Morgan would be a better person to speak
+to
+<br>about this. He is the lead computer programmer on the project and spend
+most
+<br>of time working with the team from last semster.
+<p>Shane
+<p>Shane P. Mueller
+<br>Weapon Control System
+<br>Lockheed Martin NESS
+<br>Moorestown, New Jersey
+<br>Mailstop: 137-230
+<p>Office #: (856) 722-2957
+<br>Lab #: (856) 722-2818
+<br>Fax #: (856) 273-5317
+<br>Email: shane.p.mueller@lmco.com
+<p>> From:&nbsp; Brett Keenan[SMTP:brettkeenan@yahoo.com]
+<br>> Reply To:&nbsp; gte402f@prism.gatech.edu
+<br>> Sent:&nbsp; Friday, September 01, 2000 1:33 PM
+<br>> To:&nbsp; david.c.morgan@lmco.com
+<br>> Cc:&nbsp; shane.p.mueller@lmco.com
+<br>> Subject:&nbsp; Real World Lab Project Notebook
+<br>>
+<br>> David and Shane,
+<br>>
+<br>> Hello, my name is Brett Keenan.&nbsp; I have been ellected
+<br>> to be the manager for this semester's RWL Lockheed
+<br>> project team.&nbsp; I just wanted to take a moment and let
+<br>> you know our goals for this semester and get any
+<br>> feedback you may have.&nbsp; This semester, our group would
+<br>> like to do the following:
+<br>>
+<br>> 1.&nbsp; Complete database design and implementation
+<br>> 2.&nbsp; Establish Use Cases for the Product
+<br>> 3.&nbsp; Install all the necessary software on the Notebook
+<br>>&nbsp;&nbsp;&nbsp;&nbsp; (we will need to speak with one of you to
+find out
+<br>> what type of database we should create, if you would
+<br>> lke the web interface to be in JSP, ASP, or whatnot,
+<br>> etc.-this will allow for future groups to begin
+<br>> programming in the first week of the semester)
+<br>> 4.&nbsp; Create &amp; Prototype User Interface for Product
+<br>> 5.&nbsp; Produce necessary documentation
+<br>>
+<br>> Please let me know if you have any suggestions.&nbsp; We
+<br>> look forward to working with you this semester.
+<br>>
+<br>> Thank you,
+<br>> Brett Keenan
+<p>
+<hr WIDTH="100%">
+<br>From:&nbsp; David Smith &lt;dmsmith@cc.gatech.edu>
+<br>Date:&nbsp; Mon, 09 Oct 2000 12:44:23 -0400
+<p>Some immediate thoughts on your presentation.
+<p>1. Being up first especially with Scott present was a tough environment
+-
+<br>you coped with it very well.
+<br>2. You covered all of the topics I asked for except the picture of
+the
+<br>long-term project - we talked about that;&nbsp; no action - just have
+it there
+<br>next time.&nbsp; I just realized that talking to that long-term plan
+is the
+<br>opportunity for your documentation specialist to discuss the configuration
+<br>status of the documents. Without that thought, Tamrah was left without
+a
+<br>good place to present her specialty - sorry.
+<br>3. Levi's discussion of the database was where the wheels didn't come
+off
+<br>exactly, but really started to wobble.&nbsp; This is a tough slide
+to talk to.
+<br>When shown a lot of detail (this is good),&nbsp; the audience is going
+to read
+<br>all the info on the screen it cares to read much faster than you can
+tell
+<br>us.&nbsp; What we want to know is not the names in all of the slots,
+but why the
+<br>structure is the way it is.&nbsp; What you have to do is mentally carry
+over the
+<br>main message from the previous slide - perhaps, the need for abstraction
+-
+<br>and show how that constraint shaped the design.&nbsp; Then, perhaps,
+verbally
+<br>"connect the dots" by tracing how a user might start at a system, and
+dig
+<br>down to the characteristics of a particular valve...
+<br>4. Eric's risk discussion was OK, missing only the probability and
+impact
+<br>assessments of each risk.
+<br>5. Although you avoided talking about the GUI because it is just a
+<br>prototype, it is your test environment, and I think I would have liked
+to
+<br>see it.
+<p>Overall, an excellent show - keep it up.
+<p>
+<hr WIDTH="100%">
+<br>From:&nbsp; "Morgan, David C" &lt;david.c.morgan@lmco.com>
+<br>Date:&nbsp; Mon, 02 Oct 2000 16:18:25 -0400
+<p>Comments are inline:
+<p>Dave,
+<p>Please give me your feedback on the following database
+<br>design decisions I have come up with.
+<p>DEVICE-SYSTEM-ZONE RELATIONSHIPS
+<br>*&nbsp; Devices are linked to Systems through a field in the DEVICE_T
+table.
+<br>- Do you mean the DEVICE_T table will store a SystemID or something
+like that?&nbsp; If so, how would you show the same device as belonging
+to two different systems?&nbsp; On the ship, sometimes systems can be cross
+connected: for emergencies, water may be siphoned off of the potable water
+system to give to the fire main system so that a fire can be fought.&nbsp;
+This is done via a single valve that connects the two systems, but is usually
+closed.&nbsp; When needed, this valve can be opened to allow water through.&nbsp;
+In this instance, we may wish to show that same valve as part of both the
+potable water and fire main systems.
+<br>- If you mean that you'll use the device ID and link it to a system
+somewhere, then I'd agree that's a good solution (you'll see later that
+I did it this way).
+<p>Each zone has it's own talbe containing rows for each system in that
+zone.
+<br>*&nbsp; We Have a SYSTEMS_T which has System_ID, Status, Alarm, Parent_System.&nbsp;&nbsp;
+We also have ZONES_T table, containing the fields: Zone_ID, name, status,
+alarm. Every row in this ZONES_T table maps to a table for each ZONE (you
+can still add new zones dynamically even though they have their own table),
+which has fields for System_ID, Status, &amp; alarm.&nbsp; Now one can
+check the status of an overall system, overall zone, or a system as it
+is for one particular zone.
+<br>- Not my approach, but it is a plausible solution.&nbsp; Using triggers
+would allow for the creation of new Zones on the fly (i.e. use the addrecord
+trigger for the ZONE_T table to create a new table and&nbsp; ppropriate
+data and constraints could be back filled as part of that trigger to direct
+stored procedures to the correct tables).&nbsp; One slightly messy part
+of this would be maintaining relationships and constraints.&nbsp; It is
+certainly doable, though.
+<br>- Again, one thing to bear in mind is: how would you show that a single
+device belongs to multiple systems?
+<p>* Here was my approach:
+<br>Needing to maintain discrete information for both zones and systems,
+I figured that keeping those two groups of information separate was useful.
+<br>&nbsp; 1) Create a Systems table that lists each system, give it a
+unique SystemID (an integer) and a Status field (for the overall system
+status).
+<br>&nbsp; 2) Create a Zones table that lists each zone, give it a unique
+ZoneID (an integer) and a Status field (for the overall zone status).
+<br>Needing to be able to mix and match zone and system combinations while
+maintaining an individual status for each combination created made me decide
+to cross the Systems and Zones tables into a third table (which would be
+easy to maintain by simply adding new combinations).
+<br>&nbsp; 3) Create a third table that melds the two into zonal systems
+(systems within zones).&nbsp; It has a unique ZonalSystemID, a ZoneID,
+a SystemID and a Status field.&nbsp; Have a dual primary key based on ZoneID
+and SystemID (ensuring that the same system is never created in the same
+zone twice). With Zone-System combinations now defined and uniquely identified,
+I can map devices to them.&nbsp; Since a device can belong to multiple
+systems and/or multiple zones, I needed to create a separate table that
+would allow for multiple ZonalSystem assignments to a single device.
+<br>&nbsp; 4) Create a forth table where devices are mapped to ZonalSystems.&nbsp;
+The primary key is a combination of the DeviceID and the ZonalSystemID
+so that any one device will not be shown to be in the same zonal-system
+twice, but can still exist in multiple systems and/or zones.
+<p>The above yields the ability to create any combination of systems within
+any zone, tracks the status for each zone and each system independently
+while still maintaining an individual status for a system within a zone
+and yields a quick and easy way to map any device to any combination of
+zones and systems.&nbsp; It also accomplishes the above purely through
+data manipulation and keeps metadata static (which makes long term administration
+a bit easier, IMHO).
+<p>* Either method can be made to work.&nbsp; They're just different approaches.
+<p>DEVICE-BEHAVIOR RELATIONSHIP
+<br>*&nbsp; In the DEVICE_T table every Deveice has a Behavior ID. The
+Behavior_ID is the primary key of a BEHAVIORS_T table.&nbsp; Every Behavior_ID
+has an associated behavior set.&nbsp; Every row of data maps directy to
+a table in the database, where there is a collum for each behavior in the
+set.&nbsp; So to add a new type of device, we add a new row to the BEHAVIORS_T,
+which will trigger the creation of a new Table where all of devices of
+this new type will go. This is a viable solution.&nbsp; It will blend a
+relational and object oriented format nicely.&nbsp; I took a slightly different
+approach, but this one could easily turn out to be better.
+<p>* Here's what I did:
+<br>Needing to define behaviors that varied right down to field type, I
+decided that I would group information based on field types.&nbsp; I separated
+Sensors from the rest of the data (since sensors will return floats and
+everything else can be based off of integers).&nbsp; This gives a general
+picture of the values being used for state data - indexed value (on, off,
+open, closed, heating, cooling, etc), a raw value (a float for sensor data)
+and some method of dealing with alarm data (I simply used negative integers).
+Ultimately, this results in a description of all possible behavior values
+(with raw values covering all of the floats from the sensors).
+<br>&nbsp; 1) Create a BehaviorCharacteristics table with a unique BehaviorValue
+(which describes the way to interpret the state data) and a textual description
+of the behavior (more for readability than anything else).
+<br>Basically, this is a constraints table that will be used to limit the
+available options for which a given device type can assert its state as
+being.&nbsp; For now, I use -1 to indicate In Alarm and 0 to indicate Nominal
+(in
+<br>the future, the actual value may vary for the negative number to help
+show diagnostic information).&nbsp; The remaining states are indexed 1
+to 10 for On, Off, Stand By, Operating, Open, Closed, Raw Number (for sensors),
+Heating, Cooling, Inoperable.&nbsp; Not all of these states are currently
+used.&nbsp; With all potential state data defined, I can begin assigning
+allowable state assignments (behavior characteristics) to a particular
+behavior.
+<br>&nbsp; 2) Create a Behaviors table that describes which behaviors can
+assume which states.&nbsp; Alarm behavior can take on Nominal (0) or In
+Alarm (-1), so that's two rows (one that maps Alarm behavior to -1 and
+one that maps Alarm behavior to 0).&nbsp; A valve's state can be Open (5)
+or Closed (6), so that's two rows for the valve state behavior.&nbsp; A
+heat pump can be Cooling (9), Heating (8) or Off (2).&nbsp; Sensors provide
+raw data and therefore are only capable of the Raw Number behavior characteristic
+(7).&nbsp; With specific behaviors defined, I can begin mixing and matching
+my behaviors to describe my devices.
+<br>&nbsp; 3) Create a BehaviorSet table that groups multiple behaviors
+into a single behavior set.&nbsp; This requires a BehaviorSetID (not unique,
+I'll explain why in a moment), a BehaviorSetName (more for readability
+than anything else) and a TableName.&nbsp; The BehaviorSetID cannot be
+unique since it will have multiple behaviors mapped to the same BehaviorSet
+(a combination of BehaviorSetID and Behavior will work).&nbsp; The TableName
+provides a means of linking a specific behavior for a specific BehaviorSet
+to a specific table. So, here I could define a generic Heat Pump behavior
+set as having the heat pump state behavior (Cooling, Heating or Off) and
+the Alarm behavior (In Alarm or Nominal).&nbsp; I could also define a generic
+Valve behavior set as having the valve state behavior (Open or Closed)
+and the Alarm behavior.
+<br>With future expansion of the types of devices (and hence, behavior
+sets) I can reuse my existing definitions for behaviors and just define
+a new behavior set.&nbsp; For example - we are currently integrating a
+new type of valve that also has sensors imbedded in it.&nbsp; This is easy
+to represent in the database because all I need to do is define a new behavior
+set "Valve
+<br>with Sensors" and assign it the behaviors of valve state (Open/Closed),
+Alarm (In Alarm/Nominal) and Sensor (Raw Number).&nbsp; The table names
+that are associated with each behavior for each behavior set makes it easy
+to discern where I need to go to get the data.&nbsp; The next step is to
+bridge the gap between my defined behavior sets and my actual devices.&nbsp;
+Instead of assigning a behavior set directly to a device, I decided to
+use a little abstraction to allow for a bit more information to be discerned
+by end users.&nbsp; I created another table that maps device types to behavior
+sets.&nbsp; At first, this looks like an unnecessary step, but having valves
+from ten different manufacturers with all of them behaving the same makes
+it a little more difficult to track down information about any one type
+of valve.&nbsp; So, creating the mapping table allows for me to list specifics
+about a type of device (size, manufacturer, etc) that differentiate it
+from all other devices while still allowing it to have the exact same behavior.
+<br>&nbsp; 4) Create a device type to behavior set map and add extra fields
+for specific information on the device types.&nbsp; Link the DeviceTypeID
+(unique) to the devices table and the behavior set to the BehaviorSets
+table.
+<p>The above structure allows me to easily define new behaviors, mix and
+match behaviors among device types, maintain individual information on
+a specific type of device even though it behaves just like another type
+of device, add/remove behavior characteristics from devices or behaviors
+themselves and gives me the ability to find out what tables I need to use
+(and the type of information they hold) to find out the state of any given
+type of device.
+<p>* I'd have to think about it a bit to figure out which approach is better.
+Mine is more normalized and relational, yours more object oriented.&nbsp;
+They both have their merits.
+<p>STORING HISTORY
+<br>*&nbsp; To store history, we make copies of every table, adding a TimeStamp
+field.&nbsp; This is the primary key for these tables.&nbsp; All History
+is stored in these tables. It would be bad for the database to store history
+in
+<br>the same places that we store current information becasue it would
+increase querry times.
+<br>- Yes.&nbsp; Simple and effective.
+<p>
+<hr WIDTH="100%">
+<br>From:&nbsp; "Morgan, David C" &lt;david.c.morgan@lmco.com>
+<br>Subject:&nbsp; RE: Meeting today, Friday 9/29/2000
+<br>Date:&nbsp; Mon, 02 Oct 2000 11:16:14 -0400
+<p>That'd be fine with me.&nbsp; If you have any questions at all, just
+let me know.
+<br>I can't clarify issues that I don't know are unclear.
+<p>-----Original Message-----
+<br>From: Brett Keenan [mailto:brettkeenan@yahoo.com]
+<br>Sent: Monday, October 02, 2000 11:13 AM
+<br>To: Morgan, David C
+<br>Subject: RE: Meeting today, Friday 9/29/2000
+<p>Dave,
+<p>Thank you for your suggestions.&nbsp; I know you have a
+<br>meeting today, so if it is alright with you, our group
+<br>will meet and change the database to reflect your
+<br>input and we can send you the updated links in a few
+<br>days.
+<p>Brett
+<p>--- "Morgan, David C" &lt;david.c.morgan@lmco.com> wrote:
+<br>> Comments on GT design documentation:
+<br>>
+<br>> Where is Subsystem status taken into account?
+<br>> Where are Subsystems tracked in terms of what Subsystems exist within
+what Systems (i.e. where can I find out if Zone 4 has an Environmental
+system defined)?
+<br>> How do I keep track of what devices belong to what Subsystems?
+<br>>
+<br>> Wouldn't the connection between the base Devices_T table and the
+subsidiary tables be tied to the ID of the device, which is the primary
+key in the Devices_T table?&nbsp; This being the case,
+<br>> wouldn't any one device only have one alarm state (in alarm or not
+in alarm) and one device state (on/off, open/closed)?&nbsp; If that's true,
+wouldn't it be a one to one
+<br>> relationship between the device table and the effectors table?
+<br>>
+<br>> Your description of the sensors has me a bit confused.&nbsp; I see
+that section as being interpreted in two possible ways, each of which I
+have questions on:
+<br>> 1)&nbsp; Sensors_T table records the actual values for the sensor
+readings.
+<br>> Why is "Value" in the Sensors_T table the primary key?&nbsp; For
+sensors, if the primary key is the value, then when I try to update the
+database, I cannot have two sensors with the same reading.
+<br>> Similarly, in the effectors table, it is not possible for me to have
+more than two devices (one in alarm and one not in alarm) without violating
+the primary key, which is "Alarm".
+<br>> Another problem would be how do I discern the reading types (i.e.
+Flow or Pressure) from each other in the Sensors_T table?
+<br>> 2)&nbsp; Sensors_T and Effectors_T tables hold indicies which map
+the Devices_T table to state tables (I think this is what you're trying
+to represent).
+<br>>&nbsp;&nbsp; If so, then you still need to represent the link between
+the tables adequately - I see no connection from which the index represented
+by "Value" can be bounced off of the subsidiary tables to find
+<br>> the specific sensor readings for a given device id. In fact, I only
+see one field in the Air_Temperature_Sensors_T table.&nbsp; In relational
+databases, one field tables limit their usefulness to being
+<br>> merely constraint tables that limit allowed inputs into the fields
+of other tables.
+<br>>
+<br>> Your description of effectors has an equivalent situation to the
+one for&nbsp; sensors (i.e. linking of state tables back to the base devices
+table via an ID, the heat pump and water pump tables are one
+<br>> field tables).&nbsp; I also don't quite see why you're attempting
+to merge heat pumps and water pumps into one pumps table.&nbsp; They are
+discrete objects that behave differently (a water pump cannot turn on/off
+its > fan, but a heat pump can).&nbsp; They are separate behaviors.
+<br>>
+<br>> How would I implement a new behavior into this design?&nbsp; Say
+I wanted to represent a new type of valve that has both the&nbsp; ability
+to open and close AND the ability to return flow, pressure and
+<br>> temperature data.&nbsp; How do I model that in this design considering
+that the behaviors themselves are not specialized in any way (its a valve
+that also has the same attributes as a flow meter), it's the grouping >
+of those behaviors that is unique?
+<br>>
+<br>> -----Original Message-----
+<br>> From: Brett Keenan [mailto:brettkeenan@yahoo.com]
+<br>> Sent: Friday, September 29, 2000 12:21 PM
+<br>> Subject: Meeting today, Friday 9/29/2000
+<br>>
+<br>> Hey guys,
+<br>>
+<br>> Tamrah, Mike and I spoke briefly with the people up at Lockheed,
+but we didn't have a great deal to talk with them about, which I feel made
+us look bad.&nbsp; We're having a difficult time getting everyone > together
+for these meetings it seems.&nbsp; I need your input here-is meeting here
+at our work too difficult?&nbsp; If it is, we can start meeting somewhere
+on campus or elsewhere. This class gives us the opportunity to > work at
+our own pace on a project and not have a teacher looking over our shoulders
+each week.&nbsp; With this comes a good deal of responsibility.&nbsp; Not
+only do we need to keep in touch with the people up > at Lockheed, but
+as well, with each other about what's going on.&nbsp; I think that if we
+talk on Wednesdays in class (sorry mike and I weren't there this past week),
+and have a weekly meeting every friday at > 11:00 with the Lockheed people.&nbsp;
+I will send e-mails when we have other scheduled meetings, and Tamrah posts
+them on the webpage as well.&nbsp; We also need to keep each other informed
+through > e-mails-let's go ahead and send e-mails out to the whole group
+so everyone knows what's going on.
+<br>>
+<br>> This is important-everyone check out Levi's designs for the Data
+Base-they're up on the web at:
+<br>>
+<br>> http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/object_diagram.jpg
+<br>> http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/database_diagram.jpg
+<br>>
+<br>> And here is Tamrah's ideas on our presentation, which is on the 9th
+of
+October:
+<br>>
+<br>> http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/presentation.html
+<br>>
+<br>> Now, here's what I see going on right now- Jeff is coming by today
+at around 3:00 to the office and we are going to get him back up to speed
+on everything that has been going on.
+<br>> On Monday, we are planning to meet with Dave, the DB design person
+to discuss what else we need to do before we begin implementing it on the
+server.
+<br>> Levi and Eric, you are the main DB guys, and Jeff, Mike, Tamrah and
+I will be happy to do whatever, you guys just need to tell us what you
+need.&nbsp; We had that meeting last week with Scott and got a lot of
+<br>> questions answered, but don't hesitate to send off&nbsp; e-mails
+to Dave or whomever up at Lockheed (and CC everyone else up there too-they
+may have answers too).
+<br>> Jeff, could you write up some Scenario Cases that we can turn into
+test cases later in the semester? Once the back end stuff is complete,
+we want to be able to add, edit, and monitor/view whatever devices > we
+have in the system, and later groups can work on the user interface and
+such.
+<br>> The presentation isn't that big of a deal-it's only 15 minutes long,
+but it needs to be solid-our professor seems big on that.&nbsp; I'll work
+on putting together some slides this weekend.&nbsp; Mike and Tamrah are
+> going to help me with that, and remember, all three of us are available
+to help out with any DB stuff or scenario cases or whatnot, we just need
+to know what we can do.
+<br>>
+<br>> I just spoke with Eric, and suggest that we get together this Sunday
+at 11:00 am to work on the Presentation as well as creating some of the
+DB on the server machine, which may change, but that's the way
+<p>
+<hr WIDTH="100%"><br>
+From:&nbsp; "Michael Emard" &lt;mike.emard@sententia.ws> Save Address -
+Block Sender
+<br>Subject:&nbsp; RWL DB Constraints
+<br>Date:&nbsp; Mon, 13 Nov 2000 23:37:46 -0500
+<p>Jeff,
+<p>I figured out how to put the constraints on the Database.&nbsp; It is
+actually
+<br>pretty cool.
+<p>First, I made some changes to the database.&nbsp; I put all three "constants"
+<br>tables into one "BEHAVIOR_CHARACTERISTICS_T" table.&nbsp; I then took
+"type" out
+<br>of&nbsp; Behavior_T and stuck it in that new table.
+<p>To put behavior constraints on each device, I needed to create a table
+<br>containing each device id and all behaviors (behavior characteristics)
+that
+<br>this device has.&nbsp; I made this table by way of a view.&nbsp; This
+view is created
+<br>using recursive SQL calls.&nbsp; The SQL to create the view is::
+<br>-------------------------------------------------------------
+<br>CREATE VIEW BEHAVIOR_CONSTRAINTS_V AS
+<br>SELECT D.DEVICE_ID, C.CHARACTERISTIC_ID
+<br>FROM DEVICE_T D, BEHAVIOR_CHARACTERISTICS_T C
+<br>WHERE CHARACTERISTIC_ID =
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (SELECT CHARACTERISTIC_ID
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FROM BEHAVIOR_T
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WHERE BEHAVIOR_ID =
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(SELECT BEHAVIOR_ID
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+FROM BEHAVIOR_SET_T
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+WHERE BEHAVIOR_SET_ID =
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+(SELECT BEHAVIOR_SET_ID
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+FROM DEVICE_T
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+WHERE DEVICE_ID = D.DEVICE_ID)))
+<br>-------------------------------------------------------------
+<p>Please take a moment to see what is happening here.&nbsp; We will end
+up with a
+<br>table containing Device_ID's and all thier possible behavior
+<br>characteristics.
+<br>somethign like this::
+<p>DEVICE_ID&nbsp; CHARACTERISTIC_ID
+<br>0&nbsp;&nbsp; 3
+<br>0&nbsp;&nbsp; 6
+<br>0&nbsp;&nbsp; 8
+<br>1&nbsp;&nbsp; 2
+<br>1&nbsp;&nbsp; 3
+<br>1&nbsp;&nbsp; 8
+<br>etc.....
+<p>so a behavior may be mapped to serveral characteristics.&nbsp; See????
+<p>now we just have to add code to put constraints on the SENSOR, STATUS,
+and
+<br>ALARM tables based of this view and all is well.
+<p>to add constraints to the three tables you do something like this::
+<br>-------------------------------------------------------------------------
+<br>ALTER TABLE table_name
+<br>ADD CONSTRAINT DEVICE_CHARACTERISTIC_FK FOREIGN KEY(DEVICE_ID,
+<br>CHARACTERISTIC_ID)
+<br>REFERENCES BEHAVIOR_CONSTRAINTS_V (DEVICE_ID, CHARACTERISTIC_ID)
+<br>-------------------------------------------------------------------------
+<p>this will ensure that your DEVICE_ID, CHARACTERISTIC_ID pair matches
+a pair
+<br>in the BEHAVIOR_CONSTRAINTS_V
+<br>&nbsp;
+<p>As a side note:
+<br>&nbsp;Now you probably understants why we didn't want to drop all those
+"_T"s at
+<br>the end of all the tables.&nbsp; It just makes understanding the database
+easier.
+<p>
+<hr WIDTH="100%"><br>
+<a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed.proj.page.html">Back
+to Main Page</a>
+</body>
+</html>

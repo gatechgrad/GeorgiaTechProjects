@@ -1,0 +1,885 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta http-equiv="Content-Language" content="en-us">
+   <meta name="GENERATOR" content="Mozilla/4.74 [en] (WinNT; U) [Netscape]">
+   <meta name="ProgId" content="FrontPage.Editor.Document">
+   <title>New Page 1</title>
+<!-- saved from url=(0073)http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/dbdoc.html -->
+</head>
+<body>
+
+<center><b><font size=+3>Database Documentation (SQL Server)</font></b></center>
+
+<hr>
+<p><b>TABLE SETUP:</b>
+<br>&nbsp;
+<table BORDER WIDTH="100%" >
+<caption><TBODY>
+<br></TBODY></caption>
+
+<tr>
+<td WIDTH="20%"><b>ALARM_T</b></td>
+
+<td WIDTH="20%">DEVICE_ID</td>
+
+<td WIDTH="20%">ALARM_ID</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+</tr>
+
+<tr>
+<td><b>BEHAVIOR_CHARACTERISTICS_T</b></td>
+
+<td>CHARACTERISTIC_ID&nbsp;</td>
+
+<td>CHARACTERISTIC_NAME</td>
+
+<td>CHARACTERISTIC_TYPE&nbsp;</td>
+
+<td></td>
+
+<td></td>
+</tr>
+
+<tr>
+<td WIDTH="20%"><b>BEHAVIOR_NAME_T</b></td>
+
+<td WIDTH="20%">BEHAVIOR_ID</td>
+
+<td WIDTH="20%">BEHAVIOR_NAME</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="20%"><b>BEHAVIOR_SET_T</b></td>
+
+<td WIDTH="20%">BEHAVIOR_SET_ID</td>
+
+<td WIDTH="20%">BEHAVIOR_TYPE_ID</td>
+
+<td WIDTH="20%">&nbsp;BEHAVIOR_SET_NAME</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="20%"><b>BEHAVIOR_T</b></td>
+
+<td WIDTH="20%">BEHAVIOR_TYPE_ID</td>
+
+<td WIDTH="20%">BEHAVIOR_CHARACTERISTIC</td>
+
+<td WIDTH="20%">BEHAVIOR_ID</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="20%"><b>BEHAVIOR_SET_NAME_T</b></td>
+
+<td WIDTH="20%">BEHAVIOR_SET_ID</td>
+
+<td WIDTH="20%">SEHAVIOR_SET_NAME</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="20%"><b>DEVICE_SYSTEM_T</b></td>
+
+<td WIDTH="20%">DEVICE_ID</td>
+
+<td WIDTH="20%">SYSTEM_ID</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="20%"><b>DEVICE_T</b></td>
+
+<td WIDTH="20%">DEVICE_ID</td>
+
+<td WIDTH="20%">DEVICE_NAME</td>
+
+<td WIDTH="20%">LOCATION</td>
+
+<td WIDTH="20%">BEHAVIOR_SET_ID</td>
+
+<td WIDTH="20%">&nbsp;DESCRIPTION</td>
+</tr>
+
+<tr>
+<td WIDTH="20%"><b>DEVICE_ZONE_T</b></td>
+
+<td WIDTH="20%">DEVICE_ID</td>
+
+<td WIDTH="20%">ZONE_ID</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="20%"><b>SENSOR_READING_T</b></td>
+
+<td WIDTH="20%">DEVICE_ID</td>
+
+<td WIDTH="20%">SENSOR_ID</td>
+
+<td WIDTH="20%">READING</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="20%"><b>STATUS_T</b></td>
+
+<td WIDTH="20%">DEVICE_ID</td>
+
+<td WIDTH="20%">STATUS_ID</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="20%"><b>SYSTEM_T</b></td>
+
+<td WIDTH="20%">SYSTEM_ID</td>
+
+<td WIDTH="20%">PARENT_ID</td>
+
+<td WIDTH="20%">NAME</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="20%"><b>USERS_T</b></td>
+
+<td WIDTH="20%">FIRST_NAME</td>
+
+<td WIDTH="20%">LAST_NAME</td>
+
+<td WIDTH="20%">USER_TYPE</td>
+
+<td WIDTH="20%">PASSWORD</td>
+
+<td WIDTH="20%">USER_ID</td>
+</tr>
+
+<tr>
+<td WIDTH="20%"><b>ZONE_SYSTEM_T</b></td>
+
+<td WIDTH="20%">ZONE_ID</td>
+
+<td WIDTH="20%">SYSTEM_ID</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="20%"><b>ZONE_T</b></td>
+
+<td WIDTH="20%">ZONE_ID</td>
+
+<td WIDTH="20%">ZONE_NAME</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+
+<td WIDTH="20%">&nbsp;</td>
+</tr>
+</table>
+
+<p><b>VIEW SETUP:</b>
+<br>&nbsp;
+<table BORDER WIDTH="100%" >
+<caption><TBODY>
+<br></TBODY></caption>
+
+<tr>
+<td WIDTH="33%"><b>BEHAVIOR_CHARACTERISTICS_V</b></td>
+
+<td WIDTH="33%">BEHVIOR_ID</td>
+
+<td WIDTH="34%">CHARACTERISTIC_ID</td>
+
+<td WIDTH="34%">CHARACTERISTIC_NAME</td>
+
+<td WIDTH="34%">BEHAVIOR_NAME</td>
+
+<td WIDTH="34%">CHARACTERISTIC_TYPE</td>
+</tr>
+
+<tr>
+<td WIDTH="33%"><b>BEHAVIOR_V</b></td>
+
+<td WIDTH="33%">BEHAVIOR_SET_ID</td>
+
+<td WIDTH="34%">BEHAVIOR_SET_NAME</td>
+
+<td WIDTH="34%">BEHAVIOR_ID</td>
+
+<td WIDTH="34%">BEHAVIOR_NAME</td>
+
+<td WIDTH="34%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="33%"><b>DEVICE_SYSTEM_V</b></td>
+
+<td WIDTH="33%">DEVICE_ID</td>
+
+<td WIDTH="34%">SYSTEM_ID</td>
+
+<td WIDTH="34%">DEVICE_NAME</td>
+
+<td WIDTH="34%">&nbsp;</td>
+
+<td WIDTH="34%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="33%"><b>DEVICE_ZONE_V</b></td>
+
+<td WIDTH="33%">DEVICE_ID</td>
+
+<td WIDTH="34%">ZONE_ID</td>
+
+<td WIDTH="34%">DEVICE_NAME</td>
+
+<td WIDTH="34%">&nbsp;</td>
+
+<td WIDTH="34%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="33%"><b>ZONE_SYSTEM_V</b></td>
+
+<td WIDTH="33%">ZONE_ID</td>
+
+<td WIDTH="34%">SYSTEM_ID</td>
+
+<td WIDTH="34%">SYSTEM_NAME</td>
+
+<td WIDTH="34%">&nbsp;</td>
+
+<td WIDTH="34%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="33%"><b>BEHAVIOR_CONSTRAINTS_V</b></td>
+
+<td WIDTH="33%">DEVICE_ID</td>
+
+<td WIDTH="34%">CHARACTERISTIC_ID</td>
+
+<td WIDTH="34%">&nbsp;</td>
+
+<td WIDTH="34%">&nbsp;</td>
+
+<td WIDTH="34%">&nbsp;</td>
+</tr>
+</table>
+
+<br>&nbsp;
+<p><b>TABLE CONSTRAINTS:</b>
+<p><b>&nbsp;ALARM_T:</b>
+<br>&nbsp;
+<table BORDER WIDTH="100%" >
+<caption><TBODY>
+<br></TBODY></caption>
+
+<tr>
+<td WIDTH="33%">DEVICE_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Foreign Key (DEVICE_T)</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">ALARM_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Foreign Key (BEHAVIOR_CHARACTERISTICS_T)</td>
+</tr>
+</table>
+
+<p><b>BEHAVIOR_CHARACTERISTICS_T:</b>
+<br>&nbsp;
+<table BORDER COLS=3 WIDTH="100%" >
+<caption><TBODY>
+<br></TBODY></caption>
+
+<tr>
+<td>CHARACTERISTIC_ID</td>
+
+<td>INTEGER</td>
+
+<td>Foreign Key (DEVICE_T)</td>
+</tr>
+
+<tr>
+<td>CHARACTERISTIC_NAME</td>
+
+<td>VARCHAR (16)</td>
+
+<td></td>
+</tr>
+
+<tr>
+<td>CHARACTERISTIC_TYPE</td>
+
+<td>INTEGER</td>
+
+<td></td>
+</tr>
+</table>
+
+<p><b>BEHAVIOR_NAME_T:</b>
+<br>&nbsp;
+<table BORDER WIDTH="100%" >
+<caption><TBODY>
+<br></TBODY></caption>
+
+<tr>
+<td WIDTH="33%">BEHAVIOR_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Primary Key</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">BEHAVIOR_NAME</td>
+
+<td WIDTH="33%">VARCHAR (16)</td>
+
+<td WIDTH="34%">&nbsp;</td>
+</tr>
+</table>
+
+<p><b>BEHAVIOR_SET_T:</b>
+<br>&nbsp;
+<table BORDER WIDTH="100%" >
+<caption><TBODY>
+<br></TBODY></caption>
+
+<tr>
+<td WIDTH="33%">BEHAVIOR_SET_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Primary Key</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">BEHAVIOR_TYPE_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Foreign Key (BEHAVIOR_T)</td>
+</tr>
+</table>
+
+<p><b>BEHAVIOR_T:</b>
+<br>&nbsp;
+<table BORDER WIDTH="100%" >
+<caption><TBODY>
+<br></TBODY></caption>
+
+<tr>
+<td WIDTH="33%">BEHAVIOR_TYPE_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Primary Key</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">BEHAVIOR_CHARACTERISTIC</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">BEHAVIOR_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Foreign Key (BEHAVIOR_NAME_T)</td>
+</tr>
+</table>
+
+<p><b>BEHAVIOR_SET_NAME_T:</b>
+<br>&nbsp;
+<table BORDER WIDTH="100%" >
+<caption><TBODY>
+<br></TBODY></caption>
+
+<tr>
+<td WIDTH="33%">BEHAVIOR_SET_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Foreign Key (BEHAVIOR_SET_T)</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">BEHAVIOR_SET_NAME</td>
+
+<td WIDTH="33%">VARCHAR (50)</td>
+
+<td WIDTH="34%">&nbsp;</td>
+</tr>
+</table>
+
+<p><b>DEVICE_SYSTEM_T:</b>
+<br>&nbsp;
+<table BORDER WIDTH="100%" >
+<caption><TBODY>
+<br></TBODY></caption>
+
+<tr>
+<td WIDTH="33%">DEVICE_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Foreign Key (DEVICE_T)</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">SYSTEM_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Foreign Key (SYSTEM_T)</td>
+</tr>
+</table>
+
+<p><b>DEVICE_T:</b>
+<br>&nbsp;
+<table BORDER WIDTH="100%" >
+<caption><TBODY>
+<br></TBODY></caption>
+
+<tr>
+<td WIDTH="33%">DEVICE_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Primary Key</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">DEVICE_NAME</td>
+
+<td WIDTH="33%">VARCHAR (50)</td>
+
+<td WIDTH="34%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">LOCATION</td>
+
+<td WIDTH="33%">VARCHAR (50)</td>
+
+<td WIDTH="34%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">BEHAVIOR_SET_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Foreign Key (BEHAVIOR_SET_T)</td>
+</tr>
+</table>
+
+<p><b>DEVICE_ZONE_T:</b>
+<br>&nbsp;
+<table BORDER WIDTH="100%" >
+<caption><TBODY>
+<br></TBODY></caption>
+
+<tr>
+<td WIDTH="33%">DEVICE_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Foreign Key (DEVICE_T)</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">ZONE_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Foreign Key (ZONE_T)</td>
+</tr>
+</table>
+
+<p><b>SENSOR_READING_T:</b>
+<br>&nbsp;
+<table BORDER WIDTH="100%" >
+<caption><TBODY>
+<br></TBODY></caption>
+
+<tr>
+<td WIDTH="33%">DEVICE_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Foreign Key (DEVICE_T)</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">SENSOR_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Foreign Key (SENSOR_READING_CONSTANTS_T)</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">READING</td>
+
+<td WIDTH="33%">FLOAT</td>
+
+<td WIDTH="34%">&nbsp;</td>
+</tr>
+</table>
+
+<p><b>STATUS_T:</b>
+<br>&nbsp;
+<table BORDER WIDTH="100%" >
+<caption><TBODY>
+<br></TBODY></caption>
+
+<tr>
+<td WIDTH="33%">DEVICE_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Foreign Key (DEVICE_T)</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">STATUS_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Foreign Key (BEHAVIOR_CHARACTERISTICS_T)</td>
+</tr>
+</table>
+
+<p><b>SYSTEM_T:</b>
+<br>&nbsp;
+<table BORDER WIDTH="100%" >
+<caption><TBODY>
+<br></TBODY></caption>
+
+<tr>
+<td WIDTH="33%">SYSTEM_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Primary Key</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">PARENT</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">NAME</td>
+
+<td WIDTH="33%">VARCHAR (50)</td>
+
+<td WIDTH="34%">&nbsp;</td>
+</tr>
+</table>
+
+<p><b>USERS_T:</b>
+<br>&nbsp;
+<table BORDER WIDTH="100%" >
+<caption><TBODY>
+<br></TBODY></caption>
+
+<tr>
+<td WIDTH="33%">FIRST_NAME</td>
+
+<td WIDTH="33%">VARCHAR (50)</td>
+
+<td WIDTH="34%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">LAST_NAME</td>
+
+<td WIDTH="33%">VARCHAR (50)</td>
+
+<td WIDTH="34%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">USER_ID</td>
+
+<td WIDTH="33%">VARCHAR (10)</td>
+
+<td WIDTH="34%">Primary Key</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">USER_TYPE</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">&nbsp;</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">PASSWORD</td>
+
+<td WIDTH="33%">VARCHAR (10)</td>
+
+<td WIDTH="34%">&nbsp;</td>
+</tr>
+</table>
+
+<p><b>ZONE_SYSTEM_T:</b>
+<br>&nbsp;
+<table BORDER WIDTH="100%" >
+<caption><TBODY>
+<br></TBODY></caption>
+
+<tr>
+<td WIDTH="33%">ZONE_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Foreign Key (ZONE_T)</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">SYSTEM_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Foreign Key (SYSTEM_T)</td>
+</tr>
+</table>
+
+<p><b>ZONE_T:</b>
+<br>&nbsp;
+<table BORDER WIDTH="100%" >
+<caption><TBODY>
+<br></TBODY></caption>
+
+<tr>
+<td WIDTH="33%">ZONE_ID</td>
+
+<td WIDTH="33%">INTEGER</td>
+
+<td WIDTH="34%">Primary Key</td>
+</tr>
+
+<tr>
+<td WIDTH="33%">ZONE_NAME</td>
+
+<td WIDTH="33%">VARCHAR (50)</td>
+
+<td WIDTH="34%">&nbsp;</td>
+</tr>
+</table>
+
+<p>
+<hr>
+<center>
+<p><b><font size=+3>Database Design Description</font></b></center>
+
+<hr>
+<div class="Section1">
+<div class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This
+database is for keeping track of smart devices on a warship.&nbsp; This
+database was designed with a primary goal of flexibility.&nbsp; Devices
+on a Lockheed warship needed to be very flexible in terms of the tasks
+they are responsible for performing.&nbsp; While some devices are relatively
+simple, and only perform a single task (such as a valve which is either
+“on” or “off”), other devices may perform many tasks.<span style="mso-spacerun: yes"></span>A
+device can take on several behaviors.<span style="mso-spacerun: yes"></span>Some
+devices may each share one behavior while also each having others.<span style="mso-spacerun: yes"></span>A
+device type is determined by the behaviors that that device has.<span style="mso-spacerun: yes"></span>Device
+type is determined by the devices set of behaviors (BEHAVIOR_SET).&nbsp;
+The creation of a flexible Data Base that enabled the addition of new devices
+and behaviors, as well as linking the two, was a primary concern of our
+clients.&nbsp; Lockheed wishes this system to be flexible enough to be
+easily integrated into future warships.</div>
+
+<div class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; After
+multiple versions of our database and meetings with our clients, the current
+database was created and approved.&nbsp; It allows for great flexibility
+in devices and the way that they behave, and enables any additional behaviors
+to be shared by all devices.&nbsp; To ensure maximum flexibility in adding
+new elements to our system, a hierarchal structure was made to encapsulate
+the various ways that a device can behave.&nbsp; In our database, every
+device has a Behavior Set.&nbsp; A Behavior Set contains a group of behaviors.&nbsp;
+Behaviors in turn hold Behavior Characteristics.&nbsp; There are three
+types of Characteristics: Sensor, Alarm, and Status.&nbsp; To aid in the
+flexibility, there are many reusable components in the database.&nbsp;
+Behavior Characteristics can be reused in several Behaviors, Behaviors
+can be reused in multiple Behavior Sets, and single Behavior Sets can be
+used by multiple devices.&nbsp; Devices currently can have multiple alarms,
+status, and/or sensors, or any combination of the three.&nbsp; Our current
+system allows for a large amount of flexibility when determining a device’s
+exact functions on a ship.</div>
+
+
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Behavior
+Characteristics are broken down into three categories: Sensor (type 0),
+Alarm (type 1), and Status (type 2).&nbsp; All of these characteristics
+have a characteristic ID, name, and type.&nbsp; In the Behavior Characteristics
+Table, an example sensor would be [ 1 , "Air Temperature" , 0 ].&nbsp;
+An example alarm would be [ 2 , "Low Power" , 1 ].&nbsp; Of course, an
+example status would be [ 3 , "On" , 2 ].&nbsp; Each type of characteristic
+is stored in it's own table.&nbsp; Storing the three different characteristic
+types in three different tables makes look up more efficient, which is
+important.&nbsp; For example, it makes attaining all devices currently
+in alarm state very fast (select * from ALARM_T).
+
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The alarm
+table and status table are the same in that a device is in a given status/alarm
+or it isn't.&nbsp; Sensors are a bit different, because you have to know
+both what is being sensed (air temp) and what the value is ( 73 degrees).&nbsp;&nbsp;
+In breaking down devices behaviors into these components, advanced devices
+can be easily added in the future.
+
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Devices
+are stored in a Device Table, each containing a unique Device ID.&nbsp;
+Further, each device has a name field, a location field, and a map to a
+Behavior Set ID, defining the devices various behaviors.&nbsp; Devices
+can be members of Systems and Zones.&nbsp; If a device is a member of a
+system, its device ID is stored in the Device System Table.&nbsp; Similairly,
+if a device is a member of a zone, its device ID is stored with the corresponding
+Zone ID in the Device Zone Table.&nbsp; Devices can also be "Standalone"
+devices.&nbsp; Systems are groups of devices which work together throughout
+the ship.&nbsp; Systems are stored in the System Table, each having a unique
+System ID, as well as a Parent ID, which, if the system is standalone,
+has a value of "0".&nbsp; An example of a system is the Air Conditioning
+System.&nbsp; Systems can be members of other systems, or they can be members
+of zones.&nbsp; Zones differ from systems in that zones are physical sections
+of a ship.&nbsp; Systems may be members of multiple zones, or multiple
+other systems.&nbsp; The systems in each zone are kept in a Zone System
+Table, which holds the zone ID and the corresponding system ID for the
+system belonging to the zone.
+
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Finally,
+a User Table is kept which maintains information about registered users
+in the system, such as their name, their unique User ID, what type of user
+they are, used to determine the level of security access they have, and
+the user's login password.&nbsp; A security model may be implemented by
+future groups on this project.
+
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; We created
+several Views as well in SQL which enabled us to use the data in existing
+tables to create "virtual tables" with special data groupings.
+<center>
+<h1 style="TEXT-ALIGN: center">
+<span style="mso-bidi-font-size: 12.0pt"><font size=+2>Database Weaknesses</span><span style="FONT-SIZE: 14pt; mso-bidi-font-size: 12.0pt"><o:p></font>&nbsp;</o:p></span></h1></center>
+
+<div class="MsoNormal"><b>&nbsp;</b>&nbsp;&nbsp;&nbsp;<b>&nbsp;&nbsp;&nbsp;
+
+</b>We found it very difficult to develop particular database constraints.<span style="mso-spacerun: yes"></span>This
+is probably due to the fact that none of us have had any experience doing
+database design.<span style="mso-spacerun: yes"></span>We were forced to
+put some constraint checking into our business logic.<span style="mso-spacerun: yes"></span>I
+will describe these things here.</div>
+
+<div class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You should
+not be able to delete a behavior characteristic unless no behaviors reference
+it.<span style="mso-spacerun: yes"></span>Likewise, no behavior should
+be removed unless no behavior set references it, and no behavior set should
+be removed unless no devices reference it.<span style="mso-spacerun: yes"></span>We
+did this in our business logic, but it would be better to have it done
+within the database.<span style="mso-spacerun: yes"></span>The same type
+of rules should apply to systems and zones.&nbsp;<span style="mso-spacerun: yes"></span></div>
+
+
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A
+behavior may contain characteristics “on” and “off”.<span style="mso-spacerun: yes"></span>A
+device that can assume this behavior should be able to be “on” or “off”
+but not both at the same time.<span style="mso-spacerun: yes"></span>We
+were going to go about this by making views and putting constraints on
+the tables SENSOR_T, STATUS_T, and ALARM_T based of this view.<span style="mso-spacerun: yes"></span>You
+could make a view that had the device ID and its behavior Ids and characteristic
+ids.<span style="mso-spacerun: yes"></span>That would have worked out very
+nice, but we couldn’t figure out how to but a foreign key constraint on
+a table that mapped to a view.
+
+<p class="MsoNormal">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Also
+we were never clear on how these devices will be putting information into
+this database.<span style="mso-spacerun: yes"></span>Will it be by the
+Device ID that our database assigns them, or by some special ID that each
+device has?<span style="mso-spacerun: yes"></span>We assumed it was by
+the device ID we assigned them.<span style="mso-spacerun: yes"></span>Alternatively,
+another field in the Device_T (serial #?) could be used to store device
+readings/statuses/alarms.</div>
+<b><font size=+1></font></b>
+<p><br><b><font size=+1>Database SQL Code</font></b>
+<p><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/sql_statements.txt">SQL
+Statements</a>
+<p><b><font size=+1>UI Code</font></b>
+<p><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/javadoc/">Java
+Documentation</a>
+<hr>
+<p><a href="http://www.cc.gatech.edu/classes/RWL/Projects/lockheed/webdocs/index.html">Back
+to Main Page</a>
+</body>
+</html>
