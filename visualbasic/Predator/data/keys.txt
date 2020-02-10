@@ -1,0 +1,7 @@
+Host		Key
+----		---
+aol.com		42
+bellsouth.net		23
+earthlink.com		88
+msn.com		12
+sprint.com		76
