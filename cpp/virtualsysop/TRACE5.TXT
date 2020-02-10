@@ -1,0 +1,3038 @@
+
+
+SunOS UNIX (oscar)
+
+login: command
+Password:
+Last login: Mon Aug 30 00:22:08 from dialnet3.gatech.
+SunOS Release 4.1.3_U1 (OSCAR) #1: Mon Jun 9 18:32:35 EDT 1997
+
+When remotely accessing this machine you need to use the fully
+quallified domain name of oscar.cc.gatech.edu.  There is a top level
+country domain of ".cc" and they have many system names that are the
+same as some of the CoC systems.  Many people are accessing a "foreign"
+system by mistake when they use a shortened form of the name such as
+oscar.cc.
+You have mail.
+{oscar:/net/hu3/command} ls -la
+total 749
+drwxr-xr-x 30 command      2048 Aug 30 00:58 .
+drwxr-xr-x146 root         2560 Aug 27 13:19 ..
+-rw-------  1 command         0 Aug 26 14:54 .ICEauthority
+-rw-------  1 command       216 Aug 26 13:29 .Xauthority
+-rw-r--r--  1 command         0 Mar 11 02:21 .addressbook
+-rw-r--r--  1 command      2285 Mar 11 02:21 .addressbook.lu
+-rw-------  1 command      1218 Sep 22  1998 .cshrc
+-rw-------  1 command     13318 Sep 22  1998 .cshrc-i86pc-5
+-rw-------  1 command      9552 Sep 22  1998 .cshrc-sgi
+-rw-------  1 command      9666 Sep 22  1998 .cshrc-sun
+-rw-------  1 command     13460 Sep 22  1998 .cshrc-sun-5
+drwxr-xr-x 13 command       512 Jun 30 15:27 .dt
+-rw-------  1 command      5398 Sep 22  1998 .dtprofile
+drwx------  3 command      1536 Aug 26 14:54 .enlightenment
+-rw-r--r--  1 command        27 Aug 16 00:54 .exrc
+drwxr--r--  2 command       512 Aug  7 16:54 .gedit
+drwxr-xr-x  6 command       512 Aug 26 14:54 .gnome
+drwxrwxrwx  2 command       512 Aug 12 06:58 .gnome-desktop
+drwxr-xr-x  2 command       512 Aug  7 16:46 .gnome-help-browser
+drwx------  2 command       512 Aug  7 16:41 .gnome_private
+-rw-r--r--  1 command        10 Jul 26 10:29 .ispell_english
+-rw-------  1 command      1290 Sep 22  1998 .kshrc
+-rw-------  1 command      9444 Sep 22  1998 .kshrc-i86pc-5
+-rw-------  1 command      4472 Sep 22  1998 .kshrc-sgi
+-rw-------  1 command      4530 Sep 22  1998 .kshrc-sun
+-rw-------  1 command      9497 Sep 22  1998 .kshrc-sun-5
+-rw-------  1 command      1236 Sep 22  1998 .login
+-rw-------  1 command      6445 Sep 22  1998 .login-i86pc-5
+-rw-------  1 command      7834 Sep 22  1998 .login-sgi
+-rw-------  1 command      7743 Sep 22  1998 .login-sgi-6.3
+-rw-------  1 command      8759 Sep 22  1998 .login-sun
+-rw-------  1 command      6464 Sep 22  1998 .login-sun-5
+drwxrwxrwx  2 command       512 Aug 26 14:54 .mc
+-rw-r--r--  1 command      1473 Aug 22 15:52 .newsrc
+drwxr-xr-x  3 command       512 Jun  8 20:02 .ntcomm
+-rw-r--r--  1 command      1408 Aug 22 15:50 .oldnewsrc
+-rw-r--r--  1 command      6529 Aug 25 17:34 .pine-debug1
+-rw-r--r--  1 command      6528 Aug  2 12:48 .pine-debug2
+-rw-r--r--  1 command      6371 Aug  2 08:33 .pine-debug3
+-rw-r--r--  1 command      6495 Jul 31 11:34 .pine-debug4
+-rw-r--r--  1 command     10326 Aug 25 17:33 .pinerc
+-rw-------  1 command      1242 Mar 30 06:15 .profile
+-rw-------  1 command      7530 Sep 22  1998 .profile-i86pc-5
+-rw-r--r--  1 command     11283 Aug  7 16:41 .profile-linux
+-rw-------  1 command     10143 Sep 22  1998 .profile-sgi
+-rw-------  1 command     10080 Sep 22  1998 .profile-sgi-6.3
+-rw-------  1 command     10906 Mar 30 06:11 .profile-sun
+-rw-------  1 command      7577 Sep 22  1998 .profile-sun-5
+-rw-r--r--  1 command        25 Apr  4 14:13 .rnlast
+-rw-r--r--  1 command        18 Apr  4 14:14 .rnsoft
+-rw-------  1 command      1178 Aug 30 00:58 .sh_history
+-rw-r--r--  1 command       254 Apr 21 12:24 .signature
+drwxr-xr-x  7 command       512 Aug 22 15:52 .tin
+-rw-------  1 command      5359 Sep 22  1998 .twmrc
+-rw-------  1 command       254 Aug  4 03:52 .viminfo
+-rwx--x--x  1 command      1289 Sep 22  1998 .xinitrc
+-rwx--x--x  1 command       146 Sep 22  1998 .xinitrc-sun
+-rwx--x--x  1 command      1210 Sep 22  1998 .xsession
+-rw-------  1 command       747 Aug 26 14:54 .xsession-errors
+-rwx------  1 command      1595 Aug  7 16:41 .xsession-i586rh-6.0
+-rwx--x--x  1 command       146 Sep 23  1998 .xsession-sun
+drwxr-x---  2 command       512 Mar 30 07:19 Mail
+drwxr-x---  2 command       512 Aug 27 17:45 News
+-rw-------  1 command       539 Sep 21  1994 README
+drwxr-xr-x  2 command      1024 Aug  2 13:33 anothertest
+-rwxr-xr-x  1 command     66031 May 18 18:44 campaign
+-rwxr--r--  1 command      7863 May 18 18:44 campaign.cc
+drwxr-x---  3 command       512 Apr  3 17:35 cs2430
+drwxr-xr-x 10 command       512 Aug  7 13:43 cs3411
+lrwxrwxrwx  1 command        17 Jun 24 04:08 cs3411a -> /net/hc26/command
+lrwxrwxrwx  1 command        17 Aug 25 13:03 cs3802 -> /net/hc26/command
+lrwxrwxrwx  1 command        30 Aug 25 13:03 cs3802-proj -> /net/hc280/class/380
+2/Projects
+-rw-------  1 command      1115 Apr 25 19:38 dead.letter
+drwxr-xr-x  2 command       512 Aug 27 17:46 fortran
+-rwxr--r--  1 command      8221 May 19 12:13 lab7.cc
+drwxr-xr-x  2 command       512 Aug  2 06:33 lordemu
+drwx------  2 command       512 Jun  7 00:09 mail
+-rwxr--r--  1 command       101 Jun 30 15:06 myPerl
+drwxr-x---  2 command       512 May 26 17:18 mycs2390
+drwxr-xr-x  3 command       512 Aug  7 17:15 ns_imap
+drwx------  2 command       512 Aug  7 17:15 nsmail
+-rwxr-----  1 command        27 Aug  8 17:03 ppp
+drwxr-xr-x  2 command       512 Jul 26 03:01 prolog
+drwxr-x---  2 command       512 Apr 13 17:54 public
+drwx--xr-x  2 command       512 Mar 11 03:14 public_html
+-rwx------  1 command     11675 Jul 10 07:36 sim.pl
+drwxr-x---  4 command       512 Jan 15  1996 slirp-1.0c
+-rw-r-----  1 command    280451 Apr  4 14:40 slirp-1_0c_tar.gz
+drwxr-xr-x  2 command       512 Jul 24 05:53 test
+drwxr-xr-x  6 command       512 Aug 28 06:45 vs
+drwxr-xr-x  2 command       512 Aug 19 22:41 vs2
+-rwxr--r--  1 command     64830 Apr 20 10:06 wall.psd
+-rwxr--r--  1 command       190 May 26 15:49 ws_ftp.log
+{oscar:/net/hu3/command} w
+ 12:59am  up 8 days,  6:47,  5 users,  load average: 2.95, 2.80, 2.52
+User     tty       login@  idle   JCPU   PCPU  what
+rreyelts ttyp1    10:56pm     3      9      9  slirp -P
+minh     ttyp3    12:09am     3                /net/hu4/minh/slirp/slirp
+eison    ttyp5    12:48am    10                -csh
+command  ttyp6    12:58am                      w
+command  ttyp8    12:22am                      slirp -P
+{oscar:/net/hu3/command} quota -v
+Disk quotas for command (uid 8745):
+Filesystem     usage  quota  limit    timeleft  files  quota  limit    timeleft
+/tmp_mnt/net/hu3
+               17511  20000  21000                  0      0      0
+{oscar:/net/hu3/command} ls -la
+total 749
+drwxr-xr-x 30 command      2048 Aug 30 00:58 .
+drwxr-xr-x146 root         2560 Aug 27 13:19 ..
+-rw-------  1 command         0 Aug 26 14:54 .ICEauthority
+-rw-------  1 command       216 Aug 26 13:29 .Xauthority
+-rw-r--r--  1 command         0 Mar 11 02:21 .addressbook
+-rw-r--r--  1 command      2285 Mar 11 02:21 .addressbook.lu
+-rw-------  1 command      1218 Sep 22  1998 .cshrc
+-rw-------  1 command     13318 Sep 22  1998 .cshrc-i86pc-5
+-rw-------  1 command      9552 Sep 22  1998 .cshrc-sgi
+-rw-------  1 command      9666 Sep 22  1998 .cshrc-sun
+-rw-------  1 command     13460 Sep 22  1998 .cshrc-sun-5
+drwxr-xr-x 13 command       512 Jun 30 15:27 .dt
+-rw-------  1 command      5398 Sep 22  1998 .dtprofile
+drwx------  3 command      1536 Aug 26 14:54 .enlightenment
+-rw-r--r--  1 command        27 Aug 16 00:54 .exrc
+drwxr--r--  2 command       512 Aug  7 16:54 .gedit
+drwxr-xr-x  6 command       512 Aug 26 14:54 .gnome
+drwxrwxrwx  2 command       512 Aug 12 06:58 .gnome-desktop
+drwxr-xr-x  2 command       512 Aug  7 16:46 .gnome-help-browser
+drwx------  2 command       512 Aug  7 16:41 .gnome_private
+-rw-r--r--  1 command        10 Jul 26 10:29 .ispell_english
+-rw-------  1 command      1290 Sep 22  1998 .kshrc
+-rw-------  1 command      9444 Sep 22  1998 .kshrc-i86pc-5
+-rw-------  1 command      4472 Sep 22  1998 .kshrc-sgi
+-rw-------  1 command      4530 Sep 22  1998 .kshrc-sun
+-rw-------  1 command      9497 Sep 22  1998 .kshrc-sun-5
+-rw-------  1 command      1236 Sep 22  1998 .login
+-rw-------  1 command      6445 Sep 22  1998 .login-i86pc-5
+-rw-------  1 command      7834 Sep 22  1998 .login-sgi
+-rw-------  1 command      7743 Sep 22  1998 .login-sgi-6.3
+-rw-------  1 command      8759 Sep 22  1998 .login-sun
+-rw-------  1 command      6464 Sep 22  1998 .login-sun-5
+drwxrwxrwx  2 command       512 Aug 26 14:54 .mc
+-rw-r--r--  1 command      1473 Aug 22 15:52 .newsrc
+drwxr-xr-x  3 command       512 Jun  8 20:02 .ntcomm
+-rw-r--r--  1 command      1408 Aug 22 15:50 .oldnewsrc
+-rw-r--r--  1 command      6529 Aug 25 17:34 .pine-debug1
+-rw-r--r--  1 command      6528 Aug  2 12:48 .pine-debug2
+-rw-r--r--  1 command      6371 Aug  2 08:33 .pine-debug3
+-rw-r--r--  1 command      6495 Jul 31 11:34 .pine-debug4
+-rw-r--r--  1 command     10326 Aug 25 17:33 .pinerc
+-rw-------  1 command      1242 Mar 30 06:15 .profile
+-rw-------  1 command      7530 Sep 22  1998 .profile-i86pc-5
+-rw-r--r--  1 command     11283 Aug  7 16:41 .profile-linux
+-rw-------  1 command     10143 Sep 22  1998 .profile-sgi
+-rw-------  1 command     10080 Sep 22  1998 .profile-sgi-6.3
+-rw-------  1 command     10906 Mar 30 06:11 .profile-sun
+-rw-------  1 command      7577 Sep 22  1998 .profile-sun-5
+-rw-r--r--  1 command        25 Apr  4 14:13 .rnlast
+-rw-r--r--  1 command        18 Apr  4 14:14 .rnsoft
+-rw-------  1 command      1200 Aug 30 00:59 .sh_history
+-rw-r--r--  1 command       254 Apr 21 12:24 .signature
+drwxr-xr-x  7 command       512 Aug 22 15:52 .tin
+-rw-------  1 command      5359 Sep 22  1998 .twmrc
+-rw-------  1 command       254 Aug  4 03:52 .viminfo
+-rwx--x--x  1 command      1289 Sep 22  1998 .xinitrc
+-rwx--x--x  1 command       146 Sep 22  1998 .xinitrc-sun
+-rwx--x--x  1 command      1210 Sep 22  1998 .xsession
+-rw-------  1 command       747 Aug 26 14:54 .xsession-errors
+-rwx------  1 command      1595 Aug  7 16:41 .xsession-i586rh-6.0
+-rwx--x--x  1 command       146 Sep 23  1998 .xsession-sun
+drwxr-x---  2 command       512 Mar 30 07:19 Mail
+drwxr-x---  2 command       512 Aug 27 17:45 News
+-rw-------  1 command       539 Sep 21  1994 README
+drwxr-xr-x  2 command      1024 Aug  2 13:33 anothertest
+-rwxr-xr-x  1 command     66031 May 18 18:44 campaign
+-rwxr--r--  1 command      7863 May 18 18:44 campaign.cc
+drwxr-x---  3 command       512 Apr  3 17:35 cs2430
+drwxr-xr-x 10 command       512 Aug  7 13:43 cs3411
+lrwxrwxrwx  1 command        17 Jun 24 04:08 cs3411a -> /net/hc26/command
+lrwxrwxrwx  1 command        17 Aug 25 13:03 cs3802 -> /net/hc26/command
+lrwxrwxrwx  1 command        30 Aug 25 13:03 cs3802-proj -> /net/hc280/class/380
+2/Projects
+-rw-------  1 command      1115 Apr 25 19:38 dead.letter
+drwxr-xr-x  2 command       512 Aug 27 17:46 fortran
+-rwxr--r--  1 command      8221 May 19 12:13 lab7.cc
+drwxr-xr-x  2 command       512 Aug  2 06:33 lordemu
+drwx------  2 command       512 Jun  7 00:09 mail
+-rwxr--r--  1 command       101 Jun 30 15:06 myPerl
+drwxr-x---  2 command       512 May 26 17:18 mycs2390
+drwxr-xr-x  3 command       512 Aug  7 17:15 ns_imap
+drwx------  2 command       512 Aug  7 17:15 nsmail
+-rwxr-----  1 command        27 Aug  8 17:03 ppp
+drwxr-xr-x  2 command       512 Jul 26 03:01 prolog
+drwxr-x---  2 command       512 Apr 13 17:54 public
+drwx--xr-x  2 command       512 Mar 11 03:14 public_html
+-rwx------  1 command     11675 Jul 10 07:36 sim.pl
+drwxr-x---  4 command       512 Jan 15  1996 slirp-1.0c
+-rw-r-----  1 command    280451 Apr  4 14:40 slirp-1_0c_tar.gz
+drwxr-xr-x  2 command       512 Jul 24 05:53 test
+drwxr-xr-x  6 command       512 Aug 28 06:45 vs
+drwxr-xr-x  2 command       512 Aug 19 22:41 vs2
+-rwxr--r--  1 command     64830 Apr 20 10:06 wall.psd
+-rwxr--r--  1 command       190 May 26 15:49 ws_ftp.log
+{oscar:/net/hu3/command} telnet bbs.sstar.com
+Trying 209.102.160.1 ...
+Connected to bbs.sstar.com.
+Escape character is '^]'.
+Connecting to TM04
+
+
+
+
+
+
+
+
+
+
+
+                              Southern Star BBS
+
+                             Line 4 at 57,600 bps
+
+                           25 Gigabytes - 8 Lines
+                           Internet: bbs.sstar.com
+                          FidoNet Zone Hub: 1:396/1
+
+
+
+
+Enter your FULL Name? levi smith
+Enter Your Password: *******
+
+
+TBBS Welcomes LEVI SMITH
+TBBS Welcomes LEVI SMITH                                                    Your
+ last time on was 08-28-99 03:15
+You are authorized 20 mins this call
+Searching Message Base ...
+You have no personal messages waiting.
+
+
+-Press Any Key-
+
+
+
+Logging on with ANSI Terminal Emulation
+
+
+Logging on........Please Standby.
+
+
+Type P to Pause, S to Stop listing
+
+
+
+Hello Levi Smith.
+
+Your membership expires in just 3 days!  Please check the Registration Menu
+for renewal information.
+
+Thanks,
+
+SysOp
+
+
+
+-Press Any Key-
+
+
+
+
+                     ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+                     ³         Southern Star BBS         ³
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³      25 GigaBytes - 8 Lines       ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³      Internet: bbs.sstar.com      ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³     Fidonet Zone Hub: 1:396/1     ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜ
+ÜÜÜ³     Main Areas      ³ÜÜÜ³    Information     ³ÜÜÜ³     Utilities      ³ÜÜÜ
+ÜÜÜ³    ÍÍÍÍÍÍÍÍÍÍÍÍ     ³ÜÜÜ³   ÍÍÍÍÍÍÍÍÍÍÍÍÍ    ³ÜÜÜ³    ÍÍÍÍÍÍÍÍÍÍÍ     ³ÜÜÜ
+ÜÜÜ³                     ³ÜÜÜ³                    ³ÜÜÜ³                    ³ÜÜÜ
+ÜÜÜ³ [I] Internet Access ³ÜÜÜ³ [B] Bulletins      ³ÜÜÜ³ [R] Registration   ³ÜÜÜ
+ÜÜÜ³ [M] Message Areas   ³ÜÜÜ³ [V] Event Calendar ³ÜÜÜ³ [Y] Configuration  ³ÜÜÜ
+ÜÜÜ³ [F] File Areas      ³ÜÜÜ³ [D] Databases      ³ÜÜÜ³ [W] Who's Online   ³ÜÜÜ
+ÜÜÜ³ [A] Fun & Games     ³ÜÜÜ³ [E] Extra Info     ³ÜÜÜ³ [*] Page the SysOp ³ÜÜÜ
+ÜÜÜ³ [O] On-Line Chat    ³ÜÜÜ³ [S] Statistics     ³ÜÜÜÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´ÜÜÜ
+ÜÜÜ³     .    .    .     ³ÜÜÜ³     .    .    .    ³ÜÜÜ³    [G] Goodbye     ³ÜÜÜ
+   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+20 minutes remaining                                                Command: w
+
+
+Callers currently on system
+
+Line 04: LEVI SMITH; DOUGLASVILLE, GA  (Browsing)
+Line 30: TIMS Console (In TDBS Program/Not Available)
+Line 31: InternetGate 1.0 (Browsing)
+Line 32: TIMS Scheduler (Transferring File/Not Available)
+
+
+
+                     ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+                     ³         Southern Star BBS         ³
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³      25 GigaBytes - 8 Lines       ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³      Internet: bbs.sstar.com      ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³     Fidonet Zone Hub: 1:396/1     ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜ
+ÜÜÜ³     Main Areas      ³ÜÜÜ³    Information     ³ÜÜÜ³     Utilities      ³ÜÜÜ
+ÜÜÜ³    ÍÍÍÍÍÍÍÍÍÍÍÍ     ³ÜÜÜ³   ÍÍÍÍÍÍÍÍÍÍÍÍÍ    ³ÜÜÜ³    ÍÍÍÍÍÍÍÍÍÍÍ     ³ÜÜÜ
+ÜÜÜ³                     ³ÜÜÜ³                    ³ÜÜÜ³                    ³ÜÜÜ
+ÜÜÜ³ [I] Internet Access ³ÜÜÜ³ [B] Bulletins      ³ÜÜÜ³ [R] Registration   ³ÜÜÜ
+ÜÜÜ³ [M] Message Areas   ³ÜÜÜ³ [V] Event Calendar ³ÜÜÜ³ [Y] Configuration  ³ÜÜÜ
+ÜÜÜ³ [F] File Areas      ³ÜÜÜ³ [D] Databases      ³ÜÜÜ³ [W] Who's Online   ³ÜÜÜ
+ÜÜÜ³ [A] Fun & Games     ³ÜÜÜ³ [E] Extra Info     ³ÜÜÜ³ [*] Page the SysOp ³ÜÜÜ
+ÜÜÜ³ [O] On-Line Chat    ³ÜÜÜ³ [S] Statistics     ³ÜÜÜÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´ÜÜÜ
+ÜÜÜ³     .    .    .     ³ÜÜÜ³     .    .    .    ³ÜÜÜ³    [G] Goodbye     ³ÜÜÜ
+   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+20 minutes remaining                                                Command: a
+
+  ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+ÜÜ³                               Fun & Games                               ³ÜÜ
+ÜÜ³                              ÍÍÍÍÍÍÍÍÍÍÍÍÍ                              ³ÜÜ
+ÜÜ³                                                                         ³ÜÜ
+ÜÜ³  [A]  BlackJack - Can you get 21?    [I]  Solitaire - Try to make 13    ³ÜÜ
+ÜÜ³  [B]  Card Guppies - Hi/Low          [J]  Territories 3069 - The future ³ÜÜ
+ÜÜ³  [C]  Eliza - Talk to the Doctor     [K]  Towers of Hanoi - Peg to peg  ³ÜÜ
+ÜÜ³  [D]  Graffiti Wall - Add to it      [L]  TwangCho - Like MahJongg      ³ÜÜ
+ÜÜ³  [E]  Hangman & Wheel - Buy a vowel  [M]  Ultra Trivia - Add your own   ³ÜÜ
+ÜÜ³  [F]  Insults - Can you take it?     [N]  Video Poker - 5 card draw     ³ÜÜ
+ÜÜ³  [G]  Reverse - Stack the blocks     [O]  Virtual SysOp - Your own BBS! ³ÜÜ
+ÜÜ³  [H]  Scramble - Put word in order   [P]  Word Power - Vocabulary quiz  ³ÜÜ
+ÜÜ³                                                                         ³ÜÜ
+ÜÜ³                                [Q]  Quit          [Z]  SysOp Test Area  ³ÜÜ
+  ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+20 minutes remaining                                                Command: o
+
+                       ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+             ÜÜÜÜÜÜÜÜÜÜ³         Virtual SysOp         ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [1]  Play!                 ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [2]  Top 10 List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [3]  Player List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [4]  Instructions          ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [5]  Questions & Answers   ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³           [Q]  Quit           ³ÜÜÜÜÜÜÜÜÜÜ
+                       ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+20 minutes remaining                                                Command: 1
+
+
+ VSysop2: The Virtual System Operator Simulation
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Copyright 1991,92,93,94 by The iFX Group, version 951231
+Registered to: Southern Star BBS on 2/6/96
+ "I used to be disgusted; now I'm just amused."
+Checking all lines for status - OK.
+System hardware diagnostics   - OK.
+Caller validation diagnostics - OK.
+You have 57 messages waiting.
+Press "?" for help.
+
+OpMode.
+
+[23:1357:100]: Mail
+
+There are 57 messages waiting.
+
+Would you like to answer mail now? (Y/n) Yes
+
+                0%----------------50%----------------100%
+Answering Mail: ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Your co-sysop answers some mail.
+
+You answer all of the messages.
+
+
+Problem Message Number: 2
+
+This user is outraged by your file area. He wants more detailed file
+descriptions because he downloaded a large file at 1200 baud and now
+found out that it was not what he thought it should be.
+
+<D>elete, <I>gnore, <P>olite answer, <R>ude answer, <L>ock-out user: Polite
+
+You do your best to be nice and not cut the user down.
+
+Problem Message Number: 1
+
+This message is pure line noise and garbage except for the last line.
+That line complains about the poor quality of your equipment.
+
+<D>elete, <I>gnore, <P>olite answer, <R>ude answer, <L>ock-out user: Polite
+
+2 free users subscribe to your system.
+Poll network for inbound netmail? (y/N) Yes
+It takes a little extra effort to scan since you are not a network member.
+
+Network Mail poll... No netmail found on any network.
+
+[27:1362:97]: Work
+
+You defragment your file directories and erase some duplicate files.
+
+[27:1362:96]: Work
+
+A device driver conflict sends your software into a loop. You do some quick
+patching to get everything back on-line before your users notice.
+
+[27:1362:95]: Work
+
+You decide to spend some time reading through the message bases on your BBS
+and answering the messages that seem interesting. This impresses the users and
+they start writing more messages and telling more people about all of the new
+activity on your board. This helps make your users happy and attract new users.
+
+You have 15 new users join.
+
+[42:1362:94]: Report
+
+ Report on the setup of INDEX BBS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computer: 25Mhz 386 with 4meg RAM
+    Storage: 1,200meg 11ms
+     Modems: 19 at 2400bps
+Fast Modems: 3 at 9600bps
+V.xx Modems: 4 at 19.2Kbps or faster
+   Software: supports 32 lines. (6 ports unused)
+      Users: 42 free, 1,362 paying.
+Phone Lines: 13 (13 MORE LINES NEEDED!)
+ Experience: Absolute Beginner Sysop
+  Education: No Public, No Personal
+  Caller ID: Caller validation level 1
+   Security: None.
+    Actions: 94 left today
+   Messages: 13 waiting to be answered
+  Insurance: NO COVERAGE!
+Start Score: 1,220 (UP by 90 points)
+      Score: 1,310 points! (1 board away from the #1 BBS)
+
+[42:1362:94]: Store
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 7
+
+ Phone Company For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+  (P)rice list
+  (A)dd new lines
+  (C)allerID
+  (D)isconnect lines
+  (S)ervice call
+  (R)eport on account
+  (E)xit phone store
+
+Choice: Exit
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 7
+
+ Phone Company For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+  (P)rice list
+  (A)dd new lines
+  (C)allerID
+  (D)isconnect lines
+  (S)ervice call
+  (R)eport on account
+  (E)xit phone store
+
+Choice: Add
+
+You have 13 lines in service and 0 lines on order.
+
+How many lines do you want to install? 13
+
+This installation will cost $490.00
+Monthly service will be $650.00 in addition to current service.
+
+Do you want to order them? (Y/n) Yes
+
+Your order has been placed into the computer. It often takes several days
+to get someone out to your location to install the lines. Large orders can
+take longer.
+
+  (P)rice list
+  (A)dd new lines
+  (C)allerID
+  (D)isconnect lines
+  (S)ervice call
+  (R)eport on account
+  (E)xit phone store
+
+Choice: Report
+
+ Phone Lines: 13 (13 MORE LINES NEEDED!)
+ Line Damage: 0 phone lines down.
+ Phone Order: 13 phone lines to be installed.
+   Caller ID: Activated
+   Last Bill: 08/22/99  (Next bill is due in 22 days)
+Monthly Cost: $767.00 for Commercial service.
+
+  (P)rice list
+  (A)dd new lines
+  (C)allerID
+  (D)isconnect lines
+  (S)ervice call
+  (R)eport on account
+  (E)xit phone store
+
+Choice: Exit
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: Exit
+
+[42:1362:91]: Bank Report
+
+Your bank reports your balance as being: $3,985.00
+
+[42:1362:91]: Work
+
+You spend another quiet night at home working on the BBS.
+
+[45:1362:90]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 21
+
+* A Chat Request has been made.
+
+[66:1362:89]: Report
+
+ Report on the setup of INDEX BBS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computer: 25Mhz 386 with 4meg RAM
+    Storage: 1,200meg 11ms
+     Modems: 19 at 2400bps
+Fast Modems: 3 at 9600bps
+V.xx Modems: 4 at 19.2Kbps or faster
+   Software: supports 32 lines. (6 ports unused)
+      Users: 66 free, 1,362 paying.
+Phone Lines: 13 (13 MORE LINES NEEDED!)
+Phone Order: 13 phone lines to be installed.
+ Experience: Absolute Beginner Sysop
+  Education: No Public, No Personal
+  Caller ID: Caller validation level 1
+   Security: None.
+    Actions: 89 left today
+   Messages: 17 waiting to be answered
+  Insurance: NO COVERAGE!
+Start Score: 1,220 (UP by 94 points)
+      Score: 1,314 points! (1 board away from the #1 BBS)
+* A Chat Request is still pending.
+
+[66:1362:89]: Answer Chat
+
+
+You chat with the user for over 10 minutes answering a lot of his questions.
+He is so happy that he offers to donate some time to your BBS.
+
+[66:1362:93]: Usage
+
+2400 baud users have access to 13 lines which are 71% full.
+High speed modem users have access to 7 lines which are 66% full.
+
+[66:1362:93]: Store
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 1
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Exit
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 1
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Modem
+
+
+Modems available:
+
+   (1)  2400                $70- Plain no frills 2400bps not auto answer!
+   (2)  2400                100- Nice no frills 2400bps auto answer
+   (3)  2400 v.42           150- Nice error free 2400bps auto answer
+   (4)  9600                550- Off brand 9600bps modem
+   (5)  9600 v.32           800- Nice world standard v.32 9600bps
+   (6)  9600ds            1,000- Dual standard 9600bps modem
+   (7) 14400bps v.32bis   1,100- Good high speed modem
+   ( ) 19.2kbps v.32ter   1,200- Fast non-standard, req 486
+   ( ) 24.0kbps v.FC      1,300- Fast pre-standard, req 486
+   ( ) 28.8kbps v.Fast    1,400- Fast standard, req 486
+   (E)xit
+
+Choice: 2
+
+You can afford up to 6 modems.
+Every modem you buy will take one action to install.
+How many do you want now? 1
+
+You buy 1 modem.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: Exit
+
+[71:1362:91]: Usage
+
+2400 baud users have access to 13 lines which are 71% full.
+High speed modem users have access to 7 lines which are 66% full.
+
+[71:1362:91]: Store
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 1
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Modem
+
+
+Modems available:
+
+   (1)  2400                $70- Plain no frills 2400bps not auto answer!
+   (2)  2400                100- Nice no frills 2400bps auto answer
+   (3)  2400 v.42           150- Nice error free 2400bps auto answer
+   (4)  9600                550- Off brand 9600bps modem
+   (5)  9600 v.32           800- Nice world standard v.32 9600bps
+   (6)  9600ds            1,000- Dual standard 9600bps modem
+   (7) 14400bps v.32bis   1,100- Good high speed modem
+   ( ) 19.2kbps v.32ter   1,200- Fast non-standard, req 486
+   ( ) 24.0kbps v.FC      1,300- Fast pre-standard, req 486
+   ( ) 28.8kbps v.Fast    1,400- Fast standard, req 486
+   (E)xit
+
+Choice: 7
+
+You can afford up to 3 modems.
+Every modem you buy will take one action to install.
+How many do you want now? 1
+
+You buy 1 modem.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: Exit
+
+* A Chat Request has been made.
+
+[112:1362:89]: Answer Chat
+
+
+That user is now downloading a file so you can't chat with them.
+
+[112:1362:88]: Usage
+
+2400 baud users have access to 13 lines which are 72% full.
+High speed modem users have access to 8 lines which are 59% full.
+
+[112:1362:88]: Charge
+
+Would you like to change how you are charging your new users? (y/N) Yes
+
+ Charging for access to your system may cause a drop in the number of calls.
+ Are you sure that you want to charge for access? (y/N) Yes
+
+Options
+
+  (1) Lifetime  -Users pay only once
+  (2) Yearly    -Users pay each year
+  (3) Monthly   -Users pay each month
+  (4) Weekly    -Users pay each week
+  (5) Hourly    -Users pay for connect time only
+  (6) Download  -Users pay for bytes received
+
+Choice> 4
+
+57 users decide to pay.
+6 users decide to leave.
+
+[49:1419:87]: Work
+
+You spend some time writing letters to the new users. They like it and
+the volume of your mail goes up.
+
+[52:1419:86]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 27
+
+[79:1419:85]: Work
+
+You make another backup of your main BBS directory. It takes forever.
+
+[82:1419:84]: Work
+
+You discover a Trojan horse program in your file list and quickly erase it
+before any of your users download it.
+
+[85:1419:83]: Work
+
+A user calls you very early one morning from another country and wants
+to trade some of your files. You decide to take a chance and send him
+a box of disks. Over a month later you get two boxes of disks back with
+the most exciting and unusual software you have ever seen.
+
+You put it on-line and your users love it!
+
+30 new users join your system just to get the new files.
+
+[118:1419:82]: Charge
+
+You spend several hours reworking the menus and ANSI color of your screens
+and setup special sections for your paying users. Then you remind them about
+the cost of running your board and request their help in supporting it.
+
+You charge them for a Weekly membership.
+
+60 users decide to pay.
+6 users decide to leave.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[52:1479:80]: Usage
+
+2400 baud users have access to 13 lines which are 77% full.
+
+   * PLEASE GET MORE MODEMS VERY SOON! *
+
+High speed modem users have access to 8 lines which are 62% full.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[52:1479:80]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 27
+
+[79:1479:79]: Work
+
+You decide to spend some time reading through the message bases on your BBS
+and answering the messages that seem interesting. This impresses the users and
+they start writing more messages and telling more people about all of the new
+activity on your board. This helps make your users happy and attract new users.
+
+You have 12 new users join.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[90:1479:78]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 6
+
+[96:1479:77]: Work
+
+You are worn out from all the work and your brain feels fried - extra crispy.
+Several of your friends force you to take a day off. It does a world of good
+and you attack the BBS with a fresh burst of energy.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[98:1479:78]: Work
+
+   * Some subscription renewals arrive in the mail. *
+     4 free users start paying too.
+
+You are worn out from all the work and your brain feels fried - extra crispy.
+Several of your friends force you to take a day off. It does a world of good
+and you attack the BBS with a fresh burst of energy.
+
+[97:1483:79]: Work
+
+You spend a few late nights working on some menu changes, again.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[99:1483:78]: Work
+
+   * Some subscription renewals arrive in the mail. *
+     5 free users start paying too.
+You work a little faster, but it takes more energy. Mistakes are likely.
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 12
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[105:1488:76]: Work
+
+You call some other boards and download a few new files to list on-line.
+
+[108:1488:75]: Charge
+
+You spend several hours reworking the menus and ANSI color of your screens
+and setup special sections for your paying users. Then you remind them about
+the cost of running your board and request their help in supporting it.
+
+You charge them for a Weekly membership.
+
+55 users decide to pay.
+6 users decide to leave.
+
+[47:1543:73]: Bank Report
+
+Your bank reports your balance as being: $5,857.00
+
+[47:1543:73]: Store
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 7
+
+ Phone Company For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+  (P)rice list
+  (A)dd new lines
+  (C)allerID
+  (D)isconnect lines
+  (S)ervice call
+  (R)eport on account
+  (E)xit phone store
+
+Choice: CallerID
+
+You already have CallerID enabled on your phone lines. The phone company is
+not in the business of decoding the ID signals at your end of the line. We
+suggest that you contact a security firm for this kind of service.
+
+  (P)rice list
+  (A)dd new lines
+  (C)allerID
+  (D)isconnect lines
+  (S)ervice call
+  (R)eport on account
+  (E)xit phone store
+
+Choice: Exit
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: S Exit
+
+[47:1543:71]: Store
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 8
+
+ Advertising Center For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     MEDIA TITLE                   Issues Per Year      Circulation
+ 1 - Super Thrifty Newspaper                 26            5,000
+ 2 - City Newspaper                          52          200,000
+ 3 - National Newspaper                      52          450,000
+ 4 - Industry Magazine                       12           10,000
+ 5 - National Magazine                       12          200,000
+ 6 - Computer User Newsletter                 6              200
+ 7 - Upstart Computer Magazine               12            4,000
+ 8 - Smart 'n Snooty Magazine                 6            6,500
+ 9 - Town Newspaper                          52           40,000
+ E - Exit store
+
+Choice: 3
+         Media: National Newspaper
+     Issues/Yr: 52
+    Readership: 450,000
+
+    Advertisement Rates
+
+(1) Classified: $20.00
+(2) 1/8 Page  : $6,000.00
+(3) 1/4 Page  : $11,500.00
+(4) 1/2 Page  : $21,000.00
+(5) Full Page : $45,000.00
+(6) Two Page  : $90,000.00
+
+Choice: Classified
+
+Your ad will appear in our next publication.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 8
+
+ Advertising Center For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     MEDIA TITLE                   Issues Per Year      Circulation
+ 1 - Super Thrifty Newspaper                 26            5,000
+ 2 - City Newspaper                          52          200,000
+ 3 - National Newspaper                      52          450,000
+ 4 - Industry Magazine                       12           10,000
+ 5 - National Magazine                       12          200,000
+ 6 - Computer User Newsletter                 6              200
+ 7 - Upstart Computer Magazine               12            4,000
+ 8 - Smart 'n Snooty Magazine                 6            6,500
+ 9 - Town Newspaper                          52           40,000
+ E - Exit store
+
+Choice: 2
+         Media: City Newspaper
+     Issues/Yr: 52
+    Readership: 200,000
+
+    Advertisement Rates
+
+(1) Classified: $15.00
+(2) 1/8 Page  : $4,000.00
+(3) 1/4 Page  : $14,000.00
+(4) 1/2 Page  : $19,000.00
+(5) Full Page : $39,000.00
+(6) Two Page  : $78,000.00
+
+Choice: 1/8 page
+
+We have design, layout and copy editing services available. Would
+you like to have our professionals help you with your ad layout?
+
+Design help for most layouts this size cost $2,050.00
+
+Design help? (y/N) No
+
+Your ad will appear in our next publication.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: Exit
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[47:1543:68]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 24
+
+[71:1543:67]: Work
+
+You open a new message section for a special interest group on your system
+and they are so impressed that they send you a donation.
+
+Your balance is now $1,887
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[71:1543:66]: Work
+
+You open a new message section for a special interest group on your system
+and they are so impressed that they send you a donation.
+
+Your balance is now $1,937
+
+[71:1543:65]: Work
+
+You call some other boards and download a few new files to list on-line.
+
+ ********** VIRUS ATTACK! **********
+
+A virus infects your system. It toggles a bit on your I/O board, and
+sends high current pulses through your modems, destroying some of them.
+
+Hope you have enough cash to buy new ones!
+
+Some of your users hear about this and are sympathetic, but you do lose
+15 users due to the incident.
+
+You vow never to forget to run your virus protection again!
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[56:1543:64]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 6
+
+[62:1543:63]: Work
+
+You scan through the message bases and erase some of the old messages.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[65:1543:62]: Work
+
+You do your best to clean up a few spelling errors in your text files.
+* Your advertisement brings in some new users
+
+[80:1543:61]: Work
+
+You work out a file trade with an old friend. Your users like the new stuff.
+
+28 new users join.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[110:1543:60]: Work
+
+The phone company makes a small mistake in their computer and your BBS phone
+gets call waiting for a day. Your users think that it is your BBS that is
+kicking them off-line until you call and get things fixed.
+
+* A Chat Request has been made.
+
+[113:1543:59]: Answer Chat
+
+
+You answer the chat and type several prompting messages, but the user never
+types anything back. Maybe it was line noise during an automated call.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[112:1543:58]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 18
+
+[130:1543:57]: Work
+
+You help a new user download a file on your board and he reports you to the
+police for piracy. It turns out to be a mistake in his understanding of the
+shareware ideals but the news frightens off a few of your users.
+
+You lost 6 users.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[123:1543:56]: Work
+
+You decide to spend some time reading through the message bases on your BBS
+and answering the messages that seem interesting. This impresses the users and
+they start writing more messages and telling more people about all of the new
+activity on your board. This helps make your users happy and attract new users.
+
+You have 6 new users join.
+
+[129:1543:55]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 30
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[157:1543:54]: Work
+
+You decide to spend some time reading through the message bases on your BBS
+and answering the messages that seem interesting. This impresses the users and
+they start writing more messages and telling more people about all of the new
+activity on your board. This helps make your users happy and attract new users.
+
+You have 12 new users join.
+
+[169:1543:53]: Charge
+
+You rework some of your bulletins and remind the free access users about the
+benefits of joining your service and helping to support it.
+
+You charge them for a Weekly membership.
+
+85 users decide to pay.
+9 users decide to leave.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[74:1628:52]: Work
+
+You try to get a few of the system operators together for a meeting. They end
+up not being able to make it because of conflicting schedules.
+
+ ********** VIRUS ATTACK! **********
+
+A virus infects your system. It toggles a bit on your I/O board, and
+sends high current pulses through your modems, destroying some of them.
+
+Hope you have enough cash to buy new ones!
+
+Some of your users hear about this and are sympathetic, but you do lose
+16 users due to the incident.
+
+You vow never to forget to run your virus protection again!
+
+[58:1628:51]: Work
+
+You get another letter in the mailbox saying that you won zillions of dollars
+but when you read the fine print it requires you to first buy zillions of
+dollars worth of their products before you will qualify.
+
+Don't you just hate those buggers?
+
+ ********** VIRUS ATTACK! **********
+
+A virus infects your system. It toggles a bit on your I/O board, and
+sends high current pulses through your modems, destroying some of them.
+
+Hope you have enough cash to buy new ones!
+
+Some of your users hear about this and are sympathetic, but you do lose
+12 users due to the incident.
+
+You vow never to forget to run your virus protection again!
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[46:1628:50]: Virus detection
+
+Murphyscan(TM) scans all drives and files for all KNOWN viruses!
+You have a 1,200meg 11ms drive  EST. SCAN TIME 20 SECONDS
+
+TurboScan(TM) super fast virus detection option is available but may not
+identify all infections accurately. Time savings MAY be 50% or more.
+
+Would you like to use the TurboScan option? (y/N) Yes
+
+         [ÄÄÄÄÄÄÄÄÄÄÄÄ] <<TurboScan!>>
+Progress: ÛÛÛÛÛÛÛÛÛÛÛÛ
+
+ >>> INFECTED FILES FOUND! <<<
+* Disinfecting has removed the Nasty virus.
+* Disinfecting has removed the Nasty virus.
+* Disinfecting has removed the Bootblock virus.
+                      We at Murphycorp recommend you run
+                   Murphyscan(TM) every ten (10) downloads.
+                      Thank you for using Murphyscan(TM)!
+
+*not responsible for damage resulting from misuse.
+* Your advertisement brings in some new users
+
+[146:1628:49]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 24
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+361 users get mad and stop calling because they can't get through.
+
+* WARNING: Paying users are leaving your board!
+
+[0:1436:48]: Work
+
+It has been a long day at the keyboard. You deserve a break.
+
+Would you like to try your hand at a friendly game? (y/N) No
+
+
+[0:1436:47]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 24
+
+[24:1436:46]: Work
+
+You clean the heads on your floppy drive after finding out that your backup
+won't load.
+
+[24:1436:45]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 12
+
+* A Chat Request has been made.
+
+[36:1436:44]: Answer Chat
+
+
+You catch the user as they are about to hang up and chat for a minute.
+
+[36:1436:43]: Work
+
+You help out a new user and he is so happy that he offers to help you out
+on the BBS for a day.
+
+[36:1436:49]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 15
+
+[51:1436:48]: Work
+
+A large slice of pizza gets stuck to your keyboard by mistake. It takes you
+a little extra effort to get it cleaned up.
+
+[51:1436:46]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+[51:1436:45]: Work
+
+   * Some subscription renewals arrive in the mail. *
+     2 free users start paying too.
+
+You open a new message section for a special interest group on your system
+and they are so impressed that they send you a donation.
+
+Your balance is now $3,105
+
+* A Chat Request has been made.
+
+[49:1438:44]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 12
+* Your advertisement brings in some new users
+* A Chat Request is still pending.
+
+[62:1438:43]: Answer Chat
+
+
+You answer the chat and talk with the user for a short time. You quickly
+find out that the user just wanted to try out the chat option and really
+doesn't have anything to say.
+
+[62:1438:42]: Work
+
+A new update to your software is now available. It fixes quite a few bugs
+and offers some new features.
+
+You decide to buy it and your users are very happy you did.
+The upgrade only cost $50.00
+
+[85:1438:41]: Work
+
+A new board opens across town from you and offers just about everything you
+have on your board. After a little checking it turns out that the sysop got
+all of his files and menu ideas from your board.
+
+48 users leave your system to join the new system.
+
+[85:1390:40]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 6
+
+[91:1390:39]: Work
+
+You spend some time working on the software configuration, again.
+
+[91:1390:38]: Charge
+
+You rework some of your bulletins and remind the free access users about the
+benefits of joining your service and helping to support it.
+
+You charge them for a Weekly membership.
+
+46 users decide to pay.
+5 users decide to leave.
+
+[40:1436:37]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 27
+
+[67:1436:36]: Work
+
+You re-compress one of the file directories and erase the corrupt files.
+
+[67:1436:35]: Work
+
+You make a small mistake on your opening screen and your users laugh at you.
+
+[67:1436:34]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 27
+
+[94:1436:33]: Work
+
+You find a small bug in the BBS software that hangs the BBS when you try to
+upload a file. You quickly get an update before your users find out.
+
+[94:1436:32]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 30
+
+[124:1436:31]: Work
+
+You decide to spend some time reading through the message bases on your BBS
+and answering the messages that seem interesting. This impresses the users and
+they start writing more messages and telling more people about all of the new
+activity on your board. This helps make your users happy and attract new users.
+
+You have 27 new users join.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[149:1436:30]: Charge
+
+You rework some of your bulletins and remind the free access users about the
+benefits of joining your service and helping to support it.
+
+You charge them for a Weekly membership.
+
+75 users decide to pay.
+8 users decide to leave.
+
+* A Chat Request has been made.
+
+[66:1511:29]: Answer Chat
+
+
+That user is writing a message to you right now. Maybe you should answer
+your mail.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[66:1511:28]: Bank Report
+
+Your bank reports your balance as being: $3,660.00
+* Your advertisement brings in some new users
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[67:1511:28]: Usage
+
+2400 baud users have access to 13 lines which are 79% full.
+
+   * PLEASE GET MORE MODEMS VERY SOON! *
+
+High speed modem users have access to 8 lines which are 64% full.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[67:1511:28]: Usage
+
+2400 baud users have access to 13 lines which are 79% full.
+
+   * PLEASE GET MORE MODEMS VERY SOON! *
+
+High speed modem users have access to 8 lines which are 64% full.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[67:1511:28]: Report
+
+ Report on the setup of INDEX BBS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computer: 25Mhz 386 with 4meg RAM
+    Storage: 1,200meg 11ms
+     Modems: 5 at 2400bps
+Fast Modems: 3 at 9600bps
+V.xx Modems: 5 at 19.2Kbps or faster
+   Software: supports 32 lines. (19 ports unused)
+      Users: 67 free, 1,511 paying.
+Phone Lines: 13
+Phone Order: 13 phone lines to be installed.
+ Experience: Absolute Beginner Sysop
+  Education: No Public, No Personal
+  Caller ID: Caller validation level 1
+   Security: None.
+    Actions: 28 left today
+   Messages: 116 waiting to be answered
+  Insurance: NO COVERAGE!
+Start Score: 1,220 (UP by 46 points)
+      Score: 1,266 points! (1 board away from the #1 BBS)
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[67:1511:28]: Store
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 1
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Modem
+
+
+Modems available:
+
+   (1)  2400                $70- Plain no frills 2400bps not auto answer!
+   (2)  2400                100- Nice no frills 2400bps auto answer
+   (3)  2400 v.42           150- Nice error free 2400bps auto answer
+   (4)  9600                550- Off brand 9600bps modem
+   (5)  9600 v.32           800- Nice world standard v.32 9600bps
+   (6)  9600ds            1,000- Dual standard 9600bps modem
+   (7) 14400bps v.32bis   1,100- Good high speed modem
+   ( ) 19.2kbps v.32ter   1,200- Fast non-standard, req 486
+   ( ) 24.0kbps v.FC      1,300- Fast pre-standard, req 486
+   ( ) 28.8kbps v.Fast    1,400- Fast standard, req 486
+   (E)xit
+
+Choice: 6
+
+You can afford up to 3 modems.
+Every modem you buy will take one action to install.
+How many do you want now? 0
+
+You buy nothing.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: M Exit
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[105:1511:26]: Store
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 1
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Modem
+
+
+Modems available:
+
+   (1)  2400                $70- Plain no frills 2400bps not auto answer!
+   (2)  2400                100- Nice no frills 2400bps auto answer
+   (3)  2400 v.42           150- Nice error free 2400bps auto answer
+   (4)  9600                550- Off brand 9600bps modem
+   (5)  9600 v.32           800- Nice world standard v.32 9600bps
+   (6)  9600ds            1,000- Dual standard 9600bps modem
+   (7) 14400bps v.32bis   1,100- Good high speed modem
+   ( ) 19.2kbps v.32ter   1,200- Fast non-standard, req 486
+   ( ) 24.0kbps v.FC      1,300- Fast pre-standard, req 486
+   ( ) 28.8kbps v.Fast    1,400- Fast standard, req 486
+   (E)xit
+
+Choice: 4
+
+You can afford up to 6 modems.
+Every modem you buy will take one action to install.
+How many do you want now? 5
+
+You buy 5 modems.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: Exit
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[108:1511:20]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 12
+
+[120:1511:19]: Work
+
+It has been a long day at the keyboard. You deserve a break.
+
+A good friend decides to help you out on your system because you look tired.
+
+[120:1511:23]: Usage
+
+2400 baud users have access to 13 lines which are 80% full.
+
+   * PLEASE GET MORE MODEMS VERY SOON! *
+
+High speed modem users have access to 13 lines which are 40% full.
+
+[120:1511:23]: Work
+
+You start feeling like this is a real grind and you wonder why you are
+spending all of your time and effort working on keeping this computer
+running for a bunch of childish users. They want everything from you and
+don't want to pay for it. It is, after all, your computer and your life!
+What do these cheap skates want from you anyway?!  Gripe, snarl, gripe.
+
+      **** SYSOP BURNOUT WARNING! ****
+
+You are able to snap out of it before any real damage is done... this time.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[119:1511:22]: Report
+
+ Report on the setup of INDEX BBS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computer: 25Mhz 386 with 4meg RAM
+    Storage: 1,200meg 11ms
+     Modems: 5 at 2400bps
+Fast Modems: 8 at 9600bps
+V.xx Modems: 5 at 19.2Kbps or faster
+   Software: supports 32 lines. (14 ports unused)
+      Users: 119 free, 1,511 paying.
+Phone Lines: 13 (5 MORE LINES NEEDED!)
+Phone Order: 13 phone lines to be installed.
+ Experience: Absolute Beginner Sysop
+  Education: No Public, No Personal
+  Caller ID: Caller validation level 1
+   Security: None.
+    Actions: 22 left today
+   Messages: 123 waiting to be answered
+  Insurance: NO COVERAGE!
+Start Score: 1,220 (UP by 58 points)
+      Score: 1,278 points! (1 board away from the #1 BBS)
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[118:1511:22]: Store
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 6
+
+ Industrial BigBiz Sales Office For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Exit
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: Exit
+
+[118:1511:21]: Work
+
+You get another letter in the mailbox saying that you won zillions of dollars
+but when you read the fine print it requires you to first buy zillions of
+do~
+~– #?
+NO CARRIER
+
+
+CONNECT
+
+[118:1511:21]: Virus detection
+
+Murphyscan(TM) scans all drives and files for all KNOWN viruses!
+You have a 1,200meg 11ms drive  EST. SCAN TIME 20 SECONDS
+
+TurboScan(TM) super fast virus detection option is available but may not
+identify all infections accurately. Time savings MAY be 50% or more.
+
+Would you like to use the TurboScan option? (y/N) Yes
+
+         [ÄÄÄÄÄÄÄÄÄÄÄÄ] <<TurboScan!>>
+Progress: ÛÛÛÛÛÛÛÛÛÛÛÛ
+
+ >>> No virus found <<<
+                      We at Murphycorp recommend you run
+                   Murphyscan(TM) every ten (10) downloads.
+                      Thank you for using Murphyscan(TM)!
+
+*not responsible for damage resulting from misuse.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[117:1511:20]: ? - Help
+
+(!) Instructions...... What do I do here?
+(A)nswer chat......... Keep in contact with the users
+(B)ank................ Check status of your account
+(C)harge users........ Set charge type and collect money
+(E)mploy workers...... Hire workers to help run your BBS
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(M)ail Box check...... Message base maintenance and status
+(P)ersonal............ Special options menu
+(Q)uit................ If you DON'T want to be a sysop anymore!
+(R)eport.............. Check hardware, software, modems and users
+(S)tore............... Buy or upgrade hardware, software or phones
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(V)irus detection..... Keep your files clean and clear!
+(W)ork................ DO THIS! Keep your BBS active!
+(Z)ippy list.......... Show a quick list of your competition
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[116:1511:20]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 6
+
+[122:1511:19]: Work
+
+You get another letter in the mailbox saying that you won zillions of dollars
+but when you read the fine print it requires you to first buy zillions of
+dollars worth of their products before you will qualify.
+
+Don't you just hate those buggers?
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[121:1511:18]: Charge
+
+You rework some of your bulletins and remind the free access users about the
+benefits of joining your service and helping to support it.
+
+You charge them for a Weekly membership.
+
+61 users decide to pay.
+6 users decide to leave.
+
+[54:1572:17]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 15
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[69:1572:16]: Work
+
+You make another backup of your main BBS directory. It takes forever.
+
+[69:1572:15]: Work
+
+You help out a new user on your board with a few shareware programs and he
+thanks you by uploading several new versions of other programs along with
+a few pictures that you didn't have.
+* Your advertisement brings in some new users
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+* A Chat Request has been made.
+
+[70:1572:14]: Answer Chat
+
+
+You answer the chat and type several prompting messages, but the user never
+types anything back. Maybe it was line noise during an automated call.
+
+[70:1572:13]: Work
+
+One of your serial ports blows a chip. It costs $20 to replace.
+
+Only 1 user stops calling because of it.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[69:1572:12]: Work
+
+A new update to your software is now available. It fixes quite a few bugs
+and offers some new features.
+
+You decide to buy it and your users are very happy you did.
+The upgrade only cost $50.00
+
+[92:1572:11]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 15
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[106:1572:10]: Charge
+
+You spend several hours reworking the menus and ANSI color of your screens
+and setup special sections for your paying users. Then you remind them about
+the cost of running your board and request their help in supporting it.
+
+You charge them for a Weekly membership.
+
+54 users decide to pay.
+5 users decide to leave.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[47:1626:8]: Store
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 6
+
+ Industrial BigBiz Sales Office For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: M
+
+Hardware prices include all mounting and connecting hardware, cables,
+driver software installation, testing and labor.
+
+We do the work for you so you can do what you do best!
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Modems:
+         Cheap 2400          $70 + XT or higher
+         Good 2400           100 + XT or higher
+         2400 v.42bis        150 + AT/286 or higher
+         9600                550 + AT/286 or higher
+         9600 v.32           800 + 386 or higher
+         9600ds            1,000 + 386 or higher
+        14.4kbps v.32bis   1,100 + 386 or higher
+        19.2kbps v.32ter   1,200 + 486 or higher
+        24.0kbps v.FC      1,300 + 486 or higher
+        28.8kbps v.Fast    1,400 + 486 or higher
+
+Press any key to continue...
+
+
+ Industrial BigBiz Sales Office For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Exit
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: A
+
+ Health Clinic For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+The doctor is busy with another patient so he sends the nurse in to check up
+on you. She finds that you have a nasty hang nail and makes a really big deal
+out of it. It takes her 30 minutes to get the clippers at just the right angle
+to remove the semi-clear flek. And if that wasn't enough embarassment she went
+to bring in all of the other nurses and doctors to show them all how good you
+were under the pressure and pain of it all.
+
+
+Press any key to continue...
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: Exit
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[47:1626:6]: Work
+
+You spend some time working on the software configuration, again.
+
+[47:1626:5]: Work
+
+You decide to spend some time reading through the message bases on your BBS
+and answering the messages that seem interesting. This impresses the users and
+they start writing more messages and telling more people about all of the new
+activity on your board. This helps make your users happy and attract new users.
+
+You have 15 new users join.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[62:1626:4]: Work
+
+You check the phone wires over for poor connections and clean the contacts.
+* Your advertisement brings in some new users
+
+[63:1626:3]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 12
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+
+[74:1626:2]: Charge
+
+You rework some of your bulletins and remind the free access users about the
+benefits of joining your service and helping to support it.
+
+You charge them for a Weekly membership.
+
+38 users decide to pay.
+4 users decide to leave.
+
+[32:1664:1]: Work
+
+You decide to spend some time reading through the message bases on your BBS
+and answering the messages that seem interesting. This impresses the users and
+they start writing more messages and telling more people about all of the new
+activity on your board. This helps make your users happy and attract new users.
+
+You have 6 new users join.
+You hear complaints about busy signals from your users.
+The 2400 baud users are asking for more lines.
+342 users get mad and stop calling because they can't get through.
+
+* WARNING: Paying users are leaving your board!
+>> You are out of actions! <<
+[0:1361:0]: W
+
+ You are out of actions. This will limit what you can do in the game.
+ For a list of available options press the Question mark (?) key.
+>> You are out of actions! <<
+[0:1361:0]: ? - Help
+
+       <<< YOU ARE OUT OF ACTIONS.  SOME OPTIONS ARE NOT AVAILABLE. >>>
+
+(!) Instructions...... What do I do here?
+(B)ank................ Check status of your account
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(Q)uit................ If you DON'T want to be a sysop anymore!
+(R)eport.............. Check hardware, software, modems and users
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(Z)ippy list.......... Show a quick list of your competition
+>> You are out of actions! <<
+[0:1361:0]: Report
+
+ Report on the setup of INDEX BBS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computer: 25Mhz 386 with 4meg RAM
+    Storage: 1,200meg 11ms
+     Modems: 5 at 2400bps
+Fast Modems: 8 at 9600bps
+V.xx Modems: 5 at 19.2Kbps or faster
+   Software: supports 32 lines. (14 ports unused)
+      Users: 0 free, 1,361 paying.
+Phone Lines: 13 (5 MORE LINES NEEDED!)
+Phone Order: 13 phone lines to be installed.
+ Experience: Absolute Beginner Sysop
+  Education: No Public, No Personal
+  Caller ID: Caller validation level 1
+   Security: None.
+    Actions: None left today
+   Messages: 157 waiting to be answered
+  Insurance: NO COVERAGE!
+Start Score: 1,220 (DOWN by 220 points)
+      Score: 1,000 points! (1 board away from the #1 BBS)
+>> You are out of actions! <<
+[0:1361:0]: ? - Help
+
+       <<< YOU ARE OUT OF ACTIONS.  SOME OPTIONS ARE NOT AVAILABLE. >>>
+
+(!) Instructions...... What do I do here?
+(B)ank................ Check status of your account
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(Q)uit................ If you DON'T want to be a sysop anymore!
+(R)eport.............. Check hardware, software, modems and users
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(Z)ippy list.......... Show a quick list of your competition
+>> You are out of actions! <<
+[0:1361:0]: List
+
+ Press (P) to pause, (S) to stop.
+Legendary Boundaries (J.GEHO)............131.131 Score: 1,822,489
+INDEX (L.SMITH)................................. Score: 1,000 <-----------YOU
+Marc's Place (M.LEWIS).......................... Score: -down-
+Trance In Your Pants (J.SERF)................... Score: -down-
+TANSTAAFL (M.IEZZI)............................. Score: -down-
+>> You are out of actions! <<
+[0:1361:0]: Inspect
+
+ Your nearest competition:
+ Report on the setup of Legendary Boundaries BBS  (WOMBAT_NET node 131.131)
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computer: Mainframe with OS emulator and virtual memory version 168
+    Storage: 83 Gigabyte Raid subsystems
+     Modems: 36,186 at 2400bps
+Fast Modems: 19,554 at 9600bps
+V.xx Modems: 500 at 19.2Kbps or faster
+   Software: supports 99,999 lines. (43,759 ports unused)
+      Users: 2,742 free, 1,677,014 paying.
+
+ This is the latest available information about your nearest competition.
+ No warranty is made on the reliability of this information. Use at your
+ own risk. The cost of this report has been deducted from your account.
+>> You are out of actions! <<
+[0:1361:0]: ? - Help
+
+       <<< YOU ARE OUT OF ACTIONS.  SOME OPTIONS ARE NOT AVAILABLE. >>>
+
+(!) Instructions...... What do I do here?
+(B)ank................ Check status of your account
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(Q)uit................ If you DON'T want to be a sysop anymore!
+(R)eport.............. Check hardware, software, modems and users
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(Z)ippy list.......... Show a quick list of your competition
+>> You are out of actions! <<
+[0:1361:0]: Usage
+
+2400 baud users have access to 13 lines which are 69% full.
+High speed modem users have access to 13 lines which are 34% full.
+>> You are out of actions! <<
+[0:1361:0]: Zippy List
+
+Legendary Boundaries (J.GEHO)............131.131 Score: 1,822,489
+INDEX (L.SMITH)................................. <-YOU  1,000
+Marc's Place (M.LEWIS).......................... Score: -down-
+Trance In Your Pants (J.SERF)................... Score: -down-
+TANSTAAFL (M.IEZZI)............................. Score: -down-
+* Your advertisement brings in some new users
+>> You are out of actions! <<
+[1:1361:0]: ? - Help
+
+       <<< YOU ARE OUT OF ACTIONS.  SOME OPTIONS ARE NOT AVAILABLE. >>>
+
+(!) Instructions...... What do I do here?
+(B)ank................ Check status of your account
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(Q)uit................ If you DON'T want to be a sysop anymore!
+(R)eport.............. Check hardware, software, modems and users
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(Z)ippy list.......... Show a quick list of your competition
+>> You are out of actions! <<
+[1:1361:0]: Hangup
+
+Disconnect from your service? (y/N) Yes
+
+Your line has been released to allow other users to access your service.
+
+You have NO actions left today.
+Thank you for playing.
+
+                   Top 10 Systems and their Operators
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ 1-Legendary Boundaries..................131.131 Score: 1,822,489
+   Sysop: JEN GEHO with 43854 lines, 1679757 users.
+ 2-INDEX........................................ Score: 1,001
+   Sysop: LEVI SMITH with 13 lines, 1363 users.
+
+
+                       ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+             ÜÜÜÜÜÜÜÜÜÜ³         Virtual SysOp         ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [1]  Play!                 ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [2]  Top 10 List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [3]  Player List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [4]  Instructions          ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [5]  Questions & Answers   ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³           [Q]  Quit           ³ÜÜÜÜÜÜÜÜÜÜ
+                       ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+7 minutes remaining                                                Command: q
+
+
+  ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+ÜÜ³                               Fun & Games                               ³ÜÜ
+ÜÜ³                              ÍÍÍÍÍÍÍÍÍÍÍÍÍ                              ³ÜÜ
+ÜÜ³                                                                         ³ÜÜ
+ÜÜ³  [A]  BlackJack - Can you get 21?    [I]  Solitaire - Try to make 13    ³ÜÜ
+ÜÜ³  [B]  Card Guppies - Hi/Low          [J]  Territories 3069 - The future ³ÜÜ
+ÜÜ³  [C]  Eliza - Talk to the Doctor     [K]  Towers of Hanoi - Peg to peg  ³ÜÜ
+ÜÜ³  [D]  Graffiti Wall - Add to it      [L]  TwangCho - Like MahJongg      ³ÜÜ
+ÜÜ³  [E]  Hangman & Wheel - Buy a vowel  [M]  Ultra Trivia - Add your own   ³ÜÜ
+ÜÜ³  [F]  Insults - Can you take it?     [N]  Video Poker - 5 card draw     ³ÜÜ
+ÜÜ³  [G]  Reverse - Stack the blocks     [O]  Virtual SysOp - Your own BBS! ³ÜÜ
+ÜÜ³  [H]  Scramble - Put word in order   [P]  Word Power - Vocabulary quiz  ³ÜÜ
+ÜÜ³                                                                         ³ÜÜ
+ÜÜ³                                [Q]  Quit          [Z]  SysOp Test Area  ³ÜÜ
+  ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+7 minutes remaining                                                Command: o
+
+                       ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+             ÜÜÜÜÜÜÜÜÜÜ³         Virtual SysOp         ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [1]  Play!                 ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [2]  Top 10 List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [3]  Player List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [4]  Instructions          ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [5]  Questions & Answers   ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³           [Q]  Quit           ³ÜÜÜÜÜÜÜÜÜÜ
+                       ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+7 minutes remaining                                                Command: 5
+
+
+                       ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+             ÜÜÜÜÜÜÜÜÜÜ³         Virtual SysOp         ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [1]  Play!                 ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [2]  Top 10 List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [3]  Player List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [4]  Instructions          ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [5]  Questions & Answers   ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³           [Q]  Quit           ³ÜÜÜÜÜÜÜÜÜÜ
+                       ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+7 minutes remaining                                                Command: 4
+
+ Instructions
+
+                    The Virtual System Operator Simulation
+                    ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+
+ This is a simulation of what it may be like to be a system operator on one of
+the larger data services in the nation. It is not designed to be 100% accurate
+or resemble any one BBS. The problems and situations found in this program are
+the result of many years of running a BBS.
+
+
+
+                      INSTRUCTIONS FOR PLAYING THE GAME
+                      ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ "The local system operator's group welcomes a new member to their community!
+Most of them wish you the best of luck with your BBS and users."
+
+
+
+GENERAL INTRODUCTION
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+        possible. There are some areas that have been changed to make the game
+        more enjoyable and less like work. After all, if you would put up with
+        the pain of being a real sysop then you would be running a real BBS.
+
+         Most of the users that you will find in this simulation will not take
+        up any of your time, as do many actual users. The few that will use up
+        your time are the ones to watch. They will be giving you the most
+        trouble.
+
+
+YOUR GOAL
+ÄÄÄÄÄÄÄÄÄ
+         Your goal is to get your BBS to grow. You must attract the most users
+        and get them to take part in your system. This will make up the larger
+        part of your score in the game. Hardware and software don't count much
+        if you don't have any users.
+
+         For the most part use the golden rule and you will do ok.
+
+
+PROMPT LINE
+         The prompt line is made up of 3 (or 4) parts:
+
+            (non-paying users : paying users : actions left today)
+
+         The first part tells you the total number of non-paying (free) users
+        that may be talked into paying for your system.
+
+         You must have more than 50 users to start charging for access.
+
+         The second item is the total number of paying users. These people are
+        paying for your system and you should make sure that they have enough
+        phone lines to use. They tend to be very easy to make mad because they
+        are putting their money into your system. Too many busy signals and
+        they may even demand their money back.
+
+         The third part is the number of actions you have left today. There is
+        only so much one person can do in a day. Even a super sysop is
+        limited. Keep an eye on this number until you find out what takes up
+        your time and what doesn't.
+
+         If you hire employees a "point" number will be added to your actions.
+        are limited in how fast they can do a job compared to the main sysop.
+        It might take an employee 2 or more actions to do something you could
+        do in 1 action.
+
+         You will find that most of the prompts are easy to understand so feel
+        free to explore.
+
+
+ANSWER MAIL
+ÄÄÄÄÄÄÄÄÄÄÄ
+         Answering mail is one of the jobs that every sysop must decide when
+        and how often to do. Most of the mail sent to a sysop is nothing more
+        than questions that the sysop has answered many times before. These
+        are called "no-brainer" messages and any sysop can answer these in his
+        sleep. It still takes time to answer them, but you are not shown the
+        text of each one as they are answered.
+
+         It is a good idea not to let the mail pile up in your box for too
+        long. When the users see that it is taking a long time for you to get
+        back to them they may get mad. This normally starts with more
+        messages, but may end up with them leaving your system.
+
+PROBLEM MAIL
+ÄÄÄÄÄÄÄÄÄÄÄÄ
+         When your system gets larger, the co-sysops will start answering more
+        and more of the "no-brainer" mail. If they find a message that they
+        can't answer, or is a problem that they don't want to answer, they
+        will send it to you. These messages are called "problem" mail. They
+        are normally from mad users who are upset about something to the point
+        of being rude. It takes special care to answer each message in a way
+        that will either cool the user down or stop him from bothering you
+        again.
+
+         Don't be so eager to lock out a user or ignore his mail. Bad things
+        can happen if you get a reputation as a censor or make the wrong
+        person mad at you. It may even get to the point that you will be
+        forced to take your system down or end up in a lawsuit.
+
+
+MAIN FUNCTIONS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+         The following commands should be the ones you spend the most time
+        easy to forget to keep up with your (M)ail or to keep the number of
+        free lines ahead of the number of users calling your system.
+
+
+PHONE LINE LOAD
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+         The (U)sage function will show you a quick overview of the work load
+        percentage on each group of your phone lines. The numbers are split
+        into two different sections. The slow modems and high speed modems.
+        The slow modem users are any user with a modem not capable of 9600
+        bps. They are happy to connect with any of your available modems. The
+        high speed modem users have paid extra for their hardware and only
+        want to use the high speed lines on your system.
+
+         The users will start to complain about the busy signals if the load
+        on your phone lines starts to get too high. They will only complain
+        for a short time before they leave your board. When users leave your
+        board they normally take their friends with them. This can take a big
+        chunk out of your customer base.
+
+         It is suggested that you spend part of your time each day installing
+        you some time to devote to building up your user base without fear of
+        overloading your phone lines.
+
+
+CHARGING FOR ACCESS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+         The method you select to charge your users for access to your system
+        is up to you. Just about every option is available, some more
+        successful than others. You are encouraged to consider several things
+        about charging before you actually start taking money. First, what is
+        the main thing that you will be selling. Is it bytes or time? Will the
+        users re-subscribe for more of the same access? What would you be
+        willing to pay if you were a user?
+
+         You will be able to change the way you are charging once each day by
+        going into the (C)harge option. It is suggested that you not change
+        the way you are charging very often. It can make your paying users
+        unhappy which may cost you both money and subscribers.
+
+
+FREE USERS
+         Keep an eye on the number of free users you have on your system. They
+        don't have anything invested in your service and can cause problems
+        between you and the phone company. It is a good idea to keep the
+        number of free users as low as possible. Some of them will subscribe
+        on their own, but others need to be "reminded" why they should
+        subscribe to your service with the (C)harge option.
+
+
+VIRUS CHECKING
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+         When you work around communications it is likely that some point in
+        your many connections that you will attract a virus or two. It is
+        strongly suggested that you use the scanning option at least once for
+        every ten "working" actions. There are some situations that a
+        TurboScan mode will be available. But remember that this faster scan
+        may not catch all of the infected files as the regular scan. If a
+        virus is found its name will be displayed. If it is found in more than
+        one place it will be shown more than once.
+
+
+MAIL NETWORKING
+         Networking is an option that is new to some sysops. It is a method of
+        sending mail directly from one BBS to another. After a sysop has
+        enough experience in running his own system he has the option to start
+        a network. This is nothing more than turning his system into a HUB for
+        mail passing from one system to another.
+
+         The operating costs for a HUB can be high. Don't rush into it if you
+        are not sure of what you are doing.
+
+         Network HUB operation can have some nice features depending on the
+        type of HUB service and your experience level. The help options on the
+        Network menu will let you know what is available.
+
+
+LEAVING THE GAME
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+         When you are done and want to leave the game, use the (H)angup
+        option. This will disconnect you from your BBS and leave it on-line
+        for the other users.
+
+         Most of all, DON'T QUIT unless you are forced to. When you quit your
+        and you have to start from scratch next time you play. You will be
+        allowed back in the same day you quit, but only part of your normal
+        actions will be available.
+
+
+SHOPPING
+ÄÄÄÄÄÄÄÄ
+         The store menu allows you to purchase a wide range of items. You will
+        need to go to the store to buy just about everything for your system.
+        Not every store on the menu has the same price on the same item. You
+        should shop around until you find what you need. It is possible that
+        the "discount" stores may pull you in with a false price and charge
+        you a higher price than the full retail stores.
+
+     (PHONE SERVICE)
+         Much like the real world, the phone service in this game is not 100%
+        reliable. If you have to deal with the phone company try to keep it as
+        simple as possible. Errors are likely when you start placing orders
+        while asking for other services. When calling for repairs remember
+        that the service trucks must charge you for every trip even if they
+        don't find anything wrong with your line.
+         When you start adding large numbers of phone lines you will quickly
+        out grow the local phone services which will require them to run
+        special lines just for you. This will cost time, money and actions so
+        think and plan carefully before jumping into that first multi-line
+        order.
+
+
+PERSONAL OPTIONS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+         There are several options not directly related to running a BBS that
+        are available in this game. They range from going to school to get a
+        higher education and buying insurance to illegal activities like
+        hacking or burglary. These options are not available to the very new
+        player to try and make things a little less complicated for them.
+
+     (EDUCATION)
+         There are different types of education available. The public
+        education is the kind of information found most often in schools or
+        from tutors. The personal education is more of the "secret" stuff
+        normally found out from direct word of mouth. Each type will allow you
+        to do different things. A good public education will make it easier
+        else's office or take something from the store without getting cought.
+        A good personal education will make it easier to hack a BBS or rob the
+        bank.
+
+     (CALLER-ID)
+         The most useful of the personal options are the protection devices.
+        These come in two forms; Caller ID and Office Security. The Caller ID
+        is rated with a number showing the level or strength of validation
+        that is used by the hardware. Different hardware has different caller
+        validation abilities. Sometimes this equipment can be damaged by
+        someone trying to break into your system or by "age". Check it every
+        so often to make sure that it is still operational.
+
+     (SECURITY)
+         The Office Security ranges from locks on the door to very complex
+        security and access management services. Like the Caller ID it is
+        rated with a number showing the level or strength. Burglars can do
+        more damage to your system than hackers so a good security system can
+        be a very smart investment. These systems are more robust than Caller
+        ID systems, but they also have a limited lifetime.
+
+         The only insurance company we could get to open an office in this
+        game was not very well known. They do cover most damage from hackers
+        or burglars, but the coverage for the first 60 days is limited. They
+        also retain the right to cancel your policy if the claim is too high.
+        The good thing is that they don't keep good records so you can sign up
+        with them as often as you like.
+
+         Illegal activities are not suggested but are there just for those who
+        can't resist. These options have a risk of being detected by the
+        police. Jail terms are stiff and can take you out of the game for
+        several real days. You must serve your time.
+
+         If you don't call back at least once each day you are in jail your
+        term will grow one day for each one you skip.
+
+     (HACKING)
+         Hacking is the safest of the "dark" actions. This is where you use
+        your "personal" education to break into other systems. You must be
+        able to out smart their validation system to gain access. Otherwise
+        the police will be notified. What you do once you are on the inside is
+        up to you.
+     (BREAKING IN)
+         Breaking into an office is more risky but allows you to steal items
+        and do things that hackers can't. For example, a hacker can't destroy
+        backup tapes or take a modem or computer from a BBS. Since you are in
+        a hurry, some items may break. So get all you can in the limited time
+        you have.
+
+     (ROB BANK)
+         Rob the bank is the hardest of all the options. It really is for the
+        very very experienced and should not be attempted without much strong
+        drink. The odds of you actually getting even a part of the funds from
+        the bank are so small that if you put the same time into working you
+        would be a multi-billionaire. The chance is there and the prize is not
+        small either.
+
+     (SHOPLIFTING)
+         Shoplifting is available for those who are so experienced that they
+        either want a larger challenge or a chance at the big stuff. This
+        option is very hard! The store is always trying out new security
+        hardware. The Bank is the only thing harder to break.
+
+        items you buy. Sometimes the difference is small, but often it is much
+        more noticeable.
+
+         Every illegal activity leaves some kind of a trace or clue. The
+        police are not always bright enough to pick up the clue so the player
+        may have to look at the damage report in person. If the hacker or
+        thief was very good the clue will be too small to use in court. But
+        not too small to allow the player to track down who the criminal was.
+        Watch out for mad victims.
+
+         A byproduct of being the victim of a crime is that you get "mad" and
+        have an extra boost of energy. This is shown as extra actions on the
+        command line. Even if you are in jail or in debt for education you can
+        still find those extra actions. Use these wisely. Protect yourself
+        before you go off in a rage to attack your attacker.
+
+         It is also possible for the hacker or burglar to "lie" and leave a
+        fake clue. So you may end up venting your anger on the wrong person if
+        you are not careful.
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+         There is a place that you can get rid of your old modems called Fast
+        Bob's Consignment store. The prices are normally fair for new users
+        just starting out and the more experienced player will find they can
+        get some money back from their old hardware. The owner of the store
+        only charges $2 to put your used modem on display and sends you a
+        check when it sells. Since he doesn't charge a lot of money the
+        customer must filter through all of the items for sale one at a time
+        without much help from the store owner. Items that have been on
+        display for a long time may be cheaper.
+
+         The store is small and deals mainly with small customers. This means
+        that the largest group of modems you can sell is limited. If you want
+        to sell a lot of modems it may be a good idea to place one modem in
+        the store and ask the person who buys your modem if they want more.
+        You can then sell direct through net-mail without the consignment
+        fees of Fast Bob's store.
+
+
+SCORE CALCULATION
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+        They include:
+                Computer type and operating system, file storage, BBS
+                software, number of phone lines, number of modems,
+                number of users and how long it takes you to answer
+                your waiting mail.
+
+         Each part of the calculation can be affected by other parts. Keep an
+        eye on your score in the (R)eport option until you get a feel for how
+        things work. The largest part of the score is the number of users.
+        Keep your users happy and your score will grow faster.
+
+
+
+                                FINAL NOTE
+                                ÄÄÄÄÄÄÄÄÄÄ
+
+ Many features in the game are only available after your account "matures"
+past the beginner level.  Keep checking the list of options to see if anything
+new is available.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+         There is a place that you can get rid of your old modems called Fast
+        Bob's Consignment store. The prices are normally fair for new users
+        just starting out and the more experienced player will find they can
+        get some money back from their old hardware. The owner of the store
+        only charges $2 to put your used modem on display and sends you a
+        check when it sells. Since he doesn't charge a lot of money the
+        customer must filter through all of the items for sale one at a time
+        without much help from the store owner. Items that have been on
+        display for a long time may be cheaper.
+
+         The store is small and deals mainly with small customers. This means
+        that the largest group of modems you can sell is limited. If you want
+        to sell a lot of modems it may be a good idea to place one modem in
+        the store and ask the person who buys your modem if they want more.
+        You can then sell direct through net-mail without the consignment
+        fees of Fast Bob's store.
+
+
+SCORE CALCULATION
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+        items you buy. Sometimes the difference is small, but often it is much
+        more noticeable.
+
+         Every illegal activity leaves some kind of a trace or clue. The
+        police are not always bright enough to pick up the clue so the player
+        may have to look at the damage report in person. If the hacker or
+        thief was very good the clue will be too small to use in court. But
+        not too small to allow the player to track down who the criminal was.
+        Watch out for mad victims.
+
+         A byproduct of being the victim of a crime is that you get "mad" and
+        have an extra boost of energy. This is shown as extra actions on the
+        command line. Even if you are in jail or in debt for education you can
+        still find those extra actions. Use these wisely. Protect yourself
+        before you go off in a rage to attack your attacker.
+
+         It is also possible for the hacker or burglar to "lie" and leave a
+        fake clue. So you may end up venting your anger on the wrong person if
+        you are not careful.
+
+
+     (BREAKING IN)
+         Breaking into an office is more risky but allows you to steal items
+        and do things that hackers can't. For example, a hacker can't destroy
+        backup tapes or take a modem or computer from a BBS. Since you are in
+        a hurry, some items may break. So get all you can in the limited time
+        you have.
+
+     (ROB BANK)
+         Rob the bank is the hardest of all the options. It really is for the
+        very very experienced and should not be attempted without much strong
+        drink. The odds of you actually getting even a part of the funds from
+        the bank are so small that if you put the same time into working you
+        would be a multi-billionaire. The chance is there and the prize is not
+        small either.
+
+     (SHOPLIFTING)
+         Shoplifting is available for those who are so experienced that they
+        either want a larger challenge or a chance at the big stuff. This
+        option is very hard! The store is always trying out new security
+        hardware. The Bank is the only thing harder to break.
+
+        items you buy. Sometimes the difference is small, but often it is much
+        more noticeable.
+
+         Every illegal activity leaves some kind of a trace or clue. The
+        police are not always bright enough to pick up the clue so the player
+        may have to look at the damage report in person. If the hacker or
+        thief was very good the clue will be too small to use in court. But
+        not too small to allow the player to track down who the criminal was.
+        Watch out for mad victims.
+
+         A byproduct of being the victim of a crime is that you get "mad" and
+        have an extra boost of energy. This is shown as extra actions on the
+        command line. Even if you are in jail or in debt for education you can
+        still find those extra actions. Use these wisely. Protect yourself
+        before you go off in a rage to attack your attacker.
+
+         It is also possible for the hacker or burglar to "lie" and leave a
+        fake clue. So you may end up venting your anger on the wrong person if
+        you are not careful.
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+         There is a place that you can get rid of your old modems called Fast
+        Bob's Consignment store. The prices are normally fair for new users
+        just starting out and the more experienced player will find they can
+        get some money back from their old hardware. The owner of the store
+        only charges $2 to put your used modem on display and sends you a
+        check when it sells. Since he doesn't charge a lot of money the
+        customer must filter through all of the items for sale one at a time
+        without much help from the store owner. Items that have been on
+        display for a long time may be cheaper.
+
+         The store is small and deals mainly with small customers. This means
+        that the largest group of modems you can sell is limited. If you want
+        to sell a lot of modems it may be a good idea to place one modem in
+        the store and ask the person who buys your modem if they want more.
+        You can then sell direct through net-mail without the consignment
+        fees of Fast Bob's store.
+
+
+SCORE CALCULATION
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+        They include:
+                Computer type and operating system, file storage, BBS
+                software, number of phone lines, number of modems,
+                number of users and how long it takes you to answer
+                your waiting mail.
+
+         Each part of the calculation can be affected by other parts. Keep an
+        eye on your score in the (R)eport option until you get a feel for how
+        things work. The largest part of the score is the number of users.
+        Keep your users happy and your score will grow faster.
+
+
+
+                                FINAL NOTE
+                                ÄÄÄÄÄÄÄÄÄÄ
+
+ Many features in the game are only available after your account "matures"
+past the beginner level.  Keep checking the list of options to see if anything
+new is available.
+
+
+                       ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+             ÜÜÜÜÜÜÜÜÜÜ³         Virtual SysOp         ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [1]  Play!                 ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [2]  Top 10 List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [3]  Player List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [4]  Instructions          ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [5]  Questions & Answers   ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³           [Q]  Quit           ³ÜÜÜÜÜÜÜÜÜÜ
+                       ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+4 minutes remaining                                                Command: q
+
+
+  ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+ÜÜ³                               Fun & Games                               ³ÜÜ
+ÜÜ³                              ÍÍÍÍÍÍÍÍÍÍÍÍÍ                              ³ÜÜ
+ÜÜ³                                                                         ³ÜÜ
+ÜÜ³  [A]  BlackJack - Can you get 21?    [I]  Solitaire - Try to make 13    ³ÜÜ
+ÜÜ³  [B]  Card Guppies - Hi/Low          [J]  Territories 3069 - The future ³ÜÜ
+ÜÜ³  [C]  Eliza - Talk to the Doctor     [K]  Towers of Hanoi - Peg to peg  ³ÜÜ
+ÜÜ³  [D]  Graffiti Wall - Add to it      [L]  TwangCho - Like MahJongg      ³ÜÜ
+ÜÜ³  [E]  Hangman & Wheel - Buy a vowel  [M]  Ultra Trivia - Add your own   ³ÜÜ
+ÜÜ³  [F]  Insults - Can you take it?     [N]  Video Poker - 5 card draw     ³ÜÜ
+ÜÜ³  [G]  Reverse - Stack the blocks     [O]  Virtual SysOp - Your own BBS! ³ÜÜ
+ÜÜ³  [H]  Scramble - Put word in order   [P]  Word Power - Vocabulary quiz  ³ÜÜ
+ÜÜ³                                                                         ³ÜÜ
+ÜÜ³                                [Q]  Quit          [Z]  SysOp Test Area  ³ÜÜ
+  ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+4 minutes remaining                                                Command: q
+
+                     ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+                     ³         Southern Star BBS         ³
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³      25 GigaBytes - 8 Lines       ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³      Internet: bbs.sstar.com      ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³     Fidonet Zone Hub: 1:396/1     ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜ
+ÜÜÜ³     Main Areas      ³ÜÜÜ³    Information     ³ÜÜÜ³     Utilities      ³ÜÜÜ
+ÜÜÜ³    ÍÍÍÍÍÍÍÍÍÍÍÍ     ³ÜÜÜ³   ÍÍÍÍÍÍÍÍÍÍÍÍÍ    ³ÜÜÜ³    ÍÍÍÍÍÍÍÍÍÍÍ     ³ÜÜÜ
+ÜÜÜ³                     ³ÜÜÜ³                    ³ÜÜÜ³                    ³ÜÜÜ
+ÜÜÜ³ [I] Internet Access ³ÜÜÜ³ [B] Bulletins      ³ÜÜÜ³ [R] Registration   ³ÜÜÜ
+ÜÜÜ³ [M] Message Areas   ³ÜÜÜ³ [V] Event Calendar ³ÜÜÜ³ [Y] Configuration  ³ÜÜÜ
+ÜÜÜ³ [F] File Areas      ³ÜÜÜ³ [D] Databases      ³ÜÜÜ³ [W] Who's Online   ³ÜÜÜ
+ÜÜÜ³ [A] Fun & Games     ³ÜÜÜ³ [E] Extra Info     ³ÜÜÜ³ [*] Page the SysOp ³ÜÜÜ
+ÜÜÜ³ [O] On-Line Chat    ³ÜÜÜ³ [S] Statistics     ³ÜÜÜÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´ÜÜÜ
+ÜÜÜ³     .    .    .     ³ÜÜÜ³     .    .    .    ³ÜÜÜ³    [G] Goodbye     ³ÜÜÜ
+   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+4 minutes remaining                                                Command: g
+
+                   ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+         ÜÜÜÜÜÜÜÜÜÜ³    Are you ready to leave the BBS?    ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³   ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ   ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³                                       ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³         [Y]  Yes, Leave               ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³                                       ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³         [C]  Comment to SysOp         ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³                                       ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³         [V]  Visit the Time Bank      ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³                                       ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³         [N]  No, Stay                 ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³                                       ³ÜÜÜÜÜÜÜÜÜÜ
+                   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+4 minutes remaining                                                Command: y
+
+
+Type P to Pause, S to Stop listing
+
+
+
+Hello Levi Smith.
+
+Your membership expires in just 2 days!  Please check the Registration Menu
+for renewal information.
+
+Thanks,
+
+SysOp
+
+
+
+-Press Any Key-
+-Press Any Key-
+
+
+
+
+
+
+               Thanks for calling, Levi.  Call again soon!
+
+
+                             Parting thought:
+
+"If the gods had really intended men to fly, they'd have made it easier to
+ get to the airport."
+
+
+
+
+Logged on at 23:59:43
+Logged off at 00:16:11
+
+
+Connection closed by foreign host.
+{oscar:/net/hu3/command}

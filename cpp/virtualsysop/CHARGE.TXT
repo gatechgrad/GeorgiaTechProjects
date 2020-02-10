@@ -1,0 +1,24 @@
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 5
+
+[54:0:87]: Charge
+
+ Charging for access to your system may cause a drop in the number of calls.
+ Are you sure that you want to charge for access? (y/N) Yes
+
+Options
+  (0) None      -Free access to all
+  (1) Lifetime  -Users pay only once
+  (2) Yearly    -Users pay each year
+  (3) Monthly   -Users pay each month
+  (4) Weekly    -Users pay each week
+  (5) Hourly    -Users pay for connect time only
+  (6) Download  -Users pay for bytes received
+
+Choice> 3
+
+37 users decide to pay.
+4 users decide to leave.
+
+[13:37:86]:

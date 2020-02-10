@@ -1,0 +1,1814 @@
+
+
+SunOS UNIX (oscar)
+
+login: command
+Password:
+Last login: Sun Aug 22 18:49:50 from dialnet3.gatech.
+SunOS Release 4.1.3_U1 (OSCAR) #1: Mon Jun 9 18:32:35 EDT 1997
+
+When remotely accessing this machine you need to use the fully
+quallified domain name of oscar.cc.gatech.edu.  There is a top level
+country domain of ".cc" and they have many system names that are the
+same as some of the CoC systems.  Many people are accessing a "foreign"
+system by mistake when they use a shortened form of the name such as
+oscar.cc.
+You have mail.
+{oscar:/net/hu3/command} telnet games.multiline.com.au
+Trying 203.5.127.250 ...
+Connected to games.multiline.com.au.
+Escape character is '^]'.
+* MajorTCP/IP by Vircom Inc. *
+
+Connecting...Please Wait...
+
+                           Auto-sensing...
+Auto-sensing PPP...(8Hit CTRL-X to abort
+
+Please choose one of these languages/protocols:
+
+   1 ... English/ANSI     The standard English language version
+   2 ... English/RIP      The English version of RIPscrip graphics
+
+Choose a number from 1 to 2: 1
+
+                         ŞÜ
+          Ü          ŞÜ   ŞÜÜÜÜÜÜÜ
+          İßÜÜ        ŞÜÜÜÜ   ÜßÜ  Ü
+          Ş²  ßßÜÜ     Ü   ²         ÛÜ
+           İ²     ßßÜÜÜ    ²²    ßß   ß
+          Ş²       ÜÜÜ²       ßß                   MultiLine Games Machine
+          İ²ÛÜÜÜßßßÛÛÛ²   °±Ü                             MGM
+         ÜÛßßÛÛÛÛÛÛÛÛÛ²   °±ß              ÜÜÜÜ      Simply The Best!
+          Ş²ÛÛÛÛÛÛÛÛÛÛ²²   °±İ             ±ÛÛÛÛÜ
+           İ²ÛÛÛÛÛÜÜÜß²²ÛÛ²°±ÜÜ            ±ÛÛÛÛÛİ
+          Ş²ÜÜÜßßß    Û²² ÛÛÛÛÛÛÛÛÜ        ÛÛÛÛÛÛÛ
+          ßÛ²ÛÛÛÛ     Û²²²   °±Ü  ßßİ   __ÜÜßßßßÜÜÜ
+            ßÜ²ÛÛÛ    Û²     °±İ    ßßßßÜÜßßßßßßßßß
+              ßÜ²ÛÛ ÜÜÜ²ÛÛÛÛÛ°Ü    ßßßßßÛÛÛÛÛÛÛßßßß
+                ßÜßß   °ÛÛÛÛ²ÛÛÛÜ        ÛÛÛÛİ
+             Üß        °ÛÛÛ²ÛÛÛÛÛ        ŞÛÛÛ
+            ÛÛ       ÜÛÛÛÛÛ²ÛÛÛÛ          ÛÛİ
+            ßÛÛÜ  ÜÜÛÛÛÛÛÛ ßÛÛÛÛİ         ŞÛ
+              ßÛÛÛÛÛÛÛßßß  ÜÛÛÛÛ         ÜÛÛÛÜ
+Welcome to MGM - We could offer you ridiculously low game starter prices
+to suck you in to start a MUD character with us, then charge you top
+dollar to maintain it, but we won't, we'll keep charging you rock bottom
+prices all year every year!
+
+
+            Welcome to MultiLine Games Machine - Simply the best!
+
+
+            Hi there, nice to see you!
+            Login with your USER ID or type NEW if you
+            don't have an account with us!
+
+                                   ô  ô
+                                   ³  ³
+                                 ß      ß
+                               ß  ßß  ßß  ß
+                       ßßßßß      ÛÛ  ÛÛÛÛÛ   ßßßßß
+  ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÜÛÜÛÜÛÛÛÛÛÛÛÛÜÜÛÛÛÛÛÛÛÛÜÛÜÛÜÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+  ÍÊÍÍËÍÍÊÍÍÍËÍÍÊÍÍËÍÍÊÍÍËÍÍÊÍÍËÍÍÊÍÍËÍÍÊÍÍËÍÍÊÍÍËÍÍÍÊÍÍËÍÍÊÍÍËÍÍÍÊÍÍËÍÍÊÍÍËÍÍÍ
+  ÍËÍÍÊÍÍËÍÍÍÊÍÍËÍÍÊÍÍËÍÍÊÍÍËÍÍÊÍÍËÍÍÊÍÍËÍÍÊÍÍËÍÍÊÍÍÍËÍÍÊÍÍËÍÍÊÍÍÍËÍÍÊÍÍËÍÍÊÍÍÍ
+  ÍÊÍÍËÍÍÊÍÍÍËÍÍÊÍÍËÍÍÊÍÍËÍÍÊÍÍËÍÍÊÍÍËÍÍÊÍÍËÍÍÊÍÍËÍÍÍÊÍÍËÍÍÊÍÍËÍÍÍÊÍÍËÍÍÊÍÍËÍÍÍ
+  °°±±²²ÛÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»Û²²±±°°
+  °°±±²²Ûº Login:                                                      ºÛ²²±±°°
+  °°±±²²ÛÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»Û²²±±°°w
+
+Welcome, newcomer!  You have logged on to the world's most
+advanced multi-user online system:  Worldgroup.
+
+Before going into that, though, let's get acquainted.  If
+you'll tell us a little bit about yourself, we'll create
+an account for you that you can use anytime for "free
+samples" of what we have to offer.  There will be certain
+things you won't be able to do (like posting messages, etc.)
+until you elect to become a full Member of the Board...
+but you will have a chance to see if you like us first.
+
+The following word may or may not be yellow and blinking: ANSI
+Is it blinking, or is it colored yellow (Y/N)? y
+
+Good!  Your answer has been used to control the ANSI
+features of this system.  Now if you'll tell us a little
+about yourself, we'll get underway.
+
+Please enter your first and last name:
+
+Levi Smith
+
+Enter the first line of your address (your street address or P. O. Box):
+
+Bright Star Rd.
+
+Enter the second line of your address (city, state, and ZIP):
+
+Douglasville, GA 30135
+
+Enter the last line of your address (Country or press ENTER for U.S.):
+
+
+
+Now enter the telephone number where you can be reached during the day:
+
+N/A
+
+Now enter the telephone number where you can be reached during the day:
+
+N/A
+
+Now enter the telephone number where you can be reached during the day:
+
+0N/A
+
+Now enter the telephone number where you can be reached during the day:
+
+NA
+
+Now enter the telephone number where you can be reached during the day:
+
+NOTAPPLY
+
+Please enter your date of birth in "mm/dd/yy" format:
+
+03/31/79
+
+Are you male, or female?
+Are you male, or female? m
+
+Now, you need to choose a "User-ID" for yourself.  Your User-ID will be your
+"code name" on this system.  You will use it to identify yourself to the
+system when you log on, and other users will know you by this name.  Your
+User-ID can be 3 to 29 characters long (including letters, spaces, commas,
+periods, and hyphens).  If you want it capitalized a certain way (for
+example, "John McLean"), type it in just that way.  If you use all lower
+case, or ALL UPPER CASE, the system will apply its own capitalization
+standards.
+
+Enter the User-ID you want to be known as:
+Enter the User-ID you want to be known as: Command.Com
+
+Here is a simulated message, showing how your User-ID will appear to other
+users:
+
+   From Command.Com: How does this run so many users at once?
+
+Are you satisfied with your choice of User-ID (y/n)?
+Are you satisfied with your choice of User-ID (y/n)? y
+
+Ok, Command.Com, now you'll also need to select a password, so that
+you can keep other people from using your account without your permission.
+Make it short and memorable, but not obvious.  The security of your account
+depends on nobody else knowing what your password is.
+
+Enter the password you plan to use:
+Enter the password you plan to use: *******
+
+Please reenter your password for verification:
+Please reenter your password for verification: *******
+
+WRITE YOUR INFORMATION DOWN, if you haven't already.  There will be nothing
+anyone can do for you if you forget your User-ID or password.  We don't
+give out people's passwords by mail or over the phone, even if they "sound"
+totally honest.  So if you forget your password, or give it out to someone
+who shouldn't have it, you are "up the creek".  KEEP YOUR PASSWORD TO YOURSELF.
+
+Press ENTER to create your account once you've written down your
+
+Welcome, then, to MultiLine Games Machine!
+
+One moment, please...
+
+Fantasy awaits you in MajorMUD v1.1x-WG!
+
+
+You are caller number 309557!
+
+There is new mail in your mailbox!
+
+Do you want to see it now (Y/N)? y
+
+
+Date: Monday, August 23, 1999  7:11am                         Electronic Mail
+From: Sysop                                                      Msg#: 225766
+  To: Command.Com
+  Re: Welcome New User!                                     File: WGSUSER.DOC
+
+Welcome, new user!  This system has been designed to meet your needs
+to the greatest degree possible.  You can access it in many ways:
+
+1) Through Worldgroup Manager, a Windows program which runs on your PC
+   and lets you do many activities while NOT online: read and write
+   messages for E-mail & Forums, examine lists of library files...
+
+2) Through ANSI-graphics terminal programs such as Telix, Qmodem,
+   Procomm Plus, and Crosstalk
+
+3) Through RIP-graphics terminal programs such as RIPterm
+
+However you choose to reach us, let us know how we can best serve you.
+Please feel free to download the attached file for more details about
+how to use this system.  If you have any questions, or wish to write any
+comments or suggestions, please just reply to this message, or write
+E-mail to "SYSOP" at any time.ue?
+
+                                   Thank you,
+
+                                   The Management
+
+
+The file "WGSUSER.DOC" (156071 bytes) is attached to this message
+Would you like to display or download the file now (Y/N)? n
+
+(R)eply, (E)rase, (C)opy, (F)orward, (B)acktrack, (P)revious, or (N)ext? n
+
+You have reached the end of these messages.
+
+(P)revious message, (R)e-read last message, or e(X)it? x
+
+Exiting from E-mail...  returning to logon...
+
+                Multi-Player Games available online!!!
+
+You can now play multi-player DOOM, DOOM II, Heretic, Empire Deluxe, Warpath,
+Spectre VR, Global Conquest, as well as a host of other modem-to-modem games
+online.  Check out Game Connection today!
+
+
+There have been NEW articles posted!
+Do you wish to view them now? (Y/n): n
+Connection closed by foreign host.
+{oscar:/net/hu3/command} telnet sfnet.com
+Trying 207.171.237.1 ...
+Connected to sfnet.com.
+Escape character is '^]'.
+
+
+
+There are no more SF NET lines available at this time.  Please call
+back in a few minutes.
+
+
+Connection closed by foreign host.
+{oscar:/net/hu3/command} telnet bbs.sstar.com
+Trying 204.27.72.1 ...
+Connected to bbs.sstar.com.
+Escape character is '^]'.
+Connecting to TM05
+
+
+
+
+
+
+
+
+
+
+
+                              Southern Star BBS
+
+                             Line 4 at 57,600 bps
+
+                           25 Gigabytes - 8 Lines
+                           Internet: bbs.sstar.com
+                          FidoNet Zone Hub: 1:396/1
+
+
+
+
+Enter your FULL Name? Levi Smith
+
+Not in User file, start an account for you(Y/N)? Y
+
+TBBS Welcomes LEVI SMITH
+Is this correct? Y
+Is this correct? Y                                                          Youl
+
+
+
+
+                             New User Welcome
+                            ==================
+
+ Hello and welcome to the Southern Star BBS.  I hope that you find it useful.
+
+ You can get help on many of the menus by typing "H".  Also, scan the items
+ on the Extra Information Menu.
+
+ If this is your first exposure to Internet or FidoNet then you will probably
+ be confused by the setup of the message areas.  Don't worry, after you read
+ the Extra Information item "Message Areas", and look around a bit, it will
+ all become clear.
+
+ After looking around, if this BBS suits you and you would like to join,
+ check the Registration Menu for details about BBS membership.
+
+ If you have any questions or comments feel free to leave a "Comment to
+ SysOp" (System Operator).
+
+ Enjoy!
+
+
+-Press Any Key-Searching Message Base ...
+You have no personal messages waiting.
+
+
+-Press Any Key-
+
+
+
+Type P to Pause, S to Stop listing
+
+Configuration Program
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     Welcome Levi.  Before you can access the BBS we need to ask
+   you a few questions.  The purpose of these questions is to determine
+   your computer's ability to display various information, such as
+   colors, graphics characters, screen width, page pausing, calling
+   location, password, file transfer protocols, and message base
+   configuration.  These questions have been made as straight-forward as
+   possible, they mainly consist of Yes/No answers.  The default answer
+   is the option that is displayed in upper case.  If you are unsure
+   on how to answer, just respond with the default [usually the Enter key].
+
+     Once you are done answering the questions you will have a chance to
+   go back and re-do any section you feel is incorrect.  Don't be
+   intimidated by the questions.  Answer as best you can.  If possible,
+   use ANSI or VT-102 terminal emulation, and for modem connection use no
+   parity, 8 data bits, and 1 stop bit, as these will give you the best
+   results on our BBS.  This is located in your terminal setup.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+-Press Any Key-
+               Type P to Pause, S to Stop listing
+
+ANSI Configuration
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     ANSI stands for the American National Standards Institute, a
+   standards development organization.  ANSI develops and documents
+   standards for thousands of different areas, from architectural
+   specifications for the handicapped to computer programming
+   languages.
+
+     Within the bulletin board community, the term "ANSI" generally
+   refers to an ANSI standard called X3.64 as implemented by IBM in
+   ANSI.SYS.  The ANSI X3.64 standard specifies a series of codes
+   that a host system can send to a remote data terminal to control
+   color attributes, cursor positioning, inverse video and screen
+   clearing on the terminal display.
+
+     The VT-100 terminals and software that emulates a VT-100 terminal
+   can also be used with ANSI escape codes, since the codes for both
+   ANSI and VT-100 are very similar.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+
+
+
+
+   ANSI works by sending a series of characters to the remote
+   terminal.  The codes all begin with an escape character and a
+   left bracket, and are followed by a variable quantity of numbers
+   and letters.  The terminal understands the meaning of these
+   codes, and acts accordingly by setting screen colors or moving
+   the cursor.
+
+
+
+Does the above text have a white forground and green background (Y/n): Yes
+                                                                          Type P
+ to Pause, S to Stop listing
+
+IBM Graphics Configuration
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     The IBM graphics character set consist of all ASCII character codes
+   beyond the standard 127.  These extended codes include double lines,
+   foreign language characters, mathematical symbols, and various
+   line drawing characters.
+
+     IBM graphics characters have become enough of a de-facto standard,
+   that many other computers now emulate them.  If you are running on a
+   computer other than an IBM, please refer to your manual on how to
+   change terminal emulation which supports IBM Graphics.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+
+
+
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+    ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Does the above have a double line between two single lines (Y/n): Yes
+                                                                     Type P to P
+ause, S to Stop listing
+
+Width Configuration
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     We need to determine your screen width.  In text this is necessary to
+   figure out when to word wrap.  Word wrapping is used in all facets of
+   the BBS.  This includes word wrapping the message area, file transfers,
+   and conferences. Word wrapping adapts some of the BBS output to your
+   terminal screen width so the output looks smoother and is more readable.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+
+
+
+........1o........2o........3o........4o........5o........6o........7o........8o
+........9o........1oo......11o.......12o.......132
+
+What is the number at the end of the first line [Usually 80 chars]:
+
+Unspecified number, Please try again...
+
+
+
+
+........1o........2o........3o........4o........5o........6o........7o........8o
+........9o........1oo......11o.......12o.......132
+
+What is the number at the end of the first line [Usually 80 chars]: 80
+                                                                      Type P to
+Pause, S to Stop listing
+
+Page Pausing Configuration
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     Unless you want text to scroll aimlessly off the end of your screen,
+   we suggest you use page pausing.  This means the BBS will stop
+   displaying text after a given number of lines.  Then it will pause
+   until you have pressed a key to either continue or stop the scrolling.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+
+
+Checking page length...
+
+60
+59
+58
+57
+56
+55
+54
+53
+52
+51
+50
+49
+48
+47
+46
+45
+44
+43
+42
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+What is the number at the top of your screen [Usually 24 lines]: 24
+                                                                   Type P to Pau
+se, S to Stop listing
+
+Location Configuration
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     We will now try to determine your calling location.  You will be
+   presented with a list of locations that are most common to this BBS.
+   If your calling location is on this list, just type the number that
+   appears to the left of your city.  If your location doesn't match any
+   of the listed, you may press enter at the prompt to manually add
+   your location.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+
+                          Location Configuration
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+    1. NEW ORLEANS, LA                 2. METAIRIE, LA
+    3. GRETNA, LA                      4. HARAHAN, LA
+    5. JEFFERSON, LA                   6. CHALMETTE, LA
+
+What number is your location [Enter for other location]:
+
+                     (----------------------------)
+Enter your location: Douglasville, GA
+                                     Type P to Pause, S to Stop listing
+
+Password Configuration
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+    Password configuration is essential.  It ensures your privacy on this
+   Bulletin Board is kept.  You are resposible for the actions that are
+   done under your name, so to keep safe, choose a difficult password.  A
+   good password is one that other users cannot guess easily, but one that
+   you will be able to recall instantiously from memory.  Also write your
+   password down in a secure place.  Some guidelines you may want to
+   follow to protect yourself from someone gaining access to your account:
+
+          1) Don't let anyone know your password!
+          2) Change your password often.  Once a month is a good time
+             to change it.
+          3) Do not make it simple.  For example, not the name of
+             this BBS, not your birthday, not a family members name or
+             some other obvious passwords.
+          4) Keep your password in a secure place.  Somewhere you can
+             find it but others cannot.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+
+
+Enter your password [Maximum 8 characters]: ssbnaed
+
+
+
+Your Password is: ssbnaed
+
+Write your password down in a secure place. (Example: Dialing directory)
+
+-Press Any Key-
+               Type P to Pause, S to Stop listing
+
+Message Base Configuration
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     Electronic messages are a vital part of any BBS.  To help you get
+   the most out of our message areas we are going to ask you a few
+   questions.  These questions will help us determine weather or not you
+   wish to use our full screen editor and our prepared message text
+   features.  To use the full screen editor you must have ANSI configured.
+
+   The Internet address for this BBS is: sstar.com
+   The FidoNet Node Number for this BBS: 1:396/1
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+
+
+Would you like to use a Full Screen Editor for the message base (Y/n): Yes
+
+Would you like to be prompted for Prepared Message Text (y/N): No
+                                                                 Type P to Pause
+, S to Stop listing
+
+Protocol(s) Configuration
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     For our BBS to send you files, we need our computers to talk to each
+   other in the same language, 'protocol'.  There are many different types
+   of protocols to choose from.  We suggest that you choose Zmodem, SEALink
+   or Ymodem-G (Batch).  If your terminal cannot support these protocols,
+   find out what protocols your terminal program can support and choose
+   one that you can use.  If you are still unsure of what protocol to use,
+   pick default and that will let you choose from any of the protocols at
+   the time of a file transfer.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+
+
+ Upload Transfer Protocols
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+D - Default (AutoSelect each Call)
+P - Prompted ASCII
+C - ASCII, XON after <CR> rcvd
+A - ASCII, XOFF/XON flow control
+X - XMODEM
+O - XMODEM-1k
+Y - YMODEM (Batch)
+G - YMODEM-g (Batch)
+S - SEAlink
+K - KERMIT
+W - SuperKERMIT (Sliding Windows)
+Z - ZMODEM-90(Tm)
+
+
+
+ Download Transfer Protocols
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+D - Default (AutoSelect each Call)
+P - TYPE file to your screen
+C - ASCII with DC2/DC4 Capture
+A - ASCII only, no Control Codes
+X - XMODEM
+O - XMODEM-1k
+Y - YMODEM (Batch)
+G - YMODEM-g (Batch)
+S - SEAlink
+K - KERMIT
+W - SuperKERMIT (Sliding Windows)
+Z - ZMODEM-90(Tm)
+
+Choose Download transfer protocol (? for Help): ZMODEM-90(Tm)
+                                                             Type P to Pause, S
+to Stop listing
+
+Checking Configuration
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     Please double check the following settings.  If you made a mistake
+   in any of the settings you may go back and re-answer that individual
+   section.  If there are no problems with your profile you may exit now.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+
+
+   User's Current Profile
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     ANSI Color Graphics = True
+            IBM Graphics = True
+            Screen Width = 80 characters wide
+              Pause Line = 24 lines per page
+
+   User's Location and Password
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+         User's Location = DOUGLASVILLE, GA
+         User's Password = ssbnaed
+
+   Message Base Options
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+      Full Screen Editor = True
+        Prepared Message = False
+
+   Protocol Selections
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+         Upload Protocol = ZMODEM-90(Tm)
+       Download Protocol = ZMODEM-90(Tm)
+
+Correct (Y/n): Yes
+                  Type P to Pause, S to Stop listing
+
+Configuration Comments
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Thank you for taking the time to configure your profile.  If you have
+   any problems you may change your configuration by selecting "[Y]
+   Configuration" from the Main Menu.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+-Press Any Key-
+
+
+
+
+Logging on with ANSI Terminal Emulation
+
+
+Logging on........Please Standby.
+
+
+Type P to Pause, S to Stop listing
+
+
+
+Hi Levi Smith,
+
+Welcome to the BBS.  Please take the time to fill out the following
+questions.  This information is for the SysOp's use only, and will
+not be posted.
+
+Why do I do this?  It is one of the ways I protect the BBS and its
+users from "junk mail" and "virus" programs.
+
+Thanks for your cooperation.
+
+
+
+
+                ÁÀ  ÀÄÄ ÀÄÙ ÄÁÄ ÀÄÙ  Á  ÁÀ  Á Á  Á  ÄÁÄ ÀÄÙ ÁÀÙ
+     Please Enter/Verify the Following Information
+
+The Following Information is Required and has not been Entered:
+
+     Phone #:
+
+
+                ÁÀ  ÀÄÄ ÀÄÙ ÄÁÄ ÀÄÙ  Á  ÁÀ  Á Á  Á  ÄÁÄ ÀÄÙ ÁÀÙ
+     Please Enter/Verify the Following Information
+
+
+
+
+                     ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+                     ³         Southern Star BBS         ³
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³      25 GigaBytes - 8 Lines       ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³      Internet: bbs.sstar.com      ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³     Fidonet Zone Hub: 1:396/1     ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜ
+ÜÜÜ³     Main Areas      ³ÜÜÜ³    Information     ³ÜÜÜ³     Utilities      ³ÜÜÜ
+ÜÜÜ³    ÍÍÍÍÍÍÍÍÍÍÍÍ     ³ÜÜÜ³   ÍÍÍÍÍÍÍÍÍÍÍÍÍ    ³ÜÜÜ³    ÍÍÍÍÍÍÍÍÍÍÍ     ³ÜÜÜ
+ÜÜÜ³                     ³ÜÜÜ³                    ³ÜÜÜ³                    ³ÜÜÜ
+ÜÜÜ³ [I] Internet Access ³ÜÜÜ³ [B] Bulletins      ³ÜÜÜ³ [R] Registration   ³ÜÜÜ
+ÜÜÜ³ [M] Message Areas   ³ÜÜÜ³ [V] Event Calendar ³ÜÜÜ³ [Y] Configuration  ³ÜÜÜ
+ÜÜÜ³ [F] File Areas      ³ÜÜÜ³ [D] Databases      ³ÜÜÜ³ [W] Who's Online   ³ÜÜÜ
+ÜÜÜ³ [A] Fun & Games     ³ÜÜÜ³ [E] Extra Info     ³ÜÜÜ³ [*] Page the SysOp ³ÜÜÜ
+ÜÜÜ³ [O] On-Line Chat    ³ÜÜÜ³ [S] Statistics     ³ÜÜÜÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´ÜÜÜ
+ÜÜÜ³     .    .    .     ³ÜÜÜ³     .    .    .    ³ÜÜÜ³    [G] Goodbye     ³ÜÜÜ
+   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+16 minutes remaining                                                Command: a
+
+  ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+ÜÜ³                               Fun & Games                               ³ÜÜ
+ÜÜ³                              ÍÍÍÍÍÍÍÍÍÍÍÍÍ                              ³ÜÜ
+ÜÜ³                                                                         ³ÜÜ
+ÜÜ³  [A]  BlackJack - Can you get 21?    [I]  Solitaire - Try to make 13    ³ÜÜ
+ÜÜ³  [B]  Card Guppies - Hi/Low          [J]  Territories 3069 - The future ³ÜÜ
+ÜÜ³  [C]  Eliza - Talk to the Doctor     [K]  Towers of Hanoi - Peg to peg  ³ÜÜ
+ÜÜ³  [D]  Graffiti Wall - Add to it      [L]  TwangCho - Like MahJongg      ³ÜÜ
+ÜÜ³  [E]  Hangman & Wheel - Buy a vowel  [M]  Ultra Trivia - Add your own   ³ÜÜ
+ÜÜ³  [F]  Insults - Can you take it?     [N]  Video Poker - 5 card draw     ³ÜÜ
+ÜÜ³  [G]  Reverse - Stack the blocks     [O]  Virtual SysOp - Your own BBS! ³ÜÜ
+ÜÜ³  [H]  Scramble - Put word in order   [P]  Word Power - Vocabulary quiz  ³ÜÜ
+ÜÜ³                                                                         ³ÜÜ
+ÜÜ³                                [Q]  Quit          [Z]  SysOp Test Area  ³ÜÜ
+  ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+15 minutes remaining                                                Command: o
+
+                       ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+             ÜÜÜÜÜÜÜÜÜÜ³         Virtual SysOp         ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [1]  Play!                 ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [2]  Top 10 List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [3]  Player List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [4]  Instructions          ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [5]  Questions & Answers   ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³           [Q]  Quit           ³ÜÜÜÜÜÜÜÜÜÜ
+                       ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+15 minutes remaining                                                Command: 2
+
+
+                Top 10 VSysop Systems and their Operators
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ 1-Legendary Boundaries..................131.131 Score: 1,822,489
+   Sysop: JEN GEHO with 43854 lines, 1679757 users.
+ 2-Marc's Place................................. Score: 821
+   Sysop: MARC LEWIS with 8 lines, 895 users.
+
+                       ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+             ÜÜÜÜÜÜÜÜÜÜ³         Virtual SysOp         ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [1]  Play!                 ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [2]  Top 10 List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [3]  Player List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [4]  Instructions          ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [5]  Questions & Answers   ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³           [Q]  Quit           ³ÜÜÜÜÜÜÜÜÜÜ
+                       ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+15 minutes remaining                                                Command: 3
+
+
+VSysop Player Ranking Display    Press (P) to pause, (S) to stop.
+Legendary Boundaries (J.GEHO)............131.131 Score: 1,822,489
+Marc's Place (M.LEWIS).......................... Score: 821
+john's place (J.SEAL)........................... Score: 29
+Trance In Your Pants (J.SERF)................... Score: 10
+TANSTAAFL (M.IEZZI)............................. Score: 5
+
+                       ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+             ÜÜÜÜÜÜÜÜÜÜ³         Virtual SysOp         ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [1]  Play!                 ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [2]  Top 10 List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [3]  Player List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [4]  Instructions          ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [5]  Questions & Answers   ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³           [Q]  Quit           ³ÜÜÜÜÜÜÜÜÜÜ
+                       ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+15 minutes remaining                                                Command: 1
+
+
+ VSysop2: The Virtual System Operator Simulation
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Copyright 1991,92,93,94 by The iFX Group, version 951231
+Registered to: Southern Star BBS on 2/6/96
+ "I know that now... Fat lot of good it does me."
+Welcome new system operator!
+You have just spent a long time and a good bit of money to get your computer
+and software ready to go on-line. Someone gave you an old IBM XT that they were
+going to toss in the trash. You got a shareware BBS program and a cheap modem
+and now you are ready to start accepting calls.
+
+The local system operators' group welcomes you as a member of their community!
+Most of them wish you the best of luck with your BBS and users.
+
+The local directory of Bulletin Board Systems needs some information from you.
+In order to keep our records straight we need to know the name that you call
+your BBS in this game. The list has space for up to 30 characters.
+
+                        [..............................]
+What is your BBS called? INDEX
+
+Checking all lines for status - OK.
+System hardware diagnostics   - OK.
+Press "?" for help.
+
+OpMode.
+
+[9:0:100]: ? - Help
+
+(!) Instructions...... What do I do here?
+(A)nswer chat......... Keep in contact with the users
+(B)ank................ Check status of your account
+(C)harge users........ Set charge type and collect money
+(E)mploy workers...... Hire workers to help run your BBS
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(M)ail Box check...... Message base maintenance and status
+(R)eport.............. Check hardware, software, modems and users
+(S)tore............... Buy or upgrade hardware, software or phones
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(V)irus detection..... Keep your files clean and clear!
+(W)ork................ DO THIS! Keep your BBS active!
+(Z)ippy list.......... Show a quick list of your competition
+
+[9:0:100]: Work
+
+You scan the user log for fake accounts and erase them.
+
+[8:0:99]: Work
+
+You try out a new on-line game and the users hate it.
+
+[8:0:98]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 9
+
+[17:0:97]: Work
+
+You make a small mistake on your opening screen and your users laugh at you.
+
+[20:0:96]: Work
+
+You try to get a few of the system operators together for a meeting. They end
+up not being able to make it because of conflicting schedules.
+
+* A Chat Request has been made.
+
+[23:0:95]: Answer Chat
+
+
+You answer the chat and type several prompting messages, but the user never
+types anything back. Maybe it was line noise during an automated call.
+
+[23:0:94]: Work
+
+You start feeling like this is a real grind and you wonder why you are
+spending all of your time and effort working on keeping this computer
+running for a bunch of childish users. They want everything from you and
+don't want to pay for it. It is, after all, your computer and your life!
+What do these cheap skates want from you anyway?!  Gripe, snarl, gripe.
+
+      **** SYSOP BURNOUT WARNING! ****
+
+You are able to snap out of it before any real damage is done... this time.
+
+[26:0:93]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 9
+
+[35:0:92]: Work
+
+You decide to spend some time reading through the message bases on your BBS
+and answering the messages that seem interesting. This impresses the users and
+they start writing more messages and telling more people about all of the new
+activity on your board. This helps make your users happy and attract new users.
+
+You have 2 new users join.
+
+[37:0:91]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 6
+
+[43:0:90]: Work
+
+You spend another quiet night at home working on the BBS.
+
+[46:0:89]: Work
+
+You check through the new uploads and recompress them.
+
+[49:0:88]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 5
+
+[54:0:87]: Charge
+
+ Charging for access to your system may cause a drop in the number of calls.
+ Are you sure that you want to charge for access? (y/N) Yes
+
+Options
+  (0) None      -Free access to all
+  (1) Lifetime  -Users pay only once
+  (2) Yearly    -Users pay each year
+  (3) Monthly   -Users pay each month
+  (4) Weekly    -Users pay each week
+  (5) Hourly    -Users pay for connect time only
+  (6) Download  -Users pay for bytes received
+
+Choice> 3
+
+37 users decide to pay.
+4 users decide to leave.
+
+[13:37:86]: ? - Help
+
+(!) Instructions...... What do I do here?
+(A)nswer chat......... Keep in contact with the users
+(B)ank................ Check status of your account
+(C)harge users........ Set charge type and collect money
+(E)mploy workers...... Hire workers to help run your BBS
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(M)ail Box check...... Message base maintenance and status
+(R)eport.............. Check hardware, software, modems and users
+(S)tore............... Buy or upgrade hardware, software or phones
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(V)irus detection..... Keep your files clean and clear!
+(W)ork................ DO THIS! Keep your BBS active!
+(Z)ippy list.......... Show a quick list of your competition
+
+[13:37:86]: Store
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: Q Exit
+
+[13:37:85]: Work
+
+You spend some time writing letters to the new users. They like it and
+the volume of your mail goes up.
+
+[16:37:84]: Work
+
+   * Some subscription renewals arrive in the mail. *
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+[16:37:83]: Work
+
+You run a contest on your board to see who can write the most messages. The
+problem is that you end up with more mail in your mailbox!
+
+[19:37:82]: Work
+
+You help out a new user on your board with a few shareware programs and he
+turns out to be the head of a very large corporation. When his computer
+department upgrades the equipment in his office he donates his old computer
+to your BBS.
+
+It couldn't have come at a better time because your old system died when you
+tried to move it.
+
+Your new system is a 12Mhz 286 with 1meg RAM
+
+Your users hear about this and the word spreads attracting 11 new users!
+
+[30:37:81]: Work
+
+You decide to spend some time reading through the message bases on your BBS
+and answering the messages that seem interesting. This impresses the users and
+they start writing more messages and telling more people about all of the new
+activity on your board. This helps make your users happy and attract new users.
+
+You have 4 new users join.
+
+[34:37:80]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+[34:37:79]: Work
+
+You run a contest on your board to see who can write the most messages. The
+problem is that you end up with more mail in your mailbox!
+
+ ********** VIRUS ATTACK! **********
+
+A virus infects your system. It toggles a bit on your I/O board, and
+sends high current pulses through your modems, destroying some of them.
+
+Hope you have enough cash to buy new ones!
+
+Your close friend feels sorry that you lost your modem and lets
+you use his modem for a while.
+
+Some of your users hear about this and are sympathetic, but you do lose
+7 users due to the incident.
+
+You vow never to forget to run your virus protection again!
+
+[27:37:78]: Virus detection
+
+Murphyscan(TM) scans all drives and files for all KNOWN viruses!
+You have a 30meg 60ms drive  EST. SCAN TIME 10 SECONDS
+
+         [ÄÄÄÄÄÄÄÄÄÄÄ] <FullScan>
+Progress: ÛÛÛÛÛÛÛÛÛÛÛ
+
+ >>> No virus found <<<
+                      We at Murphycorp recommend you run
+                   Murphyscan(TM) every ten (10) downloads.
+                      Thank you for using Murphyscan(TM)!
+
+*not responsible for damage resulting from misuse.
+
+[27:37:77]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 18
+
+[45:37:76]: Charge
+
+Would you like to change how you are charging your new users? (y/N) No
+
+You rework some of your bulletins and remind the free access users about the
+benefits of joining your service and helping to support it.
+
+You charge them for a Monthly membership.
+
+31 users decide to pay.
+3 users decide to leave.
+
+[11:68:75]: Work
+
+A large slice of pizza gets stuck to your keyboard by mistake. It takes you
+a little extra effort to get it cleaned up.
+
+[11:68:73]: Work
+
+You decide to spend some time reading through the message bases on your BBS
+and answering the messages that seem interesting. This impresses the users and
+they start writing more messages and telling more people about all of the new
+activity on your board. This helps make your users happy and attract new users.
+
+You have 4 new users join.
+
+[15:68:72]: Work
+
+A freak lightning storm knocks out your phone line.
+Better get service soon!
+* YOU HAVE NO PHONE LINES!  ALL USERS HAVE LEFT YOUR SYSTEM!
+
+Temporary phone service has been restored after a lot of work from you!
+
+[1:0:56]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 4
+
+[5:0:55]: Work
+
+A user complains about the look of your menus and you change them a little.
+The other users like the new look and start using more time on-line.
+
+[5:0:54]: Work
+
+You help a new user download a file on your board and he reports you to the
+police for piracy. It turns out to be a mistake in his understanding of the
+shareware ideals but the news frightens off a few of your users.
+
+[5:0:53]: Work
+
+A new board opens across town from you and offers just about everything you
+have on your board. After a little checking it turns out that the sysop got
+all of his files and menu ideas from your board.
+
+5 users leave your system to join the new system.
+
+[1:0:52]: Work
+
+You spend a few late nights working on some menu changes, again.
+
+[1:0:51]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 6
+
+[7:0:50]: ? - Help
+
+(!) Instructions...... What do I do here?
+(A)nswer chat......... Keep in contact with the users
+(B)ank................ Check status of your account
+(C)harge users........ Set charge type and collect money
+(E)mploy workers...... Hire workers to help run your BBS
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(M)ail Box check...... Message base maintenance and status
+(R)eport.............. Check hardware, software, modems and users
+(S)tore............... Buy or upgrade hardware, software or phones
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(V)irus detection..... Keep your files clean and clear!
+(W)ork................ DO THIS! Keep your BBS active!
+(Z)ippy list.......... Show a quick list of your competition
+
+[7:0:50]: Answer Chat
+
+No chat request is pending.
+
+[7:0:50]: Work
+
+You decide to spend some time reading through the message bases on your BBS
+and answering the messages that seem interesting. This impresses the users and
+they start writing more messages and telling more people about all of the new
+activity on your board. This helps make your users happy and attract new users.
+
+You have 4 new users join.
+
+[11:0:49]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+[11:0:48]: Work
+
+It has been a long day at the keyboard. You deserve a break.
+
+Would you like to try your hand at a friendly game? (y/N) Yes
+
+Here are the rules. I'll think of two different numbers and show one to you.
+You then tell me if the second number is more or less than the first. If you
+are right then I'll give you more actions, but if you are wrong I'll take
+some away. The numbers can be anywhere from 0 to 100.
+
+Do you still want to play? (y/N) Yes
+
+We will play for 24 actions.
+
+The first number is 50 and I am thinking of a second.
+
+Is the second number (H)igher or (L)ower? Higher
+
+Yes it is!  The actions have been added to your account.
+
+* A Chat Request has been made.
+
+[11:0:71]: Answer Chat
+
+
+That user is in the middle of a file transfer. You can't chat now.
+
+[11:0:70]: Answer Chat
+
+No chat request is pending.
+
+[11:0:70]: Store
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 1
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: M
+
+Hardware prices include all mounting and connecting hardware, cables,
+driver software installation, testing and labor.
+
+We do the work for you so you can do what you do best!
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Modems:
+         Cheap 2400          $70 + XT or higher
+         Good 2400           100 + XT or higher
+         2400 v.42bis        150 + AT/286 or higher
+         9600                550 + AT/286 or higher
+         9600 v.32           800 + 386 or higher
+         9600ds            1,000 + 386 or higher
+        14.4kbps v.32bis   1,100 + 386 or higher
+        19.2kbps v.32ter   1,200 + 486 or higher
+        24.0kbps v.FC      1,300 + 486 or higher
+        28.8kbps v.Fast    1,400 + 486 or higher
+
+Press any key to continue...
+
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: S
+
+Hardware prices include all mounting and connecting hardware, cables,
+driver software installation, testing and labor.
+
+We do the work for you so you can do what you do best!
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Storage Devices:
+         30meg 60ms         $500 + XT or higher
+         100meg 29ms       1,000 + XT or higher
+         300meg 16ms       2,000 + AT/286 or higher
+         600meg 15ms       6,000 + AT/286 or higher
+         1.2Gig 11ms      80,000 + 386 or higher
+         6 Gig 3ms       150,000 + 486 or higher
+         Raid            250,000 + Mini v10 or higher
+
+Press any key to continue...
+
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: C
+
+Hardware prices include all mounting and connecting hardware, cables,
+driver software installation, testing and labor.
+
+We do the work for you so you can do what you do best!
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computers:
+         XT                   $0 + none
+         286               1,000 + XT or higher
+         386               1,400 + AT/286 or higher
+         486/25            4,400 + 386 or higher
+         486/50 v4         6,400 + 486 or higher and > 300 Meg Hard Drive
+         486/50 v9            ?    486 v4 through 486 v9 or higher
+         586/99               ?
+         (NOTE: Larger systems are available at other stores)
+
+Press any key to continue...
+
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Exit
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 1
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Modem
+
+
+Modems available:
+
+   (1)  2400                $70- Plain no frills 2400bps not auto answer!
+   (2)  2400                100- Nice no frills 2400bps auto answer
+   (3)  2400 v.42           150- Nice error free 2400bps auto answer
+   (4)  9600                550- Off brand 9600bps modem
+   ( )  9600 v.32           800- Nice world standard v.32 9600bps, req 386
+   ( )  9600ds            1,000- Dual standard 9600bps modem, req 386
+   ( ) 14400bps v.32bis   1,100- Good high speed modem, req fast 386
+   ( ) 19.2kbps v.32ter   1,200- Fast non-standard, req 486
+   ( ) 24.0kbps v.FC      1,300- Fast pre-standard, req 486
+   ( ) 28.8kbps v.Fast    1,400- Fast standard, req 486
+   (E)xit
+
+Choice: 4
+
+You buy nothing. Your software is at its limit.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 3
+
+ Software Retail Outlet Store For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (B)BS software
+   (N)etwork membership software
+   (H)ub network provider software
+   (E)xit
+
+Choice: Price list
+
+   (B)BS Software
+   (N)etwork membership software
+   (H)ub network provider software
+   (E)xit
+
+Choice: B
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   BBS Software:
+            2 lines         $60 + Slow XT or higher
+            4 lines         295 + Fast XT or higher
+            8 lines         850 + AT/286 or higher
+           16 lines         950 + 386 or higher
+           32 lines       1,400 + 386 or higher
+           64 lines       2,500 + fast 486 or higher
+           96 lines       3,800 + 586 or higher
+        9,999 lines       5,000 + Mini v11 or higher
+       99,999 lines      50,000 + Mainframe v100 or higher
+      999,999 lines     500,000 + Superputer v250 or higher
+
+Press any key to continue...
+
+
+ Software Retail Outlet Store For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (B)BS software
+   (N)etwork membership software
+   (H)ub network provider software
+   (E)xit
+
+Choice: BBS
+
+Your current software will handle 1 lines.
+
+BBS Software available:
+   (2)BBS        $60- Plain no frills 2 line
+   (4)BBS        295- Nice no frills 4 line
+   ( )BBS        850- Nice some frills 8 line for 286
+   ( )BBS        950- Very Nice 16 line for 386
+   ( )BBS        1,400- Very Nice 32 line for 386
+   ( )BBS        2,500- Very Nice 64 line for fast 486
+   ( )BBS        3,800- Very Nice 96 line for 586
+   ( )BBS        5,000- 9,999 lines for v11 Mini computers
+   ( )BBS        50,000- 99,999 lines for v100 Mainframes
+   ( )BBS        500,000- 999,999 lines for v250 Superputers
+
+Choice or (E)xit> 4
+You trade in your old software and get a nice 4 line BBS program.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 1
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Modem
+
+
+Modems available:
+
+   (1)  2400                $70- Plain no frills 2400bps not auto answer!
+   (2)  2400                100- Nice no frills 2400bps auto answer
+   (3)  2400 v.42           150- Nice error free 2400bps auto answer
+   ( )  9600                550- Off brand 9600bps modem, req 286
+   ( )  9600 v.32           800- Nice world standard v.32 9600bps, req 386
+   ( )  9600ds            1,000- Dual standard 9600bps modem, req 386
+   ( ) 14400bps v.32bis   1,100- Good high speed modem, req fast 386
+   ( ) 19.2kbps v.32ter   1,200- Fast non-standard, req 486
+   ( ) 24.0kbps v.FC      1,300- Fast pre-standard, req 486
+   ( ) 28.8kbps v.Fast    1,400- Fast standard, req 486
+   (E)xit
+
+Choice: 3
+
+You can afford up to 2 modems.
+Every modem you buy will take one action to install.
+How many do you want now? 2
+
+You buy 2 modems.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: Exit
+
+[21:0:65]: Work
+
+You call some other boards and download a few new files to list on-line.
+
+[21:0:64]: Work
+
+You decide to spend some time reading through the message bases on your BBS
+and answering the messages that seem interesting. This impresses the users and
+they start writing more messages and telling more people about all of the new
+activity on your board. This helps make your users happy and attract new users.
+
+You have 14 new users join.
+
+[35:0:63]: Work
+
+You check the phone wires over for poor connections and clean the contacts.
+
+[35:0:62]: Work
+
+Your cat jumps up on your keyboard while you are away and it locks the BBS
+until you get home. You toss a box of floppy disks at the cat!
+
+[35:0:61]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 20
+
+[55:0:60]: Work
+
+Your cat jumps up on your keyboard while you are away and it locks the BBS
+until you get home. You toss a box of floppy disks at the cat!
+
+[55:0:59]: Work
+
+You check through the new uploads and recompress them.
+
+[55:0:58]: Work
+
+You run a contest on your board to see who can write the most messages. The
+problem is that you end up with more mail in your mailbox!
+
+[55:0:57]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 8
+
+[63:0:56]: Work
+
+You give one of your modems to a small private school and their computer
+class joins your system.
+
+[113:0:55]: Hangup
+
+Disconnect from your service? (y/N) Yes
+
+Your line has been released to allow other users to access your service.
+
+You have 55 actions left today.
+Thank you for playing.
+
+                   Top 10 Systems and their Operators
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ 1-Legendary Boundaries..................131.131 Score: 1,822,489
+   Sysop: JEN GEHO with 43854 lines, 1679757 users.
+ 2-Marc's Place................................. Score: 821
+   Sysop: MARC LEWIS with 8 lines, 895 users.
+ 3-INDEX........................................ Score: 0
+   Sysop: LEVI SMITH with 1 line, 114 users.
+
+
+                       ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+             ÜÜÜÜÜÜÜÜÜÜ³         Virtual SysOp         ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [1]  Play!                 ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [2]  Top 10 List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [3]  Player List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [4]  Instructions          ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [5]  Questions & Answers   ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³           [Q]  Quit           ³ÜÜÜÜÜÜÜÜÜÜ
+                       ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+7 minutes remaining                                                Command: q
+
+
+  ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+ÜÜ³                               Fun & Games                               ³ÜÜ
+ÜÜ³                              ÍÍÍÍÍÍÍÍÍÍÍÍÍ                              ³ÜÜ
+ÜÜ³                                                                         ³ÜÜ
+ÜÜ³  [A]  BlackJack - Can you get 21?    [I]  Solitaire - Try to make 13    ³ÜÜ
+ÜÜ³  [B]  Card Guppies - Hi/Low          [J]  Territories 3069 - The future ³ÜÜ
+ÜÜ³  [C]  Eliza - Talk to the Doctor     [K]  Towers of Hanoi - Peg to peg  ³ÜÜ
+ÜÜ³  [D]  Graffiti Wall - Add to it      [L]  TwangCho - Like MahJongg      ³ÜÜ
+ÜÜ³  [E]  Hangman & Wheel - Buy a vowel  [M]  Ultra Trivia - Add your own   ³ÜÜ
+ÜÜ³  [F]  Insults - Can you take it?     [N]  Video Poker - 5 card draw     ³ÜÜ
+ÜÜ³  [G]  Reverse - Stack the blocks     [O]  Virtual SysOp - Your own BBS! ³ÜÜ
+ÜÜ³  [H]  Scramble - Put word in order   [P]  Word Power - Vocabulary quiz  ³ÜÜ
+ÜÜ³                                                                         ³ÜÜ
+ÜÜ³                                [Q]  Quit          [Z]  SysOp Test Area  ³ÜÜ
+  ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+7 minutes remaining                                                Command: q
+
+                     ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+                     ³         Southern Star BBS         ³
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³      25 GigaBytes - 8 Lines       ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³      Internet: bbs.sstar.com      ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³     Fidonet Zone Hub: 1:396/1     ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜ
+ÜÜÜ³     Main Areas      ³ÜÜÜ³    Information     ³ÜÜÜ³     Utilities      ³ÜÜÜ
+ÜÜÜ³    ÍÍÍÍÍÍÍÍÍÍÍÍ     ³ÜÜÜ³   ÍÍÍÍÍÍÍÍÍÍÍÍÍ    ³ÜÜÜ³    ÍÍÍÍÍÍÍÍÍÍÍ     ³ÜÜÜ
+ÜÜÜ³                     ³ÜÜÜ³                    ³ÜÜÜ³                    ³ÜÜÜ
+ÜÜÜ³ [I] Internet Access ³ÜÜÜ³ [B] Bulletins      ³ÜÜÜ³ [R] Registration   ³ÜÜÜ
+ÜÜÜ³ [M] Message Areas   ³ÜÜÜ³ [V] Event Calendar ³ÜÜÜ³ [Y] Configuration  ³ÜÜÜ
+ÜÜÜ³ [F] File Areas      ³ÜÜÜ³ [D] Databases      ³ÜÜÜ³ [W] Who's Online   ³ÜÜÜ
+ÜÜÜ³ [A] Fun & Games     ³ÜÜÜ³ [E] Extra Info     ³ÜÜÜ³ [*] Page the SysOp ³ÜÜÜ
+ÜÜÜ³ [O] On-Line Chat    ³ÜÜÜ³ [S] Statistics     ³ÜÜÜÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´ÜÜÜ
+ÜÜÜ³     .    .    .     ³ÜÜÜ³     .    .    .    ³ÜÜÜ³    [G] Goodbye     ³ÜÜÜ
+   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+7 minutes remaining                                                Command: g
+
+                   ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+         ÜÜÜÜÜÜÜÜÜÜ³    Are you ready to leave the BBS?    ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³   ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ   ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³                                       ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³         [Y]  Yes, Leave               ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³                                       ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³         [C]  Comment to SysOp         ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³                                       ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³         [V]  Visit the Time Bank      ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³                                       ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³         [N]  No, Stay                 ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³                                       ³ÜÜÜÜÜÜÜÜÜÜ
+                   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+7 minutes remaining                                                Command: y
+
+
+Type P to Pause, S to Stop listing
+
+
+
+Hello Levi Smith.
+
+Your membership expires in 6 - 10 days.  Please check the Registration Menu
+for renewal information.
+
+Thanks,
+
+SysOp
+
+
+
+-Press Any Key-
+
+
+
+
+
+
+               Thanks for calling, Levi.  Call again soon!
+
+
+                             Parting thought:
+
+"Common sense is very uncommon."
+
+
+
+
+
+Logged on at 18:03:59
+Logged off at 18:17:25
+
+
+Connection closed by foreign host.
+{oscar:/net/hu3/command} ls
+Mail               cs3411a            ns_imap            slirp-1_0c_tar.gz
+News               dead.letter        nsmail             test
+README             fortran            ppp                vs
+anothertest        lab7.cc            prolog             vs2
+campaign           lordemu            public             wall.psd
+campaign.cc        mail               public_html        ws_ftp.log
+cs2430             myPerl             sim.pl
+cs3411             mycs2390           slirp-1.0c
+{oscar:/net/hu3/command} cd vs
+{oscar:/net/hu3/command/vs}
+{oscar:/net/hu3/command/vs}
+{oscar:/net/hu3/command/vs}
+{oscar:/net/hu3/command/vs}
+{oscar:/net/hu3/command/vs}
+{oscar:/net/hu3/command/vs}

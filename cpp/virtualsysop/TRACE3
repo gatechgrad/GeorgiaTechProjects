@@ -1,0 +1,2614 @@
+
+
+SunOS UNIX (oscar)
+
+login: command
+Password:
+Last login: Fri Aug 27 21:41:16 from dialnet3.gatech.
+SunOS Release 4.1.3_U1 (OSCAR) #1: Mon Jun 9 18:32:35 EDT 1997
+
+When remotely accessing this machine you need to use the fully
+quallified domain name of oscar.cc.gatech.edu.  There is a top level
+country domain of ".cc" and they have many system names that are the
+same as some of the CoC systems.  Many people are accessing a "foreign"
+system by mistake when they use a shortened form of the name such as
+oscar.cc.
+You have mail.
+{oscar:/net/hu3/command} cd vs
+{oscar:/net/hu3/command/vs} ls -la
+total 782
+drwxr-xr-x  6 command       512 Aug 27 21:13 .
+drwxr-xr-x 30 command      2048 Aug 27 21:41 ..
+-rw-r--r--  1 command        36 Aug 26 10:23 a.bak
+-rw-r--r--  1 command      1255 Aug 27 21:10 ansicolor.cc
+-rw-r--r--  1 command      1153 Aug 26 14:51 ansicolor.h
+-rw-r--r--  1 command     17896 Aug 27 21:12 ansicolor.o
+drwxr-xr-x  2 command       512 Aug 16 00:08 c
+-rw-r--r--  1 command       228 Aug 20 01:06 door.sys
+-rw-r--r--  1 command       300 Aug 27 21:11 global.h
+-rw-r--r--  1 command      1876 Aug 19 23:31 instructions.ans
+-rw-r--r--  1 command       830 Aug 26 10:34 makefile
+drwxr-xr-x  2 command       512 Aug 27 17:59 old
+drwxr-xr-x  2 command       512 Aug 27 19:53 old2
+-rw-r--r--  1 command         8 Aug 27 21:14 player2.dat
+-rw-r--r--  1 command       175 Aug 21 01:41 players.dat
+-rw-r--r--  1 command      6184 Aug 26 10:47 store.cc
+-rw-r--r--  1 command      2122 Aug 26 11:00 store.h
+-rw-r--r--  1 command     79771 Aug 27 21:13 store.o
+-rw-r--r--  1 command     50841 Aug 27 19:57 sysop.cc
+-rw-r--r--  1 command      2865 Aug 24 03:57 sysop.h
+-rw-r--r--  1 command    172882 Aug 27 21:13 sysop.o
+drwxr-xr-x  2 command       512 Aug 19 06:27 test
+-rw-r--r--  1 command     12307 Aug 27 21:10 virtualsysop.cc
+-rw-r--r--  1 command       417 Aug 21 01:53 virtualsysop.h
+-rw-r--r--  1 command     95453 Aug 27 21:12 virtualsysop.o
+-rwxr-xr-x  1 command    305971 Aug 27 21:13 vs
+{oscar:/net/hu3/command/vs} vs
+
+ Virtual Sysop: The Virtual System Operator Simulation
+_____________________________________________________________
+You have just spent a long time and a good bit of money to get your computer
+and software ready to go on-line. Someone gave you an old IBM XT that they were
+going to toss in the trash. You got a shareware BBS program and a cheap modem
+and now you are ready to start accepting calls.
+
+The local system operators' group welcomes you as a member of their community!
+Most of them wish you the best of luck with your BBS and users.
+
+The local directory of Bulletin Board Systems needs some information from you.
+In order to keep our records straight we need to know the name that you call
+your BBS in this game. The list has space for up to 30 characters.
+
+What is your BBS called?[INDEX.........................]
+
+Checking all lines for status - OK.
+System hardware diagnostics   - OK.
+Press "?" for help.
+
+OpMode.
+
+[9:0:150]: w
+[9:0:150]: work
+
+You check the phone wires over for poor connections and clean the contacts.
+
+[9:0:149]: h
+[9:0:149]: hangup
+
+Disconnect from your service? (y/N) Yes
+
+Your line has been released to allow other users to access your service.
+
+You have 149 actions left today.
+Thank you for playing.
+
+                   Top 10 Systems and their Operators
+ ----------------------------------------------------------------------
+1-The Edge..................................... Score: 3,215,089
+Sysop: LEVI D. SMITH with 42702 lines, 62 users.
+
+{oscar:/net/hu3/command/vs} make
+`vs' is up to date.
+{oscar:/net/hu3/command/vs} rm virtualsysop.o
+rm: remove virtualsysop.o? y
+{oscar:/net/hu3/command/vs} make
+g++ -g -Wall -Woverloaded-virtual -c virtualsysop.cc
+virtualsysop.cc: In method `void virtualsysop::load()':
+virtualsysop.cc:63: warning: implicit declaration of function `int read(...)'
+g++ -o vs virtualsysop.o ansicolor.o sysop.o store.o
+{oscar:/net/hu3/command/vs} vi virtualsysop.cc
+     2
+     9         << " Virtual Sysop: The Virtual System Operator Simulation"
+    10         << endl;
+    11    ColorControl->setColor(BRIGHT, FG, A_CYAN);
+    12    cout << "_____________________________________________________________
+"
+    13         << endl;
+    14    newGame();
+    15
+    16    writeFile();
+    17    ColorControl->resetColor();
+    18    delete ColorControl;
+    19  }
+    20
+    21  void virtualsysop::load() {
+:q!
+{oscar:/net/hu3/command/vs} vi virtualsysop.h
+     3
+     6
+     9      virtualsysop();
+    10    private:
+    11      void helpMenu();
+    12      void newGame();
+    13      void mainMenu();
+    14      void topTen();
+    15      void invalidCommand();
+    16      void hangUp();
+    17      void load();
+    18      void writeFile();
+    19
+    20      ansicolor *ColorControl;
+    21      sysop *CurrentPlayer;
+    22      //vector<sysop *>  PlayerList;
+     1  #ifndef VIRTUALSYSOP_H
+     2  #define VIRTUALSYSOP_H
+     3
+     4  #include "global.h"
+     5  #include "sysop.h"
+     6
+     7  class virtualsysop {
+     8    public:
+     9      virtualsysop();
+:q!
+{oscar:/net/hu3/command/vs} vi global.h
+     3
+     4
+     9  #include <fstream>
+    10
+    11  char READ();
+    12
+    13
+    14
+    15  #ifdef UNIX
+    16    inline char READ() {
+    17      cout << "*** UNIX!!" << endl;
+    18      getline(cin, str);
+    19      return str[0];
+    20    }
+    21  #endif UNIX
+    22
+     1  #ifndef GLOBAL_H
+     2  #define GLOBAL_H
+     3
+     4
+     5  #include <iostream>
+     6  #include <string>
+     7  #include <strstream>
+     8  #include "ansicolor.h"
+     9  #include <fstream>
+    10
+    11  char READ();
+    11  char READ();
+    10
+:q!
+{oscar:/net/hu3/command/vs} vi virtualsysop.cc
+     2
+     9         << " Virtual Sysop: The Virtual System Operator Simulation"
+    10         << endl;
+    11    ColorControl->setColor(BRIGHT, FG, A_CYAN);
+    12    cout << "_____________________________________________________________
+"
+    13         << endl;
+    14    newGame();
+    15
+    16    writeFile();
+    17    ColorControl->resetColor();
+    18    delete ColorControl;
+    19  }
+    20
+    21  void virtualsysop::load() {
+    54      myStringStream >> l4Modem;
+    55      myStringStream >> lSoftware;
+    56      myStringStream >> lLines;
+    57      myStringStream >> lEdu1;
+    58      myStringStream >> lEdu2;
+    59      myStringStream >> lCID;
+    60      myStringStream >> lSec;
+    61
+    62      while(in) {
+    63        str = read();
+    64        cout << str << endl;
+    65  /*
+    66        sysop *aSysop = new sysop(ColorControl, lName, lBBS, lDateCreate,
+    67                           lDateLastOn, lScore,
+    68                           lFree, lPaying, lActions, lMorale, lComputer,
+    69                           lStorage, l0Modem, l1Modem, l2Modem, l3Modem,
+    70                           l4Modem, lSoftware, lLines, lEdu1, lEdu2,
+    71                           lCID, lSec);
+    72      //PlayerList.push_back(*aSysop);
+    73  */
+    74      }
+:q!
+{oscar:/net/hu3/command/vs} vi global.h
+     3
+     4
+     9  #include <fstream>
+    10
+    11  char READ();
+    12
+    13
+    14
+    15  #ifdef UNIX
+    16    inline char READ() {
+    17      cout << "*** UNIX!!" << endl;
+    18      getline(cin, str);
+    19      return str[0];
+    20    }
+    21  #endif UNIX
+    22
+     1  #ifndef GLOBAL_H
+     2  #define GLOBAL_H
+     3
+     4
+     5  #include <iostream>
+     6  #include <string>
+     7  #include <strstream>
+     8  #include "ansicolor.h"
+     9  #include <fstream>
+    10
+    11  char READ();
+    12
+    13
+:q!
+{oscar:/net/hu3/command/vs} vi virtualsysop.cc
+     2
+     9         << " Virtual Sysop: The Virtual System Operator Simulation"
+    10         << endl;
+    11    ColorControl->setColor(BRIGHT, FG, A_CYAN);
+    12    cout << "_____________________________________________________________
+"
+    13         << endl;
+    14    newGame();
+    15
+    16    writeFile();
+    17    ColorControl->resetColor();
+    18    delete ColorControl;
+    19  }
+    20
+    21  void virtualsysop::load() {
+    54      myStringStream >> l4Modem;
+    55      myStringStream >> lSoftware;
+    56      myStringStream >> lLines;
+    57      myStringStream >> lEdu1;
+    58      myStringStream >> lEdu2;
+    59      myStringStream >> lCID;
+    60      myStringStream >> lSec;
+    61
+    62      while(in) {
+    63        str = read();
+    64        cout << str << endl;
+    65  /*
+    66        sysop *aSysop = new sysop(ColorControl, lName, lBBS, lDateCreate,
+    67                           lDateLastOn, lScore,
+    68                           lFree, lPaying, lActions, lMorale, lComputer,
+    69                           lStorage, l0Modem, l1Modem, l2Modem, l3Modem,
+    70                           l4Modem, lSoftware, lLines, lEdu1, lEdu2,
+    71                           lCID, lSec);
+    72      //PlayerList.push_back(*aSysop);
+    73  */
+    74      }
+"virtualsysop.cc" 416 lines, 12307 characters
+{oscar:/net/hu3/command/vs} make
+g++ -g -Wall -Woverloaded-virtual -c virtualsysop.cc
+g++ -o vs virtualsysop.o ansicolor.o sysop.o store.o
+virtualsysop.o: In function `virtualsysop::load(void)':
+/net/hu3/command/vs/virtualsysop.cc:63: undefined reference to `READ(void)'
+collect2: ld returned 1 exit status
+*** Error code 1
+make: Fatal error: Command failed for target `vs'
+{oscar:/net/hu3/command/vs} vi global.h
+     3
+     4
+     9  #include <fstream>
+    10
+    11  char READ();
+    12
+    13
+    14
+    15  #ifdef UNIX
+    16    inline char READ() {
+    17      cout << "*** UNIX!!" << endl;
+    18      getline(cin, str);
+    19      return str[0];
+    20    }
+    21  #endif UNIX
+    22
+     1  #ifndef GLOBAL_H
+     2  #define GLOBAL_H
+     3
+     4
+     5  #include <iostream>
+     6  #include <string>
+     7  #include <strstream>
+     8  #include "ansicolor.h"
+     9  #include <fstream>
+    10
+    11  char READ();
+    12
+    13
+    14
+    15  //#ifdef UNIX
+    16    inline char READ() {
+    17      cout << "*** UNIX!!" << endl;
+    18      getline(cin, str);
+    19      return str[0];
+    20    }
+    21  //#endif UNIX
+    22
+    23
+"global.h" 24 lines, 304 characters
+{oscar:/net/hu3/command/vs} make
+g++ -o vs virtualsysop.o ansicolor.o sysop.o store.o
+virtualsysop.o: In function `virtualsysop::load(void)':
+/net/hu3/command/vs/virtualsysop.cc:63: undefined reference to `READ(void)'
+collect2: ld returned 1 exit status
+*** Error code 1
+make: Fatal error: Command failed for target `vs'
+{oscar:/net/hu3/command/vs} vi virtualsysop.cc
+     2
+     9         << " Virtual Sysop: The Virtual System Operator Simulation"
+    10         << endl;
+    11    ColorControl->setColor(BRIGHT, FG, A_CYAN);
+    12    cout << "_____________________________________________________________
+"
+    13         << endl;
+    14    newGame();
+    15
+    16    writeFile();
+    17    ColorControl->resetColor();
+    18    delete ColorControl;
+    19  }
+    20
+    21  void virtualsysop::load() {
+    54      myStringStream >> l4Modem;
+    55      myStringStream >> lSoftware;
+    56      myStringStream >> lLines;
+    57      myStringStream >> lEdu1;
+    58      myStringStream >> lEdu2;
+    59      myStringStream >> lCID;
+    60      myStringStream >> lSec;
+    61
+    62      while(in) {
+    63        str = READ();
+    64        cout << str << endl;
+    65  /*
+    66        sysop *aSysop = new sysop(ColorControl, lName, lBBS, lDateCreate,
+    67                           lDateLastOn, lScore,
+    68                           lFree, lPaying, lActions, lMorale, lComputer,
+    69                           lStorage, l0Modem, l1Modem, l2Modem, l3Modem,
+    70                           l4Modem, lSoftware, lLines, lEdu1, lEdu2,
+    71                           lCID, lSec);
+    72      //PlayerList.push_back(*aSysop);
+    73  */
+    74      }
+:q!
+{oscar:/net/hu3/command/vs} vi global.h
+     3
+     4
+     9  #include <fstream>
+    10
+    11  char READ();
+    12
+    13
+    14
+    15  //#ifdef UNIX
+    16    inline char READ() {
+    17      cout << "*** UNIX!!" << endl;
+    18      getline(cin, str);
+    19      return str[0];
+    20    }
+    21  //#endif UNIX
+    22
+     1  #ifndef GLOBAL_H
+     2  #define GLOBAL_H
+     3
+     4
+     5  #include <iostream>
+     6  #include <string>
+     7  #include <strstream>
+     8  #include "ansicolor.h"
+     9  #include <fstream>
+    10
+    11  char READ();
+    12
+    13
+    14
+    15  //#ifdef UNIX
+    16    inline char READ() {
+    17      cout << "*** UNIX!!" << endl;
+    18      getline(cin, str);
+    19      return str[0];
+    20    }
+    21  //#endif UNIX
+    22
+    23
+
+    15  //#ifdef UNIX
+"global.h" 24 lines, 310 characters
+{oscar:/net/hu3/command/vs} make
+g++ -o vs virtualsysop.o ansicolor.o sysop.o store.o
+virtualsysop.o: In function `virtualsysop::load(void)':
+/net/hu3/command/vs/virtualsysop.cc:63: undefined reference to `READ(void)'
+collect2: ld returned 1 exit status
+*** Error code 1
+make: Fatal error: Command failed for target `vs'
+{oscar:/net/hu3/command/vs} vi virtualsysop.cc 63G
+2 files to edit
+     2
+     9         << " Virtual Sysop: The Virtual System Operator Simulation"
+    10         << endl;
+    11    ColorControl->setColor(BRIGHT, FG, A_CYAN);
+    12    cout << "_____________________________________________________________
+"
+    13         << endl;
+    14    newGame();
+    15
+    16    writeFile();
+    17    ColorControl->resetColor();
+    18    delete ColorControl;
+    19  }
+    20
+    21  void virtualsysop::load() {
+    54      myStringStream >> l4Modem;
+    55      myStringStream >> lSoftware;
+    56      myStringStream >> lLines;
+    57      myStringStream >> lEdu1;
+    58      myStringStream >> lEdu2;
+    59      myStringStream >> lCID;
+    60      myStringStream >> lSec;
+    61
+    62      while(in) {
+    63        str = READ();
+    64        cout << str << endl;
+    65  /*
+    66        sysop *aSysop = new sysop(ColorControl, lName, lBBS, lDateCreate,
+    67                           lDateLastOn, lScore,
+    68                           lFree, lPaying, lActions, lMorale, lComputer,
+    69                           lStorage, l0Modem, l1Modem, l2Modem, l3Modem,
+    70                           l4Modem, lSoftware, lLines, lEdu1, lEdu2,
+    71                           lCID, lSec);
+    72      //PlayerList.push_back(*aSysop);
+    73  */
+    74      }
+"virtualsysop.cc" 416 lines, 12315 characters
+{oscar:/net/hu3/command/vs} vi global.h
+     3
+     4
+     9  #include <fstream>
+    10
+    11  char READ();
+    12
+    13
+    14
+    15  //#ifdef UNIX
+    16    inline char READ( void ) {
+    17      cout << "*** UNIX!!" << endl;
+    18      getline(cin, str);
+    19      return str[0];
+    20    }
+    21  //#endif UNIX
+    22
+     1  #ifndef GLOBAL_H
+     2  #define GLOBAL_H
+     3
+     4
+     5  #include <iostream>
+     6  #include <string>
+     7  #include <strstream>
+     8  #include "ansicolor.h"
+     9  #include <fstream>
+    10
+    11  char READ();
+    12
+    13
+    14
+    15  //#ifdef UNIX
+    16    inline char READ( void ) {
+    17      cout << "*** UNIX!!" << endl;
+    11  inline char READ();
+    12
+    13
+    14
+    15  //#ifdef UNIX
+    16    inline char READ( void ) {
+"global.h" 24 lines, 327 characters
+{oscar:/net/hu3/command/vs} make
+g++ -g -Wall -Woverloaded-virtual -c virtualsysop.cc
+global.h: In function `char getCharacter()':
+In file included from virtualsysop.h:4,
+                 from virtualsysop.cc:1:
+global.h:18: `str' undeclared (first use this function)
+global.h:18: (Each undeclared identifier is reported only once
+global.h:18: for each function it appears in.)
+global.h:19: confused by earlier errors, bailing out
+*** Error code 1
+make: Fatal error: Command failed for target `virtualsysop.o'
+{oscar:/net/hu3/command/vs} vi global.h
+     3
+     4
+     9  #include <fstream>
+    10
+    11  inline char getCharacter();
+    12
+    13
+    14
+    15  //#ifdef UNIX
+    16    inline char getCharacter() {
+    17      cout << "*** UNIX!!" << endl;
+    18      getline(cin, str);
+    19      return str[0];
+    20    }
+    21  //#endif UNIX
+    22
+     1  #ifndef GLOBAL_H
+     2  #define GLOBAL_H
+     3
+     4
+     5  #include <iostream>
+     6  #include <string>
+     7  #include <strstream>
+     8  #include "ansicolor.h"
+     9  #include <fstream>
+    10
+    11  inline char getCharacter();
+    12
+    13
+    14
+    15  //#ifdef UNIX
+    16    inline char getCharacter() {
+    17      cout << "*** UNIX!!" << endl;
+    17
+    18      cout << "*** UNIX!!" << endl;
+    19      getline(cin, str);
+    20      return str[0];
+    21    }
+    22  //#endif UNIX
+"global.h" 25 lines, 343 characters
+{oscar:/net/hu3/command/vs} make
+g++ -g -Wall -Woverloaded-virtual -c virtualsysop.cc
+g++ -o vs virtualsysop.o ansicolor.o sysop.o store.o
+{oscar:/net/hu3/command/vs} vs
+
+ Virtual Sysop: The Virtual System Operator Simulation
+_____________________________________________________________
+You have just spent a long time and a good bit of money to get your computer
+and software ready to go on-line. Someone gave you an old IBM XT that they were
+going to toss in the trash. You got a shareware BBS program and a cheap modem
+and now you are ready to start accepting calls.
+
+The local system operators' group welcomes you as a member of their community!
+Most of them wish you the best of luck with your BBS and users.
+
+The local directory of Bulletin Board Systems needs some information from you.
+In order to keep our records straight we need to know the name that you call
+your BBS in this game. The list has space for up to 30 characters.
+
+What is your BBS called?[index.........................]
+
+Checking all lines for status - OK.
+System hardware diagnostics   - OK.
+Press "?" for help.
+
+OpMode.
+
+[9:0:150]: ?
+[9:0:150]: ? - Help
+
+(!) Instructions...... What do I do here?
+(A)nswer chat......... Keep in contact with the users
+(B)ank................ Check status of your account
+(C)harge users........ Set charge type and collect money
+(E)mploy workers...... Hire workers to help run your BBS
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(M)ail Box check...... Message base maintenance and status
+(R)eport.............. Check hardware, software, modems and users
+(S)tore............... Buy or upgrade hardware, software or phones
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(V)irus detection..... Keep your files clean and clear!
+(W)ork................ DO THIS! Keep your BBS active!
+(Z)ippy list.......... Show a quick list of your competition
+
+[9:0:150]: r
+[9:0:150]: report
+
+ Report on the setup of index BBS
+___________________________________________________________________________
+   Computer: XT
+    Storage: 30meg 60ms
+     Modems: 1 at 2400bps
+   Software: supports only one line
+      Users: 9 free, 0 paying.
+Phone Lines: 1(X lines unused)
+ Experience: Absolute Beginner Sysop
+  Education: No Public, No Personal
+  Caller ID: None.
+   Security: None.
+    Actions: 150 left today
+      Score: Nothing! (Work harder!)
+
+[9:0:150]: work
+[9:0:150]: work
+
+You check the phone wires over for poor connections and clean the contacts.
+
+                       Huh?
+If you need help, try pressing the Question mark (?) key.
+
+                       eport
+[9:0:149]:
+ Report on the setup of index BBS
+___________________________________________________________________________
+   Computer: XT
+    Storage: 30meg 60ms
+     Modems: 1 at 2400bps
+   Software: supports only one line
+      Users: 9 free, 0 paying.
+Phone Lines: 1(X lines unused)
+ Experience: Absolute Beginner Sysop
+  Education: No Public, No Personal
+  Caller ID: None.
+   Security: None.
+    Actions: 149 left today
+      Score: Nothing! (Work harder!)
+
+                       Huh?
+If you need help, try pressing the Question mark (?) key.
+
+[9:0:149]: h
+[9:0:149]: hangup
+
+Disconnect from your service? (y/N) Yes
+
+Your line has been released to allow other users to access your service.
+
+You have 149 actions left today.
+Thank you for playing.
+
+                   Top 10 Systems and their Operators
+ ----------------------------------------------------------------------
+1-The Edge..................................... Score: 3,215,089
+Sysop: LEVI D. SMITH with 42702 lines, 62 users.
+
+{oscar:/net/hu3/command/vs} vi virtualsysop.cc
+     2
+     9         << " Virtual Sysop: The Virtual System Operator Simulation"
+    10         << endl;
+    11    ColorControl->setColor(BRIGHT, FG, A_CYAN);
+    12    cout << "_____________________________________________________________
+"
+    13         << endl;
+    14    newGame();
+    15
+    16    writeFile();
+    17    ColorControl->resetColor();
+    18    delete ColorControl;
+    19  }
+    20
+    21  void virtualsysop::load() {
+    54      myStringStream >> l4Modem;
+    55      myStringStream >> lSoftware;
+    56      myStringStream >> lLines;
+    57      myStringStream >> lEdu1;
+    58      myStringStream >> lEdu2;
+    59      myStringStream >> lCID;
+    60      myStringStream >> lSec;
+    61
+    62      while(in) {
+    63        str = getCharacter();
+    64        cout << str << endl;
+    65  /*
+    66        sysop *aSysop = new sysop(ColorControl, lName, lBBS, lDateCreate,
+    67                           lDateLastOn, lScore,
+    68                           lFree, lPaying, lActions, lMorale, lComputer,
+    69                           lStorage, l0Modem, l1Modem, l2Modem, l3Modem,
+    70                           l4Modem, lSoftware, lLines, lEdu1, lEdu2,
+    71                           lCID, lSec);
+    72      //PlayerList.push_back(*aSysop);
+    73  */
+    74      }
+    29
+    30    ifstream in("players.dat");
+    31    if (!in) {
+    32      cout << "ERROR: players.dat is missing" << endl;
+    33    }
+    34
+    35    while(in) {
+    36      getline(in, str);
+    37
+    38      istrstream myStringStream(str.c_str(), '|');
+    39      myStringStream >> lName;
+    40      myStringStream >> lBBS;
+    41      myStringStream >> lDateCreate;
+    42      myStringStream >> lDateLastOn;
+    43      myStringStream >> lScore;
+    44      myStringStream >> lFree;
+    45      myStringStream >> lPaying;
+    46      myStringStream >> lActions;
+    47      myStringStream >> lMorale;
+    48      myStringStream >> lComputer;
+    49      myStringStream >> lStorage;
+    50      myStringStream >> l0Modem;
+    51      myStringStream >> l1Modem;
+
+    52      myStringStream >> l2Modem;
+
+    53      myStringStream >> l3Modem;
+
+    54      myStringStream >> l4Modem;
+
+    55      myStringStream >> lSoftware;
+
+    56      myStringStream >> lLines;
+
+    57      myStringStream >> lEdu1;
+
+    58      myStringStream >> lEdu2;
+
+    59      myStringStream >> lCID;
+
+    60      myStringStream >> lSec;
+
+    61
+
+    62      while(in) {
+
+    63        str = getCharacter();
+
+    64        cout << str << endl;
+
+    65  /*
+
+    66        sysop *aSysop = new sysop(ColorControl, lName, lBBS, lDateCreate,
+
+    67                           lDateLastOn, lScore,
+
+    68                           lFree, lPaying, lActions, lMorale, lComputer,
+
+    69                           lStorage, l0Modem, l1Modem, l2Modem, l3Modem,
+
+    70                           l4Modem, lSoftware, lLines, lEdu1, lEdu2,
+
+    71                           lCID, lSec);
+
+    72      //PlayerList.push_back(*aSysop);
+
+    73  */
+
+    74      }
+
+    75
+
+    34
+    35    while(in) {
+    36      getline(in, str);
+    37
+    38      istrstream myStringStream(str.c_str(), '|');
+    39      myStringStream >> lName;
+    40      myStringStream >> lBBS;
+    41      myStringStream >> lDateCreate;
+    42      myStringStream >> lDateLastOn;
+    43      myStringStream >> lScore;
+    44      myStringStream >> lFree;
+    45      myStringStream >> lPaying;
+    46      myStringStream >> lActions;
+    47      myStringStream >> lMorale;
+    48      myStringStream >> lComputer;
+    49      myStringStream >> lStorage;
+    50      myStringStream >> l0Modem;
+    51      myStringStream >> l1Modem;
+    52      myStringStream >> l2Modem;
+    53      myStringStream >> l3Modem;
+    54      myStringStream >> l4Modem;
+    55      myStringStream >> lSoftware;
+    56      myStringStream >> lLines;
+    57      myStringStream >> lEdu1;
+    58      myStringStream >> lEdu2;
+    59      myStringStream >> lCID;
+    60      myStringStream >> lSec;
+    61
+    62      while(in) {
+    63        str = getCharacter();
+    64        cout << str << endl;
+    65  /*
+    66        sysop *aSysop = new sysop(ColorControl, lName, lBBS, lDateCreate,
+    67                           lDateLastOn, lScore,
+    68                           lFree, lPaying, lActions, lMorale, lComputer,
+    69                           lStorage, l0Modem, l1Modem, l2Modem, l3Modem,
+    70                           l4Modem, lSoftware, lLines, lEdu1, lEdu2,
+    71                           lCID, lSec);
+    72      //PlayerList.push_back(*aSysop);
+    73  */
+    74      }
+    75
+    54      myStringStream >> l4Modem;
+    55      myStringStream >> lSoftware;
+    56      myStringStream >> lLines;
+    57      myStringStream >> lEdu1;
+    58      myStringStream >> lEdu2;
+    59      myStringStream >> lCID;
+    60      myStringStream >> lSec;
+    75
+    76      in.close();
+    77
+    78      //CurrentPlayer  = aSysop;
+    79
+    80      cout << "Use ANSI color??" << endl;
+    81      cin >> chInput;
+    82
+    83      if ((chInput == 'y') || (chInput == 'Y')) {
+    84        ColorControl = new ansicolor(true);
+    85      } else {
+    86        ColorControl = new ansicolor(false);
+    87      }
+    88
+    89
+    90      mainMenu();
+    91
+    92    }
+    93  }
+    94
+    95  void virtualsysop::newGame() {
+    96    string strName, strBBSName;
+   178
+   179    while(keepLooping) {
+   180      CurrentPlayer->prompt();
+   181
+   182      cin >> chInput;
+   183
+   184      ColorControl->setColor(BRIGHT, FG, A_BLACK);
+   185      ColorControl->cursorUp(1);
+   186      ColorControl->cursorRight(CurrentPlayer->promptLength());
+   187
+   188      switch (chInput) {
+   189        case '$':
+   190          CurrentPlayer->cheat();
+   191          break;
+   192        case '?':
+   193        case '!':
+   194          helpMenu();
+   195          break;
+   196        case 'a':
+   197        case 'A':
+   198          CurrentPlayer->answerChat();
+   199          break;
+   177
+   178
+   179    while(keepLooping) {
+   180      CurrentPlayer->prompt();
+   181
+"virtualsysop.cc" 416 lines, 12325 characters
+{oscar:/net/hu3/command/vs} make
+g++ -g -Wall -Woverloaded-virtual -c virtualsysop.cc
+g++ -o vs virtualsysop.o ansicolor.o sysop.o store.o
+{oscar:/net/hu3/command/vs} vs
+
+ Virtual Sysop: The Virtual System Operator Simulation
+_____________________________________________________________
+You have just spent a long time and a good bit of money to get your computer
+and software ready to go on-line. Someone gave you an old IBM XT that they were
+going to toss in the trash. You got a shareware BBS program and a cheap modem
+and now you are ready to start accepting calls.
+
+The local system operators' group welcomes you as a member of their community!
+Most of them wish you the best of luck with your BBS and users.
+
+The local directory of Bulletin Board Systems needs some information from you.
+In order to keep our records straight we need to know the name that you call
+your BBS in this game. The list has space for up to 30 characters.
+
+What is your BBS called?[aslkjdf.......................]
+
+Checking all lines for status - OK.
+System hardware diagnostics   - OK.
+Press "?" for help.
+
+OpMode.
+
+[9:0:150]: *** UNIX!!
+?
+?            - Help
+
+(!) Instructions...... What do I do here?
+(A)nswer chat......... Keep in contact with the users
+(B)ank................ Check status of your account
+(C)harge users........ Set charge type and collect money
+(E)mploy workers...... Hire workers to help run your BBS
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(M)ail Box check...... Message base maintenance and status
+(R)eport.............. Check hardware, software, modems and users
+(S)tore............... Buy or upgrade hardware, software or phones
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(V)irus detection..... Keep your files clean and clear!
+(W)ork................ DO THIS! Keep your BBS active!
+(Z)ippy list.......... Show a quick list of your competition
+
+[9:0:150]: *** UNIX!!
+h
+h           angup
+
+Disconnect from your service? (y/N) Yes
+
+Your line has been released to allow other users to access your service.
+
+You have 150 actions left today.
+Thank you for playing.
+
+                   Top 10 Systems and their Operators
+ ----------------------------------------------------------------------
+1-The Edge..................................... Score: 3,215,089
+Sysop: LEVI D. SMITH with 42702 lines, 62 users.
+
+{oscar:/net/hu3/command/vs} vi global.h
+     3
+     4
+     9  #include <fstream>
+    10
+    11  inline char getCharacter();
+    12
+    13
+    14
+    15  //#ifdef UNIX
+    16    inline char getCharacter() {
+    17      string str;
+    18      cout << "*** UNIX!!" << endl;
+    19      getline(cin, str);
+    20      return str[0];
+    21    }
+    22  //#endif UNIX
+     1  #ifndef GLOBAL_H
+     2  #define GLOBAL_H
+     3
+     4
+     5  #include <iostream>
+     6  #include <string>
+     7  #include <strstream>
+     8  #include "ansicolor.h"
+     9  #include <fstream>
+    10
+    11  inline char getCharacter();
+    12
+    13
+    14
+    15  //#ifdef UNIX
+    16    inline char getCharacter() {
+    17      string str;
+    18      cout << "*** UNIX!!" << endl;
+"global.h" 25 lines, 343 characters
+    18      getline(cin, str);
+    19      return str[0];
+    20    }
+    21  //#endif UNIX
+    22
+"global.h" 24 lines, 309 characters
+{oscar:/net/hu3/command/vs} make
+`vs' is up to date.
+{oscar:/net/hu3/command/vs} vi makefile
+     7
+     9  EXE=vs
+    10
+    11  # add -Wall for LOTS of warnings, -g for debugger support
+    12  CCFLAGS = -g -Wall -Woverloaded-virtual
+    13
+    14  OBJS = virtualsysop.o ansicolor.o sysop.o store.o
+    15
+    16  # suffix rule to tell SGI make how to compile C++ programs
+    17  .SUFFIXES: .cc
+    18  # second line below must begin with a single TAB character!
+    19  .cc.o:
+    20    $(CCC) $(CCFLAGS) -c $<
+    21
+    22  # second line below must begin with a single TAB character!
+     1  # Simple Makefile for g++
+     2  # ----------------------
+     3  # Replace Class1 and Class2 with your classes below.
+     4  # If you add a new class C, you must add C.o to the OBJS definition
+     5  # and add a dependency for the .h file like:
+     6  # C.o: C.h
+     7
+     8  CCC=g++
+     9  EXE=vs
+    10
+    11  # add -Wall for LOTS of warnings, -g for debugger support
+    12  CCFLAGS = -g -Wall -Woverloaded-virtual
+    13
+    14  OBJS = virtualsysop.o ansicolor.o sysop.o store.o
+    15
+    16  # suffix rule to tell SGI make how to compile C++ programs
+    17  .SUFFIXES: .cc
+    18  # second line below must begin with a single TAB character!
+    19  .cc.o:
+    20    $(CCC) $(CCFLAGS) -c $<
+    21
+    22  # second line below must begin with a single TAB character!
+    23  vs: $(OBJS)
+
+    24    $(CCC) -o $(EXE) $(OBJS)
+
+    25
+
+    26  virtualsysop.o: virtualsysop.h
+
+    27  ansicolor.o: ansicolor.h
+
+    28  sysop.o: sysop.h
+
+    29
+
+    30  # second line below must begin with a single TAB character!
+
+    31  clean:
+
+    32    -rm -rf *.o core $(EXE)
+:q!
+{oscar:/net/hu3/command/vs} make -vs
+make: Fatal error: Unknown option `-v'
+{oscar:/net/hu3/command/vs} make vs
+`vs' is up to date.
+{oscar:/net/hu3/command/vs} vi makefile
+     7
+     9  EXE=vs
+    10
+    11  # add -Wall for LOTS of warnings, -g for debugger support
+    12  CCFLAGS = -g -Wall -Woverloaded-virtual
+    13
+    14  OBJS = virtualsysop.o ansicolor.o sysop.o store.o
+    15
+    16  # suffix rule to tell SGI make how to compile C++ programs
+    17  .SUFFIXES: .cc
+    18  # second line below must begin with a single TAB character!
+    19  .cc.o:
+    20    $(CCC) $(CCFLAGS) -c $<
+    21
+    22  # second line below must begin with a single TAB character!
+     1  # Simple Makefile for g++
+     2  # ----------------------
+     3  # Replace Class1 and Class2 with your classes below.
+     4  # If you add a new class C, you must add C.o to the OBJS definition
+     5  # and add a dependency for the .h file like:
+:q!
+{oscar:/net/hu3/command/vs} vi makefile
+     7
+     9  EXE=vs
+    10
+    11  # add -Wall for LOTS of warnings, -g for debugger support
+    12  CCFLAGS = -g -Wall -Woverloaded-virtual
+    13
+    14  OBJS = virtualsysop.o ansicolor.o sysop.o store.o
+    15
+    16  # suffix rule to tell SGI make how to compile C++ programs
+    17  .SUFFIXES: .cc
+    18  # second line below must begin with a single TAB character!
+    19  .cc.o:
+    20    $(CCC) $(CCFLAGS) -c $<
+    21
+    22  # second line below must begin with a single TAB character!
+     1  # Simple Makefile for g++
+     2  # ----------------------
+     3  # Replace Class1 and Class2 with your classes below.
+     4  # If you add a new class C, you must add C.o to the OBJS definition
+     5  # and add a dependency for the .h file like:
+     6  # C.o: C.h
+     7
+     8  CCC=g++
+     9  EXE=vs
+    10
+    11  # add -Wall for LOTS of warnings, -g for debugger support
+    12  CCFLAGS = -g -Wall -Woverloaded-virtual
+    13
+    14  OBJS = virtualsysop.o ansicolor.o sysop.o store.o
+    15
+    16  # suffix rule to tell SGI make how to compile C++ programs
+    17  .SUFFIXES: .cc
+    18  # second line below must begin with a single TAB character!
+    19  .cc.o:
+    20    $(CCC) $(CCFLAGS) -c $<
+    21
+    22  # second line below must begin with a single TAB character!
+    23  vs: $(OBJS)
+
+    24    $(CCC) -o $(EXE) $(OBJS)
+
+    25
+
+    26  virtualsysop.o: virtualsysop.h
+
+    27  ansicolor.o: ansicolor.h
+
+    28  sysop.o: sysop.h
+
+    29
+
+    30  # second line below must begin with a single TAB character!
+
+    31  clean:
+
+    32    -rm -rf *.o core $(EXE)
+
+    33
+
+    34  all:
+
+     7
+     8  CCC=g++
+     9  EXE=vs
+    10
+    11  # add -Wall for LOTS of warnings, -g for debugger support
+    12  CCFLAGS = -g -Wall -Woverloaded-virtual
+    13
+    14  OBJS = virtualsysop.o ansicolor.o sysop.o store.o
+    15  FILES = virtualsysop.cc ansicolor.cc sysop.cc store.cc
+    16
+    17  # suffix rule to tell SGI make how to compile C++ programs
+    18  .SUFFIXES: .cc
+    19  # second line below must begin with a single TAB character!
+    20  .cc.o:
+    21    $(CCC) $(CCFLAGS) -c $<
+    22
+    23  # second line below must begin with a single TAB character!
+    24  vs: $(OBJS)
+    25    $(CCC) -o $(EXE) $(OBJS)
+    26
+    27  virtualsysop.o: virtualsysop.h
+    28  ansicolor.o: ansicolor.h
+    16
+    17  # suffix rule to tell SGI make how to compile C++ programs
+    18  .SUFFIXES: .cc
+    19  # second line below must begin with a single TAB character!
+    20  .cc.o:
+    21    $(CCC) $(CCFLAGS) -c $<
+    22
+    23  # second line below must begin with a single TAB character!
+    24  vs: $(OBJS)
+    25    $(CCC) -o $(EXE) $(OBJS)
+    26
+    27  virtualsysop.o: virtualsysop.h
+    28  ansicolor.o: ansicolor.h
+    29  sysop.o: sysop.h
+
+    30
+
+    31  # second line below must begin with a single TAB character!
+
+    32  clean:
+
+    33    -rm -rf *.o core $(EXE)
+
+    34
+
+    30
+    31
+    32  # second line below must begin with a single TAB character!
+    33  clean:
+    34    -rm -rf *.o core $(EXE)
+     1  # Simple Makefile for g++
+     2  # ----------------------
+     3  # Replace Class1 and Class2 with your classes below.
+     4  # If you add a new class C, you must add C.o to the OBJS definition
+     5  # and add a dependency for the .h file like:
+     6  # C.o: C.h
+     7
+     8  CCC=g++
+     9  EXE=vs
+    10
+    11  # add -Wall for LOTS of warnings, -g for debugger support
+    12  CCFLAGS = -g -Wall -Woverloaded-virtual
+    13
+    14  OBJS = virtualsysop.o ansicolor.o sysop.o store.o
+    15  FILES = virtualsysop.cc ansicolor.cc sysop.cc store.cc
+    16
+    17  # suffix rule to tell SGI make how to compile C++ programs
+    18  .SUFFIXES: .cc
+    19  # second line below must begin with a single TAB character!
+    20  .cc.o:
+    21    $(CCC) $(CCFLAGS) -c $<
+    22
+    23  # second line below must begin with a single TAB character!
+
+    24  vs: $(OBJS)
+
+    25    $(CCC) -o $(EXE) $(OBJS)
+
+    26
+
+    27  virtualsysop.o: virtualsysop.h
+
+    28  ansicolor.o: ansicolor.h
+
+    29  sysop.o: sysop.h
+
+    30  store.o: store.h
+
+    31
+
+    32  # second line below must begin with a single TAB character!
+
+    33  clean:
+
+    34    -rm -rf *.o core $(EXE)
+
+    35
+
+    36  all:
+
+    37    $(CCC) -o $(EXE) $(FILES))))))))
+"makefile" 37 lines, 943 characters
+{oscar:/net/hu3/command/vs} vi makefile
+     7
+     9  EXE=vs
+    10
+    11  # add -Wall for LOTS of warnings, -g for debugger support
+    12  CCFLAGS = -g -Wall -Woverloaded-virtual
+    13
+    14  OBJS = virtualsysop.o ansicolor.o sysop.o store.o
+    15  FILES = virtualsysop.cc ansicolor.cc sysop.cc store.cc
+    16
+    17  # suffix rule to tell SGI make how to compile C++ programs
+    18  .SUFFIXES: .cc
+    19  # second line below must begin with a single TAB character!
+    20  .cc.o:
+    21    $(CCC) $(CCFLAGS) -c $<
+    22
+    28  ansicolor.o: ansicolor.h
+    29  sysop.o: sysop.h
+    30  store.o: store.h
+    31
+    32  # second line below must begin with a single TAB character!
+    33  clean:
+    34    -rm -rf *.o core $(EXE)
+    35
+    36  all:
+    37    $(CCC) -o $(EXE) $(FILES))))))))
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+"makefile" 37 lines, 935 characters
+{oscar:/net/hu3/command/vs} make all
+g++ -o vs virtualsysop.cc ansicolor.cc sysop.cc store.cc
+{oscar:/net/hu3/command/vs} vs
+
+ Virtual Sysop: The Virtual System Operator Simulation
+_____________________________________________________________
+You have just spent a long time and a good bit of money to get your computer
+and software ready to go on-line. Someone gave you an old IBM XT that they were
+going to toss in the trash. You got a shareware BBS program and a cheap modem
+and now you are ready to start accepting calls.
+
+The local system operators' group welcomes you as a member of their community!
+Most of them wish you the best of luck with your BBS and users.
+
+The local directory of Bulletin Board Systems needs some information from you.
+In order to keep our records straight we need to know the name that you call
+your BBS in this game. The list has space for up to 30 characters.
+
+What is your BBS called?[INDEX.........................]
+
+Checking all lines for status - OK.
+System hardware diagnostics   - OK.
+Press "?" for help.
+
+OpMode.
+
+[9:0:150]: ??
+[9:0:150]: ? - Help
+
+(!) Instructions...... What do I do here?
+(A)nswer chat......... Keep in contact with the users
+(B)ank................ Check status of your account
+(C)harge users........ Set charge type and collect money
+(E)mploy workers...... Hire workers to help run your BBS
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(M)ail Box check...... Message base maintenance and status
+(R)eport.............. Check hardware, software, modems and users
+(S)tore............... Buy or upgrade hardware, software or phones
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(V)irus detection..... Keep your files clean and clear!
+(W)ork................ DO THIS! Keep your BBS active!
+(Z)ippy list.......... Show a quick list of your competition
+
+[9:0:150]: work
+[9:0:150]: work
+
+You check the phone wires over for poor connections and clean the contacts.
+
+[9:0:149]: work more
+[9:0:149]: work more
+
+You spend some time writing letters to the new users. They like it and
+the volume of your mail goes up.
+
+[9:0:148]: h
+[9:0:148]: hangup
+
+Disconnect from your service? (y/N) Yes
+
+Your line has been released to allow other users to access your service.
+
+You have 148 actions left today.
+Thank you for playing.
+
+                   Top 10 Systems and their Operators
+ ----------------------------------------------------------------------
+1-The Edge..................................... Score: 3,215,089
+Sysop: LEVI D. SMITH with 42702 lines, 62 users.
+
+{oscar:/net/hu3/command/vs} vi global.h
+     3
+     4
+     9  #include <fstream>
+    10
+    11  inline char getCharacter();
+    12
+    13
+    14
+    15  //#ifdef UNIX
+    16    inline char getCharacter() {
+    17      string str;
+    18      getline(cin, str);
+    19      return str[0];
+    20    }
+    21  //#endif UNIX
+    22
+     1  #ifndef GLOBAL_H
+     2  #define GLOBAL_H
+     3
+     4
+     5  #include <iostream>
+     6  #include <string>
+     7  #include <strstream>
+     8  #include "ansicolor.h"
+     9  #include <fstream>
+    10
+    11  inline char getCharacter();
+    12
+    13
+    14
+    15  //#ifdef UNIX
+    16    inline char getCharacter() {
+    17      string str;
+    18      getline(cin, str);
+    19      return str[0];
+    20    }
+    21  //#endif UNIX
+    22
+    23
+
+"global.h" 24 lines, 305 characters
+{oscar:/net/hu3/command/vs} make
+`vs' is up to date.
+{oscar:/net/hu3/command/vs} vi virtualsysop.cc
+     2
+     9         << " Virtual Sysop: The Virtual System Operator Simulation"
+    10         << endl;
+    11    ColorControl->setColor(BRIGHT, FG, A_CYAN);
+    12    cout << "_____________________________________________________________
+"
+    13         << endl;
+    14    newGame();
+    15
+    16    writeFile();
+    17    ColorControl->resetColor();
+    18    delete ColorControl;
+    19  }
+    20
+    21  void virtualsysop::load() {
+"virtualsysop.cc" 416 lines, 12325 characters
+{oscar:/net/hu3/command/vs} make
+g++ -g -Wall -Woverloaded-virtual -c virtualsysop.cc
+g++ -o vs virtualsysop.o ansicolor.o sysop.o store.o
+virtualsysop.o: In function `virtualsysop::load(void)':
+/net/hu3/command/vs/virtualsysop.cc:63: undefined reference to `getCharacter(voi
+d)'
+virtualsysop.o: In function `virtualsysop::mainMenu(void)':
+/net/hu3/command/vs/virtualsysop.cc:182: undefined reference to `getCharacter(vo
+id)'
+collect2: ld returned 1 exit status
+*** Error code 1
+make: Fatal error: Command failed for target `vs'
+{oscar:/net/hu3/command/vs} make all
+g++ -o vs virtualsysop.cc ansicolor.cc sysop.cc store.cc
+/usr/tmp/ccsuUa2R.o(.text+0x768): undefined reference to `getCharacter(void)'
+/usr/tmp/ccsuUa2R.o(.text+0x196c): undefined reference to `getCharacter(void)'
+collect2: ld returned 1 exit status
+*** Error code 1
+make: Fatal error: Command failed for target `all'
+{oscar:/net/hu3/command/vs} vi global.h
+     3
+     4
+     9  #include <fstream>
+    10
+    11  inline char getCharacter();
+    12
+    13
+    14
+    15  #ifdef UNIX
+    16    inline char getCharacter() {
+    17      string str;
+    18      getline(cin, str);
+    19      return str[0];
+    20    }
+    21  #endif UNIX
+    22
+     1  #ifndef GLOBAL_H
+     2  #define GLOBAL_H
+     3
+     4
+     5  #include <iostream>
+     6  #include <string>
+     7  #include <strstream>
+     8  #include "ansicolor.h"
+     9  #include <fstream>
+    10
+    11  inline char getCharacter();
+    12
+    13
+    14
+    15  #ifdef UNIX
+    16    inline char getCharacter() {
+    15  #ifdef __UNIX__
+    16    inline char getCharacter() {
+    17      string str;
+    18      getline(cin, str);
+    20    }
+    21  #endif __UNIX__
+    22
+    23
+"global.h" 24 lines, 313 characters
+{oscar:/net/hu3/command/vs} make
+g++ -o vs virtualsysop.o ansicolor.o sysop.o store.o
+virtualsysop.o: In function `virtualsysop::load(void)':
+/net/hu3/command/vs/virtualsysop.cc:63: undefined reference to `getCharacter(voi
+d)'
+virtualsysop.o: In function `virtualsysop::mainMenu(void)':
+/net/hu3/command/vs/virtualsysop.cc:182: undefined reference to `getCharacter(vo
+id)'
+collect2: ld returned 1 exit status
+*** Error code 1
+make: Fatal error: Command failed for target `vs'
+{oscar:/net/hu3/command/vs} vi global.h
+     3
+     4
+     9  #include <fstream>
+    10
+    11  inline char getCharacter();
+    12
+    13
+    14
+    15  #ifdef __UNIX__
+    16    inline char getCharacter() {
+    17      string str;
+    18      getline(cin, str);
+    19      return str[0];
+    20    }
+    21  #endif __UNIX__
+    22
+     1  #ifndef GLOBAL_H
+     2  #define GLOBAL_H
+     3
+     4
+     5  #include <iostream>
+     6  #include <string>
+     7  #include <strstream>
+     8  #include "ansicolor.h"
+     9  #include <fstream>
+    10
+    11  inline char getCharacter();
+    10
+    11
+    12  inline char getCharacter();
+    13
+    14
+    15
+    16  #ifdef __UNIX__
+    17    inline char getCharacter() {
+    18      string str;
+    19      getline(cin, str);
+    20      return str[0];
+    21    }
+    22  #endif __UNIX__
+    11  #define UNIX
+    12
+    13  inline char getCharacter();
+    14
+    15
+    16
+    17  #ifdef __UNIX__
+    18    inline char getCharacter() {
+    19      string str;
+    20      getline(cin, str);
+    21      return str[0];
+    22    }
+    12
+    13
+    14  inline char getCharacter();
+    15
+    16
+    17
+    18  #ifdef __UNIX__
+    19    inline char getCharacter() {
+    20      string str;
+    21      getline(cin, str);
+    22      return str[0];
+    13
+    14  inline char getCharacter();
+
+    15
+    16
+    17  #ifdef __UNIX__
+    18    inline char getCharacter() {
+    19      string str;
+    20      getline(cin, str);
+    21      return str[0];
+    22    }
+
+    15
+    16  #ifdef __UNIX__
+    17    inline char getCharacter() {
+    18      string str;
+    19      getline(cin, str);
+    20      return str[0];
+    21    }
+    22  #endif __UNIX__
+    15
+    16  #ifdef __UNIX__
+    17    inline char getCharacter() {
+    18      string str;
+    19      getline(cin, str);
+    20      return str[0];
+    21    }
+    22  #endif __UNIX__
+    23
+
+    24
+
+    25  #endif GLOBAL_H
+"global.h" 25 lines, 326 characters
+{oscar:/net/hu3/command/vs} make
+g++ -o vs virtualsysop.o ansicolor.o sysop.o store.o
+virtualsysop.o: In function `virtualsysop::load(void)':
+/net/hu3/command/vs/virtualsysop.cc:63: undefined reference to `getCharacter(voi
+d)'
+virtualsysop.o: In function `virtualsysop::mainMenu(void)':
+/net/hu3/command/vs/virtualsysop.cc:182: undefined reference to `getCharacter(vo
+id)'
+collect2: ld returned 1 exit status
+*** Error code 1
+make: Fatal error: Command failed for target `vs'
+{oscar:/net/hu3/command/vs} vi global.h
+     3
+     4
+     9  #include <fstream>
+    10
+    11  #define UNIX
+    12
+    13
+    14  inline char getCharacter();
+    15
+    16  #ifdef __UNIX__
+    17    inline char getCharacter() {
+    18      string str;
+    19      getline(cin, str);
+    20      return str[0];
+    21    }
+    22  #endif __UNIX__
+     1  #ifndef GLOBAL_H
+     2  #define GLOBAL_H
+     3
+     4
+     5  #include <iostream>
+     6  #include <string>
+     7  #include <strstream>
+     8  #include "ansicolor.h"
+     9  #include <fstream>
+    10
+"global.h" 25 lines, 330 characters
+{oscar:/net/hu3/command/vs} make
+g++ -o vs virtualsysop.o ansicolor.o sysop.o store.o
+virtualsysop.o: In function `virtualsysop::load(void)':
+/net/hu3/command/vs/virtualsysop.cc:63: undefined reference to `getCharacter(voi
+d)'
+virtualsysop.o: In function `virtualsysop::mainMenu(void)':
+/net/hu3/command/vs/virtualsysop.cc:182: undefined reference to `getCharacter(vo
+id)'
+collect2: ld returned 1 exit status
+*** Error code 1
+make: Fatal error: Command failed for target `vs'
+{oscar:/net/hu3/command/vs} make all
+g++ -o vs virtualsysop.cc ansicolor.cc sysop.cc store.cc
+{oscar:/net/hu3/command/vs} make
+`vs' is up to date.
+{oscar:/net/hu3/command/vs} vs
+
+ Virtual Sysop: The Virtual System Operator Simulation
+_____________________________________________________________
+You have just spent a long time and a good bit of money to get your computer
+and software ready to go on-line. Someone gave you an old IBM XT that they were
+going to toss in the trash. You got a shareware BBS program and a cheap modem
+and now you are ready to start accepting calls.
+
+The local system operators' group welcomes you as a member of their community!
+Most of them wish you the best of luck with your BBS and users.
+
+The local directory of Bulletin Board Systems needs some information from you.
+In order to keep our records straight we need to know the name that you call
+your BBS in this game. The list has space for up to 30 characters.
+
+What is your BBS called?[INDEX.........................]
+
+Checking all lines for status - OK.
+System hardware diagnostics   - OK.
+Press "?" for help.
+
+OpMode.
+
+[9:0:150]: ?
+[9:0:150]: ? - Help
+
+(!) Instructions...... What do I do here?
+(A)nswer chat......... Keep in contact with the users
+(B)ank................ Check status of your account
+(C)harge users........ Set charge type and collect money
+(E)mploy workers...... Hire workers to help run your BBS
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(M)ail Box check...... Message base maintenance and status
+(R)eport.............. Check hardware, software, modems and users
+(S)tore............... Buy or upgrade hardware, software or phones
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(V)irus detection..... Keep your files clean and clear!
+(W)ork................ DO THIS! Keep your BBS active!
+(Z)ippy list.......... Show a quick list of your competition
+
+[9:0:150]: w
+[9:0:150]: work
+
+You check the phone wires over for poor connections and clean the contacts.
+
+[9:0:149]: word
+[9:0:149]: work
+
+You spend some time writing letters to the new users. They like it and
+the volume of your mail goes up.
+
+[9:0:148]: ?
+[9:0:148]: ? - Help
+
+(!) Instructions...... What do I do here?
+(A)nswer chat......... Keep in contact with the users
+(B)ank................ Check status of your account
+(C)harge users........ Set charge type and collect money
+(E)mploy workers...... Hire workers to help run your BBS
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(M)ail Box check...... Message base maintenance and status
+(R)eport.............. Check hardware, software, modems and users
+(S)tore............... Buy or upgrade hardware, software or phones
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(V)irus detection..... Keep your files clean and clear!
+(W)ork................ DO THIS! Keep your BBS active!
+(Z)ippy list.......... Show a quick list of your competition
+
+[9:0:148]: i
+[9:0:148]: inspect
+
+[9:0:148]: ?
+[9:0:148]: ? - Help
+
+(!) Instructions...... What do I do here?
+(A)nswer chat......... Keep in contact with the users
+(B)ank................ Check status of your account
+(C)harge users........ Set charge type and collect money
+(E)mploy workers...... Hire workers to help run your BBS
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(M)ail Box check...... Message base maintenance and status
+(R)eport.............. Check hardware, software, modems and users
+(S)tore............... Buy or upgrade hardware, software or phones
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(V)irus detection..... Keep your files clean and clear!
+(W)ork................ DO THIS! Keep your BBS active!
+(Z)ippy list.......... Show a quick list of your competition
+
+[9:0:148]: inspej klas;df lkajs dflkjas f
+[9:0:148]: inspectklas;df lkajs dflkjas f
+
+[9:0:148]: ajs flk ;jdasflk;as jdflk ;jasfd
+[9:0:148]: answer Chatasflk;as jdflk ;jasfd
+
+No chat request is pending.
+
+[9:0:148]: ?
+[9:0:148]: ? - Help
+
+(!) Instructions...... What do I do here?
+(A)nswer chat......... Keep in contact with the users
+(B)ank................ Check status of your account
+(C)harge users........ Set charge type and collect money
+(E)mploy workers...... Hire workers to help run your BBS
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(M)ail Box check...... Message base maintenance and status
+(R)eport.............. Check hardware, software, modems and users
+(S)tore............... Buy or upgrade hardware, software or phones
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(V)irus detection..... Keep your files clean and clear!
+(W)ork................ DO THIS! Keep your BBS active!
+(Z)ippy list.......... Show a quick list of your competition
+
+[9:0:148]: w
+[9:0:148]: work
+
+You are worn out from all the work and your brain feels fried - extra crispy.
+Several of your friends force you to take a day off. It does a world of good
+and you attack the BBS with a fresh burst of energy.
+
+[9:0:147]: w
+[9:0:147]: work
+
+You spend another quiet night at home working on the BBS.
+
+[9:0:146]: w
+[9:0:146]: work
+
+You make a small mistake on your opening screen and your users laugh at you.
+
+[9:0:145]: w
+[9:0:145]: work
+
+You work out a file trade with an old friend. Your users like the new stuff.
+1 new users join.
+
+[1:0:144]: w
+[1:0:144]: work
+
+You spend some time working on the software configuration, again.
+
+[1:0:143]: w
+[1:0:143]: work
+
+It has been a long day at the keyboard. You deserve a break.
+
+Would you like to try your hand at a friendly game? (y/N)w
+
+
+
+
+                       Huh?
+If you need help, try pressing the Question mark (?) key.
+
+[1:0:142]: w
+[1:0:142]: work
+
+You clean the heads on your floppy drive after finding out that your backup
+won't load.
+
+[1:0:141]: w
+[1:0:141]: work
+
+You spend some time working on the software configuration, again.
+
+[1:0:140]: w
+[1:0:140]: work
+
+You spend several hours packing up a file trade for another sysop.
+
+[1:0:139]: w
+[1:0:139]: work
+
+You post a text file on your system that explains how to use the functions
+and your users love it. They start using more of their on-line time.
+
+[1:0:138]: w
+[1:0:138]: work
+
+You move a few of your files around in the directories.
+
+[1:0:137]: w
+[1:0:137]: work
+
+You work out a file trade with an old friend. Your users like the new stuff.
+1 new users join.
+
+[1:0:136]: w
+[1:0:136]: work
+
+You clean the heads on your floppy drive after finding out that your backup
+won't load.
+
+[1:0:135]: w
+[1:0:135]: work
+
+You start feeling like this is a real grind and you wonder why you are
+spending all of your time and effort working on keeping this computer
+running for a bunch of childish users. They want everything from you and
+don't want to pay for it. It is, after all, your computer and your life!
+What do these cheap skates want from you anyway?!  Gripe, snarl, gripe.
+
+      **** SYSOP BURNOUT WARNING! ****
+
+You are able to snap out of it before any real damage is done... this time.
+
+* A Chat Request has been made.
+
+[1:0:134]: w
+[1:0:134]: work
+
+A new board opens across town from you and offers just about everything you
+have on your board. After a little checking it turns out that the sysop got
+all of his files and menu ideas from your board.
+
+0 users leave your system to join the new system.
+
+* A Chat Request has been made.
+
+[1:0:133]: w
+[1:0:133]: work
+
+You are worn out from all the work and your brain feels fried - extra crispy.
+Several of your friends force you to take a day off. It does a world of good
+and you attack the BBS with a fresh burst of energy.
+
+[1:0:132]: a
+[1:0:132]: answer Chat
+
+That user is writing a message to you right now. Maybe you should answer
+your mail.
+
+[1:0:132]: w
+[1:0:132]: work
+
+It has been a long day at the keyboard. You deserve a break.
+
+Would you like to try your hand at a friendly game? (y/N)y
+
+
+Here are the rules. I'll think of two different numbers and show one to you.
+You then tell me if the second number is more or less than the first. If you
+are right then I'll give you more actions, but if you are wrong I'll take
+some away. The numbers can be anywhere from 0 to 100.
+
+Do you still want to play? (y/N)y
+
+
+We will play for 29 actions.
+
+The first number is 50 and I am thinking of a second.
+
+Is the second number (H)igher or (L)ower?h
+No it isn't!  The actions have been removed from your account.
+
+                       Huh?
+If you need help, try pressing the Question mark (?) key.
+
+[1:0:102]: w
+[1:0:102]: work
+
+You call some other boards and download a few new files to list on-line.
+
+[1:0:101]: w
+[1:0:101]: work
+
+You discover a Trojan horse program in your file list and quickly erase it
+before any of your users download it.
+
+[1:0:100]: w
+[1:0:100]: work
+
+You spill a can of beer into your keyboard and spend the rest of the night
+taking it apart, washing all the little parts and blow drying them with a
+hairdryer.
+
+Strangely enough, it still works!
+
+[1:0:99]: w
+[1:0:99]: w ork
+
+You make a small mistake on your opening screen and your users laugh at you.
+
+
+
+[1:0:98]: w
+[1:0:98]: w ork
+
+You help out a new user on your board with a few shareware programs and he
+turns out to be the head of a very large corporation. When his computer
+department upgrades the equipment in his office he donates his old computer
+to your BBS.
+
+It couldn't have come at a better time because your old system died when you
+tried to move it.
+
+Your new system is a 286 with 100meg 29ms
+
+Your users hear about this and the word spreads attracting 0 new users!
+
+[1:0:97]: w
+[1:0:97]: w ork
+
+You try loading another on-line game to keep your users happy. They find a
+backdoor in the program and start erasing files on your drive.
+
+News of this gets out and 0 paying users stop calling your system.
+
+[1:0:96]: w
+[1:0:96]: w ork
+
+You spend another quiet night at home working on the BBS.
+
+[1:0:95]: w
+[1:0:95]: w ork
+
+You help out a new user on your board with a few shareware programs and he
+turns out to be the head of a very large corporation. When his computer
+department upgrades the equipment in his office he donates his old computer
+to your BBS.
+
+It couldn't have come at a better time because your old system died when you
+tried to move it.
+
+Your new system is a 386 with 300meg 16ms
+
+Your users hear about this and the word spreads attracting 0 new users!
+
+[1:0:94]: w
+[1:0:94]: w ork
+
+You clean the heads on your floppy drive after finding out that your backup
+won't load.
+
+[1:0:93]: w
+[1:0:93]: w ork
+
+A user complains about the look of your menus and you change them a little.
+The other users like the new look and start using more time on-line.
+
+[1:0:92]: w
+[1:0:92]: w ork
+
+A device driver conflict sends your software into a loop. You do some quick
+patching to get everything back on-line before your users notice.
+
+[1:0:91]: w
+[1:0:91]: w ork
+
+You try to rework the layout of your menus and your users hate it.
+
+[1:0:90]: w
+[1:0:90]: w ork
+
+It has been a long day at the keyboard. You deserve a break.
+
+Would you like to try your hand at a friendly game? (y/N)y
+
+
+Here are the rules. I'll think of two different numbers and show one to you.
+You then tell me if the second number is more or less than the first. If you
+are right then I'll give you more actions, but if you are wrong I'll take
+some away. The numbers can be anywhere from 0 to 100.
+
+Do you still want to play? (y/N)y
+
+
+We will play for 27 actions.
+
+The first number is 50 and I am thinking of a second.
+
+Is the second number (H)igher or (L)ower?h
+No it isn't!  The actions have been removed from your account.
+
+                      Huh?
+If you need help, try pressing the Question mark (?) key.
+
+[1:0:62]: w
+[1:0:62]: w ork
+
+You try to organize a meeting for your users and they love the idea.
+
+1 new users join.
+
+[2:0:61]: w
+[2:0:61]: w ork
+
+A new update to your software is now available. It fixes quite a few bugs
+and offers some new features.
+
+You decide to buy it and your users are very happy you did.
+The upgrade only cost $50.00
+
+[2:0:60]: w
+[2:0:60]: w ork
+
+You scan the user log for fake accounts and erase them.
+
+[1:0:59]: w
+[1:0:59]: w ork
+
+You run a contest on your board to see who can write the most messages. The
+problem is that you end up with more mail in your mailbox!
+
+[1:0:58]: w
+[1:0:58]: w ork
+
+You scan the user log for fake accounts and erase them.
+
+[0:0:57]: w
+[0:0:57]: w ork
+
+You defragment your file directories and erase some duplicate files.
+
+[0:0:56]: w
+[0:0:56]: w ork
+
+You call the author of your BBS software to see if he will add a feature
+that you want. He thinks it is a great idea and thanks you for calling.
+
+
+
+[0:0:55]: w
+[0:0:55]: w ork
+
+A device driver conflict sends your software into a loop. You do some quick
+patching to get everything back on-line before your users notice.
+
+[0:0:54]: w
+[0:0:54]: w ork
+
+You work out a file trade with an old friend. Your users like the new stuff.
+1 new users join.
+
+[1:0:53]: w
+[1:0:53]: w ork
+
+In a freak act of kindness, your Aunt comes by and turns off your computer and
+yells in your face for forgetting to turn off your "toys."
+
+You rush to get your system back on-line.
+Only 1 user decided to leave your system.
+
+[0:0:52]: w
+[0:0:52]: w ork
+
+You spend some time working on the software configuration, again.
+
+ ********** VIRUS ATTACK! **********
+
+A virus infects your system. It toggles a bit on your I/O board, and
+sends high current pulses through your modems, destroying some of them.
+
+Hope you have enough cash to buy new ones!
+
+Your close friend feels sorry that you lost your modem and lets
+you use his modem for a while.
+
+Some of your users hear about this and are sympathetic, but you do lose
+0 users due to the incident.
+
+You vow never to forget to run your virus protection again!
+
+[0:0:51]: w
+[0:0:51]: w ork
+
+A freak lightning storm knocks out your phone line.
+Better get service soon!
+* YOU HAVE NO PHONE LINES!  ALL USERS HAVE LEFT YOUR SYSTEM!
+
+Temporary phone service has been restored after a lot of work from you!
+
+[1:0:50]: w
+[1:0:50]: w ork
+
+You spend several hours packing up a file trade for another sysop.
+
+ ********** VIRUS ATTACK! **********
+
+A virus infects your system. It toggles a bit on your I/O board, and
+sends high current pulses through your modems, destroying some of them.
+
+Hope you have enough cash to buy new ones!
+
+Your close friend feels sorry that you lost your modem and lets
+you use his modem for a while.
+
+Some of your users hear about this and are sympathetic, but you do lose
+0 users due to the incident.
+
+You vow never to forget to run your virus protection again!
+
+[1:0:49]: w
+[1:0:49]: w ork
+
+You spend some time writing letters to the new users. They like it and
+the volume of your mail goes up.
+
+[1:0:48]: w
+[1:0:48]: w ork
+
+You post a text file on your system that explains how to use the functions
+and your users love it. They start using more of their on-line time.
+
+[1:0:47]: w
+[1:0:47]: w ork
+
+You clean the heads on your floppy drive after finding out that your backup
+won't load.
+
+[1:0:46]: w
+[1:0:46]: w ork
+
+In a freak act of kindness, your Aunt comes by and turns off your computer and
+yells in your face for forgetting to turn off your "toys."
+
+You rush to get your system back on-line.
+Only 1 user decided to leave your system.
+
+[0:0:45]: w
+[0:0:45]: w ork
+
+You spend several hours packing up a file trade for another sysop.
+
+[0:0:44]: w
+[0:0:44]: w ork
+
+You move a few of your files around in the directories.
+
+[0:0:43]: w
+[0:0:43]: w ork
+
+An old school buddy calls you on the phone after several years of living in
+another state. He asks if you would mind putting his new software on your
+system. You agree and it turns out to be the most popular software on the
+market!
+
+When news of this gets out 1 new users join your BBS.You spend some time working
+ on the software configuration, again.
+
+[0:0:42]: w
+[0:0:42]: w ork
+
+You work out a file trade with an old friend. Your users like the new stuff.
+1 new users join.
+
+[1:0:41]: w
+[1:0:41]: w ork
+
+One mad user starts a rumor about you and your BBS. It is totally false but
+some of the other users still believe it. You do your best to disprove the
+lie but a few users still leave your system.
+
+0 paying users stop calling.
+
+[1:0:40]: w
+[1:0:40]: w ork
+
+You spend several hours packing up a file trade for another sysop.
+
+[1:0:39]: w
+[1:0:39]: w ork
+
+A user complains about the look of your menus and you change them a little.
+The other users like the new look and start using more time on-line.
+
+[1:0:38]: w
+[1:0:38]: w ork
+
+A user complains about the look of your menus and you change them a little.
+The other users like the new look and start using more time on-line.
+
+[1:0:37]: w
+[1:0:37]: w ork
+
+You check the phone wires over for poor connections and clean the contacts.
+
+[1:0:36]: w
+[1:0:36]: w ork
+
+You work out a file trade with an old friend. Your users like the new stuff.
+1 new users join.
+
+[1:0:35]: w
+[1:0:35]: w ork
+
+A freak lightning storm knocks out your phone line.
+Better get service soon!
+* YOU HAVE NO PHONE LINES!  ALL USERS HAVE LEFT YOUR SYSTEM!
+
+Temporary phone service has been restored after a lot of work from you!
+
+[1:0:34]: w
+[1:0:34]: w ork
+
+A freak lightning storm knocks out your phone line.
+Better get service soon!
+* YOU HAVE NO PHONE LINES!  ALL USERS HAVE LEFT YOUR SYSTEM!
+
+Temporary phone service has been restored after a lot of work from you!
+
+[1:0:33]: w
+[1:0:33]: w ork
+
+You spend several hours packing up a file trade for another sysop.
+
+[1:0:32]: w
+[1:0:32]: w ork
+
+You spend some time working on the software configuration, again.
+
+[1:0:31]: w
+[1:0:31]: w ork
+
+You are worn out from all the work and your brain feels fried - extra crispy.
+Several of your friends force you to take a day off. It does a world of good
+and you attack the BBS with a fresh burst of energy.
+
+[1:0:30]: w
+[1:0:30]: w ork
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+You have 1 new users join.
+
+[2:0:29]: w
+[2:0:29]: w ork
+
+You re-compress one of the file directories and erase the corrupt files.
+
+[2:0:28]: w
+[2:0:28]: w ork
+
+You defragment your file directories and erase some duplicate files.
+
+[2:0:27]: w
+[2:0:27]: w ork
+
+A large slice of pizza gets stuck to your keyboard by mistake. It takes you
+a little extra effort to get it cleaned up.
+
+[2:0:26]: w
+[2:0:26]: w ork
+
+Your cat jumps up on your keyboard while you are away and it locks the BBS
+until you get home. You toss a box of floppy disks at the cat!You start feeling
+like this is a real grind and you wonder why you are
+spending all of your time and effort working on keeping this computer
+running for a bunch of childish users. They want everything from you and
+don't want to pay for it. It is, after all, your computer and your life!
+What do these cheap skates want from you anyway?!  Gripe, snarl, gripe.
+
+      **** SYSOP BURNOUT WARNING! ****
+
+You are able to snap out of it before any real damage is done... this time.
+
+[2:0:25]: w
+[2:0:25]: w ork
+
+Your cat jumps up on your keyboard while you are away and it locks the BBS
+until you get home. You toss a box of floppy disks at the cat!You start feeling
+like this is a real grind and you wonder why you are
+spending all of your time and effort working on keeping this computer
+running for a bunch of childish users. They want everything from you and
+don't want to pay for it. It is, after all, your computer and your life!
+What do these cheap skates want from you anyway?!  Gripe, snarl, gripe.
+
+      **** SYSOP BURNOUT WARNING! ****
+
+You are able to snap out of it before any real damage is done... this time.
+
+[2:0:24]: w
+[2:0:24]: w ork
+
+You help a new user download a file on your board and he reports you to the
+police for piracy. It turns out to be a mistake in his understanding of the
+shareware ideals but the news frightens off a few of your users.
+
+
+[2:0:23]: w
+[2:0:23]: w ork
+
+You decide to spend some time reading through the message bases on your BBS
+and answering the messages that seem interesting. This impresses the users and
+they start writing more messages and telling more people about all of the new
+activity on your board. This helps make your users happy and attract new users
+
+You have 1 new users join.
+
+[3:0:22]: w
+[3:0:22]: w ork
+
+You open a new message section for a special interest group on your system
+and they are so impressed that they send you a donation.
+
+Your balance is now $300.00
+
+[3:0:21]: w
+[3:0:21]: w ork
+
+You post a text file on your system that explains how to use the functions
+and your users love it. They start using more of their on-line time.
+
+[3:0:20]: w
+[3:0:20]: w ork
+
+You check the phone wires over for poor connections and clean the contacts.
+
+[3:0:19]: w
+[3:0:19]: w ork
+
+A user calls you very early one morning from another country and wants
+to trade some of your files. You decide to take a chance and send him
+a box of disks. Over a month later you get two boxes of disks back with
+the most exciting and unusual software you have ever seen.
+
+You put it on-line and your users love it!
+
+1 new users join your system just to get the new files.
+
+[1:0:18]: w
+[1:0:18]: w ork
+
+You clean the heads on your floppy drive after finding out that your backup
+won't load.
+
+[1:0:17]: w
+[1:0:17]: w ork
+
+A freak lightning storm knocks out your phone line.
+Better get service soon!
+* YOU HAVE NO PHONE LINES!  ALL USERS HAVE LEFT YOUR SYSTEM!
+
+Temporary phone service has been restored after a lot of work from you!
+
+ ********** VIRUS ATTACK! **********
+
+A virus infects your system. It toggles a bit on your I/O board, and
+sends high current pulses through your modems, destroying some of them.
+
+Hope you have enough cash to buy new ones!
+
+Your close friend feels sorry that you lost your modem and lets
+you use his modem for a while.
+
+Some of your users hear about this and are sympathetic, but you do lose
+0 users due to the incident.
+
+You vow never to forget to run your virus protection again!
+
+[1:0:16]: w
+[1:0:16]: w ork
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+You have 1 new users join.
+
+[2:0:15]: w
+[2:0:15]: w ork
+
+You try out a new on-line game and the users hate it.
+
+[2:0:14]: v
+[2:0:14]: v irus detection
+
+Murphyscan(TM) scans all drives and files for all KNOWN viruses!
+You have a 300meg 16ms drive  EST. SCAN TIME 20 SECONDS
+
+         [DDDDDDDDDDD] <FullScan>
+Progress: [[[[[[[[[[[
+
+ >>> No virus found <<<
+                      We at Murphycorp recommend you run
+                   Murphyscan(TM) every 10 downloads.
+                      Thank you for using Murphyscan(TM)!
+
+*not responsible for damage resulting from misuse.
+
+[2:0:14]: w
+[2:0:14]: w ork
+
+You try to get a few of the system operators together for a meeting. They end
+up not being able to make it because of conflicting schedules.
+
+[2:0:13]: w
+[2:0:13]: w ork
+
+You try to organize a meeting for your users and they love the idea.
+
+1 new users join.
+
+[3:0:12]: w
+[3:0:12]: w ork
+
+Due to some investments in software companies and your help in busting a
+ring of pirate software hackers, you get a donation in the form of a hard
+drive upgrade for your BBS.
+
+Your users hear about this and the word spreads attracting 1 new users!
+
+[4:0:11]: w
+[4:0:11]: w ork
+
+You find several users in the log files that have been hacking into your
+account files. You track them down and cut off all of their access and force
+your users to change all their passwords.
+
+This makes some users unhappy but they don't stop calling your board.
+
+[4:0:10]: w
+[4:0:10]: w ork
+
+Another late night working on the computer. Lots of work and not much to show
+for it. The system seems to be running a lot better though.
+
+[4:0:9]: w
+[4:0:9]: w  ork
+
+A large slice of pizza gets stuck to your keyboard by mistake. It takes you
+a little extra effort to get it cleaned up.
+
+[4:0:8]: w
+[4:0:8]: w  ork
+
+You re-compress one of the file directories and erase the corrupt files.
+
+[4:0:7]: w
+[4:0:7]: w  ork
+
+You try to get a few of the system operators together for a meeting. They end
+up not being able to make it because of conflicting schedules.
+
+[4:0:6]: w
+[4:0:6]: w  ork
+
+You help out a new user on your board with a few shareware programs and he
+thanks you by uploading several new versions of other programs along with
+a few pictures that you didn't have.
+
+[4:0:5]: w
+[4:0:5]: w  ork
+
+Due to some investments in software companies and your help in busting a
+ring of pirate software hackers, you get a donation in the form of a hard
+drive upgrade for your BBS.
+
+Your users hear about this and the word spreads attracting 2 new users!
+
+[6:0:4]: w
+[6:0:4]: w  ork
+
+You help out a new user and he is happy. He starts to advertise your BBS.
+
+[6:0:3]: r
+[6:0:3]: r  eport
+
+ Report on the setup of INDEX BBS
+___________________________________________________________________________
+   Computer: 386
+    Storage: 300meg 16ms
+     Modems: 1 at 2400bps
+   Software: supports only one line
+      Users: 6 free, 0 paying.
+Phone Lines: 1(X lines unused)
+ Experience: Absolute Beginner Sysop
+  Education: No Public, No Personal
+  Caller ID: None.
+   Security: None.
+    Actions: 3 left today
+      Score: Nothing! (Work harder!)
+
+[6:0:3]: w
+[6:0:3]: w  ork
+
+A new update to your software is now available. It fixes quite a few bugs
+and offers some new features.
+
+The problem is that you don't have enough money to buy it.
+
+[6:0:2]: w
+[6:0:2]: w  ork
+
+Due to some investments in software companies and your help in busting a
+ring of pirate software hackers, you get a donation in the form of a hard
+drive upgrade for your BBS.
+
+Your users hear about this and the word spreads attracting 1 new users!
+
+[7:0:1]: w
+[7:0:1]: w  ork
+
+You spend a few late nights working on some menu changes, again.
+
+[7:0:0]: w
+[7:0:0]: w  ork
+
+  You are out of actions. This will limit what you can do in the game.
+ For a list of available options press the Question mark (?) key.
+>> You are out of actions! <<
+[7:0:0]: w
+[7:0:0]: w  ork
+
+  You are out of actions. This will limit what you can do in the game.
+ For a list of available options press the Question mark (?) key.
+>> You are out of actions! <<
+[7:0:0]:
+[7:0:0]:    Huh?
+If you need help, try pressing the Question mark (?) key.
+
+[7:0:0]: ?
+[7:0:0]: ?   - Help
+
+(!) Instructions...... What do I do here?
+(A)nswer chat......... Keep in contact with the users
+(B)ank................ Check status of your account
+(C)harge users........ Set charge type and collect money
+(E)mploy workers...... Hire workers to help run your BBS
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(M)ail Box check...... Message base maintenance and status
+(R)eport.............. Check hardware, software, modems and users
+(S)tore............... Buy or upgrade hardware, software or phones
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(V)irus detection..... Keep your files clean and clear!
+(W)ork................ DO THIS! Keep your BBS active!
+(Z)ippy list.......... Show a quick list of your competition
+
+[7:0:0]: w
+[7:0:0]: w  ork
+
+  You are out of actions. This will limit what you can do in the game.
+ For a list of available options press the Question mark (?) key.
+>> You are out of actions! <<
+[7:0:0]: s
+[7:0:0]: s  tore
+
+Welcome to the shopping center
+____________________________________________________________
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+e
+                      angup
+[7:0:-1]:
+Disconnect from your service? (y/N) Yes
+
+Your line has been released to allow other users to access your service.
+
+You have -1 actions left today.
+Thank you for playing.
+
+                   Top 10 Systems and their Operators
+ ----------------------------------------------------------------------
+1-The Edge..................................... Score: 3,215,089
+Sysop: LEVI D. SMITH with 42702 lines, 62 users.
+
+{oscar:/net/hu3/command/vs}

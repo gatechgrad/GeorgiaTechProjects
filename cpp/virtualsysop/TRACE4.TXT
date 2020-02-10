@@ -1,0 +1,3191 @@
+
+
+SunOS UNIX (oscar)
+
+login: command
+Password:
+Last login: Sat Aug 28 04:13:36 from dialnet3.gatech.
+SunOS Release 4.1.3_U1 (OSCAR) #1: Mon Jun 9 18:32:35 EDT 1997
+
+When remotely accessing this machine you need to use the fully
+quallified domain name of oscar.cc.gatech.edu.  There is a top level
+country domain of ".cc" and they have many system names that are the
+same as some of the CoC systems.  Many people are accessing a "foreign"
+system by mistake when they use a shortened form of the name such as
+oscar.cc.
+You have mail.
+{oscar:/net/hu3/command} telnet bbs.sstar.com
+Trying 209.102.160.1 ...
+Connected to bbs.sstar.com.
+Escape character is '^]'.
+Connecting to TM04
+
+
+
+
+
+
+
+
+
+
+
+                              Southern Star BBS
+
+                             Line 4 at 57,600 bps
+
+                           25 Gigabytes - 8 Lines
+                           Internet: bbs.sstar.com
+                          FidoNet Zone Hub: 1:396/1
+
+
+
+
+Enter your FULL Name? levi smith
+Enter Your Password: *******
+
+
+TBBS Welcomes LEVI SMITH
+TBBS Welcomes LEVI SMITH                                                    Your
+ last time on was 08-27-99 21:32
+You are authorized 20 mins this call
+Searching Message Base ...
+You have no personal messages waiting.
+
+
+-Press Any Key-
+
+
+
+Logging on with ANSI Terminal Emulation
+
+
+Logging on........Please Standby.
+
+
+Type P to Pause, S to Stop listing
+
+
+
+Hello Levi Smith.
+
+Your membership expires in just 4 days!  Please check the Registration Menu
+for renewal information.
+
+Thanks,
+
+SysOp
+
+
+
+-Press Any Key-
+
+
+
+
+                     ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+                     ³         Southern Star BBS         ³
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³      25 GigaBytes - 8 Lines       ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³      Internet: bbs.sstar.com      ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³     Fidonet Zone Hub: 1:396/1     ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜ
+ÜÜÜ³     Main Areas      ³ÜÜÜ³    Information     ³ÜÜÜ³     Utilities      ³ÜÜÜ
+ÜÜÜ³    ÍÍÍÍÍÍÍÍÍÍÍÍ     ³ÜÜÜ³   ÍÍÍÍÍÍÍÍÍÍÍÍÍ    ³ÜÜÜ³    ÍÍÍÍÍÍÍÍÍÍÍ     ³ÜÜÜ
+ÜÜÜ³                     ³ÜÜÜ³                    ³ÜÜÜ³                    ³ÜÜÜ
+ÜÜÜ³ [I] Internet Access ³ÜÜÜ³ [B] Bulletins      ³ÜÜÜ³ [R] Registration   ³ÜÜÜ
+ÜÜÜ³ [M] Message Areas   ³ÜÜÜ³ [V] Event Calendar ³ÜÜÜ³ [Y] Configuration  ³ÜÜÜ
+ÜÜÜ³ [F] File Areas      ³ÜÜÜ³ [D] Databases      ³ÜÜÜ³ [W] Who's Online   ³ÜÜÜ
+ÜÜÜ³ [A] Fun & Games     ³ÜÜÜ³ [E] Extra Info     ³ÜÜÜ³ [*] Page the SysOp ³ÜÜÜ
+ÜÜÜ³ [O] On-Line Chat    ³ÜÜÜ³ [S] Statistics     ³ÜÜÜÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´ÜÜÜ
+ÜÜÜ³     .    .    .     ³ÜÜÜ³     .    .    .    ³ÜÜÜ³    [G] Goodbye     ³ÜÜÜ
+   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+20 minutes remaining                                                Command: o
+
+
+Conference Joined: CHAT
+/HELP for help, /QUIT to exit
+
+There are  0 other callers in this conference
+
+/q
+
+                     ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+                     ³         Southern Star BBS         ³
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³      25 GigaBytes - 8 Lines       ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³      Internet: bbs.sstar.com      ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³     Fidonet Zone Hub: 1:396/1     ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜ
+ÜÜÜ³     Main Areas      ³ÜÜÜ³    Information     ³ÜÜÜ³     Utilities      ³ÜÜÜ
+ÜÜÜ³    ÍÍÍÍÍÍÍÍÍÍÍÍ     ³ÜÜÜ³   ÍÍÍÍÍÍÍÍÍÍÍÍÍ    ³ÜÜÜ³    ÍÍÍÍÍÍÍÍÍÍÍ     ³ÜÜÜ
+ÜÜÜ³                     ³ÜÜÜ³                    ³ÜÜÜ³                    ³ÜÜÜ
+ÜÜÜ³ [I] Internet Access ³ÜÜÜ³ [B] Bulletins      ³ÜÜÜ³ [R] Registration   ³ÜÜÜ
+ÜÜÜ³ [M] Message Areas   ³ÜÜÜ³ [V] Event Calendar ³ÜÜÜ³ [Y] Configuration  ³ÜÜÜ
+ÜÜÜ³ [F] File Areas      ³ÜÜÜ³ [D] Databases      ³ÜÜÜ³ [W] Who's Online   ³ÜÜÜ
+ÜÜÜ³ [A] Fun & Games     ³ÜÜÜ³ [E] Extra Info     ³ÜÜÜ³ [*] Page the SysOp ³ÜÜÜ
+ÜÜÜ³ [O] On-Line Chat    ³ÜÜÜ³ [S] Statistics     ³ÜÜÜÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´ÜÜÜ
+ÜÜÜ³     .    .    .     ³ÜÜÜ³     .    .    .    ³ÜÜÜ³    [G] Goodbye     ³ÜÜÜ
+   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+20 minutes remaining                                                Command: a
+
+  ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+ÜÜ³                               Fun & Games                               ³ÜÜ
+ÜÜ³                              ÍÍÍÍÍÍÍÍÍÍÍÍÍ                              ³ÜÜ
+ÜÜ³                                                                         ³ÜÜ
+ÜÜ³  [A]  BlackJack - Can you get 21?    [I]  Solitaire - Try to make 13    ³ÜÜ
+ÜÜ³  [B]  Card Guppies - Hi/Low          [J]  Territories 3069 - The future ³ÜÜ
+ÜÜ³  [C]  Eliza - Talk to the Doctor     [K]  Towers of Hanoi - Peg to peg  ³ÜÜ
+ÜÜ³  [D]  Graffiti Wall - Add to it      [L]  TwangCho - Like MahJongg      ³ÜÜ
+ÜÜ³  [E]  Hangman & Wheel - Buy a vowel  [M]  Ultra Trivia - Add your own   ³ÜÜ
+ÜÜ³  [F]  Insults - Can you take it?     [N]  Video Poker - 5 card draw     ³ÜÜ
+ÜÜ³  [G]  Reverse - Stack the blocks     [O]  Virtual SysOp - Your own BBS! ³ÜÜ
+ÜÜ³  [H]  Scramble - Put word in order   [P]  Word Power - Vocabulary quiz  ³ÜÜ
+ÜÜ³                                                                         ³ÜÜ
+ÜÜ³                                [Q]  Quit          [Z]  SysOp Test Area  ³ÜÜ
+  ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+20 minutes remaining                                                Command: o
+
+                       ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+             ÜÜÜÜÜÜÜÜÜÜ³         Virtual SysOp         ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [1]  Play!                 ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [2]  Top 10 List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [3]  Player List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [4]  Instructions          ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [5]  Questions & Answers   ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³           [Q]  Quit           ³ÜÜÜÜÜÜÜÜÜÜ
+                       ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+20 minutes remaining                                                Command: 1
+
+
+ VSysop2: The Virtual System Operator Simulation
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Copyright 1991,92,93,94 by The iFX Group, version 951231
+Registered to: Southern Star BBS on 2/6/96
+ "I tried to drown my problems, but they can swim."
+* New phone lines have been connected.
+Checking all lines for status - OK.
+System hardware diagnostics   - OK.
+Caller validation diagnostics - OK.
+You have 140 messages waiting.
+Press "?" for help.
+
+OpMode.
+
+[71:824:100]: Charge
+
+Would you like to change how you are charging your new users? (y/N) No
+
+You rework some of your bulletins and remind the free access users about the
+benefits of joining your service and helping to support it.
+
+You charge them for a Monthly membership.
+
+48 users decide to pay.
+5 users decide to leave.
+
+[18:872:99]: ? - Help
+
+(!) Instructions...... What do I do here?
+(A)nswer chat......... Keep in contact with the users
+(B)ank................ Check status of your account
+(C)harge users........ Set charge type and collect money
+(E)mploy workers...... Hire workers to help run your BBS
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(M)ail Box check...... Message base maintenance and status
+(R)eport.............. Check hardware, software, modems and users
+(S)tore............... Buy or upgrade hardware, software or phones
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(V)irus detection..... Keep your files clean and clear!
+(W)ork................ DO THIS! Keep your BBS active!
+(Z)ippy list.......... Show a quick list of your competition
+
+[18:872:99]: Work
+You work a little faster, but it takes more energy. Mistakes are likely.
+
+You try to rework the layout of your menus and your users hate it.
+
+[17:872:97]: Work
+
+You re-compress one of the file directories and erase the corrupt files.
+
+[17:872:96]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 30
+
+[47:872:95]: Work
+
+You try out a new on-line game and the users hate it.
+
+[50:872:94]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 18
+
+[68:872:93]: Store
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 1
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: M
+
+Hardware prices include all mounting and connecting hardware, cables,
+driver software installation, testing and labor.
+
+We do the work for you so you can do what you do best!
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Modems:
+         Cheap 2400          $70 + XT or higher
+         Good 2400           100 + XT or higher
+         2400 v.42bis        150 + AT/286 or higher
+         9600                550 + AT/286 or higher
+         9600 v.32           800 + 386 or higher
+         9600ds            1,000 + 386 or higher
+        14.4kbps v.32bis   1,100 + 386 or higher
+        19.2kbps v.32ter   1,200 + 486 or higher
+        24.0kbps v.FC      1,300 + 486 or higher
+        28.8kbps v.Fast    1,400 + 486 or higher
+
+Press any key to continue...
+
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: S
+
+Hardware prices include all mounting and connecting hardware, cables,
+driver software installation, testing and labor.
+
+We do the work for you so you can do what you do best!
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Storage Devices:
+         30meg 60ms         $500 + XT or higher
+         100meg 29ms       1,000 + XT or higher
+         300meg 16ms       2,000 + AT/286 or higher
+         600meg 15ms       6,000 + AT/286 or higher
+         1.2Gig 11ms      80,000 + 386 or higher
+         6 Gig 3ms       150,000 + 486 or higher
+         Raid            250,000 + Mini v10 or higher
+
+Press any key to continue...
+
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: C
+
+Hardware prices include all mounting and connecting hardware, cables,
+driver software installation, testing and labor.
+
+We do the work for you so you can do what you do best!
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computers:
+         XT                   $0 + none
+         286               1,000 + XT or higher
+         386               1,400 + AT/286 or higher
+         486/25            4,400 + 386 or higher
+         486/50 v4         6,400 + 486 or higher and > 300 Meg Hard Drive
+         486/50 v9            ?    486 v4 through 486 v9 or higher
+         586/99               ?
+         (NOTE: Larger systems are available at other stores)
+
+Press any key to continue...
+
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Modem
+
+
+Modems available:
+
+   (1)  2400                $70- Plain no frills 2400bps not auto answer!
+   (2)  2400                100- Nice no frills 2400bps auto answer
+   (3)  2400 v.42           150- Nice error free 2400bps auto answer
+   ( )  9600                550- Off brand 9600bps modem, req 286
+   ( )  9600 v.32           800- Nice world standard v.32 9600bps, req 386
+   ( )  9600ds            1,000- Dual standard 9600bps modem, req 386
+   ( ) 14400bps v.32bis   1,100- Good high speed modem, req fast 386
+   ( ) 19.2kbps v.32ter   1,200- Fast non-standard, req 486
+   ( ) 24.0kbps v.FC      1,300- Fast pre-standard, req 486
+   ( ) 28.8kbps v.Fast    1,400- Fast standard, req 486
+   (E)xit
+
+Choice: 1
+You spend a whole weekend trying to connect the modem and make it work with
+the BBS software that you have. The store that you got the modem from doesn't
+know anything about setting it up so you pay an expert $20 to make it work.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 2
+
+ Major Department Store Chain For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: M
+
+Hardware prices include all mounting and connecting hardware, cables,
+driver software installation, testing and labor.
+
+We do the work for you so you can do what you do best!
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Modems:
+         Cheap 2400          $70 + XT or higher
+         Good 2400           100 + XT or higher
+         2400 v.42bis        150 + AT/286 or higher
+         9600                550 + AT/286 or higher
+         9600 v.32           800 + 386 or higher
+         9600ds            1,000 + 386 or higher
+        14.4kbps v.32bis   1,100 + 386 or higher
+        19.2kbps v.32ter   1,200 + 486 or higher
+        24.0kbps v.FC      1,300 + 486 or higher
+        28.8kbps v.Fast    1,400 + 486 or higher
+
+Press any key to continue...
+
+
+ Major Department Store Chain For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: S
+
+Hardware prices include all mounting and connecting hardware, cables,
+driver software installation, testing and labor.
+
+We do the work for you so you can do what you do best!
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Storage Devices:
+         30meg 60ms         $500 + XT or higher
+         100meg 29ms       1,000 + XT or higher
+         300meg 16ms       2,000 + AT/286 or higher
+         600meg 15ms       6,000 + AT/286 or higher
+         1.2Gig 11ms      80,000 + 386 or higher
+         6 Gig 3ms       150,000 + 486 or higher
+         Raid            250,000 + Mini v10 or higher
+
+Press any key to continue...
+
+
+ Major Department Store Chain For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: C
+
+Hardware prices include all mounting and connecting hardware, cables,
+driver software installation, testing and labor.
+
+We do the work for you so you can do what you do best!
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computers:
+         XT                   $0 + none
+         286               1,000 + XT or higher
+         386               1,400 + AT/286 or higher
+         486/25            4,400 + 386 or higher
+         486/50 v4         6,400 + 486 or higher and > 300 Meg Hard Drive
+         486/50 v9            ?    486 v4 through 486 v9 or higher
+         586/99               ?
+         (NOTE: Larger systems are available at other stores)
+
+Press any key to continue...
+
+
+ Major Department Store Chain For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Exit
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: R Exit
+
+[67:872:91]: Report
+
+ Report on the setup of INDEX BBS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computer: 25Mhz 386 with 4meg RAM
+    Storage: 300meg 16ms
+     Modems: 10 at 2400bps
+Fast Modems: 3 at 9600bps
+V.xx Modems: 3 at 19.2Kbps or faster
+   Software: supports 32 lines. (16 ports unused)
+      Users: 67 free, 872 paying.
+Phone Lines: 13 (3 MORE LINES NEEDED!)
+ Experience: Absolute Beginner Sysop
+  Education: No Public, No Personal
+  Caller ID: Caller validation level 1
+   Security: None.
+    Actions: 91 left today
+   Messages: 150 waiting to be answered
+Start Score: 529 (UP by 28 points)
+      Score: 557 points! (1 board away from the #1 BBS)
+
+[67:872:91]: Store
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 3
+
+ Software Retail Outlet Store For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (B)BS software
+   (N)etwork membership software
+   (H)ub network provider software
+   (E)xit
+
+Choice: Price list
+
+   (B)BS Software
+   (N)etwork membership software
+   (H)ub network provider software
+   (E)xit
+
+Choice: B
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   BBS Software:
+            2 lines         $60 + Slow XT or higher
+            4 lines         295 + Fast XT or higher
+            8 lines         850 + AT/286 or higher
+           16 lines         950 + 386 or higher
+           32 lines       1,400 + 386 or higher
+           64 lines       2,500 + fast 486 or higher
+           96 lines       3,800 + 586 or higher
+        9,999 lines       5,000 + Mini v11 or higher
+       99,999 lines      50,000 + Mainframe v100 or higher
+      999,999 lines     500,000 + Superputer v250 or higher
+
+Press any key to continue...
+
+
+ Software Retail Outlet Store For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (B)BS software
+   (N)etwork membership software
+   (H)ub network provider software
+   (E)xit
+
+Choice: Price list
+
+   (B)BS Software
+   (N)etwork membership software
+   (H)ub network provider software
+   (E)xit
+
+Choice: N
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Net Membership Software:
+    (Amateur)
+  (1)  Cheap-O-Term           60 + XT & 2400 baud modem or higher
+  (2)  Fancy-Shmancy-Term    120 + AT & 9600 baud modem or higher
+  (3)  Big-Bux-Term          900 + 486 & 9600 baud modem or higher
+  (4)  Relia-Bull          1,500 + 486 & 9600 baud modem or higher
+  (5)  Ultra-Term-NX       2,500 + Mini v11 & 9600 baud modem or higher
+
+Press any key to continue...
+
+
+ Software Retail Outlet Store For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (B)BS software
+   (N)etwork membership software
+   (H)ub network provider software
+   (E)xit
+
+Choice: Price list
+
+   (B)BS Software
+   (N)etwork membership software
+   (H)ub network provider software
+   (E)xit
+
+Choice: H
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Net Hub Provider Software:
+    (Amateur Provider)
+  (1)  Cheap-O-HUB        10,000 + Mini v12, 9600 baud modem or higher
+                                   Experience level: Above Average
+  (2)  BigBiz-O-HUB      100,000 + Mini v20, v.xx class modem or higher
+                                   Experience level: Above Average
+
+Press any key to continue...
+
+
+ Software Retail Outlet Store For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (B)BS software
+   (N)etwork membership software
+   (H)ub network provider software
+   (E)xit
+
+Choice: Exit
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 4
+
+ Mr. Discount House For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: M
+
+Some items purchased from this store DO NOT include mounting and connecting
+hardware, cables, driver software installation, testing or labor. But we do
+have the most flexable prices around! Our prices change almost all the time.
+
+Extra actions may be required to install some items.
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Modems:
+         Cheap 2400          $74 + XT or higher
+         Good 2400           104 + XT or higher
+         2400 v.42bis        154 + AT/286 or higher
+         9600                554 + AT/286 or higher
+         9600 v.32           804 + 386 or higher
+         9600ds            1,004 + 386 or higher
+        14.4kbps v.32bis   1,104 + 386 or higher
+        19.2kbps v.32ter   1,204 + 486 or higher
+        24.0kbps v.FC      1,304 + 486 or higher
+        28.8kbps v.Fast    1,404 + 486 or higher
+
+Press any key to continue...
+
+
+ Mr. Discount House For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: S
+
+Some items purchased from this store DO NOT include mounting and connecting
+hardware, cables, driver software installation, testing or labor. But we do
+have the most flexable prices around! Our prices change almost all the time.
+
+Extra actions may be required to install some items.
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Storage Devices:
+         30meg 60ms         $508 + XT or higher
+         100meg 29ms       1,008 + XT or higher
+         300meg 16ms       2,008 + AT/286 or higher
+         600meg 15ms       6,008 + AT/286 or higher
+         1.2Gig 11ms      80,008 + 386 or higher
+         6 Gig 3ms       150,008 + 486 or higher
+         Raid            250,008 + Mini v10 or higher
+
+Press any key to continue...
+
+
+ Mr. Discount House For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: C
+
+Some items purchased from this store DO NOT include mounting and connecting
+hardware, cables, driver software installation, testing or labor. But we do
+have the most flexable prices around! Our prices change almost all the time.
+
+Extra actions may be required to install some items.
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computers:
+         XT                   $0-  none
+         286               1,002 + XT or higher
+         386               1,402 + AT/286 or higher
+         486/25            4,402 + 386 or higher
+         486/50 v4         6,402 + 486 or higher and > 300Meg Drive
+         486/50 v9            ?    486 v4 through 486 v9
+         586/99               ?
+         (NOTE: Larger systems are available at other stores)
+
+Press any key to continue...
+
+
+ Mr. Discount House For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Modem
+
+
+Modems available:
+
+   (1)  2400                $76- Plain no frills 2400bps not auto answer!
+   (2)  2400                106- Nice no frills 2400bps auto answer
+   (3)  2400 v.42           156- Nice error free 2400bps auto answer
+   ( )  9600                556- Off brand 9600bps modem, req 286
+   ( )  9600 v.32           806- Nice world standard v.32 9600bps, req 386
+   ( )  9600ds            1,006- Dual standard 9600bps modem, req 386
+   ( ) 14400bps v.32bis   1,106- Good high speed modem, req fast 386
+   ( ) 19.2kbps v.32ter   1,206- Fast non-standard, req 486
+   ( ) 24.0kbps v.FC      1,306- Fast pre-standard, req 486
+   ( ) 28.8kbps v.Fast    1,406- Fast standard, req 486
+   (E)xit
+
+Choice: Exit
+
+ Mr. Discount House For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Exit
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 5
+
+ Local Mom & Pop Store For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: M
+
+Hardware prices include all mounting and connecting hardware, cables,
+driver software installation, testing and labor.
+
+We do the work for you so you can do what you do best!
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Modems:
+         Cheap 2400          $70 + XT or higher
+         Good 2400           100 + XT or higher
+         2400 v.42bis        150 + AT/286 or higher
+         9600                550 + AT/286 or higher
+         9600 v.32           800 + 386 or higher
+         9600ds            1,000 + 386 or higher
+        14.4kbps v.32bis   1,100 + 386 or higher
+        19.2kbps v.32ter   1,200 + 486 or higher
+        24.0kbps v.FC      1,300 + 486 or higher
+        28.8kbps v.Fast    1,400 + 486 or higher
+
+Press any key to continue...
+
+
+ Local Mom & Pop Store For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: S
+
+Hardware prices include all mounting and connecting hardware, cables,
+driver software installation, testing and labor.
+
+We do the work for you so you can do what you do best!
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Storage Devices:
+         30meg 60ms         $500 + XT or higher
+         100meg 29ms       1,000 + XT or higher
+         300meg 16ms       2,000 + AT/286 or higher
+         600meg 15ms       6,000 + AT/286 or higher
+         1.2Gig 11ms      80,000 + 386 or higher
+         6 Gig 3ms       150,000 + 486 or higher
+         Raid            250,000 + Mini v10 or higher
+
+Press any key to continue...
+
+
+ Local Mom & Pop Store For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: C
+
+Hardware prices include all mounting and connecting hardware, cables,
+driver software installation, testing and labor.
+
+We do the work for you so you can do what you do best!
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computers:
+         XT                   $0 + none
+         286               1,000 + XT or higher
+         386               1,400 + AT/286 or higher
+         486/25            4,400 + 386 or higher
+         486/50 v4         6,400 + 486 or higher and > 300 Meg Hard Drive
+         486/50 v9            ?    486 v4 through 486 v9 or higher
+         586/99               ?
+         (NOTE: Larger systems are available at other stores)
+
+Press any key to continue...
+
+
+ Local Mom & Pop Store For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Exit
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 6
+
+ Industrial BigBiz Sales Office For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: M
+
+Hardware prices include all mounting and connecting hardware, cables,
+driver software installation, testing and labor.
+
+We do the work for you so you can do what you do best!
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Modems:
+         Cheap 2400          $70 + XT or higher
+         Good 2400           100 + XT or higher
+         2400 v.42bis        150 + AT/286 or higher
+         9600                550 + AT/286 or higher
+         9600 v.32           800 + 386 or higher
+         9600ds            1,000 + 386 or higher
+        14.4kbps v.32bis   1,100 + 386 or higher
+        19.2kbps v.32ter   1,200 + 486 or higher
+        24.0kbps v.FC      1,300 + 486 or higher
+        28.8kbps v.Fast    1,400 + 486 or higher
+
+Press any key to continue...
+
+
+ Industrial BigBiz Sales Office For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: S
+
+Hardware prices include all mounting and connecting hardware, cables,
+driver software installation, testing and labor.
+
+We do the work for you so you can do what you do best!
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Storage Devices:
+         30meg 60ms         $500 + XT or higher
+         100meg 29ms       1,000 + XT or higher
+         300meg 16ms       2,000 + AT/286 or higher
+         600meg 15ms       6,000 + AT/286 or higher
+         1.2Gig 11ms      80,000 + 386 or higher
+         6 Gig 3ms       150,000 + 486 or higher
+         Raid            250,000 + Mini v10 or higher
+
+Press any key to continue...
+
+
+ Industrial BigBiz Sales Office For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: C
+
+Hardware prices include all mounting and connecting hardware, cables,
+driver software installation, testing and labor.
+
+We do the work for you so you can do what you do best!
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computers:
+         Mini v1          29,900 + 486 v9 or higher and > 1.2Gig Hard Drive
+         Mini v11        400,000 + Mini system v10 or higher
+         Mini v50             ?    Mini system v49 or higher
+         Mainframe     1,000,000 + Mini v50 - Main v499 & > 1.2Gig Hard Drive
+         Superputer   20,000,000 + Greater than Mainframe v501 & Raid subsys
+         Megaputer            ?    Greater than Superputer v1000
+         (NOTE: Smaller systems are available at other stores)
+
+Press any key to continue...
+
+
+ Industrial BigBiz Sales Office For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Modem
+
+
+Modems available:
+
+   (1)  2400                $70- Plain no frills 2400bps not auto answer!
+   (2)  2400                100- Nice no frills 2400bps auto answer
+   (3)  2400 v.42           150- Nice error free 2400bps auto answer
+   ( )  9600                550- Off brand 9600bps modem, req 286
+   ( )  9600 v.32           800- Nice world standard v.32 9600bps, req 386
+   ( )  9600ds            1,000- Dual standard 9600bps modem, req 386
+   ( ) 14400bps v.32bis   1,100- Good high speed modem, req fast 386
+   ( ) 19.2kbps v.32ter   1,200- Fast non-standard, req 486
+   ( ) 24.0kbps v.FC      1,300- Fast pre-standard, req 486
+   ( ) 28.8kbps v.Fast    1,400- Fast standard, req 486
+   (E)xit
+
+Choice: Exit
+
+ Industrial BigBiz Sales Office For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Exit
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 6
+
+ Industrial BigBiz Sales Office For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: M
+
+Hardware prices include all mounting and connecting hardware, cables,
+driver software installation, testing and labor.
+
+We do the work for you so you can do what you do best!
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Modems:
+         Cheap 2400          $70 + XT or higher
+         Good 2400           100 + XT or higher
+         2400 v.42bis        150 + AT/286 or higher
+         9600                550 + AT/286 or higher
+         9600 v.32           800 + 386 or higher
+         9600ds            1,000 + 386 or higher
+        14.4kbps v.32bis   1,100 + 386 or higher
+        19.2kbps v.32ter   1,200 + 486 or higher
+        24.0kbps v.FC      1,300 + 486 or higher
+        28.8kbps v.Fast    1,400 + 486 or higher
+
+Press any key to continue...
+
+
+ Industrial BigBiz Sales Office For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: S
+
+Hardware prices include all mounting and connecting hardware, cables,
+driver software installation, testing and labor.
+
+We do the work for you so you can do what you do best!
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Storage Devices:
+         30meg 60ms         $500 + XT or higher
+         100meg 29ms       1,000 + XT or higher
+         300meg 16ms       2,000 + AT/286 or higher
+         600meg 15ms       6,000 + AT/286 or higher
+         1.2Gig 11ms      80,000 + 386 or higher
+         6 Gig 3ms       150,000 + 486 or higher
+         Raid            250,000 + Mini v10 or higher
+
+Press any key to continue...
+
+
+ Industrial BigBiz Sales Office For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Price list
+
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: C
+
+Hardware prices include all mounting and connecting hardware, cables,
+driver software installation, testing and labor.
+
+We do the work for you so you can do what you do best!
+
+ ÄÄÄÄÄÄÄÄDESCRIPTIONÄÄÄÄÄÄÄÄCOSTÄÄÄREQUIREMENTSÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computers:
+         Mini v1          29,900 + 486 v9 or higher and > 1.2Gig Hard Drive
+         Mini v11        400,000 + Mini system v10 or higher
+         Mini v50             ?    Mini system v49 or higher
+         Mainframe     1,000,000 + Mini v50 - Main v499 & > 1.2Gig Hard Drive
+         Superputer   20,000,000 + Greater than Mainframe v501 & Raid subsys
+         Megaputer            ?    Greater than Superputer v1000
+         (NOTE: Smaller systems are available at other stores)
+
+Press any key to continue...
+
+
+ Industrial BigBiz Sales Office For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Exit
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 7
+
+ Phone Company For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+  (P)rice list
+  (A)dd new lines
+  (C)allerID
+  (D)isconnect lines
+  (S)ervice call
+  (R)eport on account
+  (E)xit phone store
+
+Choice: Add
+
+You have 13 lines in service and 0 lines on order.
+
+How many lines do you want to install? 0
+
+  (P)rice list
+  (A)dd new lines
+  (C)allerID
+  (D)isconnect lines
+  (S)ervice call
+  (R)eport on account
+  (E)xit phone store
+
+Choice: CallerID
+
+You already have CallerID enabled on your phone lines. The phone company is
+not in the business of decoding the ID signals at your end of the line. We
+suggest that you contact a security firm for this kind of service.
+
+  (P)rice list
+  (A)dd new lines
+  (C)allerID
+  (D)isconnect lines
+  (S)ervice call
+  (R)eport on account
+  (E)xit phone store
+
+Choice: Disconnect
+
+You have 13 lines in service.
+
+How many do you want to remove? 0
+
+  (P)rice list
+  (A)dd new lines
+  (C)allerID
+  (D)isconnect lines
+  (S)ervice call
+  (R)eport on account
+  (E)xit phone store
+
+Choice: Report
+
+ Phone Lines: 13 (3 MORE LINES NEEDED!)
+ Line Damage: 0 phone lines down.
+   Caller ID: Activated
+   Last Bill: 08/22/99  (Next bill is due in 24 days)
+Monthly Cost: $767.00 for Commercial service.
+
+  (P)rice list
+  (A)dd new lines
+  (C)allerID
+  (D)isconnect lines
+  (S)ervice call
+  (R)eport on account
+  (E)xit phone store
+
+Choice: Price list
+
+    Phone Service Order Center
+    (All prices are per line)
+
+    Basic Service          $20.00 per month (1 to 3 lines)
+    Commercial Service     $50.00 per month (4 lines or more)
+    Caller ID                9.00 per month
+    Installation            70.00 first line
+    Installation            35.00 all other lines
+    Service Call            65.00 per trip
+
+  (P)rice list
+  (A)dd new lines
+  (C)allerID
+  (D)isconnect lines
+  (S)ervice call
+  (R)eport on account
+  (E)xit phone store
+
+Choice: Exit
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 8
+
+ Advertising Center For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     MEDIA TITLE                   Issues Per Year      Circulation
+ 1 - Super Thrifty Newspaper                 26            5,000
+ 2 - City Newspaper                          52          200,000
+ 3 - National Newspaper                      52          450,000
+ 4 - Industry Magazine                       12           10,000
+ 5 - National Magazine                       12          200,000
+ 6 - Computer User Newsletter                 6              200
+ 7 - Upstart Computer Magazine               12            4,000
+ 8 - Smart 'n Snooty Magazine                 6            6,500
+ 9 - Town Newspaper                          52           40,000
+ E - Exit store
+
+Choice: 1
+         Media: Super Thrifty Newspaper
+     Issues/Yr: 26
+    Readership: 5,000
+
+    Advertisement Rates
+
+(1) Classified: $10.00
+(2) 1/8 Page  : $100.00
+(3) 1/4 Page  : $200.00
+(4) 1/2 Page  : $300.00
+(5) Full Page : $400.00
+(6) Two Page  : $800.00
+
+Choice: None
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 2
+
+ Major Department Store Chain For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Exit
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 7
+
+ Phone Company For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+  (P)rice list
+  (A)dd new lines
+  (C)allerID
+  (D)isconnect lines
+  (S)ervice call
+  (R)eport on account
+  (E)xit phone store
+
+Choice: 2
+
+  (P)rice list
+  (A)dd new lines
+  (C)allerID
+  (D)isconnect lines
+  (S)ervice call
+  (R)eport on account
+  (E)xit phone store
+
+Choice: Exit
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 8
+
+ Advertising Center For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     MEDIA TITLE                   Issues Per Year      Circulation
+ 1 - Super Thrifty Newspaper                 26            5,000
+ 2 - City Newspaper                          52          200,000
+ 3 - National Newspaper                      52          450,000
+ 4 - Industry Magazine                       12           10,000
+ 5 - National Magazine                       12          200,000
+ 6 - Computer User Newsletter                 6              200
+ 7 - Upstart Computer Magazine               12            4,000
+ 8 - Smart 'n Snooty Magazine                 6            6,500
+ 9 - Town Newspaper                          52           40,000
+ E - Exit store
+
+Choice: 2
+         Media: City Newspaper
+     Issues/Yr: 52
+    Readership: 200,000
+
+    Advertisement Rates
+
+(1) Classified: $15.00
+(2) 1/8 Page  : $4,000.00
+(3) 1/4 Page  : $14,000.00
+(4) 1/2 Page  : $19,000.00
+(5) Full Page : $39,000.00
+(6) Two Page  : $78,000.00
+
+Choice: None
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 8
+
+ Advertising Center For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     MEDIA TITLE                   Issues Per Year      Circulation
+ 1 - Super Thrifty Newspaper                 26            5,000
+ 2 - City Newspaper                          52          200,000
+ 3 - National Newspaper                      52          450,000
+ 4 - Industry Magazine                       12           10,000
+ 5 - National Magazine                       12          200,000
+ 6 - Computer User Newsletter                 6              200
+ 7 - Upstart Computer Magazine               12            4,000
+ 8 - Smart 'n Snooty Magazine                 6            6,500
+ 9 - Town Newspaper                          52           40,000
+ E - Exit store
+
+Choice: 3
+         Media: National Newspaper
+     Issues/Yr: 52
+    Readership: 450,000
+
+    Advertisement Rates
+
+(1) Classified: $20.00
+(2) 1/8 Page  : $6,000.00
+(3) 1/4 Page  : $11,500.00
+(4) 1/2 Page  : $21,000.00
+(5) Full Page : $45,000.00
+(6) Two Page  : $90,000.00
+
+Choice: None
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 8
+
+ Advertising Center For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     MEDIA TITLE                   Issues Per Year      Circulation
+ 1 - Super Thrifty Newspaper                 26            5,000
+ 2 - City Newspaper                          52          200,000
+ 3 - National Newspaper                      52          450,000
+ 4 - Industry Magazine                       12           10,000
+ 5 - National Magazine                       12          200,000
+ 6 - Computer User Newsletter                 6              200
+ 7 - Upstart Computer Magazine               12            4,000
+ 8 - Smart 'n Snooty Magazine                 6            6,500
+ 9 - Town Newspaper                          52           40,000
+ E - Exit store
+
+Choice: 4
+         Media: Industry Magazine
+     Issues/Yr: 12
+    Readership: 10,000
+
+    Advertisement Rates
+
+(1) Classified: $20.00
+(2) 1/8 Page  : $200.00
+(3) 1/4 Page  : $400.00
+(4) 1/2 Page  : $650.00
+(5) Full Page : $1,300.00
+(6) Two Page  : $2,600.00
+
+Choice: None
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 8
+
+ Advertising Center For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     MEDIA TITLE                   Issues Per Year      Circulation
+ 1 - Super Thrifty Newspaper                 26            5,000
+ 2 - City Newspaper                          52          200,000
+ 3 - National Newspaper                      52          450,000
+ 4 - Industry Magazine                       12           10,000
+ 5 - National Magazine                       12          200,000
+ 6 - Computer User Newsletter                 6              200
+ 7 - Upstart Computer Magazine               12            4,000
+ 8 - Smart 'n Snooty Magazine                 6            6,500
+ 9 - Town Newspaper                          52           40,000
+ E - Exit store
+
+Choice: 5
+         Media: National Magazine
+     Issues/Yr: 12
+    Readership: 200,000
+
+    Advertisement Rates
+
+(1) Classified: $20.00
+(2) 1/8 Page  : $5,000.00
+(3) 1/4 Page  : $15,000.00
+(4) 1/2 Page  : $25,000.00
+(5) Full Page : $35,000.00
+(6) Two Page  : $70,000.00
+
+Choice: None
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 8
+
+ Advertising Center For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     MEDIA TITLE                   Issues Per Year      Circulation
+ 1 - Super Thrifty Newspaper                 26            5,000
+ 2 - City Newspaper                          52          200,000
+ 3 - National Newspaper                      52          450,000
+ 4 - Industry Magazine                       12           10,000
+ 5 - National Magazine                       12          200,000
+ 6 - Computer User Newsletter                 6              200
+ 7 - Upstart Computer Magazine               12            4,000
+ 8 - Smart 'n Snooty Magazine                 6            6,500
+ 9 - Town Newspaper                          52           40,000
+ E - Exit store
+
+Choice: 6
+         Media: Computer User Newsletter
+     Issues/Yr: 6
+    Readership: 200
+
+    Advertisement Rates
+
+(1) Classified: $5.00
+(2) 1/8 Page  : $10.00
+(3) 1/4 Page  : $25.00
+(4) 1/2 Page  : $45.00
+(5) Full Page : $60.00
+(6) Two Page  : $120.00
+
+Choice: None
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 8
+
+ Advertising Center For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     MEDIA TITLE                   Issues Per Year      Circulation
+ 1 - Super Thrifty Newspaper                 26            5,000
+ 2 - City Newspaper                          52          200,000
+ 3 - National Newspaper                      52          450,000
+ 4 - Industry Magazine                       12           10,000
+ 5 - National Magazine                       12          200,000
+ 6 - Computer User Newsletter                 6              200
+ 7 - Upstart Computer Magazine               12            4,000
+ 8 - Smart 'n Snooty Magazine                 6            6,500
+ 9 - Town Newspaper                          52           40,000
+ E - Exit store
+
+Choice: 7
+         Media: Upstart Computer Magazine
+     Issues/Yr: 12
+    Readership: 4,000
+
+    Advertisement Rates
+
+(1) Classified: $15.00
+(2) 1/8 Page  : $150.00
+(3) 1/4 Page  : $200.00
+(4) 1/2 Page  : $450.00
+(5) Full Page : $900.00
+(6) Two Page  : $1,800.00
+
+Choice: None
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 8
+
+ Advertising Center For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     MEDIA TITLE                   Issues Per Year      Circulation
+ 1 - Super Thrifty Newspaper                 26            5,000
+ 2 - City Newspaper                          52          200,000
+ 3 - National Newspaper                      52          450,000
+ 4 - Industry Magazine                       12           10,000
+ 5 - National Magazine                       12          200,000
+ 6 - Computer User Newsletter                 6              200
+ 7 - Upstart Computer Magazine               12            4,000
+ 8 - Smart 'n Snooty Magazine                 6            6,500
+ 9 - Town Newspaper                          52           40,000
+ E - Exit store
+
+Choice: 8
+         Media: Smart 'n Snooty Magazine
+     Issues/Yr: 6
+    Readership: 6,500
+
+    Advertisement Rates
+
+(1) Classified: $50.00
+(2) 1/8 Page  : $1,000.00
+(3) 1/4 Page  : $2,000.00
+(4) 1/2 Page  : $4,000.00
+(5) Full Page : $8,000.00
+(6) Two Page  : $16,000.00
+
+Choice: None
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 8
+
+ Advertising Center For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     MEDIA TITLE                   Issues Per Year      Circulation
+ 1 - Super Thrifty Newspaper                 26            5,000
+ 2 - City Newspaper                          52          200,000
+ 3 - National Newspaper                      52          450,000
+ 4 - Industry Magazine                       12           10,000
+ 5 - National Magazine                       12          200,000
+ 6 - Computer User Newsletter                 6              200
+ 7 - Upstart Computer Magazine               12            4,000
+ 8 - Smart 'n Snooty Magazine                 6            6,500
+ 9 - Town Newspaper                          52           40,000
+ E - Exit store
+
+Choice: 9
+         Media: Town Newspaper
+     Issues/Yr: 52
+    Readership: 40,000
+
+    Advertisement Rates
+
+(1) Classified: $10.00
+(2) 1/8 Page  : $4,000.00
+(3) 1/4 Page  : $8,000.00
+(4) 1/2 Page  : $16,000.00
+(5) Full Page : $30,000.00
+(6) Two Page  : $60,000.00
+
+Choice: None
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 9
+
+ Food Price Grocery For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (F)ood
+   (B)everage
+   (S)upplies
+   (E)xit
+
+Choice: Price list
+
+The prices are listed in the newspaper and are current for 1 week.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 9
+
+ Food Price Grocery For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (F)ood
+   (B)everage
+   (S)upplies
+   (E)xit
+
+Choice: Food
+
+You buy some food. Frozen pizza. It tastes like cardboard with cheese.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 9
+
+ Food Price Grocery For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (F)ood
+   (B)everage
+   (S)upplies
+   (E)xit
+
+Choice: Beverage
+
+You buy something to drink. 7up(tm), the un-cola
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 9
+
+ Food Price Grocery For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (F)ood
+   (B)everage
+   (S)upplies
+   (E)xit
+
+Choice: Supplies
+
+It takes a little more effort to remember which supplies you needed to buy.
+You go up and down the isles and can't find what you are looking for.
+So you leave the store with a pack of beer instead.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: A
+
+ Health Clinic For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+The doctor is busy all day today. Golf comes first!
+
+
+Press any key to continue...
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: Exit
+
+[67:872:71]: ? - Help
+
+(!) Instructions...... What do I do here?
+(A)nswer chat......... Keep in contact with the users
+(B)ank................ Check status of your account
+(C)harge users........ Set charge type and collect money
+(E)mploy workers...... Hire workers to help run your BBS
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(M)ail Box check...... Message base maintenance and status
+(R)eport.............. Check hardware, software, modems and users
+(S)tore............... Buy or upgrade hardware, software or phones
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(V)irus detection..... Keep your files clean and clear!
+(W)ork................ DO THIS! Keep your BBS active!
+(Z)ippy list.......... Show a quick list of your competition
+
+[67:872:71]: Charge
+
+You spend several hours reworking the menus and ANSI color of your screens
+and setup special sections for your paying users. Then you remind them about
+the cost of running your board and request their help in supporting it.
+
+You charge them for a Monthly membership.
+
+46 users decide to pay.
+5 users decide to leave.
+
+[16:918:69]: Work
+
+You try out a new on-line game and the users hate it.
+
+[19:918:68]: Work
+
+You call the author of your BBS software to see if he will add a feature
+that you want. He thinks it is a great idea and thanks you for calling.
+
+[22:918:67]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 30
+
+[52:918:66]: Work
+
+You start feeling like this is a real grind and you wonder why you are
+spending all of your time and effort working on keeping this computer
+running for a bunch of childish users. They want everything from you and
+don't want to pay for it. It is, after all, your computer and your life!
+What do these cheap skates want from you anyway?!  Gripe, snarl, gripe.
+
+      **** SYSOP BURNOUT WARNING! ****
+
+You are able to snap out of it before any real damage is done... this time.
+
+[55:918:65]: Usage
+
+2400 baud users have access to 13 lines which are 48% full.
+High speed modem users have access to 6 lines which are 52% full.
+
+[55:918:65]: Work
+
+You get another letter in the mailbox saying that you won zillions of dollars
+but when you read the fine print it requires you to first buy zillions of
+dollars worth of their products before you will qualify.
+
+Don't you just hate those buggers?
+
+[58:918:64]: Work
+
+You spend some time writing letters to the new users. They like it and
+the volume of your mail goes up.
+
+[61:918:63]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 12
+
+[73:918:62]: Work
+
+You spend some time writing letters to the new users. They like it and
+the volume of your mail goes up.
+
+[76:918:61]: Work
+
+You run a contest on your board to see who can write the most messages. The
+problem is that you end up with more mail in your mailbox!
+
+[79:918:60]: Work
+
+   * Some subscription renewals arrive in the mail. *
+     4 free users start paying too.
+
+You open a new message section for a special interest group on your system
+and they are so impressed that they send you a donation.
+
+Your balance is now $2,415
+
+* A Chat Request has been made.
+
+[75:922:59]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 27
+* A Chat Request is still pending.
+
+[102:922:58]: Answer Chat
+
+
+That user is in the middle of a file transfer. You can't chat now.
+
+[102:922:57]: Work
+
+You help out a new user and he is so happy that he offers to help you out
+on the BBS for a day.
+
+[105:922:68]: Charge
+
+You spend several hours reworking the menus and ANSI color of your screens
+and setup special sections for your paying users. Then you remind them about
+the cost of running your board and request their help in supporting it.
+
+You charge them for a Monthly membership.
+
+71 users decide to pay.
+7 users decide to leave.
+
+[27:993:66]: Work
+
+You give one of your modems to a small private school and their computer
+class joins your system.
+
+[80:993:65]: Work
+
+An old school buddy calls you on the phone after several years of living in
+another state. He asks if you would mind putting his new software on your
+system. You agree and it turns out to be the most popular software on the
+market!
+
+When news of this gets out 111 new users join your BBS.
+
+[194:993:64]: Charge
+
+You rework some of your bulletins and remind the free access users about the
+benefits of joining your service and helping to support it.
+
+You charge them for a Monthly membership.
+
+130 users decide to pay.
+14 users decide to leave.
+
+[50:1123:63]: Bank Report
+
+Your bank reports your balance as being: $3,418.00
+
+[50:1123:63]: Store
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 1
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Modem
+
+
+Modems available:
+
+   (1)  2400                $70- Plain no frills 2400bps not auto answer!
+   (2)  2400                100- Nice no frills 2400bps auto answer
+   (3)  2400 v.42           150- Nice error free 2400bps auto answer
+   (4)  9600                550- Off brand 9600bps modem
+   (5)  9600 v.32           800- Nice world standard v.32 9600bps
+   (6)  9600ds            1,000- Dual standard 9600bps modem
+   (7) 14400bps v.32bis   1,100- Good high speed modem
+   ( ) 19.2kbps v.32ter   1,200- Fast non-standard, req 486
+   ( ) 24.0kbps v.FC      1,300- Fast pre-standard, req 486
+   ( ) 28.8kbps v.Fast    1,400- Fast standard, req 486
+   (E)xit
+
+Choice: 7
+
+You can afford up to 3 modems.
+Every modem you buy will take one action to install.
+How many do you want now? 1
+
+You buy 1 modem.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 5
+
+ Local Mom & Pop Store For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Computer
+
+You have a 25Mhz 386 with 4meg RAM
+The store clerk laughs at you. "Come back when you have enough money!"
+Funds required: $4,400.00
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 4
+
+ Mr. Discount House For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Computer
+
+You have a 25Mhz 386 with 4meg RAM
+The store clerk laughs at you. "Come back when you have enough money!"
+Funds required: $4,400.00
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: Exit
+
+* A Chat Request has been made.
+
+[80:1123:59]: Answer Chat
+
+
+You answer the chat request and type with the user. He seems happy and
+hangs up as soon as you end the chat.
+
+[80:1123:58]: Charge
+
+You spend several hours reworking the menus and ANSI color of your screens
+and setup special sections for your paying users. Then you remind them about
+the cost of running your board and request their help in supporting it.
+
+You charge them for a Monthly membership.
+
+54 users decide to pay.
+5 users decide to leave.
+
+[21:1177:56]: Bank Report
+
+Your bank reports your balance as being: $2,588.00
+
+[21:1177:56]: Work
+
+You post a text file on your system that explains how to use the functions
+and your users love it. They start using more of their on-line time.
+
+ ********** VIRUS ATTACK DETECTED! **********
+
+Due to not having run your virus protection for a while, A nasty one eats
+your files, cleaning your drive for you. Fortunately, you made a back up
+just last night, and after a few hours work, you are back on line. The bad
+news is that the virus scare frightens off 3 users due to the incident.
+
+You vow never to forget to run your virus protection again!
+
+[18:1177:55]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 18
+
+[36:1177:54]: Work
+
+You open a new message section for a special interest group on your system
+and they are so impressed that they send you a donation.
+
+Your balance is now $2,638
+
+[36:1177:53]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 9
+
+[45:1177:52]: Work
+
+You spend a few late nights working on some menu changes, again.
+
+ ********** VIRUS ATTACK! **********
+
+A virus infects your system. It toggles a bit on your I/O board, and
+sends high current pulses through your modems, destroying some of them.
+
+Hope you have enough cash to buy new ones!
+
+Some of your users hear about this and are sympathetic, but you do lose
+10 users due to the incident.
+
+You vow never to forget to run your virus protection again!
+
+[35:1177:51]: Virus detection
+
+Murphyscan(TM) scans all drives and files for all KNOWN viruses!
+You have a 300meg 16ms drive  EST. SCAN TIME 15 SECONDS
+
+TurboScan(TM) super fast virus detection option is available but may not
+identify all infections accurately. Time savings MAY be 50% or more.
+
+Would you like to use the TurboScan option? (y/N) Yes
+
+         [ÄÄÄÄÄÄÄÄÄ] <<TurboScan!>>
+Progress: ÛÛÛÛÛÛÛÛÛ
+
+ >>> No virus found <<<
+                      We at Murphycorp recommend you run
+                   Murphyscan(TM) every ten (10) downloads.
+                      Thank you for using Murphyscan(TM)!
+
+*not responsible for damage resulting from misuse.
+
+[35:1177:50]: Report
+
+ Report on the setup of INDEX BBS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computer: 25Mhz 386 with 4meg RAM
+    Storage: 300meg 16ms
+     Modems: 4 at 2400bps
+Fast Modems: 3 at 9600bps
+V.xx Modems: 4 at 19.2Kbps or faster
+   Software: supports 32 lines. (21 ports unused)
+      Users: 35 free, 1,177 paying.
+Phone Lines: 13 (2 lines unused.)
+ Experience: Absolute Beginner Sysop
+  Education: No Public, No Personal
+  Caller ID: Caller validation level 1
+   Security: None.
+    Actions: 50 left today
+   Messages: 176 waiting to be answered
+Start Score: 529 (UP by 263 points)
+      Score: 792 points! (1 board away from the #1 BBS)
+
+[35:1177:50]: Usage
+
+2400 baud users have access to 11 lines which are 72% full.
+High speed modem users have access to 7 lines which are 56% full.
+
+[35:1177:50]: Store
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 5
+
+ Local Mom & Pop Store For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Modem
+
+
+Modems available:
+
+   (1)  2400                $70- Plain no frills 2400bps not auto answer!
+   (2)  2400                100- Nice no frills 2400bps auto answer
+   (3)  2400 v.42           150- Nice error free 2400bps auto answer
+   (4)  9600                550- Off brand 9600bps modem
+   (5)  9600 v.32           800- Nice world standard v.32 9600bps
+   (6)  9600ds            1,000- Dual standard 9600bps modem
+   (7) 14400bps v.32bis   1,100- Good high speed modem
+   ( ) 19.2kbps v.32ter   1,200- Fast non-standard, req 486
+   ( ) 24.0kbps v.FC      1,300- Fast pre-standard, req 486
+   ( ) 28.8kbps v.Fast    1,400- Fast standard, req 486
+   (E)xit
+
+Choice: 1
+You spend a whole weekend trying to connect the modem and make it work with
+the BBS software that you have. The store that you got the modem from doesn't
+know anything about setting it up so you pay an expert $20 to make it work.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 1
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Modem
+
+
+Modems available:
+
+   (1)  2400                $70- Plain no frills 2400bps not auto answer!
+   (2)  2400                100- Nice no frills 2400bps auto answer
+   (3)  2400 v.42           150- Nice error free 2400bps auto answer
+   (4)  9600                550- Off brand 9600bps modem
+   (5)  9600 v.32           800- Nice world standard v.32 9600bps
+   (6)  9600ds            1,000- Dual standard 9600bps modem
+   (7) 14400bps v.32bis   1,100- Good high speed modem
+   ( ) 19.2kbps v.32ter   1,200- Fast non-standard, req 486
+   ( ) 24.0kbps v.FC      1,300- Fast pre-standard, req 486
+   ( ) 28.8kbps v.Fast    1,400- Fast standard, req 486
+   (E)xit
+
+Choice: 1
+You spend a whole weekend trying to connect the modem and make it work with
+the BBS software that you have. The store that you got the modem from doesn't
+know anything about setting it up so you pay an expert $20 to make it work.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 1
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Modem
+
+
+Modems available:
+
+   (1)  2400                $70- Plain no frills 2400bps not auto answer!
+   (2)  2400                100- Nice no frills 2400bps auto answer
+   (3)  2400 v.42           150- Nice error free 2400bps auto answer
+   (4)  9600                550- Off brand 9600bps modem
+   (5)  9600 v.32           800- Nice world standard v.32 9600bps
+   (6)  9600ds            1,000- Dual standard 9600bps modem
+   (7) 14400bps v.32bis   1,100- Good high speed modem
+   ( ) 19.2kbps v.32ter   1,200- Fast non-standard, req 486
+   ( ) 24.0kbps v.FC      1,300- Fast pre-standard, req 486
+   ( ) 28.8kbps v.Fast    1,400- Fast standard, req 486
+   (E)xit
+
+Choice: 3
+
+You can afford up to 16 modems.
+Every modem you buy will take one action to install.
+How many do you want now? 3
+
+You buy 3 modems.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: Exit
+
+* A Chat Request has been made.
+
+[43:1177:44]: Answer Chat
+
+
+You chat with the user for over 10 minutes answering a lot of his questions.
+He is so happy that he offers to donate some time to your BBS.
+
+[43:1177:48]: Mail
+
+There are 176 messages waiting.
+
+Would you like to answer mail now? (Y/n) Yes
+
+                0%----------------50%----------------100%
+Answering Mail: ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Your co-sysop answers some mail.
+
+You answer all of the messages. 2 free users subscribe to your system.
+
+
+Problem Message Number: 3
+
+This user is happy that he was able to get connected with your BBS, but he
+doesn't want to give you access to his hard drive. He thinks that you are
+taking things off of his drive that he doesn't want you to have.
+
+<D>elete, <I>gnore, <P>olite answer, <R>ude answer, <L>ock-out user: Polite
+
+You do your best to be nice and not cut the user down.
+
+Problem Message Number: 2
+
+This woman is upset about your questionnaire asking her age. She makes
+it very clear that you don't need to know her age or her weight either!
+
+<D>elete, <I>gnore, <P>olite answer, <R>ude answer, <L>ock-out user: Polite
+
+You do your best to be nice and not cut the user down.
+
+Problem Message Number: 1
+
+One of the few female callers that you have is very angry that
+the male users treat her like dirt. She wants you to kick the
+other users off of the BBS.
+
+<D>elete, <I>gnore, <P>olite answer, <R>ude answer, <L>ock-out user: Polite
+
+You do your best to be nice and not cut the user down.
+Poll network for inbound netmail? (y/N) Yes
+It takes a little extra effort to scan since you are not a network member.
+
+Network Mail poll... No netmail found on any network.
+
+* A Chat Request has been made.
+
+[53:1185:44]: Answer Chat
+
+
+You answer the chat request and type with the user. He seems happy and
+hangs up as soon as you end the chat.
+
+[53:1185:43]: Charge
+
+You rework some of your bulletins and remind the free access users about the
+benefits of joining your service and helping to support it.
+
+You charge them for a Monthly membership.
+
+36 users decide to pay.
+3 users decide to leave.
+
+[14:1221:42]: ? - Help
+
+(!) Instructions...... What do I do here?
+(A)nswer chat......... Keep in contact with the users
+(B)ank................ Check status of your account
+(C)harge users........ Set charge type and collect money
+(E)mploy workers...... Hire workers to help run your BBS
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(M)ail Box check...... Message base maintenance and status
+(R)eport.............. Check hardware, software, modems and users
+(S)tore............... Buy or upgrade hardware, software or phones
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(V)irus detection..... Keep your files clean and clear!
+(W)ork................ DO THIS! Keep your BBS active!
+(Z)ippy list.......... Show a quick list of your competition
+
+[14:1221:42]: Bank Report
+
+Your bank reports your balance as being: $2,188.00
+
+[14:1221:42]: Work
+
+You call long distance to a BBS and download some new files.
+
+[14:1221:41]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 15
+
+[29:1221:40]: Work
+
+You do your best to clean up a few spelling errors in your text files.
+
+[29:1221:39]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 18
+
+[47:1221:38]: Work
+
+You make a small mistake on your opening screen and your users laugh at you.
+
+[47:1221:37]: Work
+
+You decide to spend some time reading through the message bases on your BBS
+and answering the messages that seem interesting. This impresses the users and
+they start writing more messages and telling more people about all of the new
+activity on your board. This helps make your users happy and attract new users.
+
+You have 6 new users join.
+
+[53:1221:36]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 6
+
+[59:1221:35]: Work
+
+It has been a long day at the keyboard. You deserve a break.
+
+A good friend decides to help you out on your system because you look tired.
+
+[59:1221:39]: Work
+
+You help out a new user on your board with a few shareware programs and he
+thanks you by uploading several new versions of other programs along with
+a few pictures that you didn't have.
+
+[59:1221:38]: Work
+
+You find a small bug in the BBS software that hangs the BBS when you try to
+upload a file. You quickly get an update before your users find out.
+
+[59:1221:37]: Work
+
+You try to get a few of the system operators together for a meeting. They end
+up not being able to make it because of conflicting schedules.
+
+[59:1221:36]: Work
+
+You check through the new uploads and recompress them.
+
+[59:1221:35]: Work
+
+You run a contest on your board to see who can write the most messages. The
+problem is that you end up with more mail in your mailbox!
+
+[59:1221:34]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 15
+
+[74:1221:33]: Work
+
+You decide to spend some time reading through the message bases on your BBS
+and answering the messages that seem interesting. This impresses the users and
+they start writing more messages and telling more people about all of the new
+activity on your board. This helps make your users happy and attract new users.
+
+You have 24 new users join.
+
+[98:1221:32]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 6
+
+[104:1221:31]: Bank Report
+
+Your bank reports your balance as being: $2,168.00
+
+[104:1221:31]: Charge
+
+You rework some of your bulletins and remind the free access users about the
+benefits of joining your service and helping to support it.
+
+You charge them for a Monthly membership.
+
+70 users decide to pay.
+7 users decide to leave.
+
+[27:1291:30]: Usage
+
+2400 baud users have access to 13 lines which are 66% full.
+High speed modem users have access to 7 lines which are 62% full.
+
+[27:1291:30]: Work
+
+Due to some investments in software companies and your help in busting a
+ring of pirate software hackers, you get a donation in the form of a hard
+drive upgrade for your BBS.
+
+Your users hear about this and the word spreads attracting 11 new users!
+
+* A Chat Request has been made.
+
+[38:1291:29]: Answer Chat
+
+
+You answer the chat and notice that the user types very slowly. It takes
+several minutes for him to type a single line of reply. Rather than using
+up too much of your time you suggest that the user leave a note in your
+mailbox. This makes the user feel bad.
+
+[38:1291:28]: Usage
+
+2400 baud users have access to 13 lines which are 67% full.
+High speed modem users have access to 7 lines which are 62% full.
+
+[38:1291:28]: Report
+
+ Report on the setup of INDEX BBS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computer: 25Mhz 386 with 4meg RAM
+    Storage: 600meg 15ms
+     Modems: 9 at 2400bps
+Fast Modems: 3 at 9600bps
+V.xx Modems: 4 at 19.2Kbps or faster
+   Software: supports 32 lines. (16 ports unused)
+      Users: 38 free, 1,291 paying.
+Phone Lines: 13 (3 MORE LINES NEEDED!)
+ Experience: Absolute Beginner Sysop
+  Education: No Public, No Personal
+  Caller ID: Caller validation level 1
+   Security: None.
+    Actions: 28 left today
+   Messages: 41 waiting to be answered
+Start Score: 529 (UP by 651 points)
+      Score: 1,180 points! (1 board away from the #1 BBS)
+
+[38:1291:28]: Store
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 1
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Modem
+
+
+Modems available:
+
+   (1)  2400                $70- Plain no frills 2400bps not auto answer!
+   (2)  2400                100- Nice no frills 2400bps auto answer
+   (3)  2400 v.42           150- Nice error free 2400bps auto answer
+   (4)  9600                550- Off brand 9600bps modem
+   (5)  9600 v.32           800- Nice world standard v.32 9600bps
+   (6)  9600ds            1,000- Dual standard 9600bps modem
+   (7) 14400bps v.32bis   1,100- Good high speed modem
+   ( ) 19.2kbps v.32ter   1,200- Fast non-standard, req 486
+   ( ) 24.0kbps v.FC      1,300- Fast pre-standard, req 486
+   ( ) 28.8kbps v.Fast    1,400- Fast standard, req 486
+   (E)xit
+
+Choice: 2
+
+You can afford up to 16 modems.
+Every modem you buy will take one action to install.
+How many do you want now? 10
+
+You buy 10 modems.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: Exit
+
+[43:1291:17]: Usage
+
+2400 baud users have access to 13 lines which are 67% full.
+High speed modem users have access to 7 lines which are 62% full.
+
+[43:1291:17]: Work
+
+Due to some investments in software companies and your help in busting a
+ring of pirate software hackers, you get a donation in the form of a hard
+drive upgrade for your BBS.
+
+Your users hear about this and the word spreads attracting 3 new users!
+
+[46:1291:16]: Work
+
+You help out a new user and he is happy. He starts to advertise your BBS.
+
+[46:1291:15]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+* A Chat Request has been made.
+
+[46:1291:14]: Answer Chat
+
+
+That user is now downloading a file so you can't chat with them.
+
+[46:1291:13]: Work
+
+You find several users in the log files that have been hacking into your
+account files. You track them down and cut off all of their access and force
+your users to change all their passwords.
+
+This makes some users unhappy but they don't stop calling your board.
+
+[46:1291:12]: Work
+
+You open a new message section for a special interest group on your system
+and they are so impressed that they send you a donation.
+
+Your balance is now $1,568
+
+[46:1291:11]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 12
+
+[58:1291:10]: Work
+
+You help out a new user on your board with a few shareware programs and he
+thanks you by uploading several new versions of other programs along with
+a few pictures that you didn't have.
+
+[58:1291:9]: Work
+
+   * Some subscription renewals arrive in the mail. *
+     2 free users start paying too.
+
+One of your users made the mistake of using the same password on all of the
+boards he calls. One of the boards crashed and dumped the password list to
+the screen so all of the users could see it. To help stop the fake logons
+you force all of the users to change their password. This makes a few users
+mad at you.
+
+[56:1293:8]: Virus detection
+
+Murphyscan(TM) scans all drives and files for all KNOWN viruses!
+You have a 1,200meg 11ms drive  EST. SCAN TIME 20 SECONDS
+
+TurboScan(TM) super fast virus detection option is available but may not
+identify all infections accurately. Time savings MAY be 50% or more.
+
+Would you like to use the TurboScan option? (y/N) Yes
+
+         [ÄÄÄÄÄÄÄÄÄÄÄÄ] <<TurboScan!>>
+Progress: ÛÛÛÛÛÛÛÛÛÛÛÛ
+
+ >>> No virus found <<<
+                      We at Murphycorp recommend you run
+                   Murphyscan(TM) every ten (10) downloads.
+                      Thank you for using Murphyscan(TM)!
+
+*not responsible for damage resulting from misuse.
+
+[56:1293:7]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+[56:1293:6]: Work
+
+You spend a few late nights working on some menu changes, again.
+
+[56:1293:5]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 18
+
+[74:1293:4]: Store
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 8
+
+ Advertising Center For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     MEDIA TITLE                   Issues Per Year      Circulation
+ 1 - Super Thrifty Newspaper                 26            5,000
+ 2 - City Newspaper                          52          200,000
+ 3 - National Newspaper                      52          450,000
+ 4 - Industry Magazine                       12           10,000
+ 5 - National Magazine                       12          200,000
+ 6 - Computer User Newsletter                 6              200
+ 7 - Upstart Computer Magazine               12            4,000
+ 8 - Smart 'n Snooty Magazine                 6            6,500
+ 9 - Town Newspaper                          52           40,000
+ E - Exit store
+
+Choice: 9
+         Media: Town Newspaper
+     Issues/Yr: 52
+    Readership: 40,000
+
+    Advertisement Rates
+
+(1) Classified: $10.00
+(2) 1/8 Page  : $4,000.00
+(3) 1/4 Page  : $8,000.00
+(4) 1/2 Page  : $16,000.00
+(5) Full Page : $30,000.00
+(6) Two Page  : $60,000.00
+
+Choice: Classified
+
+Your ad will appear in our next publication.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: Exit
+* Your advertisement brings in some new users
+
+[94:1293:2]: Charge
+
+You rework some of your bulletins and remind the free access users about the
+benefits of joining your service and helping to support it.
+benefits of joining your service and helping to support it.
+
+You charge them for a Monthly membership.
+
+64 users decide to pay.
+7 users decide to leave.
+
+[23:1357:1]: Store
+>> You are out of actions! <<
+[23:1357:0]: ? - Help
+
+       <<< YOU ARE OUT OF ACTIONS.  SOME OPTIONS ARE NOT AVAILABLE. >>>
+
+(!) Instructions...... What do I do here?
+(B)ank................ Check status of your account
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(R)eport.............. Check hardware, software, modems and users
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(Z)ippy list.......... Show a quick list of your competition
+>> You are out of actions! <<
+[23:1357:0]:

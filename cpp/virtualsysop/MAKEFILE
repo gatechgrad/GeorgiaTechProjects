@@ -1,0 +1,40 @@
+# Simple Makefile for g++ 
+# ----------------------
+# Replace Class1 and Class2 with your classes below.
+# If you add a new class C, you must add C.o to the OBJS definition
+# and add a dependency for the .h file like:
+#	C.o: C.h
+
+CCC=gpp
+EXE=vs
+
+# add -Wall for LOTS of warnings, -g for debugger support
+CCFLAGS = -g -Wall -Woverloaded-virtual 
+
+OBJS = virtualsysop.o ansicolor.o sysop.o server.o store.o menu.o menuitem.o
+FILES = virtualsysop.cc ansicolor.cc sysop.cc server.cc store.cc menu.cc menuitem.cc
+
+# suffix rule to tell SGI make how to compile C++ programs
+.SUFFIXES: .cc
+# second line below must begin with a single TAB character!
+.cc.o: 
+	$(CCC) $(CCFLAGS) -c $<
+
+# second line below must begin with a single TAB character!
+vs: $(OBJS)
+	$(CCC) -o $(EXE) $(OBJS)
+
+virtualsysop.o: virtualsysop.h
+ansicolor.o: ansicolor.h
+sysop.o: sysop.h
+server.o: server.h
+store.o: store.h
+menu.o: menu.h
+menuitem.o: menu.h
+
+# second line below must begin with a single TAB character!
+clean:
+	-rm -rf *.o core $(EXE)
+
+#all: $(FILES)
+#        $(CCC) -o $(EXE) $(FILES)

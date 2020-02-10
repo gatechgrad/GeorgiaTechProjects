@@ -1,0 +1,1756 @@
+
+
+SunOS UNIX (oscar)
+
+login: command
+Password:
+Last login: Tue Aug 31 23:21:26 from dialnet3.gatech.
+SunOS Release 4.1.3_U1 (OSCAR) #1: Mon Jun 9 18:32:35 EDT 1997
+
+When remotely accessing this machine you need to use the fully
+quallified domain name of oscar.cc.gatech.edu.  There is a top level
+country domain of ".cc" and they have many system names that are the
+same as some of the CoC systems.  Many people are accessing a "foreign"
+system by mistake when they use a shortened form of the name such as
+oscar.cc.
+You have mail.
+{oscar:/net/hu3/command} telnet bbs.sstar.com
+Trying 209.102.160.1 ...
+Connected to bbs.sstar.com.
+Escape character is '^]'.
+Connecting to TM04
+
+
+
+
+
+
+
+
+
+
+
+                              Southern Star BBS
+
+                             Line 4 at 57,600 bps
+
+                           25 Gigabytes - 8 Lines
+                           Internet: bbs.sstar.com
+                          FidoNet Zone Hub: 1:396/1
+
+
+
+
+Enter your FULL Name? levi smith
+Enter Your Password: *******
+
+
+TBBS Welcomes LEVI SMITH
+TBBS Welcomes LEVI SMITH                                                    Your
+ last time on was 08-29-99 23:59
+You are authorized 20 mins this call
+Searching Message Base ...
+You have no personal messages waiting.
+
+
+-Press Any Key-
+
+
+
+Logging on with ANSI Terminal Emulation
+
+
+Logging on........Please Standby.
+
+
+Type P to Pause, S to Stop listing
+
+
+
+Hello Levi Smith.
+
+Your membership expires in just 1 day!  Please check the Registration Menu
+for renewal information.
+
+Thanks,
+
+SysOp
+
+
+
+-Press Any Key-
+
+
+
+
+                     ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+                     ³         Southern Star BBS         ³
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³      25 GigaBytes - 8 Lines       ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³      Internet: bbs.sstar.com      ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³     Fidonet Zone Hub: 1:396/1     ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜ
+ÜÜÜ³     Main Areas      ³ÜÜÜ³    Information     ³ÜÜÜ³     Utilities      ³ÜÜÜ
+ÜÜÜ³    ÍÍÍÍÍÍÍÍÍÍÍÍ     ³ÜÜÜ³   ÍÍÍÍÍÍÍÍÍÍÍÍÍ    ³ÜÜÜ³    ÍÍÍÍÍÍÍÍÍÍÍ     ³ÜÜÜ
+ÜÜÜ³                     ³ÜÜÜ³                    ³ÜÜÜ³                    ³ÜÜÜ
+ÜÜÜ³ [I] Internet Access ³ÜÜÜ³ [B] Bulletins      ³ÜÜÜ³ [R] Registration   ³ÜÜÜ
+ÜÜÜ³ [M] Message Areas   ³ÜÜÜ³ [V] Event Calendar ³ÜÜÜ³ [Y] Configuration  ³ÜÜÜ
+ÜÜÜ³ [F] File Areas      ³ÜÜÜ³ [D] Databases      ³ÜÜÜ³ [W] Who's Online   ³ÜÜÜ
+ÜÜÜ³ [A] Fun & Games     ³ÜÜÜ³ [E] Extra Info     ³ÜÜÜ³ [*] Page the SysOp ³ÜÜÜ
+ÜÜÜ³ [O] On-Line Chat    ³ÜÜÜ³ [S] Statistics     ³ÜÜÜÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´ÜÜÜ
+ÜÜÜ³     .    .    .     ³ÜÜÜ³     .    .    .    ³ÜÜÜ³    [G] Goodbye     ³ÜÜÜ
+   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+20 minutes remaining                                                Command: a
+
+  ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+ÜÜ³                               Fun & Games                               ³ÜÜ
+ÜÜ³                              ÍÍÍÍÍÍÍÍÍÍÍÍÍ                              ³ÜÜ
+ÜÜ³                                                                         ³ÜÜ
+ÜÜ³  [A]  BlackJack - Can you get 21?    [I]  Solitaire - Try to make 13    ³ÜÜ
+ÜÜ³  [B]  Card Guppies - Hi/Low          [J]  Territories 3069 - The future ³ÜÜ
+ÜÜ³  [C]  Eliza - Talk to the Doctor     [K]  Towers of Hanoi - Peg to peg  ³ÜÜ
+ÜÜ³  [D]  Graffiti Wall - Add to it      [L]  TwangCho - Like MahJongg      ³ÜÜ
+ÜÜ³  [E]  Hangman & Wheel - Buy a vowel  [M]  Ultra Trivia - Add your own   ³ÜÜ
+ÜÜ³  [F]  Insults - Can you take it?     [N]  Video Poker - 5 card draw     ³ÜÜ
+ÜÜ³  [G]  Reverse - Stack the blocks     [O]  Virtual SysOp - Your own BBS! ³ÜÜ
+ÜÜ³  [H]  Scramble - Put word in order   [P]  Word Power - Vocabulary quiz  ³ÜÜ
+ÜÜ³                                                                         ³ÜÜ
+ÜÜ³                                [Q]  Quit          [Z]  SysOp Test Area  ³ÜÜ
+  ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+20 minutes remaining                                                Command: o
+
+                       ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+             ÜÜÜÜÜÜÜÜÜÜ³         Virtual SysOp         ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [1]  Play!                 ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [2]  Top 10 List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [3]  Player List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [4]  Instructions          ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [5]  Questions & Answers   ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³           [Q]  Quit           ³ÜÜÜÜÜÜÜÜÜÜ
+                       ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+20 minutes remaining                                                Command: 1
+
+
+ VSysop2: The Virtual System Operator Simulation
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Copyright 1991,92,93,94 by The iFX Group, version 951231
+Registered to: Southern Star BBS on 2/6/96
+ "I'm in shape... round's a shape isn't it?"
+* New phone lines have been connected.
+* Only part of your order, 5 lines, could be installed today.
+  We will try to get more installed tomorrow.
+Checking all lines for status - OK.
+System hardware diagnostics   - OK.
+Caller validation diagnostics - OK.
+You have 162 messages waiting.
+Press "?" for help.
+
+OpMode.
+
+[1:1361:100]: Mail
+
+There are 162 messages waiting.
+
+Would you like to answer mail now? (Y/n) Yes
+
+                0%----------------50%----------------100%
+Answering Mail: ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Your co-sysop answers some mail.
+
+You answer all of the messages.
+
+
+Problem Message Number: 4
+
+This user is very mad about your cheap modems. He claims that he can connect
+with all of the other boards in town at high speed on his $50 "high speed"
+modem, but your board only connects at 2400 baud.
+
+<D>elete, <I>gnore, <P>olite answer, <R>ude answer, <L>ock-out user: Polite
+
+You do your best to be nice and not cut the user down.
+
+Problem Message Number: 3
+
+A very angry user calls you, and your mother, every curse word
+that you have ever heard and some that you haven't.
+
+<D>elete, <I>gnore, <P>olite answer, <R>ude answer, <L>ock-out user: Polite
+
+
+Problem Message Number: 2
+
+This user doesn't like the way you set up your menus and demands
+that you change them so that it doesn't look so slow on his 1200
+baud modem.
+
+<D>elete, <I>gnore, <P>olite answer, <R>ude answer, <L>ock-out user: Polite
+
+
+Problem Message Number: 1
+
+This message is complaining about the slow system speed.
+
+<D>elete, <I>gnore, <P>olite answer, <R>ude answer, <L>ock-out user: Polite
+
+You do your best to be nice and not cut the user down.
+Poll network for inbound netmail? (y/N) Yes
+It takes a little extra effort to scan since you are not a network member.
+
+Network Mail poll... No netmail found on any network.
+
+[21:1371:95]: ? - Help
+
+(!) Instructions...... What do I do here?
+(A)nswer chat......... Keep in contact with the users
+(B)ank................ Check status of your account
+(C)harge users........ Set charge type and collect money
+(E)mploy workers...... Hire workers to help run your BBS
+(F)ast Bob's.......... Sell or buy used modems
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(M)ail Box check...... Message base maintenance and status
+(P)ersonal............ Special options menu
+(Q)uit................ If you DON'T want to be a sysop anymore!
+(R)eport.............. Check hardware, software, modems and users
+(S)tore............... Buy or upgrade hardware, software or phones
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(V)irus detection..... Keep your files clean and clear!
+(W)ork................ DO THIS! Keep your BBS active!
+(Z)ippy list.......... Show a quick list of your competition
+
+[21:1371:95]: Personal
+
+Your personal command menu is now active.
+Press "?" for the list of options.
+
+[personal:95] ?
+
+ Personal Commands:
+
+   <L>earn
+       Take a class...... College, Tech School, etc   (public)
+       Hire a tutor...... Personalized instruction    (public)
+       Bribe official.... Get inside security info    (personal)
+       Visit a hacker.... Learn from the underworld   (personal)
+   <S>ecurity
+       Validation........ Update caller ID hardware
+       Alarm system...... Update physical security
+   <I>nsurance policy
+   <B>ank report
+   <R>eport on BBS setup
+   <D>amage report
+   <E>xit (or press Enter)
+
+[personal:95] Bank
+
+Your bank reports your balance as being: $992.00
+
+[personal:95] Report
+ Report on the setup of INDEX BBS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computer: 25Mhz 386 with 4meg RAM
+    Storage: 1,200meg 11ms
+     Modems: 5 at 2400bps
+Fast Modems: 8 at 9600bps
+V.xx Modems: 5 at 19.2Kbps or faster
+   Software: supports 32 lines. (14 ports unused)
+      Users: 21 free, 1,371 paying.
+Phone Lines: 18
+Phone Order: 8 phone lines to be installed.
+ Experience: Absolute Beginner Sysop
+  Education: No Public, No Personal
+  Caller ID: Caller validation level 1
+   Security: None.
+    Actions: 95 left today
+   Messages: 2 waiting to be answered
+  Insurance: NO COVERAGE!
+Start Score: 1,001 (UP by 335 points)
+      Score: 1,336 points! (1 board away from the #1 BBS)
+
+[personal:95] ?
+
+ Personal Commands:
+
+   <L>earn
+       Take a class...... College, Tech School, etc   (public)
+       Hire a tutor...... Personalized instruction    (public)
+       Bribe official.... Get inside security info    (personal)
+       Visit a hacker.... Learn from the underworld   (personal)
+   <S>ecurity
+       Validation........ Update caller ID hardware
+       Alarm system...... Update physical security
+   <I>nsurance policy
+   <B>ank report
+   <R>eport on BBS setup
+   <D>amage report
+   <E>xit (or press Enter)
+
+[personal:95] Damage Report
+
+There is no record of any hacking or burglary.
+
+[personal:95] Learn
+
+       (T)ake a class...... College, Tech School, etc
+       (H)ire a tutor...... Personalized instruction
+       (B)ribe an official. Get inside security info
+       (V)isit a hacker.... Learn from the underworld
+       (E)xit
+
+Choice: Exit
+
+[personal:95] ?
+
+ Personal Commands:
+
+   <L>earn
+       Take a class...... College, Tech School, etc   (public)
+       Hire a tutor...... Personalized instruction    (public)
+       Bribe official.... Get inside security info    (personal)
+       Visit a hacker.... Learn from the underworld   (personal)
+   <S>ecurity
+       Validation........ Update caller ID hardware
+       Alarm system...... Update physical security
+   <I>nsurance policy
+   <B>ank report
+   <R>eport on BBS setup
+   <D>amage report
+   <E>xit (or press Enter)
+
+[personal:95] Security
+
+       (V)alidation........ update caller ID hardware
+       (A)larm system...... update physical security
+       (E)xit
+
+Choice: Validation upgrade
+
+You request a special phone security team to come and check out your system
+for any possible weak security areas. They make several diagnostic checks
+and present you with a $180.00 bill for their service.
+
+This will take you to the next highest level of security for your system.
+It will take you 11 actions to install everything.
+
+Do you want to upgrade your phone security? (Y/n) No
+
+[personal:95] ?
+
+ Personal Commands:
+
+   <L>earn
+       Take a class...... College, Tech School, etc   (public)
+       Hire a tutor...... Personalized instruction    (public)
+       Bribe official.... Get inside security info    (personal)
+       Visit a hacker.... Learn from the underworld   (personal)
+   <S>ecurity
+       Validation........ Update caller ID hardware
+       Alarm system...... Update physical security
+   <I>nsurance policy
+   <B>ank report
+   <R>eport on BBS setup
+   <D>amage report
+   <E>xit (or press Enter)
+
+[personal:95] A
+
+ Personal Commands:
+
+   <L>earn
+       Take a class...... College, Tech School, etc   (public)
+       Hire a tutor...... Personalized instruction    (public)
+       Bribe official.... Get inside security info    (personal)
+       Visit a hacker.... Learn from the underworld   (personal)
+   <S>ecurity
+       Validation........ Update caller ID hardware
+       Alarm system...... Update physical security
+   <I>nsurance policy
+   <B>ank report
+   <R>eport on BBS setup
+   <D>amage report
+   <E>xit (or press Enter)
+
+[personal:95] Security
+
+       (V)alidation........ update caller ID hardware
+       (A)larm system...... update physical security
+       (E)xit
+
+Choice: Alarm
+
+You request a special security team to come and check out your building
+for any possible weak areas. They make several diagnostic checks and
+present you with a $180.00 bill for their service.
+
+This will take you to the next highest level of security for your office.
+It will take you 47 actions to install everything.
+
+Do you want to upgrade your office security? (Y/n) No
+
+[personal:95] ?
+
+ Personal Commands:
+
+   <L>earn
+       Take a class...... College, Tech School, etc   (public)
+       Hire a tutor...... Personalized instruction    (public)
+       Bribe official.... Get inside security info    (personal)
+       Visit a hacker.... Learn from the underworld   (personal)
+   <S>ecurity
+       Validation........ Update caller ID hardware
+       Alarm system...... Update physical security
+   <I>nsurance policy
+   <B>ank report
+   <R>eport on BBS setup
+   <D>amage report
+   <E>xit (or press Enter)
+
+[personal:95] Learn
+
+       (T)ake a class...... College, Tech School, etc
+       (H)ire a tutor...... Personalized instruction
+       (B)ribe an official. Get inside security info
+       (V)isit a hacker.... Learn from the underworld
+       (E)xit
+
+Choice: Take a class
+
+ Available Schools:
+
+  (1) Olde Crusty Ivy University
+  (2) Generic County Technical Institute
+  (3) City Junior College
+  (4) School of Experimental Transfixiation
+  (5) Brains by Mail certification
+  (6) School of Hard Knocks (teach yourself)
+  (E)xit
+
+Choice: Exit
+
+[personal:95] ?
+
+ Personal Commands:
+
+   <L>earn
+       Take a class...... College, Tech School, etc   (public)
+       Hire a tutor...... Personalized instruction    (public)
+       Bribe official.... Get inside security info    (personal)
+       Visit a hacker.... Learn from the underworld   (personal)
+   <S>ecurity
+       Validation........ Update caller ID hardware
+       Alarm system...... Update physical security
+   <I>nsurance policy
+   <B>ank report
+   <R>eport on BBS setup
+   <D>amage report
+   <E>xit (or press Enter)
+
+[personal:95] Learn
+
+       (T)ake a class...... College, Tech School, etc
+       (H)ire a tutor...... Personalized instruction
+       (B)ribe an official. Get inside security info
+       (V)isit a hacker.... Learn from the underworld
+       (E)xit
+
+Choice: Hire a tutor
+
+Here are the available tutors:
+
+   (1) Scruffy old guy......... Expensive, knows his stuff
+   (2) Stern retired teacher... Very strict, makes you learn
+   (3) University professor.... Only works after class hours
+   (4) Young lady.............. Works between her own classes
+   (5) Child prodigy........... Very expensive, and knows it
+   (E)xit
+
+Choice: Exit
+
+[personal:95] Learn
+
+       (T)ake a class...... College, Tech School, etc
+       (H)ire a tutor...... Personalized instruction
+       (B)ribe an official. Get inside security info
+       (V)isit a hacker.... Learn from the underworld
+       (E)xit
+
+Choice: Bribe an official
+
+The public official is not available at this time.
+But his office would be more than happy to accept a
+small "donation" from you.
+(Wink, wink)
+
+Would you like to make a donation? (y/N) Yes
+
+Donation amount: 5
+The office staff accept your check for $5.00 but
+they look a little strange. Was it not enough?
+
+His office informs you that he is not a crook and
+requests that you remember to vote for him.
+
+[personal:95] Learn
+
+       (T)ake a class...... College, Tech School, etc
+       (H)ire a tutor...... Personalized instruction
+       (B)ribe an official. Get inside security info
+       (V)isit a hacker.... Learn from the underworld
+       (E)xit
+
+Choice: Visit with a hacker
+
+He wants $10,000.00 up front to let you see his stuff.
+He will also take anywhere from 10 to 90 actions,
+depending on how much he shows to you.
+
+Do you agree? (y/N) No
+
+Good choice.
+
+[personal:95] ?
+
+ Personal Commands:
+
+   <L>earn
+       Take a class...... College, Tech School, etc   (public)
+       Hire a tutor...... Personalized instruction    (public)
+       Bribe official.... Get inside security info    (personal)
+       Visit a hacker.... Learn from the underworld   (personal)
+   <S>ecurity
+       Validation........ Update caller ID hardware
+       Alarm system...... Update physical security
+   <I>nsurance policy
+   <B>ank report
+   <R>eport on BBS setup
+   <D>amage report
+   <E>xit (or press Enter)
+
+[personal:95] Insurance
+
+Hello and welcome. You have come to the right place. I can tell that you are
+a smart one. I could tell that the moment you walked in the door. Just by the
+way you walk I can see that you are not someone to be fooled with. That is
+why I am not going to give you a sales pitch and try to sign you up for some
+foolish insurance just to make a big commission for myself. No, I'm not that
+kind of guy. I would rather you be happy and enjoy the peace of mind that only
+comes from being prepared for the worst. Ah, yes, here is a perfect policy for
+someone in your situation. It covers all your investment in that nifty stuff
+you are running over there. The payments are very reasonable and will replace
+hardware and software in the event of fire, earthquake, flood, theft and most
+cases of dog bite. This policy has the least exclusions of any major policy in
+the country. I'm sure that someone as cautious as you would have no problem
+with any of the disclaimers. It is a perfect policy for someone like you. In
+fact I have already sold hundreds of these exact same policies to other sysop
+people in this very area. You really can't afford not to have this protection
+covering your large investment.
+
+Buy protection? (Y/y/n) YES!
+
+That is a very wise choice. The policy will take effect in 60 days.
+But I'm sure that won't be a problem. It hasn't been a problem with
+any of the other sysop people in this area.
+
+[personal:95] V
+
+ Personal Commands:
+
+   <L>earn
+       Take a class...... College, Tech School, etc   (public)
+       Hire a tutor...... Personalized instruction    (public)
+       Bribe official.... Get inside security info    (personal)
+       Visit a hacker.... Learn from the underworld   (personal)
+   <S>ecurity
+       Validation........ Update caller ID hardware
+       Alarm system...... Update physical security
+   <I>nsurance policy
+   <B>ank report
+   <R>eport on BBS setup
+   <D>amage report
+   <E>xit (or press Enter)
+
+[personal:95] Bank
+
+Your bank reports your balance as being: $493.00
+
+[personal:95] Learn
+
+       (T)ake a class...... College, Tech School, etc
+       (H)ire a tutor...... Personalized instruction
+       (B)ribe an official. Get inside security info
+       (V)isit a hacker.... Learn from the underworld
+       (E)xit
+
+Choice: Take a class
+
+ Available Schools:
+
+  (1) Olde Crusty Ivy University
+  (2) Generic County Technical Institute
+  (3) City Junior College
+  (4) School of Experimental Transfixiation
+  (5) Brains by Mail certification
+  (6) School of Hard Knocks (teach yourself)
+  (E)xit
+
+Choice: 6
+
+
+This is the hardest way to learn something new. You will save some money
+but it will take over 195 actions!
+
+Do you still want to learn this way? (y/N) No
+
+[personal:95] ?
+
+ Personal Commands:
+
+   <L>earn
+       Take a class...... College, Tech School, etc   (public)
+       Hire a tutor...... Personalized instruction    (public)
+       Bribe official.... Get inside security info    (personal)
+       Visit a hacker.... Learn from the underworld   (personal)
+   <S>ecurity
+       Validation........ Update caller ID hardware
+       Alarm system...... Update physical security
+   <I>nsurance policy
+   <B>ank report
+   <R>eport on BBS setup
+   <D>amage report
+   <E>xit (or press Enter)
+
+[personal:95] Learn
+
+       (T)ake a class...... College, Tech School, etc
+       (H)ire a tutor...... Personalized instruction
+       (B)ribe an official. Get inside security info
+       (V)isit a hacker.... Learn from the underworld
+       (E)xit
+
+Choice: Take a class
+
+ Available Schools:
+
+  (1) Olde Crusty Ivy University
+  (2) Generic County Technical Institute
+  (3) City Junior College
+  (4) School of Experimental Transfixiation
+  (5) Brains by Mail certification
+  (6) School of Hard Knocks (teach yourself)
+  (E)xit
+
+Choice: 3
+
+There are 4 available classes for this term.
+The average course is 2 hours not including study time.
+The cost is $50.00 and 35 actions per credit hour.
+
+Number of classes to take: 1
+        Suggested actions: 70
+   How many study actions? 30
+
+Number of classes: 1
+Total course cost: $100.00
+Level of study   : 30 (Note: 70 are suggested)
+Days to complete : 2 (approximately.)
+
+Is this correct? (Y/n) Yes
+
+Your course grade is: C  (you should try harder next time)
+
+[personal:65] Q
+
+ Personal Commands:
+
+   <L>earn
+       Take a class...... College, Tech School, etc   (public)
+       Hire a tutor...... Personalized instruction    (public)
+       Bribe official.... Get inside security info    (personal)
+       Visit a hacker.... Learn from the underworld   (personal)
+   <S>ecurity
+       Validation........ Update caller ID hardware
+       Alarm system...... Update physical security
+   <I>nsurance policy
+   <B>ank report
+   <R>eport on BBS setup
+   <D>amage report
+   <E>xit (or press Enter)
+
+[personal:65] Exit
+
+[21:1371:65]: Report
+
+ Report on the setup of INDEX BBS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computer: 25Mhz 386 with 4meg RAM
+    Storage: 1,200meg 11ms
+     Modems: 5 at 2400bps
+Fast Modems: 8 at 9600bps
+V.xx Modems: 5 at 19.2Kbps or faster
+   Software: supports 32 lines. (14 ports unused)
+      Users: 21 free, 1,371 paying.
+Phone Lines: 18
+Phone Order: 8 phone lines to be installed.
+ Experience: Absolute Beginner Sysop
+  Education: Level 1 Public, No Personal
+  Caller ID: Caller validation level 1
+   Security: None.
+    Actions: 65 left today
+   Messages: 2 waiting to be answered
+  Insurance: Policy #11565296AG
+Start Score: 1,001 (UP by 335 points)
+      Score: 1,336 points! (1 board away from the #1 BBS)
+
+[21:1371:65]: Bank Report
+
+Your bank reports your balance as being: $393.00
+
+[21:1371:65]: Work
+
+You spend several hours packing up a file trade for another sysop.
+
+[21:1371:64]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 27
+
+[48:1371:63]: Work
+
+You check the phone wires over for poor connections and clean the contacts.
+
+[51:1371:62]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 21
+
+[72:1371:61]: Work
+
+You do your best to clean up a few spelling errors in your text files.
+
+[75:1371:60]: Work
+
+You call the author of your BBS software to see if he will add a feature
+that you want. He thinks it is a great idea and thanks you for calling.
+
+* A Chat Request has been made.
+
+[78:1371:59]: Answer Chat
+
+
+That user just pressed the key to hang up. You should try to be a little
+faster next time.
+
+[78:1371:58]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 12
+
+[90:1371:57]: Work
+
+Your cat jumps up on your keyboard while you are away and it locks the BBS
+until you get home. You toss a box of floppy disks at the cat!
+
+[93:1371:56]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 30
+
+[123:1371:55]: Work
+
+You start feeling like this is a real grind and you wonder why you are
+spending all of your time and effort working on keeping this computer
+running for a bunch of childish users. They want everything from you and
+don't want to pay for it. It is, after all, your computer and your life!
+What do these cheap skates want from you anyway?!  Gripe, snarl, gripe.
+
+      **** SYSOP BURNOUT WARNING! ****
+
+You are able to snap out of it before any real damage is done... this time.
+
+[126:1371:54]: Work
+
+   * Some subscription renewals arrive in the mail. *
+     6 free users start paying too.
+
+You decide to spend some time reading through the message bases on your BBS
+and answering the messages that seem interesting. This impresses the users and
+they start writing more messages and telling more people about all of the new
+activity on your board. This helps make your users happy and attract new users.
+
+You have 15 new users join.
+
+[135:1377:53]: Work
+
+   * Some subscription renewals arrive in the mail. *
+     6 free users start paying too.
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 30
+
+[159:1383:52]: Work
+
+You start feeling like this is a real grind and you wonder why you are
+spending all of your time and effort working on keeping this computer
+running for a bunch of childish users. They want everything from you and
+don't want to pay for it. It is, after all, your computer and your life!
+What do these cheap skates want from you anyway?!  Gripe, snarl, gripe.
+
+      **** SYSOP BURNOUT WARNING! ****
+
+You are able to snap out of it before any real damage is done... this time.
+
+[162:1383:51]: Work
+
+You open a new message section for a special interest group on your system
+and they are so impressed that they send you a donation.
+
+Your balance is now $2,503
+
+[162:1383:50]: Charge
+
+Would you like to change how you are charging your new users? (y/N) Yes
+
+ Charging for access to your system may cause a drop in the number of calls.
+ Are you sure that you want to charge for access? (y/N) Yes
+
+Options
+
+  (1) Lifetime  -Users pay only once
+  (2) Yearly    -Users pay each year
+  (3) Monthly   -Users pay each month
+  (4) Weekly    -Users pay each week
+  (5) Hourly    -Users pay for connect time only
+  (6) Download  -Users pay for bytes received
+
+Choice> 3
+
+109 users decide to pay.
+11 users decide to leave.
+
+[42:1492:49]: Work
+
+You decide to spend some time reading through the message bases on your BBS
+and answering the messages that seem interesting. This impresses the users and
+they start writing more messages and telling more people about all of the new
+activity on your board. This helps make your users happy and attract new users.
+
+You have 18 new users join.
+
+[60:1492:48]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 9
+
+[69:1492:47]: Work
+
+You spend another quiet night at home working on the BBS.
+
+[72:1492:46]: Work
+
+You check through the new uploads and recompress them.
+
+ ********** VIRUS ATTACK! **********
+
+A virus infects your system. It toggles a bit on your I/O board, and
+sends high current pulses through your modems, destroying some of them.
+
+Hope you have enough cash to buy new ones!
+
+Some of your users hear about this and are sympathetic, but you do lose
+16 users due to the incident.
+
+You vow never to forget to run your virus protection again!
+
+[56:1492:45]: Virus detection
+
+Murphyscan(TM) scans all drives and files for all KNOWN viruses!
+You have a 1,200meg 11ms drive  EST. SCAN TIME 20 SECONDS
+
+TurboScan(TM) super fast virus detection option is available but may not
+identify all infections accurately. Time savings MAY be 50% or more.
+
+Would you like to use the TurboScan option? (y/N) Yes
+
+         [ÄÄÄÄÄÄÄÄÄÄÄÄ] <<TurboScan!>>
+Progress: ÛÛÛÛÛÛÛÛÛÛÛÛ
+
+ >>> No virus found <<<
+                      We at Murphycorp recommend you run
+                   Murphyscan(TM) every ten (10) downloads.
+                      Thank you for using Murphyscan(TM)!
+
+*not responsible for damage resulting from misuse.
+
+* A Chat Request has been made.
+
+[56:1492:44]: Answer Chat
+
+
+You answer the chat and the slow typing user tries his best to type fast
+which makes lots of mistakes. You do you best to decrypt his spellings and
+help the user find the file area that he wanted.
+
+[56:1492:43]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 27
+
+[83:1492:42]: Report
+
+ Report on the setup of INDEX BBS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computer: 25Mhz 386 with 4meg RAM
+    Storage: 1,200meg 11ms
+     Modems: 5 at 2400bps
+Fast Modems: 8 at 9600bps
+V.xx Modems: 4 at 19.2Kbps or faster
+   Software: supports 32 lines. (15 ports unused)
+      Users: 83 free, 1,492 paying.
+Phone Lines: 18 (1 line unused.)
+Phone Order: 8 phone lines to be installed.
+ Experience: Absolute Beginner Sysop
+  Education: Level 1 Public, No Personal
+  Caller ID: Caller validation level 1
+   Security: None.
+    Actions: 42 left today
+   Messages: 46 waiting to be answered
+  Insurance: Policy #11565296AG
+Start Score: 1,001 (UP by 398 points)
+      Score: 1,399 points! (1 board away from the #1 BBS)
+
+[83:1492:42]: Work
+
+You decide to spend some time reading through the message bases on your BBS
+and answering the messages that seem interesting. This impresses the users and
+they start writing more messages and telling more people about all of the new
+activity on your board. This helps make your users happy and attract new users.
+
+You have 6 new users join.
+
+[89:1492:41]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 18
+
+[107:1492:40]: Work
+
+You spill a can of beer into your keyboard and spend the rest of the night
+taking it apart, washing all the little parts and blow drying them with a
+hairdryer.
+
+Strangely enough, it still works!
+
+[107:1492:39]: Work
+
+You get another letter in the mailbox saying that you won zillions of dollars
+but when you read the fine print it requires you to first buy zillions of
+dollars worth of their products before you will qualify.
+
+Don't you just hate those buggers?
+
+[107:1492:38]: ? - Help
+
+(!) Instructions...... What do I do here?
+(A)nswer chat......... Keep in contact with the users
+(B)ank................ Check status of your account
+(C)harge users........ Set charge type and collect money
+(E)mploy workers...... Hire workers to help run your BBS
+(F)ast Bob's.......... Sell or buy used modems
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(M)ail Box check...... Message base maintenance and status
+(P)ersonal............ Special options menu
+(Q)uit................ If you DON'T want to be a sysop anymore!
+(R)eport.............. Check hardware, software, modems and users
+(S)tore............... Buy or upgrade hardware, software or phones
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(V)irus detection..... Keep your files clean and clear!
+(W)ork................ DO THIS! Keep your BBS active!
+(Z)ippy list.......... Show a quick list of your competition
+
+[107:1492:38]: Employ
+
+You contact the local labor union and they inform you that your BBS is
+too small. Please check back when you are a little larger. You need at
+least 100 lines to be able to hire employees from this office.
+
+[107:1492:38]: Personal
+
+Your personal command menu is now active.
+Press "?" for the list of options.
+
+[personal:38] ?
+
+ Personal Commands:
+
+   <L>earn
+       Take a class...... College, Tech School, etc   (public)
+       Hire a tutor...... Personalized instruction    (public)
+       Bribe official.... Get inside security info    (personal)
+       Visit a hacker.... Learn from the underworld   (personal)
+   <S>ecurity
+       Validation........ Update caller ID hardware
+       Alarm system...... Update physical security
+   <I>nsurance policy
+   <B>ank report
+   <R>eport on BBS setup
+   <D>amage report
+   <E>xit (or press Enter)
+
+[personal:38] Learn
+
+       (T)ake a class...... College, Tech School, etc
+       (H)ire a tutor...... Personalized instruction
+       (B)ribe an official. Get inside security info
+       (V)isit a hacker.... Learn from the underworld
+       (E)xit
+
+Choice: Visit with a hacker
+
+He wants $80,000.00 up front to let you see his stuff.
+He will also take anywhere from 10 to 90 actions,
+depending on how much he shows to you.
+
+Do you agree? (y/N) No
+
+Good choice.
+
+[personal:38] ?
+
+ Personal Commands:
+
+   <L>earn
+       Take a class...... College, Tech School, etc   (public)
+       Hire a tutor...... Personalized instruction    (public)
+       Bribe official.... Get inside security info    (personal)
+       Visit a hacker.... Learn from the underworld   (personal)
+   <S>ecurity
+       Validation........ Update caller ID hardware
+       Alarm system...... Update physical security
+   <I>nsurance policy
+   <B>ank report
+   <R>eport on BBS setup
+   <D>amage report
+   <E>xit (or press Enter)
+
+[personal:38] T
+
+ Personal Commands:
+
+   <L>earn
+       Take a class...... College, Tech School, etc   (public)
+       Hire a tutor...... Personalized instruction    (public)
+       Bribe official.... Get inside security info    (personal)
+       Visit a hacker.... Learn from the underworld   (personal)
+   <S>ecurity
+       Validation........ Update caller ID hardware
+       Alarm system...... Update physical security
+   <I>nsurance policy
+   <B>ank report
+   <R>eport on BBS setup
+   <D>amage report
+   <E>xit (or press Enter)
+
+[personal:38] Learn
+
+       (T)ake a class...... College, Tech School, etc
+       (H)ire a tutor...... Personalized instruction
+       (B)ribe an official. Get inside security info
+       (V)isit a hacker.... Learn from the underworld
+       (E)xit
+
+Choice: Take a class
+
+ Available Schools:
+
+  (1) Olde Crusty Ivy University
+  (2) Generic County Technical Institute
+  (3) City Junior College
+  (4) School of Experimental Transfixiation
+  (5) Brains by Mail certification
+  (6) School of Hard Knocks (teach yourself)
+  (E)xit
+
+Choice: Exit
+
+[personal:38] Bank
+
+Your bank reports your balance as being: $3,046.00
+
+[personal:38] Learn
+
+       (T)ake a class...... College, Tech School, etc
+       (H)ire a tutor...... Personalized instruction
+       (B)ribe an official. Get inside security info
+       (V)isit a hacker.... Learn from the underworld
+       (E)xit
+
+Choice: Take a class
+
+ Available Schools:
+
+  (1) Olde Crusty Ivy University
+  (2) Generic County Technical Institute
+  (3) City Junior College
+  (4) School of Experimental Transfixiation
+  (5) Brains by Mail certification
+  (6) School of Hard Knocks (teach yourself)
+  (E)xit
+
+Choice: 6
+
+
+This is the hardest way to learn something new. You will save some money
+but it will take over 138 actions!
+
+Do you still want to learn this way? (y/N) No
+
+[personal:38] ?
+
+ Personal Commands:
+
+   <L>earn
+       Take a class...... College, Tech School, etc   (public)
+       Hire a tutor...... Personalized instruction    (public)
+       Bribe official.... Get inside security info    (personal)
+       Visit a hacker.... Learn from the underworld   (personal)
+   <S>ecurity
+       Validation........ Update caller ID hardware
+       Alarm system...... Update physical security
+   <I>nsurance policy
+   <B>ank report
+   <R>eport on BBS setup
+   <D>amage report
+   <E>xit (or press Enter)
+
+[personal:38] Learn
+
+       (T)ake a class...... College, Tech School, etc
+       (H)ire a tutor...... Personalized instruction
+       (B)ribe an official. Get inside security info
+       (V)isit a hacker.... Learn from the underworld
+       (E)xit
+
+Choice: Take a class
+
+ Available Schools:
+
+  (1) Olde Crusty Ivy University
+  (2) Generic County Technical Institute
+  (3) City Junior College
+  (4) School of Experimental Transfixiation
+  (5) Brains by Mail certification
+  (6) School of Hard Knocks (teach yourself)
+  (E)xit
+
+Choice: 2
+
+There are 5 available classes for this term.
+The average course is 2 hours not including study time.
+The cost is $40.00 and 30 actions per credit hour.
+
+Number of classes to take: 2
+        Suggested actions: 120
+   How many study actions? 120
+
+Number of classes: 2
+Total course cost: $160.00
+Level of study   : 120
+Days to complete : 5 (approximately.)
+
+Is this correct? (Y/n) No
+
+[personal:38] Learn
+
+       (T)ake a class...... College, Tech School, etc
+       (H)ire a tutor...... Personalized instruction
+       (B)ribe an official. Get inside security info
+       (V)isit a hacker.... Learn from the underworld
+       (E)xit
+
+Choice: Take a class
+
+ Available Schools:
+
+  (1) Olde Crusty Ivy University
+  (2) Generic County Technical Institute
+  (3) City Junior College
+  (4) School of Experimental Transfixiation
+  (5) Brains by Mail certification
+  (6) School of Hard Knocks (teach yourself)
+  (E)xit
+
+Choice: 2
+
+There are 9 available classes for this term.
+The average course is 2 hours not including study time.
+The cost is $40.00 and 30 actions per credit hour.
+
+Number of classes to take: 0
+
+
+[personal:38] Learn
+
+       (T)ake a class...... College, Tech School, etc
+       (H)ire a tutor...... Personalized instruction
+       (B)ribe an official. Get inside security info
+       (V)isit a hacker.... Learn from the underworld
+       (E)xit
+
+Choice: Take a class
+
+ Available Schools:
+
+  (1) Olde Crusty Ivy University
+  (2) Generic County Technical Institute
+  (3) City Junior College
+  (4) School of Experimental Transfixiation
+  (5) Brains by Mail certification
+  (6) School of Hard Knocks (teach yourself)
+  (E)xit
+
+Choice: 1
+
+There are 7 available classes for this term.
+The average course is 4 hours not including study time.
+The cost is $240.00 and 40 actions per credit hour.
+
+Number of classes to take: 0
+
+
+[personal:38] Learn
+
+       (T)ake a class...... College, Tech School, etc
+       (H)ire a tutor...... Personalized instruction
+       (B)ribe an official. Get inside security info
+       (V)isit a hacker.... Learn from the underworld
+       (E)xit
+
+Choice: Take a class
+
+ Available Schools:
+
+  (1) Olde Crusty Ivy University
+  (2) Generic County Technical Institute
+  (3) City Junior College
+  (4) School of Experimental Transfixiation
+  (5) Brains by Mail certification
+  (6) School of Hard Knocks (teach yourself)
+  (E)xit
+
+Choice: 4
+
+There are 6 available classes for this term.
+The average course is 5 hours not including study time.
+The cost is $190.00 and 80 actions per credit hour.
+
+Number of classes to take: 0
+
+
+[personal:38] Learn
+
+       (T)ake a class...... College, Tech School, etc
+       (H)ire a tutor...... Personalized instruction
+       (B)ribe an official. Get inside security info
+       (V)isit a hacker.... Learn from the underworld
+       (E)xit
+
+Choice: -none-
+
+[personal:38] T
+
+ Personal Commands:
+
+   <L>earn
+       Take a class...... College, Tech School, etc   (public)
+       Hire a tutor...... Personalized instruction    (public)
+       Bribe official.... Get inside security info    (personal)
+       Visit a hacker.... Learn from the underworld   (personal)
+   <S>ecurity
+       Validation........ Update caller ID hardware
+       Alarm system...... Update physical security
+   <I>nsurance policy
+   <B>ank report
+   <R>eport on BBS setup
+   <D>amage report
+   <E>xit (or press Enter)
+
+[personal:38] Learn
+
+       (T)ake a class...... College, Tech School, etc
+       (H)ire a tutor...... Personalized instruction
+       (B)ribe an official. Get inside security info
+       (V)isit a hacker.... Learn from the underworld
+       (E)xit
+
+Choice: Take a class
+
+ Available Schools:
+
+  (1) Olde Crusty Ivy University
+  (2) Generic County Technical Institute
+  (3) City Junior College
+  (4) School of Experimental Transfixiation
+  (5) Brains by Mail certification
+  (6) School of Hard Knocks (teach yourself)
+  (E)xit
+
+Choice: 5
+
+There are 10 available classes for this term.
+The average course is 1 hour not including study time.
+The cost is $20.00 and 30 actions per credit hour.
+
+Number of classes to take: 0
+
+
+[personal:38] Learn
+
+       (T)ake a class...... College, Tech School, etc
+       (H)ire a tutor...... Personalized instruction
+       (B)ribe an official. Get inside security info
+       (V)isit a hacker.... Learn from the underworld
+       (E)xit
+
+Choice: Take a class
+
+ Available Schools:
+
+  (1) Olde Crusty Ivy University
+  (2) Generic County Technical Institute
+  (3) City Junior College
+  (4) School of Experimental Transfixiation
+  (5) Brains by Mail certification
+  (6) School of Hard Knocks (teach yourself)
+  (E)xit
+
+Choice: 6
+
+
+This is the hardest way to learn something new. You will save some money
+but it will take over 138 actions!
+
+Do you still want to learn this way? (y/N) No
+
+[personal:38] Learn
+
+       (T)ake a class...... College, Tech School, etc
+       (H)ire a tutor...... Personalized instruction
+       (B)ribe an official. Get inside security info
+       (V)isit a hacker.... Learn from the underworld
+       (E)xit
+
+Choice: Take a class
+
+ Available Schools:
+
+  (1) Olde Crusty Ivy University
+  (2) Generic County Technical Institute
+  (3) City Junior College
+  (4) School of Experimental Transfixiation
+  (5) Brains by Mail certification
+  (6) School of Hard Knocks (teach yourself)
+  (E)xit
+
+Choice: 2
+
+There is only one available class offered for this term.
+The average course is 2 hours not including study time.
+The cost is $40.00 and 30 actions per credit hour.
+
+Number of classes to take: 1
+        Suggested actions: 60
+   How many study actions? 30
+
+Number of classes: 1
+Total course cost: $80.00
+Level of study   : 30 (Note: 60 are suggested)
+Days to complete : 2 (approximately.)
+
+Is this correct? (Y/n) Yes
+
+Your course grade is: C  (you should try harder next time)
+
+[personal:8] Q
+
+ Personal Commands:
+
+   <L>earn
+       Take a class...... College, Tech School, etc   (public)
+       Hire a tutor...... Personalized instruction    (public)
+       Bribe official.... Get inside security info    (personal)
+       Visit a hacker.... Learn from the underworld   (personal)
+   <S>ecurity
+       Validation........ Update caller ID hardware
+       Alarm system...... Update physical security
+   <I>nsurance policy
+   <B>ank report
+   <R>eport on BBS setup
+   <D>amage report
+   <E>xit (or press Enter)
+
+[personal:8] Exit
+
+[107:1492:8]: Report
+
+ Report on the setup of INDEX BBS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computer: 25Mhz 386 with 4meg RAM
+    Storage: 1,200meg 11ms
+     Modems: 5 at 2400bps
+Fast Modems: 8 at 9600bps
+V.xx Modems: 4 at 19.2Kbps or faster
+   Software: supports 32 lines. (15 ports unused)
+      Users: 107 free, 1,492 paying.
+Phone Lines: 18 (1 line unused.)
+Phone Order: 8 phone lines to be installed.
+ Experience: Absolute Beginner Sysop
+  Education: Level 2 Public, No Personal
+  Caller ID: Caller validation level 1
+   Security: None.
+    Actions: 8 left today
+   Messages: 55 waiting to be answered
+  Insurance: Policy #11565296AG
+Start Score: 1,001 (UP by 392 points)
+      Score: 1,393 points! (1 board away from the #1 BBS)
+
+[107:1492:8]: Charge
+
+You rework some of your bulletins and remind the free access users about the
+benefits of joining your service and helping to support it.
+
+You charge them for a Monthly membership.
+
+72 users decide to pay.
+7 users decide to leave.
+
+[28:1564:7]: Bank Report
+
+Your bank reports your balance as being: $3,326.00
+
+[28:1564:7]: Store
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: 1
+
+ Big Deal Computer Retailer For information call 555-1212
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Available Items:
+   (P)rice list
+   (M)odems
+   (S)torage devices
+   (C)omputers
+   (E)xit
+
+Choice: Modem
+
+
+Modems available:
+
+   (1)  2400                $70- Plain no frills 2400bps not auto answer!
+   (2)  2400                100- Nice no frills 2400bps auto answer
+   (3)  2400 v.42           150- Nice error free 2400bps auto answer
+   (4)  9600                550- Off brand 9600bps modem
+   (5)  9600 v.32           800- Nice world standard v.32 9600bps
+   (6)  9600ds            1,000- Dual standard 9600bps modem
+   (7) 14400bps v.32bis   1,100- Good high speed modem
+   ( ) 19.2kbps v.32ter   1,200- Fast non-standard, req 486
+   ( ) 24.0kbps v.FC      1,300- Fast pre-standard, req 486
+   ( ) 28.8kbps v.Fast    1,400- Fast standard, req 486
+   (E)xit
+
+Choice: 3
+
+You can afford up to 5 modems.
+Every modem you buy will take one action to install.
+How many do you want now? 5
+
+You buy 5 modems.
+
+Welcome to the shopping center
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   1 - Big Deal Computer Retailer     (computer)
+   2 - Major Department Store Chain   (department)
+   3 - Software Retail Outlet Store   (software)
+   4 - Mr. Discount House             (discount)
+   5 - Local Mom & Pop Store          (local)
+   6 - Industrial BigBiz Sales Office (corporation)
+   7 - Phone Company                  (phone)
+   8 - Advertising Center             (advertising)
+   9 - Food Price Grocery             (grocery)
+   A - Health Clinic                  (other)
+   E - Exit
+
+Choice: Exit
+
+[38:1564:1]: Report
+
+ Report on the setup of INDEX BBS
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Computer: 25Mhz 386 with 4meg RAM
+    Storage: 1,200meg 11ms
+     Modems: 10 at 2400bps
+Fast Modems: 8 at 9600bps
+V.xx Modems: 4 at 19.2Kbps or faster
+   Software: supports 32 lines. (10 ports unused)
+      Users: 38 free, 1,564 paying.
+Phone Lines: 18 (4 MORE LINES NEEDED!)
+Phone Order: 8 phone lines to be installed.
+ Experience: Absolute Beginner Sysop
+  Education: Level 2 Public, No Personal
+  Caller ID: Caller validation level 1
+   Security: None.
+    Actions: 1 left today
+   Messages: 55 waiting to be answered
+  Insurance: Policy #11565296AG
+Start Score: 1,001 (UP by 430 points)
+      Score: 1,431 points! (1 board away from the #1 BBS)
+
+[38:1564:1]: Work
+
+You decide to call some of the other boards in the area and leave a few
+messages telling people to call your BBS. This makes the sysops of some of
+those boards mad and they erase your messages and leave bad ones in place
+of them. Over all your messages get to a few new users and they call you.
+
+Your number of users has gone up by 6
+>> You are out of actions! <<
+[44:1564:0]: C
+
+ You are out of actions. This will limit what you can do in the game.
+ For a list of available options press the Question mark (?) key.
+* Your advertisement brings in some new users
+>> You are out of actions! <<
+[45:1564:0]: ? - Help
+
+       <<< YOU ARE OUT OF ACTIONS.  SOME OPTIONS ARE NOT AVAILABLE. >>>
+
+(!) Instructions...... What do I do here?
+(B)ank................ Check status of your account
+(H)ang-up lines....... Polite way to leave the game
+(I)nspect Other BBS... Check up on your competition
+(L)ist all boards..... Full BBS list of all players with scores
+(Q)uit................ If you DON'T want to be a sysop anymore!
+(R)eport.............. Check hardware, software, modems and users
+(T)itle of BBS........ What do you call your bulletin board?
+(U)sers now on-line... How many users are on your BBS now?
+(Z)ippy list.......... Show a quick list of your competition
+>> You are out of actions! <<
+[45:1564:0]: Q - QUIT?
+
+* WARNING: ALL HARDWARE, SOFTWARE AND MONEY WILL BE LOST! *
+
+It takes a lot of time and dedication to run a good BBS that people will want
+to call on a regular basis. Although it is easy to set one up it's hard to
+keep one going. Your decision to quit your BBS and take it off-line is sad.
+
+Your users scream and beg you NOT to quit. But the final decision is yours.
+
+If you just want to leave the game try the (H)ang-up option instead.
+
+Are you sure you want to QUIT your BBS? (y/N) No
+
+Your board is still on-line and your users are glad!
+>> You are out of actions! <<
+[45:1564:0]: G
+
+ You are out of actions. This will limit what you can do in the game.
+ For a list of available options press the Question mark (?) key.
+>> You are out of actions! <<
+[45:1564:0]: Hangup
+
+Disconnect from your service? (y/N) Yes
+
+Your line has been released to allow other users to access your service.
+
+You have NO actions left today.
+Thank you for playing.
+
+                   Top 10 Systems and their Operators
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ 1-Legendary Boundaries..................131.131 Score: 1,822,489
+   Sysop: JEN GEHO with 43854 lines, 1679757 users.
+ 2-INDEX........................................ Score: 1,429
+   Sysop: LEVI SMITH with 18 lines, 1610 users.
+
+
+                       ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+             ÜÜÜÜÜÜÜÜÜÜ³         Virtual SysOp         ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [1]  Play!                 ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [2]  Top 10 List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [3]  Player List           ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [4]  Instructions          ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³    [5]  Questions & Answers   ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³                               ³ÜÜÜÜÜÜÜÜÜÜ
+             ÜÜÜÜÜÜÜÜÜÜ³           [Q]  Quit           ³ÜÜÜÜÜÜÜÜÜÜ
+                       ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+8 minutes remaining                                                Command: q
+
+
+  ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+ÜÜ³                               Fun & Games                               ³ÜÜ
+ÜÜ³                              ÍÍÍÍÍÍÍÍÍÍÍÍÍ                              ³ÜÜ
+ÜÜ³                                                                         ³ÜÜ
+ÜÜ³  [A]  BlackJack - Can you get 21?    [I]  Solitaire - Try to make 13    ³ÜÜ
+ÜÜ³  [B]  Card Guppies - Hi/Low          [J]  Territories 3069 - The future ³ÜÜ
+ÜÜ³  [C]  Eliza - Talk to the Doctor     [K]  Towers of Hanoi - Peg to peg  ³ÜÜ
+ÜÜ³  [D]  Graffiti Wall - Add to it      [L]  TwangCho - Like MahJongg      ³ÜÜ
+ÜÜ³  [E]  Hangman & Wheel - Buy a vowel  [M]  Ultra Trivia - Add your own   ³ÜÜ
+ÜÜ³  [F]  Insults - Can you take it?     [N]  Video Poker - 5 card draw     ³ÜÜ
+ÜÜ³  [G]  Reverse - Stack the blocks     [O]  Virtual SysOp - Your own BBS! ³ÜÜ
+ÜÜ³  [H]  Scramble - Put word in order   [P]  Word Power - Vocabulary quiz  ³ÜÜ
+ÜÜ³                                                                         ³ÜÜ
+ÜÜ³                                [Q]  Quit          [Z]  SysOp Test Area  ³ÜÜ
+  ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+8 minutes remaining                                                Command: q
+
+                     ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+                     ³         Southern Star BBS         ³
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³        ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ        ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³      25 GigaBytes - 8 Lines       ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³      Internet: bbs.sstar.com      ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ³     Fidonet Zone Hub: 1:396/1     ³ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸ÜÜÜ
+ÜÜÜ³     Main Areas      ³ÜÜÜ³    Information     ³ÜÜÜ³     Utilities      ³ÜÜÜ
+ÜÜÜ³    ÍÍÍÍÍÍÍÍÍÍÍÍ     ³ÜÜÜ³   ÍÍÍÍÍÍÍÍÍÍÍÍÍ    ³ÜÜÜ³    ÍÍÍÍÍÍÍÍÍÍÍ     ³ÜÜÜ
+ÜÜÜ³                     ³ÜÜÜ³                    ³ÜÜÜ³                    ³ÜÜÜ
+ÜÜÜ³ [I] Internet Access ³ÜÜÜ³ [B] Bulletins      ³ÜÜÜ³ [R] Registration   ³ÜÜÜ
+ÜÜÜ³ [M] Message Areas   ³ÜÜÜ³ [V] Event Calendar ³ÜÜÜ³ [Y] Configuration  ³ÜÜÜ
+ÜÜÜ³ [F] File Areas      ³ÜÜÜ³ [D] Databases      ³ÜÜÜ³ [W] Who's Online   ³ÜÜÜ
+ÜÜÜ³ [A] Fun & Games     ³ÜÜÜ³ [E] Extra Info     ³ÜÜÜ³ [*] Page the SysOp ³ÜÜÜ
+ÜÜÜ³ [O] On-Line Chat    ³ÜÜÜ³ [S] Statistics     ³ÜÜÜÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´ÜÜÜ
+ÜÜÜ³     .    .    .     ³ÜÜÜ³     .    .    .    ³ÜÜÜ³    [G] Goodbye     ³ÜÜÜ
+   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+8 minutes remaining                                                Command: g
+
+                   ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+         ÜÜÜÜÜÜÜÜÜÜ³    Are you ready to leave the BBS?    ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³   ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ   ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³                                       ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³         [Y]  Yes, Leave               ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³                                       ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³         [C]  Comment to SysOp         ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³                                       ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³         [V]  Visit the Time Bank      ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³                                       ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³         [N]  No, Stay                 ³ÜÜÜÜÜÜÜÜÜÜ
+         ÜÜÜÜÜÜÜÜÜÜ³                                       ³ÜÜÜÜÜÜÜÜÜÜ
+                   ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾
+
+
+8 minutes remaining                                                Command: y
+
+
+Type P to Pause, S to Stop listing
+
+
+
+Hello Levi Smith.
+
+Your membership expires in just 1 day!  Please check the Registration Menu
+for renewal information.
+
+Thanks,
+
+SysOp
+
+
+
+-Press Any Key-
+
+
+
+
+
+
+
+               Thanks for calling, Levi.  Call again soon!
+
+
+                             Parting thought:
+
+"The hottest places in Hell are reserved for those who in time of great moral
+ crises maintain their neutrality."
+--- Dante
+
+
+
+
+Logged on at 22:22:51
+Logged off at 22:35:16
+
+
+Connection closed by foreign host.
+{oscar:/net/hu3/command}

@@ -1,0 +1,24 @@
+ "I know that now... Fat lot of good it does me."
+Welcome new system operator!
+You have just spent a long time and a good bit of money to get your computer
+and software ready to go on-line. Someone gave you an old IBM XT that they were
+going to toss in the trash. You got a shareware BBS program and a cheap modem
+and now you are ready to start accepting calls.
+
+The local system operators' group welcomes you as a member of their community!
+Most of them wish you the best of luck with your BBS and users.
+
+The local directory of Bulletin Board Systems needs some information from you.
+In order to keep our records straight we need to know the name that you call
+your BBS in this game. The list has space for up to 30 characters.
+
+                        [..............................]
+What is your BBS called? INDEX
+
+Checking all lines for status - OK.
+System hardware diagnostics   - OK.
+Press "?" for help.
+
+OpMode.
+
+[9:0:100]:
