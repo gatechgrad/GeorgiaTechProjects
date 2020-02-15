@@ -1,0 +1,3 @@
+#! /bin/ksh
+export PATH=.
+fsh
