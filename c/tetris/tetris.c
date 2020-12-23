@@ -1,3 +1,4 @@
+/* Levi D. Smith */
 #include <stdio.h>
 #include <stdlib.h>
 #include <allegro.h>
@@ -63,19 +64,23 @@ int iDelay;
 void time_handler() {
   int iDelayMin;
 
+/*
   if ((LAST_SPEED_LEVEL - player_one.iLevel) > 1) {
     iDelayMin = LAST_SPEED_LEVEL - player_one.iLevel;
 
   } else {
     iDelayMin = 1;
   }
+*/
 
   iDelay++;
 
-  if (iDelay > 11 - player_one.iLevel) {
+  /*if (iDelay > 11 - player_one.iLevel) { */
+  if (iDelay > 60) {
     iDelay = 0;
     iDropPiece = TRUE;
   }
+  
 }
 END_OF_FUNCTION(time_handler);
 
@@ -200,6 +205,7 @@ void play_game() {
 
 
     repaint();
+	rest(8);
 
   }
 
@@ -393,7 +399,7 @@ void rotate_piece_left() {
   }
 
   array_copy(iNewArray, piece_current.iShape);
-  free(iNewArray);
+  /* free(iNewArray); */
 
 }
 
@@ -882,7 +888,7 @@ void setup_allegro() {
   set_pallete(desktop_pallete);
 
   setup_sound();
-  install_int(time_handler, 100);
+  install_int(time_handler, 16);
 
    if (install_joystick(JOY_TYPE_AUTODETECT) != 0) {
       printf("\nError initialising joystick\n%s\n\n", allegro_error);

@@ -1,0 +1,1 @@
+gcc lawn.c -o lawn -lalleg

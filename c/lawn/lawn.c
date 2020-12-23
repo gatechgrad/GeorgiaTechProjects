@@ -98,10 +98,10 @@ void gameOver() {
   * loadGame
   **/
 void loadGame() {
-  bmp_mower[0][0] = load_pcx("mower_left_01.pcx", my_pallete);
-  bmp_mower[0][1] = load_pcx("mower_right_01.pcx", my_pallete);
-  bmp_mower[0][2] = load_pcx("mower_up_01.pcx", my_pallete);
-  bmp_mower[0][3] = load_pcx("mower_down_01.pcx", my_pallete);
+  bmp_mower[0][0] = load_pcx("mower_l.pcx", my_pallete);
+  bmp_mower[0][1] = load_pcx("mower_r.pcx", my_pallete);
+  bmp_mower[0][2] = load_pcx("mower_u.pcx", my_pallete);
+  bmp_mower[0][3] = load_pcx("mower_d.pcx", my_pallete);
 
   bmp_grass[UNCUT_GRASS] = load_pcx("grass01.pcx", my_pallete);
   bmp_grass[CUT_GRASS] = load_pcx("grass02.pcx", my_pallete);
@@ -173,7 +173,6 @@ void runGame() {
 
   while((iKeepLooping == TRUE) && (iHasWon == FALSE)) {
     drawBoard();
-
     if (keypressed()) {
       iKeepLooping = handleKey(readkey() >> 8);
     }
@@ -264,6 +263,7 @@ int handleKey(int iKey) {
       }
       break;
     default:
+	  break;
 
   }
 
@@ -278,7 +278,8 @@ int handleKey(int iKey) {
 void drawBoard() {
   int i, j;
 
-  char *strStatusLine;
+//  char *strStatusLine;
+	char strStatusLine[256];
 
   clear(buffer);
 
@@ -293,6 +294,7 @@ void drawBoard() {
           draw_sprite(buffer, bmp_grass[CUT_GRASS], i * 32, j * 32);
           break;
         default:
+		  break;
 
       }
     }
@@ -306,6 +308,7 @@ void drawBoard() {
   textout(buffer, font, strStatusLine, 0, 460, makecol(255, 255, 255));
 
   blit(buffer, screen, 0, 0, 0, 0, SCREEN_W, SCREEN_H);
+
 
 }
 
@@ -337,9 +340,7 @@ int main(void) {
 
   loadGame();
 
-
   install_int_ex(timeHandler, SECS_TO_TIMER(1));
-
   loadLevel();
 
   shutdown();
